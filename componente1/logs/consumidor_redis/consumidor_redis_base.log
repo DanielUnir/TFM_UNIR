@@ -1,0 +1,878 @@
+2025-07-05 16:55:34,102 - INFO - consumidor_redis: Conectado a Redis en redis:6379
+2025-07-05 16:55:34,111 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.18.0.2', 9092)]>: connecting to kafka:9092 [('172.18.0.2', 9092) IPv4]
+2025-07-05 16:55:34,113 - INFO - Probing node bootstrap-0 broker version
+2025-07-05 16:55:34,118 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.18.0.2', 9092)]>: Connection complete.
+2025-07-05 16:55:34,243 - INFO - Broker version identified as 2.5.0
+2025-07-05 16:55:34,245 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-07-05 16:55:34,247 - INFO - Updating subscribed topics to: ('adsb.aeronaves',)
+2025-07-05 16:55:34,248 - INFO - consumidor_redis:Conectado a Kafka en kafka:9092.
+2025-07-05 16:55:34,795 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:34,817 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:34,820 - INFO - Starting new heartbeat thread
+2025-07-05 16:55:34,823 - INFO - Revoking previously assigned partitions set() for group adsb_redis_group
+2025-07-05 16:55:34,830 - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.2', 9092)]>: connecting to kafka:9092 [('172.18.0.2', 9092) IPv4]
+2025-07-05 16:55:34,834 - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.2', 9092)]>: Connection complete.
+2025-07-05 16:55:34,837 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connected> [IPv4 ('172.18.0.2', 9092)]>: Closing connection. 
+2025-07-05 16:55:35,041 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:35,057 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.18.0.2', 9092)]>: connecting to kafka:9092 [('172.18.0.2', 9092) IPv4]
+2025-07-05 16:55:35,061 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.18.0.2', 9092)]>: Connection complete.
+2025-07-05 16:55:35,121 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:35,247 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:35,249 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:35,250 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:35,271 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:35,491 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:35,491 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:35,498 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:35,511 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:35,643 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:35,644 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:35,648 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:35,676 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:35,846 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:35,857 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:35,859 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:35,877 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:36,247 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:36,247 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:36,248 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:36,259 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:36,633 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:36,643 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:36,658 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:36,667 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:36,817 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:36,818 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:36,818 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:36,824 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:36,955 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:36,979 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:36,981 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:36,987 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:37,171 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:37,188 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:37,189 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:37,201 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:37,347 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:37,348 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:37,357 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:37,384 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:37,504 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:37,510 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:37,511 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:37,532 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:37,660 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:37,661 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:37,662 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:37,690 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:37,808 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:37,810 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:37,823 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:37,859 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:37,979 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:37,979 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:37,980 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:38,028 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:38,189 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:38,194 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:38,195 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:38,206 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:38,349 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:38,369 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:38,373 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:38,478 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:38,602 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:38,603 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:38,604 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:38,616 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:38,823 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:38,829 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:38,834 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:38,844 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:38,986 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:38,987 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:38,989 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:39,002 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:39,116 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:39,118 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:39,121 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:39,150 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:39,270 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:39,271 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:39,276 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:39,294 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:39,406 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:39,409 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:39,409 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:39,418 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:39,601 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:39,603 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:39,607 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:39,622 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:39,742 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:39,745 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:39,750 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:39,846 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:39,976 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:39,978 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:39,979 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:40,001 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:40,114 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:40,121 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:40,126 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:40,143 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:40,259 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:40,269 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:40,271 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:40,298 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:40,419 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:40,420 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:40,421 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:40,439 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:40,577 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:40,578 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:40,582 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:40,593 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:40,703 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:40,713 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:40,726 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:40,737 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:40,867 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:40,870 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:40,872 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:40,891 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:41,020 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:41,029 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:41,030 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:41,055 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:41,170 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:41,171 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:41,171 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:41,188 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:41,354 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:41,370 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:41,374 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:41,385 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:41,531 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:41,534 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:41,573 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:41,588 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:41,726 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:41,742 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:41,749 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:41,846 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:42,317 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:42,323 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:42,330 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:42,340 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:42,507 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:42,512 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:42,527 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:42,550 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:42,762 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:42,765 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:42,769 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:42,852 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:42,966 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:42,969 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:42,978 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:43,074 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:43,189 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:43,191 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:43,194 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:43,217 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:43,353 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:43,355 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:43,358 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:43,400 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:43,512 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:43,514 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:43,519 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:43,529 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:43,642 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:43,646 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:43,649 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:43,666 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:43,803 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:43,805 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:43,806 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:43,825 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:43,948 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:43,950 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:43,963 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:43,974 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:44,084 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:44,089 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:44,090 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:44,106 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:44,218 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:44,218 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:44,222 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:44,235 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:44,402 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:44,472 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:44,473 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:44,611 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:44,749 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:44,754 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:44,757 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:44,804 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:44,914 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:44,916 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:44,973 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:44,997 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:45,406 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:45,499 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:45,534 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:45,552 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:45,661 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:45,668 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:45,672 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:45,691 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:45,860 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:45,899 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:45,902 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:45,952 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-05 16:55:46,076 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-05 16:55:46,080 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-05 16:55:46,281 - INFO - (Re-)joining group adsb_redis_group
+2025-07-05 16:55:49,674 - INFO - Elected group leader -- performing partition assignments using range
+2025-07-05 16:55:49,683 - INFO - <BrokerConnection node_id=1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.2', 9092)]>: connecting to kafka:9092 [('172.18.0.2', 9092) IPv4]
+2025-07-05 16:55:49,684 - INFO - <BrokerConnection node_id=1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.2', 9092)]>: Connection complete.
+2025-07-05 16:55:49,687 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connected> [IPv4 ('172.18.0.2', 9092)]>: Closing connection. 
+2025-07-05 16:55:49,790 - INFO - Successfully joined group adsb_redis_group with generation 1
+2025-07-05 16:55:49,792 - INFO - Updated partition assignment: [TopicPartition(topic='adsb.aeronaves', partition=0), TopicPartition(topic='adsb.aeronaves', partition=1)]
+2025-07-05 16:55:49,799 - INFO - Setting newly assigned partitions {TopicPartition(topic='adsb.aeronaves', partition=0), TopicPartition(topic='adsb.aeronaves', partition=1)} for group adsb_redis_group
+2025-07-05 16:56:29,950 - INFO - consumidor_redis***Latencia_mensajeria***91.35055541992188***ms
+2025-07-05 16:56:29,966 - INFO - consumidor_redis: 19 insertadas en Redis.
+2025-07-05 16:56:29,967 - INFO - consumidor_redis***Latencia_ConsumidorRedis***17.446041107177734***ms
+2025-07-05 16:56:39,898 - INFO - consumidor_redis***Latencia_mensajeria***33.149003982543945***ms
+2025-07-05 16:56:39,965 - INFO - consumidor_redis: 94 insertadas en Redis.
+2025-07-05 16:56:39,966 - INFO - consumidor_redis***Latencia_ConsumidorRedis***67.57211685180664***ms
+2025-07-05 16:56:39,983 - INFO - consumidor_redis***Latencia_mensajeria***103.97768020629883***ms
+2025-07-05 16:56:40,054 - INFO - consumidor_redis: 94 insertadas en Redis.
+2025-07-05 16:56:40,055 - INFO - consumidor_redis***Latencia_ConsumidorRedis***72.50571250915527***ms
+2025-07-05 16:56:40,057 - INFO - consumidor_redis***Latencia_mensajeria***170.4263687133789***ms
+2025-07-05 16:56:40,101 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-05 16:56:40,103 - INFO - consumidor_redis***Latencia_ConsumidorRedis***45.51291465759277***ms
+2025-07-05 16:56:40,111 - INFO - consumidor_redis***Latencia_mensajeria***222.61834144592285***ms
+2025-07-05 16:56:40,158 - INFO - consumidor_redis: 96 insertadas en Redis.
+2025-07-05 16:56:40,159 - INFO - consumidor_redis***Latencia_ConsumidorRedis***47.59573936462402***ms
+2025-07-05 16:56:40,160 - INFO - consumidor_redis***Latencia_mensajeria***261.7828845977783***ms
+2025-07-05 16:56:40,210 - INFO - consumidor_redis: 95 insertadas en Redis.
+2025-07-05 16:56:40,212 - INFO - consumidor_redis***Latencia_ConsumidorRedis***52.50906944274902***ms
+2025-07-05 16:56:49,954 - INFO - consumidor_redis***Latencia_mensajeria***98.54745864868164***ms
+2025-07-05 16:56:50,007 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-05 16:56:50,008 - INFO - consumidor_redis***Latencia_ConsumidorRedis***54.290771484375***ms
+2025-07-05 16:56:50,009 - INFO - consumidor_redis***Latencia_mensajeria***139.84274864196777***ms
+2025-07-05 16:56:50,069 - INFO - consumidor_redis: 98 insertadas en Redis.
+2025-07-05 16:56:50,070 - INFO - consumidor_redis***Latencia_ConsumidorRedis***61.361074447631836***ms
+2025-07-05 16:56:50,090 - INFO - consumidor_redis***Latencia_mensajeria***210.9353542327881***ms
+2025-07-05 16:56:50,161 - INFO - consumidor_redis: 92 insertadas en Redis.
+2025-07-05 16:56:50,162 - INFO - consumidor_redis***Latencia_ConsumidorRedis***72.63445854187012***ms
+2025-07-05 16:56:50,164 - INFO - consumidor_redis***Latencia_mensajeria***262.0999813079834***ms
+2025-07-05 16:56:50,234 - INFO - consumidor_redis: 95 insertadas en Redis.
+2025-07-05 16:56:50,235 - INFO - consumidor_redis***Latencia_ConsumidorRedis***70.89900970458984***ms
+2025-07-05 16:56:50,236 - INFO - consumidor_redis***Latencia_mensajeria***303.7724494934082***ms
+2025-07-05 16:56:50,279 - INFO - consumidor_redis: 90 insertadas en Redis.
+2025-07-05 16:56:50,280 - INFO - consumidor_redis***Latencia_ConsumidorRedis***44.79074478149414***ms
+2025-07-05 16:56:59,900 - INFO - consumidor_redis***Latencia_mensajeria***35.790443420410156***ms
+2025-07-05 16:56:59,966 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-05 16:56:59,967 - INFO - consumidor_redis***Latencia_ConsumidorRedis***66.0707950592041***ms
+2025-07-05 16:56:59,977 - INFO - consumidor_redis***Latencia_mensajeria***97.00679779052734***ms
+2025-07-05 16:57:00,073 - INFO - consumidor_redis: 94 insertadas en Redis.
+2025-07-05 16:57:00,076 - INFO - consumidor_redis***Latencia_ConsumidorRedis***98.82616996765137***ms
+2025-07-05 16:57:00,077 - INFO - consumidor_redis***Latencia_mensajeria***170.87841033935547***ms
+2025-07-05 16:57:00,138 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-05 16:57:00,140 - INFO - consumidor_redis***Latencia_ConsumidorRedis***63.13896179199219***ms
+2025-07-05 16:57:00,147 - INFO - consumidor_redis***Latencia_mensajeria***215.39688110351562***ms
+2025-07-05 16:57:00,190 - INFO - consumidor_redis: 91 insertadas en Redis.
+2025-07-05 16:57:00,191 - INFO - consumidor_redis***Latencia_ConsumidorRedis***44.582366943359375***ms
+2025-07-05 16:57:00,192 - INFO - consumidor_redis***Latencia_mensajeria***234.93027687072754***ms
+2025-07-05 16:57:00,243 - INFO - consumidor_redis: 98 insertadas en Redis.
+2025-07-05 16:57:00,244 - INFO - consumidor_redis***Latencia_ConsumidorRedis***52.37841606140137***ms
+2025-07-05 16:57:09,889 - INFO - consumidor_redis***Latencia_mensajeria***36.952972412109375***ms
+2025-07-05 16:57:09,987 - INFO - consumidor_redis: 95 insertadas en Redis.
+2025-07-05 16:57:09,988 - INFO - consumidor_redis***Latencia_ConsumidorRedis***98.9084243774414***ms
+2025-07-05 16:57:09,995 - INFO - consumidor_redis***Latencia_mensajeria***126.13391876220703***ms
+2025-07-05 16:57:10,052 - INFO - consumidor_redis: 98 insertadas en Redis.
+2025-07-05 16:57:10,053 - INFO - consumidor_redis***Latencia_ConsumidorRedis***57.32583999633789***ms
+2025-07-05 16:57:10,053 - INFO - consumidor_redis***Latencia_mensajeria***192.9759979248047***ms
+2025-07-05 16:57:10,101 - INFO - consumidor_redis: 91 insertadas en Redis.
+2025-07-05 16:57:10,102 - INFO - consumidor_redis***Latencia_ConsumidorRedis***48.811912536621094***ms
+2025-07-05 16:57:10,110 - INFO - consumidor_redis***Latencia_mensajeria***222.26428985595703***ms
+2025-07-05 16:57:10,187 - INFO - consumidor_redis: 95 insertadas en Redis.
+2025-07-05 16:57:10,188 - INFO - consumidor_redis***Latencia_ConsumidorRedis***78.5524845123291***ms
+2025-07-05 16:57:10,189 - INFO - consumidor_redis***Latencia_mensajeria***284.24978256225586***ms
+2025-07-05 16:57:10,247 - INFO - consumidor_redis: 95 insertadas en Redis.
+2025-07-05 16:57:10,249 - INFO - consumidor_redis***Latencia_ConsumidorRedis***60.647010803222656***ms
+2025-07-05 16:57:19,893 - INFO - consumidor_redis***Latencia_mensajeria***37.02235221862793***ms
+2025-07-05 16:57:19,996 - INFO - consumidor_redis: 96 insertadas en Redis.
+2025-07-05 16:57:19,997 - INFO - consumidor_redis***Latencia_ConsumidorRedis***104.12168502807617***ms
+2025-07-05 16:57:20,003 - INFO - consumidor_redis***Latencia_mensajeria***105.79419136047363***ms
+2025-07-05 16:57:20,056 - INFO - consumidor_redis: 94 insertadas en Redis.
+2025-07-05 16:57:20,058 - INFO - consumidor_redis***Latencia_ConsumidorRedis***54.40378189086914***ms
+2025-07-05 16:57:20,059 - INFO - consumidor_redis***Latencia_mensajeria***187.38627433776855***ms
+2025-07-05 16:57:20,108 - INFO - consumidor_redis: 92 insertadas en Redis.
+2025-07-05 16:57:20,109 - INFO - consumidor_redis***Latencia_ConsumidorRedis***50.85158348083496***ms
+2025-07-05 16:57:20,121 - INFO - consumidor_redis***Latencia_mensajeria***213.09399604797363***ms
+2025-07-05 16:57:20,194 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-05 16:57:20,196 - INFO - consumidor_redis***Latencia_ConsumidorRedis***74.96333122253418***ms
+2025-07-05 16:57:20,196 - INFO - consumidor_redis***Latencia_mensajeria***252.83432006835938***ms
+2025-07-05 16:57:20,270 - INFO - consumidor_redis: 95 insertadas en Redis.
+2025-07-05 16:57:20,272 - INFO - consumidor_redis***Latencia_ConsumidorRedis***75.18291473388672***ms
+2025-07-05 16:57:29,897 - INFO - consumidor_redis***Latencia_mensajeria***31.935691833496094***ms
+2025-07-05 16:57:29,974 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-05 16:57:29,977 - INFO - consumidor_redis***Latencia_ConsumidorRedis***79.70976829528809***ms
+2025-07-05 16:57:29,984 - INFO - consumidor_redis***Latencia_mensajeria***81.53533935546875***ms
+2025-07-05 16:57:30,045 - INFO - consumidor_redis: 98 insertadas en Redis.
+2025-07-05 16:57:30,046 - INFO - consumidor_redis***Latencia_ConsumidorRedis***61.0957145690918***ms
+2025-07-05 16:57:30,046 - INFO - consumidor_redis***Latencia_mensajeria***167.04559326171875***ms
+2025-07-05 16:57:30,091 - INFO - consumidor_redis: 88 insertadas en Redis.
+2025-07-05 16:57:30,093 - INFO - consumidor_redis***Latencia_ConsumidorRedis***46.53000831604004***ms
+2025-07-05 16:57:30,100 - INFO - consumidor_redis***Latencia_mensajeria***211.0607624053955***ms
+2025-07-05 16:57:30,147 - INFO - consumidor_redis: 91 insertadas en Redis.
+2025-07-05 16:57:30,148 - INFO - consumidor_redis***Latencia_ConsumidorRedis***48.54702949523926***ms
+2025-07-05 16:57:30,149 - INFO - consumidor_redis***Latencia_mensajeria***237.03289031982422***ms
+2025-07-05 16:57:30,199 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-05 16:57:30,200 - INFO - consumidor_redis***Latencia_ConsumidorRedis***50.51541328430176***ms
+2025-07-05 16:57:40,050 - INFO - consumidor_redis***Latencia_mensajeria***190.0172233581543***ms
+2025-07-05 16:57:40,110 - INFO - consumidor_redis: 91 insertadas en Redis.
+2025-07-05 16:57:40,115 - INFO - consumidor_redis***Latencia_ConsumidorRedis***64.6505355834961***ms
+2025-07-05 16:57:40,115 - INFO - consumidor_redis***Latencia_mensajeria***237.95366287231445***ms
+2025-07-05 16:57:40,166 - INFO - consumidor_redis: 90 insertadas en Redis.
+2025-07-05 16:57:40,168 - INFO - consumidor_redis***Latencia_ConsumidorRedis***52.401065826416016***ms
+2025-07-05 16:57:40,177 - INFO - consumidor_redis***Latencia_mensajeria***281.3990116119385***ms
+2025-07-05 16:57:40,234 - INFO - consumidor_redis: 92 insertadas en Redis.
+2025-07-05 16:57:40,235 - INFO - consumidor_redis***Latencia_ConsumidorRedis***58.58874320983887***ms
+2025-07-05 16:57:40,236 - INFO - consumidor_redis***Latencia_mensajeria***293.04027557373047***ms
+2025-07-05 16:57:40,329 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-05 16:57:40,332 - INFO - consumidor_redis***Latencia_ConsumidorRedis***95.66283226013184***ms
+2025-07-05 16:57:40,332 - INFO - consumidor_redis***Latencia_mensajeria***372.43127822875977***ms
+2025-07-05 16:57:40,408 - INFO - consumidor_redis: 95 insertadas en Redis.
+2025-07-05 16:57:40,413 - INFO - consumidor_redis***Latencia_ConsumidorRedis***80.60598373413086***ms
+2025-07-05 16:57:49,895 - INFO - consumidor_redis***Latencia_mensajeria***32.666683197021484***ms
+2025-07-05 16:57:49,959 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-05 16:57:49,965 - INFO - consumidor_redis***Latencia_ConsumidorRedis***69.7023868560791***ms
+2025-07-05 16:57:49,974 - INFO - consumidor_redis***Latencia_mensajeria***96.66109085083008***ms
+2025-07-05 16:57:50,031 - INFO - consumidor_redis: 94 insertadas en Redis.
+2025-07-05 16:57:50,032 - INFO - consumidor_redis***Latencia_ConsumidorRedis***58.45069885253906***ms
+2025-07-05 16:57:50,033 - INFO - consumidor_redis***Latencia_mensajeria***147.9969024658203***ms
+2025-07-05 16:57:50,079 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-05 16:57:50,081 - INFO - consumidor_redis***Latencia_ConsumidorRedis***47.418832778930664***ms
+2025-07-05 16:57:50,087 - INFO - consumidor_redis***Latencia_mensajeria***198.3194351196289***ms
+2025-07-05 16:57:50,130 - INFO - consumidor_redis: 96 insertadas en Redis.
+2025-07-05 16:57:50,131 - INFO - consumidor_redis***Latencia_ConsumidorRedis***44.10219192504883***ms
+2025-07-05 16:57:50,132 - INFO - consumidor_redis***Latencia_mensajeria***221.69733047485352***ms
+2025-07-05 16:57:50,176 - INFO - consumidor_redis: 94 insertadas en Redis.
+2025-07-05 16:57:50,177 - INFO - consumidor_redis***Latencia_ConsumidorRedis***45.73631286621094***ms
+2025-07-05 16:57:59,937 - INFO - consumidor_redis***Latencia_mensajeria***80.22880554199219***ms
+2025-07-05 16:57:59,991 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-05 16:57:59,995 - INFO - consumidor_redis***Latencia_ConsumidorRedis***58.35413932800293***ms
+2025-07-05 16:57:59,996 - INFO - consumidor_redis***Latencia_mensajeria***128.85093688964844***ms
+2025-07-05 16:58:00,047 - INFO - consumidor_redis: 90 insertadas en Redis.
+2025-07-05 16:58:00,048 - INFO - consumidor_redis***Latencia_ConsumidorRedis***52.489280700683594***ms
+2025-07-05 16:58:00,055 - INFO - consumidor_redis***Latencia_mensajeria***125.9465217590332***ms
+2025-07-05 16:58:00,095 - INFO - consumidor_redis: 90 insertadas en Redis.
+2025-07-05 16:58:00,097 - INFO - consumidor_redis***Latencia_ConsumidorRedis***41.43333435058594***ms
+2025-07-05 16:58:00,098 - INFO - consumidor_redis***Latencia_mensajeria***221.30537033081055***ms
+2025-07-05 16:58:00,141 - INFO - consumidor_redis: 97 insertadas en Redis.
+2025-07-05 16:58:00,142 - INFO - consumidor_redis***Latencia_ConsumidorRedis***44.4943904876709***ms
+2025-07-05 16:58:00,143 - INFO - consumidor_redis***Latencia_mensajeria***252.45976448059082***ms
+2025-07-05 16:58:00,186 - INFO - consumidor_redis: 96 insertadas en Redis.
+2025-07-05 16:58:00,187 - INFO - consumidor_redis***Latencia_ConsumidorRedis***44.13914680480957***ms
+2025-07-05 16:58:09,891 - INFO - consumidor_redis***Latencia_mensajeria***36.35406494140625***ms
+2025-07-05 16:58:10,093 - INFO - consumidor_redis: 92 insertadas en Redis.
+2025-07-05 16:58:10,103 - INFO - consumidor_redis***Latencia_ConsumidorRedis***211.8372917175293***ms
+2025-07-05 16:58:10,115 - INFO - consumidor_redis***Latencia_mensajeria***248.28743934631348***ms
+2025-07-05 16:58:10,185 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-05 16:58:10,186 - INFO - consumidor_redis***Latencia_ConsumidorRedis***71.99311256408691***ms
+2025-07-05 16:58:10,187 - INFO - consumidor_redis***Latencia_mensajeria***283.1897735595703***ms
+2025-07-05 16:58:10,232 - INFO - consumidor_redis: 89 insertadas en Redis.
+2025-07-05 16:58:10,233 - INFO - consumidor_redis***Latencia_ConsumidorRedis***45.79758644104004***ms
+2025-07-05 16:58:10,239 - INFO - consumidor_redis***Latencia_mensajeria***323.4717845916748***ms
+2025-07-05 16:58:10,283 - INFO - consumidor_redis: 94 insertadas en Redis.
+2025-07-05 16:58:10,284 - INFO - consumidor_redis***Latencia_ConsumidorRedis***44.53158378601074***ms
+2025-07-05 16:58:10,285 - INFO - consumidor_redis***Latencia_mensajeria***352.88071632385254***ms
+2025-07-05 16:58:10,327 - INFO - consumidor_redis: 94 insertadas en Redis.
+2025-07-05 16:58:10,329 - INFO - consumidor_redis***Latencia_ConsumidorRedis***43.94721984863281***ms
+2025-07-05 16:58:20,020 - INFO - consumidor_redis***Latencia_mensajeria***157.35173225402832***ms
+2025-07-05 16:58:20,292 - INFO - consumidor_redis: 91 insertadas en Redis.
+2025-07-05 16:58:20,310 - INFO - consumidor_redis***Latencia_ConsumidorRedis***290.18568992614746***ms
+2025-07-05 16:58:20,336 - INFO - consumidor_redis***Latencia_mensajeria***446.8352794647217***ms
+2025-07-05 16:58:20,429 - INFO - consumidor_redis: 94 insertadas en Redis.
+2025-07-05 16:58:20,431 - INFO - consumidor_redis***Latencia_ConsumidorRedis***94.9406623840332***ms
+2025-07-05 16:58:20,431 - INFO - consumidor_redis***Latencia_mensajeria***386.57689094543457***ms
+2025-07-05 16:58:20,501 - INFO - consumidor_redis: 94 insertadas en Redis.
+2025-07-05 16:58:20,503 - INFO - consumidor_redis***Latencia_ConsumidorRedis***71.46334648132324***ms
+2025-07-05 16:58:20,504 - INFO - consumidor_redis***Latencia_mensajeria***634.0126991271973***ms
+2025-07-05 16:58:20,585 - INFO - consumidor_redis: 92 insertadas en Redis.
+2025-07-05 16:58:20,587 - INFO - consumidor_redis***Latencia_ConsumidorRedis***83.00423622131348***ms
+2025-07-05 16:58:20,588 - INFO - consumidor_redis***Latencia_mensajeria***573.1151103973389***ms
+2025-07-05 16:58:20,632 - INFO - consumidor_redis: 97 insertadas en Redis.
+2025-07-05 16:58:20,633 - INFO - consumidor_redis***Latencia_ConsumidorRedis***45.67837715148926***ms
+2025-07-05 16:58:29,925 - INFO - consumidor_redis***Latencia_mensajeria***70.04785537719727***ms
+2025-07-05 16:58:29,975 - INFO - consumidor_redis: 92 insertadas en Redis.
+2025-07-05 16:58:29,980 - INFO - consumidor_redis***Latencia_ConsumidorRedis***55.33742904663086***ms
+2025-07-05 16:58:29,981 - INFO - consumidor_redis***Latencia_mensajeria***109.91096496582031***ms
+2025-07-05 16:58:30,029 - INFO - consumidor_redis: 92 insertadas en Redis.
+2025-07-05 16:58:30,030 - INFO - consumidor_redis***Latencia_ConsumidorRedis***49.179792404174805***ms
+2025-07-05 16:58:30,038 - INFO - consumidor_redis***Latencia_mensajeria***159.6369743347168***ms
+2025-07-05 16:58:30,080 - INFO - consumidor_redis: 90 insertadas en Redis.
+2025-07-05 16:58:30,082 - INFO - consumidor_redis***Latencia_ConsumidorRedis***43.95413398742676***ms
+2025-07-05 16:58:30,082 - INFO - consumidor_redis***Latencia_mensajeria***188.3523464202881***ms
+2025-07-05 16:58:30,129 - INFO - consumidor_redis: 98 insertadas en Redis.
+2025-07-05 16:58:30,130 - INFO - consumidor_redis***Latencia_ConsumidorRedis***47.6069450378418***ms
+2025-07-05 16:58:30,130 - INFO - consumidor_redis***Latencia_mensajeria***220.92962265014648***ms
+2025-07-05 16:58:30,174 - INFO - consumidor_redis: 91 insertadas en Redis.
+2025-07-05 16:58:30,175 - INFO - consumidor_redis***Latencia_ConsumidorRedis***44.6324348449707***ms
+2025-07-05 16:58:39,896 - INFO - consumidor_redis***Latencia_mensajeria***30.62748908996582***ms
+2025-07-05 16:58:39,955 - INFO - consumidor_redis: 90 insertadas en Redis.
+2025-07-05 16:58:39,961 - INFO - consumidor_redis***Latencia_ConsumidorRedis***64.76330757141113***ms
+2025-07-05 16:58:39,966 - INFO - consumidor_redis***Latencia_mensajeria***86.09986305236816***ms
+2025-07-05 16:58:40,026 - INFO - consumidor_redis: 92 insertadas en Redis.
+2025-07-05 16:58:40,028 - INFO - consumidor_redis***Latencia_ConsumidorRedis***61.70916557312012***ms
+2025-07-05 16:58:40,035 - INFO - consumidor_redis***Latencia_mensajeria***112.87522315979004***ms
+2025-07-05 16:58:40,081 - INFO - consumidor_redis: 95 insertadas en Redis.
+2025-07-05 16:58:40,082 - INFO - consumidor_redis***Latencia_ConsumidorRedis***47.62411117553711***ms
+2025-07-05 16:58:40,083 - INFO - consumidor_redis***Latencia_mensajeria***144.52171325683594***ms
+2025-07-05 16:58:40,127 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-05 16:58:40,129 - INFO - consumidor_redis***Latencia_ConsumidorRedis***45.71342468261719***ms
+2025-07-05 16:58:40,129 - INFO - consumidor_redis***Latencia_mensajeria***227.74386405944824***ms
+2025-07-05 16:58:40,172 - INFO - consumidor_redis: 94 insertadas en Redis.
+2025-07-05 16:58:40,173 - INFO - consumidor_redis***Latencia_ConsumidorRedis***43.94173622131348***ms
+2025-07-05 16:58:49,895 - INFO - consumidor_redis***Latencia_mensajeria***38.70987892150879***ms
+2025-07-05 16:58:49,969 - INFO - consumidor_redis: 89 insertadas en Redis.
+2025-07-05 16:58:49,975 - INFO - consumidor_redis***Latencia_ConsumidorRedis***80.86228370666504***ms
+2025-07-05 16:58:49,980 - INFO - consumidor_redis***Latencia_mensajeria***108.4146499633789***ms
+2025-07-05 16:58:50,035 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-05 16:58:50,036 - INFO - consumidor_redis***Latencia_ConsumidorRedis***56.35833740234375***ms
+2025-07-05 16:58:50,047 - INFO - consumidor_redis***Latencia_mensajeria***148.5605239868164***ms
+2025-07-05 16:58:50,100 - INFO - consumidor_redis: 92 insertadas en Redis.
+2025-07-05 16:58:50,102 - INFO - consumidor_redis***Latencia_ConsumidorRedis***54.53681945800781***ms
+2025-07-05 16:58:50,103 - INFO - consumidor_redis***Latencia_mensajeria***168.26677322387695***ms
+2025-07-05 16:58:50,153 - INFO - consumidor_redis: 91 insertadas en Redis.
+2025-07-05 16:58:50,154 - INFO - consumidor_redis***Latencia_ConsumidorRedis***50.73189735412598***ms
+2025-07-05 16:58:50,154 - INFO - consumidor_redis***Latencia_mensajeria***245.41521072387695***ms
+2025-07-05 16:58:50,204 - INFO - consumidor_redis: 91 insertadas en Redis.
+2025-07-05 16:58:50,206 - INFO - consumidor_redis***Latencia_ConsumidorRedis***51.63002014160156***ms
+2025-07-05 16:58:59,893 - INFO - consumidor_redis***Latencia_mensajeria***27.08268165588379***ms
+2025-07-05 16:58:59,954 - INFO - consumidor_redis: 95 insertadas en Redis.
+2025-07-05 16:58:59,958 - INFO - consumidor_redis***Latencia_ConsumidorRedis***65.44303894042969***ms
+2025-07-05 16:58:59,961 - INFO - consumidor_redis***Latencia_mensajeria***78.22084426879883***ms
+2025-07-05 16:59:00,016 - INFO - consumidor_redis: 92 insertadas en Redis.
+2025-07-05 16:59:00,018 - INFO - consumidor_redis***Latencia_ConsumidorRedis***56.64372444152832***ms
+2025-07-05 16:59:00,025 - INFO - consumidor_redis***Latencia_mensajeria***73.11844825744629***ms
+2025-07-05 16:59:00,068 - INFO - consumidor_redis: 91 insertadas en Redis.
+2025-07-05 16:59:00,070 - INFO - consumidor_redis***Latencia_ConsumidorRedis***44.97194290161133***ms
+2025-07-05 16:59:00,070 - INFO - consumidor_redis***Latencia_mensajeria***169.55971717834473***ms
+2025-07-05 16:59:00,141 - INFO - consumidor_redis: 94 insertadas en Redis.
+2025-07-05 16:59:00,143 - INFO - consumidor_redis***Latencia_ConsumidorRedis***72.3721981048584***ms
+2025-07-05 16:59:00,144 - INFO - consumidor_redis***Latencia_mensajeria***216.996431350708***ms
+2025-07-05 16:59:00,206 - INFO - consumidor_redis: 91 insertadas en Redis.
+2025-07-05 16:59:00,207 - INFO - consumidor_redis***Latencia_ConsumidorRedis***63.02618980407715***ms
+2025-07-05 16:59:09,996 - INFO - consumidor_redis***Latencia_mensajeria***117.25544929504395***ms
+2025-07-05 16:59:10,147 - INFO - consumidor_redis: 95 insertadas en Redis.
+2025-07-05 16:59:10,153 - INFO - consumidor_redis***Latencia_ConsumidorRedis***157.3770046234131***ms
+2025-07-05 16:59:10,154 - INFO - consumidor_redis***Latencia_mensajeria***236.2384796142578***ms
+2025-07-05 16:59:10,223 - INFO - consumidor_redis: 95 insertadas en Redis.
+2025-07-05 16:59:10,224 - INFO - consumidor_redis***Latencia_ConsumidorRedis***70.42431831359863***ms
+2025-07-05 16:59:10,229 - INFO - consumidor_redis***Latencia_mensajeria***286.32044792175293***ms
+2025-07-05 16:59:10,407 - INFO - consumidor_redis: 89 insertadas en Redis.
+2025-07-05 16:59:10,408 - INFO - consumidor_redis***Latencia_ConsumidorRedis***178.53331565856934***ms
+2025-07-05 16:59:10,409 - INFO - consumidor_redis***Latencia_mensajeria***477.71453857421875***ms
+2025-07-05 16:59:10,512 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-05 16:59:10,515 - INFO - consumidor_redis***Latencia_ConsumidorRedis***105.52811622619629***ms
+2025-07-05 16:59:10,524 - INFO - consumidor_redis***Latencia_mensajeria***557.3379993438721***ms
+2025-07-05 16:59:10,616 - INFO - consumidor_redis: 92 insertadas en Redis.
+2025-07-05 16:59:10,618 - INFO - consumidor_redis***Latencia_ConsumidorRedis***93.6129093170166***ms
+2025-07-05 16:59:20,064 - INFO - consumidor_redis***Latencia_mensajeria***156.9657325744629***ms
+2025-07-05 16:59:20,154 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-05 16:59:20,159 - INFO - consumidor_redis***Latencia_ConsumidorRedis***95.01528739929199***ms
+2025-07-05 16:59:20,160 - INFO - consumidor_redis***Latencia_mensajeria***269.1161632537842***ms
+2025-07-05 16:59:20,441 - INFO - consumidor_redis: 88 insertadas en Redis.
+2025-07-05 16:59:20,442 - INFO - consumidor_redis***Latencia_ConsumidorRedis***282.4220657348633***ms
+2025-07-05 16:59:20,454 - INFO - consumidor_redis***Latencia_mensajeria***513.4990215301514***ms
+2025-07-05 16:59:20,561 - INFO - consumidor_redis: 94 insertadas en Redis.
+2025-07-05 16:59:20,562 - INFO - consumidor_redis***Latencia_ConsumidorRedis***108.30926895141602***ms
+2025-07-05 16:59:20,564 - INFO - consumidor_redis***Latencia_mensajeria***588.6812210083008***ms
+2025-07-05 16:59:20,647 - INFO - consumidor_redis: 92 insertadas en Redis.
+2025-07-05 16:59:20,649 - INFO - consumidor_redis***Latencia_ConsumidorRedis***85.28804779052734***ms
+2025-07-05 16:59:20,650 - INFO - consumidor_redis***Latencia_mensajeria***596.592903137207***ms
+2025-07-05 16:59:20,886 - INFO - consumidor_redis: 91 insertadas en Redis.
+2025-07-05 16:59:20,888 - INFO - consumidor_redis***Latencia_ConsumidorRedis***238.34753036499023***ms
+2025-07-05 16:59:30,013 - INFO - consumidor_redis***Latencia_mensajeria***149.76096153259277***ms
+2025-07-05 16:59:30,052 - INFO - consumidor_redis: 89 insertadas en Redis.
+2025-07-05 16:59:30,056 - INFO - consumidor_redis***Latencia_ConsumidorRedis***43.700456619262695***ms
+2025-07-05 16:59:30,057 - INFO - consumidor_redis***Latencia_mensajeria***179.06475067138672***ms
+2025-07-05 16:59:30,110 - INFO - consumidor_redis: 94 insertadas en Redis.
+2025-07-05 16:59:30,112 - INFO - consumidor_redis***Latencia_ConsumidorRedis***54.72064018249512***ms
+2025-07-05 16:59:30,121 - INFO - consumidor_redis***Latencia_mensajeria***229.21085357666016***ms
+2025-07-05 16:59:30,185 - INFO - consumidor_redis: 89 insertadas en Redis.
+2025-07-05 16:59:30,187 - INFO - consumidor_redis***Latencia_ConsumidorRedis***66.10774993896484***ms
+2025-07-05 16:59:30,188 - INFO - consumidor_redis***Latencia_mensajeria***275.59494972229004***ms
+2025-07-05 16:59:30,290 - INFO - consumidor_redis: 91 insertadas en Redis.
+2025-07-05 16:59:30,292 - INFO - consumidor_redis***Latencia_ConsumidorRedis***104.65145111083984***ms
+2025-07-05 16:59:30,296 - INFO - consumidor_redis***Latencia_mensajeria***368.7736988067627***ms
+2025-07-05 16:59:30,383 - INFO - consumidor_redis: 94 insertadas en Redis.
+2025-07-05 16:59:30,385 - INFO - consumidor_redis***Latencia_ConsumidorRedis***89.35880661010742***ms
+2025-07-05 16:59:39,914 - INFO - consumidor_redis***Latencia_mensajeria***49.037933349609375***ms
+2025-07-05 16:59:39,995 - INFO - consumidor_redis: 91 insertadas en Redis.
+2025-07-05 16:59:40,001 - INFO - consumidor_redis***Latencia_ConsumidorRedis***87.29958534240723***ms
+2025-07-05 16:59:40,010 - INFO - consumidor_redis***Latencia_mensajeria***127.54511833190918***ms
+2025-07-05 16:59:40,063 - INFO - consumidor_redis: 90 insertadas en Redis.
+2025-07-05 16:59:40,064 - INFO - consumidor_redis***Latencia_ConsumidorRedis***54.63576316833496***ms
+2025-07-05 16:59:40,072 - INFO - consumidor_redis***Latencia_mensajeria***162.0633602142334***ms
+2025-07-05 16:59:40,124 - INFO - consumidor_redis: 90 insertadas en Redis.
+2025-07-05 16:59:40,127 - INFO - consumidor_redis***Latencia_ConsumidorRedis***55.05800247192383***ms
+2025-07-05 16:59:40,129 - INFO - consumidor_redis***Latencia_mensajeria***208.94765853881836***ms
+2025-07-05 16:59:40,217 - INFO - consumidor_redis: 88 insertadas en Redis.
+2025-07-05 16:59:40,219 - INFO - consumidor_redis***Latencia_ConsumidorRedis***90.26503562927246***ms
+2025-07-05 16:59:40,223 - INFO - consumidor_redis***Latencia_mensajeria***267.93360710144043***ms
+2025-07-05 16:59:40,312 - INFO - consumidor_redis: 92 insertadas en Redis.
+2025-07-05 16:59:40,315 - INFO - consumidor_redis***Latencia_ConsumidorRedis***91.17245674133301***ms
+2025-07-05 16:59:49,886 - INFO - consumidor_redis***Latencia_mensajeria***25.040149688720703***ms
+2025-07-05 16:59:49,950 - INFO - consumidor_redis: 92 insertadas en Redis.
+2025-07-05 16:59:49,956 - INFO - consumidor_redis***Latencia_ConsumidorRedis***69.5946216583252***ms
+2025-07-05 16:59:49,961 - INFO - consumidor_redis***Latencia_mensajeria***69.69904899597168***ms
+2025-07-05 16:59:50,006 - INFO - consumidor_redis: 88 insertadas en Redis.
+2025-07-05 16:59:50,007 - INFO - consumidor_redis***Latencia_ConsumidorRedis***45.76420783996582***ms
+2025-07-05 16:59:50,007 - INFO - consumidor_redis***Latencia_mensajeria***132.58957862854004***ms
+2025-07-05 16:59:50,046 - INFO - consumidor_redis: 87 insertadas en Redis.
+2025-07-05 16:59:50,047 - INFO - consumidor_redis***Latencia_ConsumidorRedis***39.91198539733887***ms
+2025-07-05 16:59:50,056 - INFO - consumidor_redis***Latencia_mensajeria***150.76518058776855***ms
+2025-07-05 16:59:50,129 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-05 16:59:50,130 - INFO - consumidor_redis***Latencia_ConsumidorRedis***74.09358024597168***ms
+2025-07-05 16:59:50,131 - INFO - consumidor_redis***Latencia_mensajeria***196.67434692382812***ms
+2025-07-05 16:59:50,234 - INFO - consumidor_redis: 89 insertadas en Redis.
+2025-07-05 16:59:50,236 - INFO - consumidor_redis***Latencia_ConsumidorRedis***105.1485538482666***ms
+2025-07-05 16:59:59,921 - INFO - consumidor_redis***Latencia_mensajeria***49.386024475097656***ms
+2025-07-05 17:00:00,069 - INFO - consumidor_redis: 90 insertadas en Redis.
+2025-07-05 17:00:00,077 - INFO - consumidor_redis***Latencia_ConsumidorRedis***156.5837860107422***ms
+2025-07-05 17:00:00,091 - INFO - consumidor_redis***Latencia_mensajeria***184.39459800720215***ms
+2025-07-05 17:00:00,205 - INFO - consumidor_redis: 92 insertadas en Redis.
+2025-07-05 17:00:00,209 - INFO - consumidor_redis***Latencia_ConsumidorRedis***118.61419677734375***ms
+2025-07-05 17:00:00,212 - INFO - consumidor_redis***Latencia_mensajeria***320.3895092010498***ms
+2025-07-05 17:00:00,314 - INFO - consumidor_redis: 89 insertadas en Redis.
+2025-07-05 17:00:00,316 - INFO - consumidor_redis***Latencia_ConsumidorRedis***104.41207885742188***ms
+2025-07-05 17:00:00,322 - INFO - consumidor_redis***Latencia_mensajeria***411.5641117095947***ms
+2025-07-05 17:00:00,370 - INFO - consumidor_redis: 95 insertadas en Redis.
+2025-07-05 17:00:00,371 - INFO - consumidor_redis***Latencia_ConsumidorRedis***48.34604263305664***ms
+2025-07-05 17:00:00,371 - INFO - consumidor_redis***Latencia_mensajeria***451.0672092437744***ms
+2025-07-05 17:00:00,414 - INFO - consumidor_redis: 91 insertadas en Redis.
+2025-07-05 17:00:00,415 - INFO - consumidor_redis***Latencia_ConsumidorRedis***43.80321502685547***ms
+2025-07-05 17:00:09,997 - INFO - consumidor_redis***Latencia_mensajeria***135.8799934387207***ms
+2025-07-05 17:00:10,146 - INFO - consumidor_redis: 91 insertadas en Redis.
+2025-07-05 17:00:10,164 - INFO - consumidor_redis***Latencia_ConsumidorRedis***166.3963794708252***ms
+2025-07-05 17:00:10,241 - INFO - consumidor_redis***Latencia_mensajeria***325.7277011871338***ms
+2025-07-05 17:00:10,368 - INFO - consumidor_redis: 90 insertadas en Redis.
+2025-07-05 17:00:10,369 - INFO - consumidor_redis***Latencia_ConsumidorRedis***128.36003303527832***ms
+2025-07-05 17:00:10,370 - INFO - consumidor_redis***Latencia_mensajeria***494.9302673339844***ms
+2025-07-05 17:00:10,526 - INFO - consumidor_redis: 94 insertadas en Redis.
+2025-07-05 17:00:10,527 - INFO - consumidor_redis***Latencia_ConsumidorRedis***157.11259841918945***ms
+2025-07-05 17:00:10,529 - INFO - consumidor_redis***Latencia_mensajeria***625.3225803375244***ms
+2025-07-05 17:00:10,622 - INFO - consumidor_redis: 94 insertadas en Redis.
+2025-07-05 17:00:10,623 - INFO - consumidor_redis***Latencia_ConsumidorRedis***94.05803680419922***ms
+2025-07-05 17:00:10,623 - INFO - consumidor_redis***Latencia_mensajeria***717.9315090179443***ms
+2025-07-05 17:00:10,668 - INFO - consumidor_redis: 90 insertadas en Redis.
+2025-07-05 17:00:10,669 - INFO - consumidor_redis***Latencia_ConsumidorRedis***45.6693172454834***ms
+2025-07-05 17:00:19,901 - INFO - consumidor_redis***Latencia_mensajeria***30.83014488220215***ms
+2025-07-05 17:00:19,956 - INFO - consumidor_redis: 96 insertadas en Redis.
+2025-07-05 17:00:19,960 - INFO - consumidor_redis***Latencia_ConsumidorRedis***58.90178680419922***ms
+2025-07-05 17:00:19,961 - INFO - consumidor_redis***Latencia_mensajeria***104.0341854095459***ms
+2025-07-05 17:00:20,004 - INFO - consumidor_redis: 87 insertadas en Redis.
+2025-07-05 17:00:20,005 - INFO - consumidor_redis***Latencia_ConsumidorRedis***44.54231262207031***ms
+2025-07-05 17:00:20,013 - INFO - consumidor_redis***Latencia_mensajeria***105.29613494873047***ms
+2025-07-05 17:00:20,058 - INFO - consumidor_redis: 87 insertadas en Redis.
+2025-07-05 17:00:20,059 - INFO - consumidor_redis***Latencia_ConsumidorRedis***46.47183418273926***ms
+2025-07-05 17:00:20,060 - INFO - consumidor_redis***Latencia_mensajeria***175.40431022644043***ms
+2025-07-05 17:00:20,099 - INFO - consumidor_redis: 88 insertadas en Redis.
+2025-07-05 17:00:20,100 - INFO - consumidor_redis***Latencia_ConsumidorRedis***39.768218994140625***ms
+2025-07-05 17:00:20,100 - INFO - consumidor_redis***Latencia_mensajeria***183.7632656097412***ms
+2025-07-05 17:00:20,185 - INFO - consumidor_redis: 95 insertadas en Redis.
+2025-07-05 17:00:20,191 - INFO - consumidor_redis***Latencia_ConsumidorRedis***90.66224098205566***ms
+2025-07-05 17:00:29,954 - INFO - consumidor_redis***Latencia_mensajeria***71.39158248901367***ms
+2025-07-05 17:00:30,010 - INFO - consumidor_redis: 94 insertadas en Redis.
+2025-07-05 17:00:30,016 - INFO - consumidor_redis***Latencia_ConsumidorRedis***61.47933006286621***ms
+2025-07-05 17:00:30,016 - INFO - consumidor_redis***Latencia_mensajeria***150.36249160766602***ms
+2025-07-05 17:00:30,058 - INFO - consumidor_redis: 88 insertadas en Redis.
+2025-07-05 17:00:30,058 - INFO - consumidor_redis***Latencia_ConsumidorRedis***42.20747947692871***ms
+2025-07-05 17:00:30,064 - INFO - consumidor_redis***Latencia_mensajeria***151.85093879699707***ms
+2025-07-05 17:00:30,105 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-05 17:00:30,107 - INFO - consumidor_redis***Latencia_ConsumidorRedis***42.22989082336426***ms
+2025-07-05 17:00:30,107 - INFO - consumidor_redis***Latencia_mensajeria***176.80954933166504***ms
+2025-07-05 17:00:30,147 - INFO - consumidor_redis: 89 insertadas en Redis.
+2025-07-05 17:00:30,147 - INFO - consumidor_redis***Latencia_ConsumidorRedis***40.261030197143555***ms
+2025-07-05 17:00:30,148 - INFO - consumidor_redis***Latencia_mensajeria***247.52116203308105***ms
+2025-07-05 17:00:30,189 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-05 17:00:30,191 - INFO - consumidor_redis***Latencia_ConsumidorRedis***42.496442794799805***ms
+2025-07-05 17:00:39,910 - INFO - consumidor_redis***Latencia_mensajeria***48.456668853759766***ms
+2025-07-05 17:00:39,976 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-05 17:00:39,981 - INFO - consumidor_redis***Latencia_ConsumidorRedis***70.87135314941406***ms
+2025-07-05 17:00:39,982 - INFO - consumidor_redis***Latencia_mensajeria***106.21285438537598***ms
+2025-07-05 17:00:40,025 - INFO - consumidor_redis: 86 insertadas en Redis.
+2025-07-05 17:00:40,026 - INFO - consumidor_redis***Latencia_ConsumidorRedis***44.450998306274414***ms
+2025-07-05 17:00:40,032 - INFO - consumidor_redis***Latencia_mensajeria***148.72050285339355***ms
+2025-07-05 17:00:40,074 - INFO - consumidor_redis: 83 insertadas en Redis.
+2025-07-05 17:00:40,076 - INFO - consumidor_redis***Latencia_ConsumidorRedis***43.37620735168457***ms
+2025-07-05 17:00:40,078 - INFO - consumidor_redis***Latencia_mensajeria***165.9233570098877***ms
+2025-07-05 17:00:40,120 - INFO - consumidor_redis: 90 insertadas en Redis.
+2025-07-05 17:00:40,121 - INFO - consumidor_redis***Latencia_ConsumidorRedis***43.59316825866699***ms
+2025-07-05 17:00:40,122 - INFO - consumidor_redis***Latencia_mensajeria***183.8679313659668***ms
+2025-07-05 17:00:40,165 - INFO - consumidor_redis: 90 insertadas en Redis.
+2025-07-05 17:00:40,166 - INFO - consumidor_redis***Latencia_ConsumidorRedis***44.41404342651367***ms
+2025-07-05 17:00:49,916 - INFO - consumidor_redis***Latencia_mensajeria***53.029537200927734***ms
+2025-07-05 17:00:49,966 - INFO - consumidor_redis: 89 insertadas en Redis.
+2025-07-05 17:00:49,971 - INFO - consumidor_redis***Latencia_ConsumidorRedis***55.10091781616211***ms
+2025-07-05 17:00:49,971 - INFO - consumidor_redis***Latencia_mensajeria***93.5969352722168***ms
+2025-07-05 17:00:50,014 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-05 17:00:50,015 - INFO - consumidor_redis***Latencia_ConsumidorRedis***44.008731842041016***ms
+2025-07-05 17:00:50,022 - INFO - consumidor_redis***Latencia_mensajeria***130.17845153808594***ms
+2025-07-05 17:00:50,060 - INFO - consumidor_redis: 86 insertadas en Redis.
+2025-07-05 17:00:50,061 - INFO - consumidor_redis***Latencia_ConsumidorRedis***39.58320617675781***ms
+2025-07-05 17:00:50,062 - INFO - consumidor_redis***Latencia_mensajeria***140.8243179321289***ms
+2025-07-05 17:00:50,105 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-05 17:00:50,106 - INFO - consumidor_redis***Latencia_ConsumidorRedis***43.8997745513916***ms
+2025-07-05 17:00:50,106 - INFO - consumidor_redis***Latencia_mensajeria***200.06370544433594***ms
+2025-07-05 17:00:50,147 - INFO - consumidor_redis: 88 insertadas en Redis.
+2025-07-05 17:00:50,148 - INFO - consumidor_redis***Latencia_ConsumidorRedis***41.7633056640625***ms
+2025-07-05 17:00:59,895 - INFO - consumidor_redis***Latencia_mensajeria***33.501625061035156***ms
+2025-07-05 17:00:59,970 - INFO - consumidor_redis: 86 insertadas en Redis.
+2025-07-05 17:00:59,975 - INFO - consumidor_redis***Latencia_ConsumidorRedis***80.13105392456055***ms
+2025-07-05 17:00:59,981 - INFO - consumidor_redis***Latencia_mensajeria***110.05425453186035***ms
+2025-07-05 17:01:00,037 - INFO - consumidor_redis: 92 insertadas en Redis.
+2025-07-05 17:01:00,038 - INFO - consumidor_redis***Latencia_ConsumidorRedis***57.13629722595215***ms
+2025-07-05 17:01:00,039 - INFO - consumidor_redis***Latencia_mensajeria***142.99392700195312***ms
+2025-07-05 17:01:00,087 - INFO - consumidor_redis: 95 insertadas en Redis.
+2025-07-05 17:01:00,088 - INFO - consumidor_redis***Latencia_ConsumidorRedis***49.27802085876465***ms
+2025-07-05 17:01:00,094 - INFO - consumidor_redis***Latencia_mensajeria***163.66052627563477***ms
+2025-07-05 17:01:00,144 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-05 17:01:00,145 - INFO - consumidor_redis***Latencia_ConsumidorRedis***51.36513710021973***ms
+2025-07-05 17:01:00,146 - INFO - consumidor_redis***Latencia_mensajeria***168.98512840270996***ms
+2025-07-05 17:01:00,188 - INFO - consumidor_redis: 92 insertadas en Redis.
+2025-07-05 17:01:00,189 - INFO - consumidor_redis***Latencia_ConsumidorRedis***43.424129486083984***ms
+2025-07-05 17:01:09,918 - INFO - consumidor_redis***Latencia_mensajeria***60.538291931152344***ms
+2025-07-05 17:01:09,979 - INFO - consumidor_redis: 88 insertadas en Redis.
+2025-07-05 17:01:09,984 - INFO - consumidor_redis***Latencia_ConsumidorRedis***65.89007377624512***ms
+2025-07-05 17:01:09,985 - INFO - consumidor_redis***Latencia_mensajeria***112.86664009094238***ms
+2025-07-05 17:01:10,037 - INFO - consumidor_redis: 90 insertadas en Redis.
+2025-07-05 17:01:10,038 - INFO - consumidor_redis***Latencia_ConsumidorRedis***53.27606201171875***ms
+2025-07-05 17:01:10,044 - INFO - consumidor_redis***Latencia_mensajeria***158.9505672454834***ms
+2025-07-05 17:01:10,087 - INFO - consumidor_redis: 92 insertadas en Redis.
+2025-07-05 17:01:10,087 - INFO - consumidor_redis***Latencia_ConsumidorRedis***43.042659759521484***ms
+2025-07-05 17:01:10,088 - INFO - consumidor_redis***Latencia_mensajeria***169.91710662841797***ms
+2025-07-05 17:01:10,131 - INFO - consumidor_redis: 89 insertadas en Redis.
+2025-07-05 17:01:10,132 - INFO - consumidor_redis***Latencia_ConsumidorRedis***43.99991035461426***ms
+2025-07-05 17:01:10,133 - INFO - consumidor_redis***Latencia_mensajeria***186.6457462310791***ms
+2025-07-05 17:01:10,175 - INFO - consumidor_redis: 92 insertadas en Redis.
+2025-07-05 17:01:10,176 - INFO - consumidor_redis***Latencia_ConsumidorRedis***43.31183433532715***ms
+2025-07-05 17:01:19,887 - INFO - consumidor_redis***Latencia_mensajeria***26.79753303527832***ms
+2025-07-05 17:01:19,941 - INFO - consumidor_redis: 92 insertadas en Redis.
+2025-07-05 17:01:19,945 - INFO - consumidor_redis***Latencia_ConsumidorRedis***58.27474594116211***ms
+2025-07-05 17:01:19,949 - INFO - consumidor_redis***Latencia_mensajeria***77.35133171081543***ms
+2025-07-05 17:01:20,005 - INFO - consumidor_redis: 92 insertadas en Redis.
+2025-07-05 17:01:20,006 - INFO - consumidor_redis***Latencia_ConsumidorRedis***56.51235580444336***ms
+2025-07-05 17:01:20,011 - INFO - consumidor_redis***Latencia_mensajeria***122.44772911071777***ms
+2025-07-05 17:01:20,050 - INFO - consumidor_redis: 89 insertadas en Redis.
+2025-07-05 17:01:20,051 - INFO - consumidor_redis***Latencia_ConsumidorRedis***39.73889350891113***ms
+2025-07-05 17:01:20,052 - INFO - consumidor_redis***Latencia_mensajeria***127.27165222167969***ms
+2025-07-05 17:01:20,092 - INFO - consumidor_redis: 89 insertadas en Redis.
+2025-07-05 17:01:20,093 - INFO - consumidor_redis***Latencia_ConsumidorRedis***41.23520851135254***ms
+2025-07-05 17:01:20,094 - INFO - consumidor_redis***Latencia_mensajeria***156.17704391479492***ms
+2025-07-05 17:01:20,133 - INFO - consumidor_redis: 91 insertadas en Redis.
+2025-07-05 17:01:20,134 - INFO - consumidor_redis***Latencia_ConsumidorRedis***40.401458740234375***ms
+2025-07-05 17:01:29,899 - INFO - consumidor_redis***Latencia_mensajeria***34.90257263183594***ms
+2025-07-05 17:01:29,976 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-05 17:01:29,982 - INFO - consumidor_redis***Latencia_ConsumidorRedis***83.28866958618164***ms
+2025-07-05 17:01:29,992 - INFO - consumidor_redis***Latencia_mensajeria***112.5643253326416***ms
+2025-07-05 17:01:30,058 - INFO - consumidor_redis: 92 insertadas en Redis.
+2025-07-05 17:01:30,059 - INFO - consumidor_redis***Latencia_ConsumidorRedis***66.37001037597656***ms
+2025-07-05 17:01:30,069 - INFO - consumidor_redis***Latencia_mensajeria***168.05243492126465***ms
+2025-07-05 17:01:30,142 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-05 17:01:30,143 - INFO - consumidor_redis***Latencia_ConsumidorRedis***73.97675514221191***ms
+2025-07-05 17:01:30,145 - INFO - consumidor_redis***Latencia_mensajeria***232.94329643249512***ms
+2025-07-05 17:01:30,216 - INFO - consumidor_redis: 89 insertadas en Redis.
+2025-07-05 17:01:30,217 - INFO - consumidor_redis***Latencia_ConsumidorRedis***72.35383987426758***ms
+2025-07-05 17:01:30,218 - INFO - consumidor_redis***Latencia_mensajeria***256.75249099731445***ms
+2025-07-05 17:01:30,273 - INFO - consumidor_redis: 87 insertadas en Redis.
+2025-07-05 17:01:30,274 - INFO - consumidor_redis***Latencia_ConsumidorRedis***56.73408508300781***ms
+2025-07-05 17:01:39,947 - INFO - consumidor_redis***Latencia_mensajeria***83.51016044616699***ms
+2025-07-05 17:01:40,062 - INFO - consumidor_redis: 90 insertadas en Redis.
+2025-07-05 17:01:40,071 - INFO - consumidor_redis***Latencia_ConsumidorRedis***123.80528450012207***ms
+2025-07-05 17:01:40,072 - INFO - consumidor_redis***Latencia_mensajeria***190.88125228881836***ms
+2025-07-05 17:01:40,180 - INFO - consumidor_redis: 90 insertadas en Redis.
+2025-07-05 17:01:40,182 - INFO - consumidor_redis***Latencia_ConsumidorRedis***109.46798324584961***ms
+2025-07-05 17:01:40,188 - INFO - consumidor_redis***Latencia_mensajeria***298.0201244354248***ms
+2025-07-05 17:01:40,238 - INFO - consumidor_redis: 94 insertadas en Redis.
+2025-07-05 17:01:40,239 - INFO - consumidor_redis***Latencia_ConsumidorRedis***51.28931999206543***ms
+2025-07-05 17:01:40,241 - INFO - consumidor_redis***Latencia_mensajeria***334.93828773498535***ms
+2025-07-05 17:01:40,294 - INFO - consumidor_redis: 90 insertadas en Redis.
+2025-07-05 17:01:40,295 - INFO - consumidor_redis***Latencia_ConsumidorRedis***54.746150970458984***ms
+2025-07-05 17:01:40,296 - INFO - consumidor_redis***Latencia_mensajeria***367.5723075866699***ms
+2025-07-05 17:01:40,351 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-05 17:01:40,352 - INFO - consumidor_redis***Latencia_ConsumidorRedis***55.70411682128906***ms
+2025-07-05 17:01:49,910 - INFO - consumidor_redis***Latencia_mensajeria***45.57156562805176***ms
+2025-07-05 17:01:49,972 - INFO - consumidor_redis: 89 insertadas en Redis.
+2025-07-05 17:01:49,980 - INFO - consumidor_redis***Latencia_ConsumidorRedis***70.0068473815918***ms
+2025-07-05 17:01:49,988 - INFO - consumidor_redis***Latencia_mensajeria***106.4748764038086***ms
+2025-07-05 17:01:50,050 - INFO - consumidor_redis: 91 insertadas en Redis.
+2025-07-05 17:01:50,051 - INFO - consumidor_redis***Latencia_ConsumidorRedis***62.8504753112793***ms
+2025-07-05 17:01:50,053 - INFO - consumidor_redis***Latencia_mensajeria***149.45077896118164***ms
+2025-07-05 17:01:50,122 - INFO - consumidor_redis: 94 insertadas en Redis.
+2025-07-05 17:01:50,123 - INFO - consumidor_redis***Latencia_ConsumidorRedis***70.33610343933105***ms
+2025-07-05 17:01:50,131 - INFO - consumidor_redis***Latencia_mensajeria***180.99522590637207***ms
+2025-07-05 17:01:50,184 - INFO - consumidor_redis: 91 insertadas en Redis.
+2025-07-05 17:01:50,186 - INFO - consumidor_redis***Latencia_ConsumidorRedis***54.884910583496094***ms
+2025-07-05 17:01:50,187 - INFO - consumidor_redis***Latencia_mensajeria***265.1236057281494***ms
+2025-07-05 17:01:50,337 - INFO - consumidor_redis: 89 insertadas en Redis.
+2025-07-05 17:01:50,338 - INFO - consumidor_redis***Latencia_ConsumidorRedis***151.46613121032715***ms
+2025-07-05 17:02:00,036 - INFO - consumidor_redis***Latencia_mensajeria***169.8603630065918***ms
+2025-07-05 17:02:00,102 - INFO - consumidor_redis: 86 insertadas en Redis.
+2025-07-05 17:02:00,107 - INFO - consumidor_redis***Latencia_ConsumidorRedis***71.36797904968262***ms
+2025-07-05 17:02:00,116 - INFO - consumidor_redis***Latencia_mensajeria***234.8921298980713***ms
+2025-07-05 17:02:00,174 - INFO - consumidor_redis: 86 insertadas en Redis.
+2025-07-05 17:02:00,176 - INFO - consumidor_redis***Latencia_ConsumidorRedis***60.13226509094238***ms
+2025-07-05 17:02:00,178 - INFO - consumidor_redis***Latencia_mensajeria***223.68335723876953***ms
+2025-07-05 17:02:00,246 - INFO - consumidor_redis: 92 insertadas en Redis.
+2025-07-05 17:02:00,248 - INFO - consumidor_redis***Latencia_ConsumidorRedis***70.23382186889648***ms
+2025-07-05 17:02:00,249 - INFO - consumidor_redis***Latencia_mensajeria***338.06705474853516***ms
+2025-07-05 17:02:00,307 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-05 17:02:00,308 - INFO - consumidor_redis***Latencia_ConsumidorRedis***58.962106704711914***ms
+2025-07-05 17:02:00,309 - INFO - consumidor_redis***Latencia_mensajeria***368.837833404541***ms
+2025-07-05 17:02:00,361 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-05 17:02:00,362 - INFO - consumidor_redis***Latencia_ConsumidorRedis***53.581953048706055***ms
+2025-07-05 17:02:09,885 - INFO - consumidor_redis***Latencia_mensajeria***30.987262725830078***ms
+2025-07-05 17:02:09,991 - INFO - consumidor_redis: 92 insertadas en Redis.
+2025-07-05 17:02:09,996 - INFO - consumidor_redis***Latencia_ConsumidorRedis***110.68320274353027***ms
+2025-07-05 17:02:10,004 - INFO - consumidor_redis***Latencia_mensajeria***117.28072166442871***ms
+2025-07-05 17:02:10,053 - INFO - consumidor_redis: 94 insertadas en Redis.
+2025-07-05 17:02:10,054 - INFO - consumidor_redis***Latencia_ConsumidorRedis***50.186872482299805***ms
+2025-07-05 17:02:10,054 - INFO - consumidor_redis***Latencia_mensajeria***190.72699546813965***ms
+2025-07-05 17:02:10,099 - INFO - consumidor_redis: 88 insertadas en Redis.
+2025-07-05 17:02:10,100 - INFO - consumidor_redis***Latencia_ConsumidorRedis***45.519351959228516***ms
+2025-07-05 17:02:10,108 - INFO - consumidor_redis***Latencia_mensajeria***210.7982635498047***ms
+2025-07-05 17:02:10,157 - INFO - consumidor_redis: 91 insertadas en Redis.
+2025-07-05 17:02:10,158 - INFO - consumidor_redis***Latencia_ConsumidorRedis***49.99852180480957***ms
+2025-07-05 17:02:10,159 - INFO - consumidor_redis***Latencia_mensajeria***243.09039115905762***ms
+2025-07-05 17:02:10,213 - INFO - consumidor_redis: 90 insertadas en Redis.
+2025-07-05 17:02:10,214 - INFO - consumidor_redis***Latencia_ConsumidorRedis***55.3286075592041***ms
+2025-07-05 17:02:19,890 - INFO - consumidor_redis***Latencia_mensajeria***24.835824966430664***ms
+2025-07-05 17:02:19,956 - INFO - consumidor_redis: 89 insertadas en Redis.
+2025-07-05 17:02:19,967 - INFO - consumidor_redis***Latencia_ConsumidorRedis***76.0347843170166***ms
+2025-07-05 17:02:19,972 - INFO - consumidor_redis***Latencia_mensajeria***98.78063201904297***ms
+2025-07-05 17:02:20,026 - INFO - consumidor_redis: 91 insertadas en Redis.
+2025-07-05 17:02:20,027 - INFO - consumidor_redis***Latencia_ConsumidorRedis***54.505348205566406***ms
+2025-07-05 17:02:20,028 - INFO - consumidor_redis***Latencia_mensajeria***128.07965278625488***ms
+2025-07-05 17:02:20,071 - INFO - consumidor_redis: 89 insertadas en Redis.
+2025-07-05 17:02:20,072 - INFO - consumidor_redis***Latencia_ConsumidorRedis***44.3572998046875***ms
+2025-07-05 17:02:20,079 - INFO - consumidor_redis***Latencia_mensajeria***129.2593479156494***ms
+2025-07-05 17:02:20,123 - INFO - consumidor_redis: 94 insertadas en Redis.
+2025-07-05 17:02:20,124 - INFO - consumidor_redis***Latencia_ConsumidorRedis***45.2418327331543***ms
+2025-07-05 17:02:20,125 - INFO - consumidor_redis***Latencia_mensajeria***205.49750328063965***ms
+2025-07-05 17:02:20,175 - INFO - consumidor_redis: 95 insertadas en Redis.
+2025-07-05 17:02:20,176 - INFO - consumidor_redis***Latencia_ConsumidorRedis***50.99153518676758***ms
+2025-07-05 17:02:29,893 - INFO - consumidor_redis***Latencia_mensajeria***32.03463554382324***ms
+2025-07-05 17:02:29,962 - INFO - consumidor_redis: 95 insertadas en Redis.
+2025-07-05 17:02:29,968 - INFO - consumidor_redis***Latencia_ConsumidorRedis***75.53410530090332***ms
+2025-07-05 17:02:29,974 - INFO - consumidor_redis***Latencia_mensajeria***105.5455207824707***ms
+2025-07-05 17:02:30,031 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-05 17:02:30,032 - INFO - consumidor_redis***Latencia_ConsumidorRedis***58.31718444824219***ms
+2025-07-05 17:02:30,033 - INFO - consumidor_redis***Latencia_mensajeria***155.71165084838867***ms
+2025-07-05 17:02:30,092 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-05 17:02:30,095 - INFO - consumidor_redis***Latencia_ConsumidorRedis***60.91117858886719***ms
+2025-07-05 17:02:30,101 - INFO - consumidor_redis***Latencia_mensajeria***207.98969268798828***ms
+2025-07-05 17:02:30,147 - INFO - consumidor_redis: 90 insertadas en Redis.
+2025-07-05 17:02:30,149 - INFO - consumidor_redis***Latencia_ConsumidorRedis***47.777652740478516***ms
+2025-07-05 17:02:30,150 - INFO - consumidor_redis***Latencia_mensajeria***228.91688346862793***ms
+2025-07-05 17:02:30,194 - INFO - consumidor_redis: 85 insertadas en Redis.
+2025-07-05 17:02:30,196 - INFO - consumidor_redis***Latencia_ConsumidorRedis***45.19176483154297***ms
+2025-07-05 17:02:40,073 - INFO - consumidor_redis***Latencia_mensajeria***193.3729648590088***ms
+2025-07-05 17:02:40,252 - INFO - consumidor_redis: 91 insertadas en Redis.
+2025-07-05 17:02:40,272 - INFO - consumidor_redis***Latencia_ConsumidorRedis***199.0818977355957***ms
+2025-07-05 17:02:40,274 - INFO - consumidor_redis***Latencia_mensajeria***404.7839641571045***ms
+2025-07-05 17:02:40,526 - INFO - consumidor_redis: 87 insertadas en Redis.
+2025-07-05 17:02:40,537 - INFO - consumidor_redis***Latencia_ConsumidorRedis***262.79449462890625***ms
+2025-07-05 17:02:40,554 - INFO - consumidor_redis***Latencia_mensajeria***654.7970771789551***ms
+2025-07-05 17:02:40,647 - INFO - consumidor_redis: 92 insertadas en Redis.
+2025-07-05 17:02:40,648 - INFO - consumidor_redis***Latencia_ConsumidorRedis***94.26593780517578***ms
+2025-07-05 17:02:40,649 - INFO - consumidor_redis***Latencia_mensajeria***698.7411975860596***ms
+2025-07-05 17:02:40,698 - INFO - consumidor_redis: 87 insertadas en Redis.
+2025-07-05 17:02:40,699 - INFO - consumidor_redis***Latencia_ConsumidorRedis***50.42719841003418***ms
+2025-07-05 17:02:40,701 - INFO - consumidor_redis***Latencia_mensajeria***631.9053173065186***ms
+2025-07-05 17:02:40,747 - INFO - consumidor_redis: 94 insertadas en Redis.
+2025-07-05 17:02:40,748 - INFO - consumidor_redis***Latencia_ConsumidorRedis***47.29771614074707***ms
+2025-07-05 17:02:49,917 - INFO - consumidor_redis***Latencia_mensajeria***51.187992095947266***ms
+2025-07-05 17:02:49,982 - INFO - consumidor_redis: 83 insertadas en Redis.
+2025-07-05 17:02:49,987 - INFO - consumidor_redis***Latencia_ConsumidorRedis***70.47224044799805***ms
+2025-07-05 17:02:49,988 - INFO - consumidor_redis***Latencia_mensajeria***106.09173774719238***ms
+2025-07-05 17:02:50,034 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-05 17:02:50,035 - INFO - consumidor_redis***Latencia_ConsumidorRedis***47.321319580078125***ms
+2025-07-05 17:02:50,042 - INFO - consumidor_redis***Latencia_mensajeria***146.14367485046387***ms
+2025-07-05 17:02:50,086 - INFO - consumidor_redis: 91 insertadas en Redis.
+2025-07-05 17:02:50,087 - INFO - consumidor_redis***Latencia_ConsumidorRedis***45.38559913635254***ms
+2025-07-05 17:02:50,088 - INFO - consumidor_redis***Latencia_mensajeria***181.39958381652832***ms
+2025-07-05 17:02:50,131 - INFO - consumidor_redis: 85 insertadas en Redis.
+2025-07-05 17:02:50,132 - INFO - consumidor_redis***Latencia_ConsumidorRedis***44.614315032958984***ms
+2025-07-05 17:02:50,133 - INFO - consumidor_redis***Latencia_mensajeria***218.1105613708496***ms
+2025-07-05 17:02:50,179 - INFO - consumidor_redis: 89 insertadas en Redis.
+2025-07-05 17:02:50,180 - INFO - consumidor_redis***Latencia_ConsumidorRedis***47.62983322143555***ms
+2025-07-05 17:02:59,920 - INFO - consumidor_redis***Latencia_mensajeria***54.6574592590332***ms
+2025-07-05 17:03:00,092 - INFO - consumidor_redis: 89 insertadas en Redis.
+2025-07-05 17:03:00,099 - INFO - consumidor_redis***Latencia_ConsumidorRedis***178.8809299468994***ms
+2025-07-05 17:03:00,109 - INFO - consumidor_redis***Latencia_mensajeria***229.62331771850586***ms
+2025-07-05 17:03:00,290 - INFO - consumidor_redis: 94 insertadas en Redis.
+2025-07-05 17:03:00,292 - INFO - consumidor_redis***Latencia_ConsumidorRedis***183.4123134613037***ms
+2025-07-05 17:03:00,293 - INFO - consumidor_redis***Latencia_mensajeria***379.02188301086426***ms
+2025-07-05 17:03:00,356 - INFO - consumidor_redis: 89 insertadas en Redis.
+2025-07-05 17:03:00,358 - INFO - consumidor_redis***Latencia_ConsumidorRedis***64.49437141418457***ms
+2025-07-05 17:03:00,359 - INFO - consumidor_redis***Latencia_mensajeria***430.39655685424805***ms
+2025-07-05 17:03:00,434 - INFO - consumidor_redis: 88 insertadas en Redis.
+2025-07-05 17:03:00,435 - INFO - consumidor_redis***Latencia_ConsumidorRedis***75.75321197509766***ms
+2025-07-05 17:03:00,441 - INFO - consumidor_redis***Latencia_mensajeria***495.1508045196533***ms
+2025-07-05 17:03:00,485 - INFO - consumidor_redis: 90 insertadas en Redis.
+2025-07-05 17:03:00,486 - INFO - consumidor_redis***Latencia_ConsumidorRedis***45.53866386413574***ms
+2025-07-05 17:03:10,152 - INFO - consumidor_redis***Latencia_mensajeria***239.12882804870605***ms
+2025-07-05 17:03:10,314 - INFO - consumidor_redis: 89 insertadas en Redis.
+2025-07-05 17:03:10,322 - INFO - consumidor_redis***Latencia_ConsumidorRedis***169.13819313049316***ms
+2025-07-05 17:03:10,333 - INFO - consumidor_redis***Latencia_mensajeria***383.4395408630371***ms
+2025-07-05 17:03:10,408 - INFO - consumidor_redis: 90 insertadas en Redis.
+2025-07-05 17:03:10,410 - INFO - consumidor_redis***Latencia_ConsumidorRedis***77.17275619506836***ms
+2025-07-05 17:03:10,411 - INFO - consumidor_redis***Latencia_mensajeria***431.0176372528076***ms
+2025-07-05 17:03:10,577 - INFO - consumidor_redis: 89 insertadas en Redis.
+2025-07-05 17:03:10,581 - INFO - consumidor_redis***Latencia_ConsumidorRedis***170.09878158569336***ms
+2025-07-05 17:03:10,583 - INFO - consumidor_redis***Latencia_mensajeria***575.3223896026611***ms
+2025-07-05 17:03:10,756 - INFO - consumidor_redis: 92 insertadas en Redis.
+2025-07-05 17:03:10,758 - INFO - consumidor_redis***Latencia_ConsumidorRedis***174.61228370666504***ms
+2025-07-05 17:03:10,759 - INFO - consumidor_redis***Latencia_mensajeria***644.5274353027344***ms
+2025-07-05 17:03:10,857 - INFO - consumidor_redis: 92 insertadas en Redis.
+2025-07-05 17:03:10,858 - INFO - consumidor_redis***Latencia_ConsumidorRedis***99.87306594848633***ms
+2025-07-05 17:03:19,922 - INFO - consumidor_redis***Latencia_mensajeria***56.08677864074707***ms
+2025-07-05 17:03:20,001 - INFO - consumidor_redis: 88 insertadas en Redis.
+2025-07-05 17:03:20,007 - INFO - consumidor_redis***Latencia_ConsumidorRedis***85.7229232788086***ms
+2025-07-05 17:03:20,011 - INFO - consumidor_redis***Latencia_mensajeria***105.39746284484863***ms
+2025-07-05 17:03:20,067 - INFO - consumidor_redis: 90 insertadas en Redis.
+2025-07-05 17:03:20,069 - INFO - consumidor_redis***Latencia_ConsumidorRedis***57.78622627258301***ms
+2025-07-05 17:03:20,070 - INFO - consumidor_redis***Latencia_mensajeria***180.59015274047852***ms
+2025-07-05 17:03:20,116 - INFO - consumidor_redis: 87 insertadas en Redis.
+2025-07-05 17:03:20,117 - INFO - consumidor_redis***Latencia_ConsumidorRedis***47.21570014953613***ms
+2025-07-05 17:03:20,225 - INFO - consumidor_redis***Latencia_mensajeria***305.21512031555176***ms
+2025-07-05 17:03:20,269 - INFO - consumidor_redis: 91 insertadas en Redis.
+2025-07-05 17:03:20,270 - INFO - consumidor_redis***Latencia_ConsumidorRedis***44.37994956970215***ms
+2025-07-05 17:03:20,270 - INFO - consumidor_redis***Latencia_mensajeria***306.53977394104004***ms
+2025-07-05 17:03:20,317 - INFO - consumidor_redis: 94 insertadas en Redis.
+2025-07-05 17:03:20,318 - INFO - consumidor_redis***Latencia_ConsumidorRedis***47.44863510131836***ms
+2025-07-05 17:03:29,977 - INFO - consumidor_redis***Latencia_mensajeria***104.37893867492676***ms
+2025-07-05 17:03:30,082 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-05 17:03:30,091 - INFO - consumidor_redis***Latencia_ConsumidorRedis***113.92617225646973***ms
+2025-07-05 17:03:30,091 - INFO - consumidor_redis***Latencia_mensajeria***231.1837673187256***ms
+2025-07-05 17:03:30,166 - INFO - consumidor_redis: 89 insertadas en Redis.
+2025-07-05 17:03:30,168 - INFO - consumidor_redis***Latencia_ConsumidorRedis***76.10440254211426***ms
+2025-07-05 17:03:30,179 - INFO - consumidor_redis***Latencia_mensajeria***273.14209938049316***ms
+2025-07-05 17:03:30,246 - INFO - consumidor_redis: 88 insertadas en Redis.
+2025-07-05 17:03:30,247 - INFO - consumidor_redis***Latencia_ConsumidorRedis***68.01605224609375***ms
+2025-07-05 17:03:30,248 - INFO - consumidor_redis***Latencia_mensajeria***283.82158279418945***ms
+2025-07-05 17:03:30,314 - INFO - consumidor_redis: 92 insertadas en Redis.
+2025-07-05 17:03:30,315 - INFO - consumidor_redis***Latencia_ConsumidorRedis***67.06571578979492***ms
+2025-07-05 17:03:30,316 - INFO - consumidor_redis***Latencia_mensajeria***361.0351085662842***ms
+2025-07-05 17:03:30,383 - INFO - consumidor_redis: 92 insertadas en Redis.
+2025-07-05 17:03:30,385 - INFO - consumidor_redis***Latencia_ConsumidorRedis***68.92728805541992***ms

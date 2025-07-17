@@ -1,0 +1,146 @@
+2025-07-12 18:15:22,519 - INFO - consumidor_redis: Conectado a Redis en redis:6379
+2025-07-12 18:15:22,523 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.18.0.3', 9092)]>: connecting to kafka:9092 [('172.18.0.3', 9092) IPv4]
+2025-07-12 18:15:22,524 - INFO - Probing node bootstrap-0 broker version
+2025-07-12 18:15:22,526 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.18.0.3', 9092)]>: Connection complete.
+2025-07-12 18:15:22,655 - INFO - Broker version identified as 2.5.0
+2025-07-12 18:15:22,656 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-07-12 18:15:22,658 - INFO - Updating subscribed topics to: ('adsb.aeronaves',)
+2025-07-12 18:15:22,658 - INFO - consumidor_redis:Conectado a Kafka en kafka:9092.
+2025-07-12 18:15:22,671 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-12 18:15:22,672 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-12 18:15:22,674 - INFO - Starting new heartbeat thread
+2025-07-12 18:15:22,678 - INFO - Revoking previously assigned partitions set() for group adsb_redis_group
+2025-07-12 18:15:22,682 - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.3', 9092)]>: connecting to kafka:9092 [('172.18.0.3', 9092) IPv4]
+2025-07-12 18:15:22,683 - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.3', 9092)]>: Connection complete.
+2025-07-12 18:15:22,685 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connected> [IPv4 ('172.18.0.3', 9092)]>: Closing connection. 
+2025-07-12 18:15:22,787 - INFO - (Re-)joining group adsb_redis_group
+2025-07-12 18:15:41,155 - INFO - Elected group leader -- performing partition assignments using range
+2025-07-12 18:15:41,157 - INFO - <BrokerConnection node_id=1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.3', 9092)]>: connecting to kafka:9092 [('172.18.0.3', 9092) IPv4]
+2025-07-12 18:15:41,159 - INFO - <BrokerConnection node_id=1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.3', 9092)]>: Connection complete.
+2025-07-12 18:15:41,233 - INFO - Successfully joined group adsb_redis_group with generation 5
+2025-07-12 18:15:41,235 - INFO - Updated partition assignment: [TopicPartition(topic='adsb.aeronaves', partition=0), TopicPartition(topic='adsb.aeronaves', partition=1)]
+2025-07-12 18:15:41,237 - INFO - Setting newly assigned partitions {TopicPartition(topic='adsb.aeronaves', partition=0), TopicPartition(topic='adsb.aeronaves', partition=1)} for group adsb_redis_group
+2025-07-12 18:16:10,603 - INFO - consumidor_redis***Latencia_mensajeria***39.25442695617676***ms
+2025-07-12 18:16:10,614 - INFO - consumidor_redis: 10.31804084777832 Pipe Redis
+2025-07-12 18:16:10,614 - INFO - consumidor_redis: 19 insertadas en Redis.
+2025-07-12 18:16:10,615 - INFO - consumidor_redis***Latencia_ConsumidorRedis***12.230873107910156***ms
+2025-07-12 18:16:20,630 - INFO - consumidor_redis***Latencia_mensajeria***68.81856918334961***ms
+2025-07-12 18:16:20,659 - INFO - consumidor_redis: 26.4739990234375 Pipe Redis
+2025-07-12 18:16:20,661 - INFO - consumidor_redis: 94 insertadas en Redis.
+2025-07-12 18:16:20,661 - INFO - consumidor_redis***Latencia_ConsumidorRedis***31.255245208740234***ms
+2025-07-12 18:16:20,663 - INFO - consumidor_redis***Latencia_mensajeria***87.92996406555176***ms
+2025-07-12 18:16:20,687 - INFO - consumidor_redis: 22.72820472717285 Pipe Redis
+2025-07-12 18:16:20,687 - INFO - consumidor_redis: 94 insertadas en Redis.
+2025-07-12 18:16:20,688 - INFO - consumidor_redis***Latencia_ConsumidorRedis***24.783611297607422***ms
+2025-07-12 18:16:20,696 - INFO - consumidor_redis***Latencia_mensajeria***107.52749443054199***ms
+2025-07-12 18:16:20,719 - INFO - consumidor_redis: 19.199609756469727 Pipe Redis
+2025-07-12 18:16:20,720 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-12 18:16:20,720 - INFO - consumidor_redis***Latencia_ConsumidorRedis***24.575471878051758***ms
+2025-07-12 18:16:20,722 - INFO - consumidor_redis***Latencia_mensajeria***107.09428787231445***ms
+2025-07-12 18:16:20,744 - INFO - consumidor_redis: 20.94745635986328 Pipe Redis
+2025-07-12 18:16:20,745 - INFO - consumidor_redis: 96 insertadas en Redis.
+2025-07-12 18:16:20,745 - INFO - consumidor_redis***Latencia_ConsumidorRedis***23.590087890625***ms
+2025-07-12 18:16:20,754 - INFO - consumidor_redis***Latencia_mensajeria***107.1779727935791***ms
+2025-07-12 18:16:20,771 - INFO - consumidor_redis: 16.048908233642578 Pipe Redis
+2025-07-12 18:16:20,771 - INFO - consumidor_redis: 95 insertadas en Redis.
+2025-07-12 18:16:20,771 - INFO - consumidor_redis***Latencia_ConsumidorRedis***17.885208129882812***ms
+2025-07-12 18:16:30,591 - INFO - consumidor_redis***Latencia_mensajeria***29.357433319091797***ms
+2025-07-12 18:16:30,617 - INFO - consumidor_redis: 24.476289749145508 Pipe Redis
+2025-07-12 18:16:30,619 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-12 18:16:30,622 - INFO - consumidor_redis***Latencia_ConsumidorRedis***31.62360191345215***ms
+2025-07-12 18:16:30,636 - INFO - consumidor_redis***Latencia_mensajeria***60.68110466003418***ms
+2025-07-12 18:16:30,668 - INFO - consumidor_redis: 31.201839447021484 Pipe Redis
+2025-07-12 18:16:30,669 - INFO - consumidor_redis: 98 insertadas en Redis.
+2025-07-12 18:16:30,669 - INFO - consumidor_redis***Latencia_ConsumidorRedis***33.57410430908203***ms
+2025-07-12 18:16:30,681 - INFO - consumidor_redis***Latencia_mensajeria***85.57701110839844***ms
+2025-07-12 18:16:30,708 - INFO - consumidor_redis: 23.482084274291992 Pipe Redis
+2025-07-12 18:16:30,708 - INFO - consumidor_redis: 92 insertadas en Redis.
+2025-07-12 18:16:30,709 - INFO - consumidor_redis***Latencia_ConsumidorRedis***27.922630310058594***ms
+2025-07-12 18:16:30,721 - INFO - consumidor_redis***Latencia_mensajeria***112.90216445922852***ms
+2025-07-12 18:16:30,740 - INFO - consumidor_redis: 18.27406883239746 Pipe Redis
+2025-07-12 18:16:30,741 - INFO - consumidor_redis: 95 insertadas en Redis.
+2025-07-12 18:16:30,741 - INFO - consumidor_redis***Latencia_ConsumidorRedis***20.375728607177734***ms
+2025-07-12 18:16:30,742 - INFO - consumidor_redis***Latencia_mensajeria***117.19131469726562***ms
+2025-07-12 18:16:30,765 - INFO - consumidor_redis: 18.388032913208008 Pipe Redis
+2025-07-12 18:16:30,765 - INFO - consumidor_redis: 90 insertadas en Redis.
+2025-07-12 18:16:30,766 - INFO - consumidor_redis***Latencia_ConsumidorRedis***23.710012435913086***ms
+2025-07-12 18:16:40,589 - INFO - consumidor_redis***Latencia_mensajeria***28.047800064086914***ms
+2025-07-12 18:16:40,616 - INFO - consumidor_redis: 25.282859802246094 Pipe Redis
+2025-07-12 18:16:40,617 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-12 18:16:40,618 - INFO - consumidor_redis***Latencia_ConsumidorRedis***28.160810470581055***ms
+2025-07-12 18:16:40,657 - INFO - consumidor_redis***Latencia_mensajeria***81.62212371826172***ms
+2025-07-12 18:16:40,682 - INFO - consumidor_redis: 22.522687911987305 Pipe Redis
+2025-07-12 18:16:40,683 - INFO - consumidor_redis: 94 insertadas en Redis.
+2025-07-12 18:16:40,684 - INFO - consumidor_redis***Latencia_ConsumidorRedis***27.287960052490234***ms
+2025-07-12 18:16:40,685 - INFO - consumidor_redis***Latencia_mensajeria***85.62612533569336***ms
+2025-07-12 18:16:40,706 - INFO - consumidor_redis: 19.383907318115234 Pipe Redis
+2025-07-12 18:16:40,707 - INFO - consumidor_redis: 91 insertadas en Redis.
+2025-07-12 18:16:40,707 - INFO - consumidor_redis***Latencia_ConsumidorRedis***22.1555233001709***ms
+2025-07-12 18:16:40,716 - INFO - consumidor_redis***Latencia_mensajeria***107.83195495605469***ms
+2025-07-12 18:16:40,736 - INFO - consumidor_redis: 18.259286880493164 Pipe Redis
+2025-07-12 18:16:40,736 - INFO - consumidor_redis: 98 insertadas en Redis.
+2025-07-12 18:16:40,737 - INFO - consumidor_redis***Latencia_ConsumidorRedis***20.343780517578125***ms
+2025-07-12 18:16:40,737 - INFO - consumidor_redis***Latencia_mensajeria***155.80248832702637***ms
+2025-07-12 18:16:40,755 - INFO - consumidor_redis: 16.788959503173828 Pipe Redis
+2025-07-12 18:16:40,756 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-12 18:16:40,758 - INFO - consumidor_redis***Latencia_ConsumidorRedis***19.69623565673828***ms
+2025-07-12 18:16:50,608 - INFO - consumidor_redis***Latencia_mensajeria***31.1739444732666***ms
+2025-07-12 18:16:50,644 - INFO - consumidor_redis: 33.490657806396484 Pipe Redis
+2025-07-12 18:16:50,645 - INFO - consumidor_redis: 91 insertadas en Redis.
+2025-07-12 18:16:50,647 - INFO - consumidor_redis***Latencia_ConsumidorRedis***39.93797302246094***ms
+2025-07-12 18:16:50,650 - INFO - consumidor_redis***Latencia_mensajeria***90.30342102050781***ms
+2025-07-12 18:16:50,679 - INFO - consumidor_redis: 26.38411521911621 Pipe Redis
+2025-07-12 18:16:50,680 - INFO - consumidor_redis: 95 insertadas en Redis.
+2025-07-12 18:16:50,680 - INFO - consumidor_redis***Latencia_ConsumidorRedis***30.524492263793945***ms
+2025-07-12 18:16:50,692 - INFO - consumidor_redis***Latencia_mensajeria***108.04009437561035***ms
+2025-07-12 18:16:50,713 - INFO - consumidor_redis: 19.637107849121094 Pipe Redis
+2025-07-12 18:16:50,714 - INFO - consumidor_redis: 98 insertadas en Redis.
+2025-07-12 18:16:50,714 - INFO - consumidor_redis***Latencia_ConsumidorRedis***22.077083587646484***ms
+2025-07-12 18:16:50,718 - INFO - consumidor_redis***Latencia_mensajeria***109.39550399780273***ms
+2025-07-12 18:16:50,737 - INFO - consumidor_redis: 17.696857452392578 Pipe Redis
+2025-07-12 18:16:50,738 - INFO - consumidor_redis: 95 insertadas en Redis.
+2025-07-12 18:16:50,739 - INFO - consumidor_redis***Latencia_ConsumidorRedis***21.1794376373291***ms
+2025-07-12 18:16:50,745 - INFO - consumidor_redis***Latencia_mensajeria***106.18829727172852***ms
+2025-07-12 18:16:50,762 - INFO - consumidor_redis: 15.819311141967773 Pipe Redis
+2025-07-12 18:16:50,763 - INFO - consumidor_redis: 95 insertadas en Redis.
+2025-07-12 18:16:50,763 - INFO - consumidor_redis***Latencia_ConsumidorRedis***17.711400985717773***ms
+2025-07-12 18:17:00,710 - INFO - consumidor_redis***Latencia_mensajeria***149.37376976013184***ms
+2025-07-12 18:17:00,968 - INFO - consumidor_redis: 241.59693717956543 Pipe Redis
+2025-07-12 18:17:00,969 - INFO - consumidor_redis: 96 insertadas en Redis.
+2025-07-12 18:17:00,970 - INFO - consumidor_redis***Latencia_ConsumidorRedis***259.32788848876953***ms
+2025-07-12 18:17:00,983 - INFO - consumidor_redis***Latencia_mensajeria***379.73690032958984***ms
+2025-07-12 18:17:01,054 - INFO - consumidor_redis: 68.90010833740234 Pipe Redis
+2025-07-12 18:17:01,055 - INFO - consumidor_redis: 94 insertadas en Redis.
+2025-07-12 18:17:01,058 - INFO - consumidor_redis***Latencia_ConsumidorRedis***75.00863075256348***ms
+2025-07-12 18:17:01,061 - INFO - consumidor_redis***Latencia_mensajeria***491.6508197784424***ms
+2025-07-12 18:17:01,121 - INFO - consumidor_redis: 57.231903076171875 Pipe Redis
+2025-07-12 18:17:01,122 - INFO - consumidor_redis: 92 insertadas en Redis.
+2025-07-12 18:17:01,123 - INFO - consumidor_redis***Latencia_ConsumidorRedis***61.83028221130371***ms
+2025-07-12 18:17:01,143 - INFO - consumidor_redis***Latencia_mensajeria***523.9808559417725***ms
+2025-07-12 18:17:01,202 - INFO - consumidor_redis: 29.97446060180664 Pipe Redis
+2025-07-12 18:17:01,202 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-12 18:17:01,203 - INFO - consumidor_redis***Latencia_ConsumidorRedis***59.84640121459961***ms
+2025-07-12 18:17:01,204 - INFO - consumidor_redis***Latencia_mensajeria***575.1478672027588***ms
+2025-07-12 18:17:01,238 - INFO - consumidor_redis: 28.056621551513672 Pipe Redis
+2025-07-12 18:17:01,238 - INFO - consumidor_redis: 95 insertadas en Redis.
+2025-07-12 18:17:01,239 - INFO - consumidor_redis***Latencia_ConsumidorRedis***34.860849380493164***ms
+2025-07-12 18:17:10,655 - INFO - consumidor_redis***Latencia_mensajeria***79.92744445800781***ms
+2025-07-12 18:17:10,695 - INFO - consumidor_redis: 38.055419921875 Pipe Redis
+2025-07-12 18:17:10,703 - INFO - consumidor_redis: 88 insertadas en Redis.
+2025-07-12 18:17:10,705 - INFO - consumidor_redis***Latencia_ConsumidorRedis***50.04382133483887***ms
+2025-07-12 18:17:10,707 - INFO - consumidor_redis***Latencia_mensajeria***146.10028266906738***ms
+2025-07-12 18:17:10,755 - INFO - consumidor_redis: 41.49460792541504 Pipe Redis
+2025-07-12 18:17:10,755 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-12 18:17:10,756 - INFO - consumidor_redis***Latencia_ConsumidorRedis***48.91538619995117***ms
+2025-07-12 18:17:10,772 - INFO - consumidor_redis***Latencia_mensajeria***184.07869338989258***ms
+2025-07-12 18:17:10,805 - INFO - consumidor_redis: 31.939029693603516 Pipe Redis
+2025-07-12 18:17:10,806 - INFO - consumidor_redis: 91 insertadas en Redis.
+2025-07-12 18:17:10,806 - INFO - consumidor_redis***Latencia_ConsumidorRedis***34.08455848693848***ms
+2025-07-12 18:17:10,807 - INFO - consumidor_redis***Latencia_mensajeria***198.8694667816162***ms
+2025-07-12 18:17:10,836 - INFO - consumidor_redis: 25.429964065551758 Pipe Redis
+2025-07-12 18:17:10,836 - INFO - consumidor_redis: 98 insertadas en Redis.
+2025-07-12 18:17:10,837 - INFO - consumidor_redis***Latencia_ConsumidorRedis***29.427766799926758***ms
+2025-07-12 18:17:10,843 - INFO - consumidor_redis***Latencia_mensajeria***198.41861724853516***ms
+2025-07-12 18:17:10,872 - INFO - consumidor_redis: 26.53336524963379 Pipe Redis
+2025-07-12 18:17:10,873 - INFO - consumidor_redis: 93 insertadas en Redis.
+2025-07-12 18:17:10,873 - INFO - consumidor_redis***Latencia_ConsumidorRedis***30.511856079101562***ms
