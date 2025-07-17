@@ -1,0 +1,43 @@
+# ./consumidor_redis/readme
+# Consumidor - Microservicio de recepción de mensajes ADS-B en Kafka y almacenamiento en Redis
+#   Este consumidor debe ser rápido en el procesamiento para que el sistema responda lo antes posible a consultas externas
+#   Para aligerar su cómputo, no realiza la función de sectorización. Esta acción se realiza un microservicio auxiliar.
+
+# Imagen base
+- Python 3.10 slim, más ligera que la oficial
+
+# Variables de entorno (.env)
+    - ID_SERVICE                                    # Identificador propio del contenedor, para identificarse al conectar con otros servicios
+
+    - KAFKA_BOOTSTRAP_SERVERS                       # Dirección del servidor de Kafka al que se conecta
+    - KAFKA_TOPIC                                   # Nombre del topic de Kafka al que se suscribe
+
+    - REDIS_HOST                                    # Dirección del servidor de Redis al que se conecta
+    - REDIS_PORT                                    # Puerto del servidor de Redis al que accede
+    - REDIS_TTL                                     # Tiempo de vida (TTL) de las claves en Redis que establecerá en el almacenamiento de datos
+
+# Requerimientos
+    - kafka-python==2.0.2                           # Cliente de Kafka para Python
+    - redis==5.0.1                                  # Cliente de Redis en Python
+
+# Dockerfile
+- Establece la imagen base, heramientas python auxiliares, requerimientos, carpetas de trabajo y lanza el arranque con el código fuente
+
+# Código fuente
+- `consumidor_redis.py`
+
+# Archivos auxiliares
+- `cliente_redis.py`
+
+# Proceso resumido
+- Conexión con Kafka, suscripción al topic `KAFKA_TOPIC`
+- Conexión con Redis
+- Para cada mensaje:
+    - Chequeo de datos esenciales de cada aeronave (lat, lon, geoaltitude/baroaltitude)
+    - Chequeo de antigüedad del contenido del mensaje para cada aeronave
+    - Establece el pipeline de acciones en Redis:
+        - Almacenar los datos de cada aeronave como hashes, aeronave:icao24, con tiempo límite ttl
+        - Agregar la posición geoespacial de la aeronave a una estructura tipo sorted set llamada aeronaves:geo que servirá para posteriores cálculos de sectorización.
+        - Agregar marca de tiempo de la aeronave a una estructura tipo sorted set llamada aeronaves:activas que servirá para consultas de conteo de aeronaves.  
+        - Emite un log de latencia de mensajería y de almacenamiento del mensaje completo
+
