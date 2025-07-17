@@ -1,0 +1,707 @@
+2025-07-13 18:55:59,139 - INFO - cliente_atm: Conectado a Redis en redis:6379
+2025-07-13 18:55:59,276 - INFO - Cliente ATM iniciado correctamente.
+2025-07-13 18:55:59,451 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-07-13 18:55:59,696 - INFO -  * Running on http://172.18.0.5:5000/ (Press CTRL+C to quit)
+2025-07-13 18:58:20,584 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 18:58:20,697 - INFO - Aeronaves en el sector sector_CZ_Centro: 0
+2025-07-13 18:58:20,699 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 18:58:20,703 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 18:58:20,743 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 18:58:20,778 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 18:58:20,817 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 18:58:20,831 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 18:58:20,838 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 18:58:20,855 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 18:58:20,859 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 18:58:20,875 - INFO - ***Latencia_ClienteATM_estadoatm***249.26114082336426***ms
+2025-07-13 18:58:20,889 - INFO - 192.168.65.1 - - [13/Jul/2025 18:58:20] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 18:58:26,017 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 18:58:26,032 - INFO - Aeronaves en el sector sector_CZ_Centro: 0
+2025-07-13 18:58:26,034 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 18:58:26,038 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 18:58:26,048 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 18:58:26,057 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 18:58:26,060 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 18:58:26,067 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 18:58:26,075 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 18:58:26,079 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 18:58:26,080 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 18:58:26,085 - INFO - ***Latencia_ClienteATM_estadoatm***57.56664276123047***ms
+2025-07-13 18:58:26,087 - INFO - 192.168.65.1 - - [13/Jul/2025 18:58:26] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 18:58:31,287 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 18:58:31,293 - INFO - Aeronaves en el sector sector_CZ_Centro: 0
+2025-07-13 18:58:31,296 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 18:58:31,300 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 18:58:31,307 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 18:58:31,308 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 18:58:31,309 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 18:58:31,314 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 18:58:31,316 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 18:58:31,708 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 18:58:31,710 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 18:58:31,729 - INFO - ***Latencia_ClienteATM_estadoatm***440.0634765625***ms
+2025-07-13 18:58:31,776 - INFO - 192.168.65.1 - - [13/Jul/2025 18:58:31] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 18:58:37,264 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 18:58:37,305 - INFO - Aeronaves en el sector sector_CZ_Centro: 0
+2025-07-13 18:58:37,326 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 18:58:37,357 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 18:58:37,370 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 18:58:37,374 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 18:58:37,375 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 18:58:37,377 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 18:58:37,393 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 18:58:37,440 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 18:58:37,459 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 18:58:37,471 - INFO - ***Latencia_ClienteATM_estadoatm***204.1776180267334***ms
+2025-07-13 18:58:37,530 - INFO - 192.168.65.1 - - [13/Jul/2025 18:58:37] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 18:58:42,720 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 18:58:42,755 - INFO - Aeronaves en el sector sector_CZ_Centro: 0
+2025-07-13 18:58:42,796 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 18:58:43,026 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 18:58:43,087 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 18:58:43,114 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 18:58:43,234 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 18:58:43,276 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 18:58:43,313 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 18:58:43,389 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 18:58:43,393 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 18:58:43,395 - INFO - ***Latencia_ClienteATM_estadoatm***647.4514007568359***ms
+2025-07-13 18:58:43,400 - INFO - 192.168.65.1 - - [13/Jul/2025 18:58:43] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 18:58:48,637 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 18:58:48,652 - INFO - Aeronaves en el sector sector_CZ_Centro: 0
+2025-07-13 18:58:48,655 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 18:58:48,679 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 18:58:48,884 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 18:58:48,890 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 18:58:48,920 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 18:58:48,927 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 18:58:48,929 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 18:58:48,930 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 18:58:49,002 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 18:58:49,004 - INFO - ***Latencia_ClienteATM_estadoatm***366.4865493774414***ms
+2025-07-13 18:58:49,009 - INFO - 192.168.65.1 - - [13/Jul/2025 18:58:49] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 18:58:54,202 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 18:58:54,242 - INFO - Aeronaves en el sector sector_CZ_Centro: 0
+2025-07-13 18:58:54,243 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 18:58:54,729 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 18:58:54,730 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 18:58:54,744 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 18:58:54,746 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 18:58:54,747 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 18:58:54,751 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 18:58:54,759 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 18:58:54,951 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 18:58:54,953 - INFO - ***Latencia_ClienteATM_estadoatm***745.5339431762695***ms
+2025-07-13 18:58:54,964 - INFO - 192.168.65.1 - - [13/Jul/2025 18:58:54] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 18:59:00,123 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 18:59:00,128 - INFO - Aeronaves en el sector sector_CZ_Centro: 0
+2025-07-13 18:59:00,132 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 18:59:00,134 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 18:59:00,136 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 18:59:00,137 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 18:59:00,138 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 18:59:00,141 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 18:59:00,144 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 18:59:00,146 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 18:59:00,148 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 18:59:00,149 - INFO - ***Latencia_ClienteATM_estadoatm***24.744272232055664***ms
+2025-07-13 18:59:00,150 - INFO - 192.168.65.1 - - [13/Jul/2025 18:59:00] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 18:59:05,278 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 18:59:05,280 - INFO - Aeronaves en el sector sector_CZ_Centro: 0
+2025-07-13 18:59:05,281 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 18:59:05,283 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 18:59:05,283 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 18:59:05,287 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 18:59:05,289 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 18:59:05,292 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 18:59:05,294 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 18:59:05,296 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 18:59:05,300 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 18:59:05,300 - INFO - ***Latencia_ClienteATM_estadoatm***21.47698402404785***ms
+2025-07-13 18:59:05,302 - INFO - 192.168.65.1 - - [13/Jul/2025 18:59:05] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 18:59:10,616 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 18:59:10,662 - INFO - Aeronaves en el sector sector_CZ_Centro: 0
+2025-07-13 18:59:10,667 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 18:59:10,669 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 18:59:10,671 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 18:59:10,675 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 18:59:10,678 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 18:59:10,682 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 18:59:10,720 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 18:59:10,722 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 18:59:10,725 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 18:59:10,728 - INFO - ***Latencia_ClienteATM_estadoatm***77.6970386505127***ms
+2025-07-13 18:59:10,730 - INFO - 192.168.65.1 - - [13/Jul/2025 18:59:10] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 18:59:15,867 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 18:59:15,987 - INFO - Aeronaves en el sector sector_CZ_Centro: 0
+2025-07-13 18:59:16,005 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 18:59:16,014 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 18:59:16,018 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 18:59:16,033 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 18:59:16,058 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 18:59:16,171 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 18:59:16,173 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 18:59:16,180 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 18:59:16,266 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 18:59:16,324 - INFO - ***Latencia_ClienteATM_estadoatm***424.7431755065918***ms
+2025-07-13 18:59:16,327 - INFO - 192.168.65.1 - - [13/Jul/2025 18:59:16] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 18:59:21,465 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 18:59:21,492 - INFO - Aeronaves en el sector sector_CZ_Centro: 0
+2025-07-13 18:59:21,498 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 18:59:21,511 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 18:59:21,514 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 18:59:21,516 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 18:59:21,518 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 18:59:21,522 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 18:59:21,527 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 18:59:21,529 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 18:59:21,531 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 18:59:21,532 - INFO - ***Latencia_ClienteATM_estadoatm***52.80876159667969***ms
+2025-07-13 18:59:21,547 - INFO - 192.168.65.1 - - [13/Jul/2025 18:59:21] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 18:59:26,704 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 18:59:26,712 - INFO - Aeronaves en el sector sector_CZ_Centro: 0
+2025-07-13 18:59:26,720 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 18:59:26,725 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 18:59:26,728 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 18:59:26,730 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 18:59:26,733 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 18:59:26,734 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 18:59:26,735 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 18:59:26,736 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 18:59:26,738 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 18:59:26,739 - INFO - ***Latencia_ClienteATM_estadoatm***28.590679168701172***ms
+2025-07-13 18:59:26,741 - INFO - 192.168.65.1 - - [13/Jul/2025 18:59:26] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 18:59:31,822 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 18:59:31,825 - INFO - Aeronaves en el sector sector_CZ_Centro: 0
+2025-07-13 18:59:31,835 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 18:59:31,837 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 18:59:31,842 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 18:59:31,844 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 18:59:31,846 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 18:59:31,847 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 18:59:31,849 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 18:59:31,851 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 18:59:31,851 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 18:59:31,852 - INFO - ***Latencia_ClienteATM_estadoatm***28.55229377746582***ms
+2025-07-13 18:59:31,855 - INFO - 192.168.65.1 - - [13/Jul/2025 18:59:31] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 18:59:37,210 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 18:59:37,335 - INFO - Aeronaves en el sector sector_CZ_Centro: 0
+2025-07-13 18:59:37,360 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 18:59:37,385 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 18:59:37,395 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 18:59:37,408 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 18:59:37,414 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 18:59:37,416 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 18:59:37,425 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 18:59:37,431 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 18:59:37,436 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 18:59:37,439 - INFO - ***Latencia_ClienteATM_estadoatm***201.1110782623291***ms
+2025-07-13 18:59:37,449 - INFO - 192.168.65.1 - - [13/Jul/2025 18:59:37] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 18:59:42,820 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 18:59:43,091 - INFO - Aeronaves en el sector sector_CZ_Centro: 0
+2025-07-13 18:59:43,236 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 18:59:43,401 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 18:59:43,666 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 18:59:43,700 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 18:59:43,710 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 18:59:43,714 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 18:59:43,723 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 18:59:43,726 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 18:59:43,727 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 18:59:43,729 - INFO - ***Latencia_ClienteATM_estadoatm***899.5876312255859***ms
+2025-07-13 18:59:43,732 - INFO - 192.168.65.1 - - [13/Jul/2025 18:59:43] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 18:59:48,941 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 18:59:49,021 - INFO - Aeronaves en el sector sector_CZ_Centro: 0
+2025-07-13 18:59:49,026 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 18:59:49,030 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 18:59:49,038 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 18:59:49,041 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 18:59:49,049 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 18:59:49,057 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 18:59:49,058 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 18:59:49,070 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 18:59:49,075 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 18:59:49,077 - INFO - ***Latencia_ClienteATM_estadoatm***134.42420959472656***ms
+2025-07-13 18:59:49,080 - INFO - 192.168.65.1 - - [13/Jul/2025 18:59:49] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 18:59:54,307 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 18:59:54,311 - INFO - Aeronaves en el sector sector_CZ_Centro: 0
+2025-07-13 18:59:54,313 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 18:59:54,319 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 18:59:54,322 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 18:59:54,323 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 18:59:54,326 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 18:59:54,328 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 18:59:54,329 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 18:59:54,333 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 18:59:54,336 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 18:59:54,338 - INFO - ***Latencia_ClienteATM_estadoatm***28.951406478881836***ms
+2025-07-13 18:59:54,339 - INFO - 192.168.65.1 - - [13/Jul/2025 18:59:54] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 18:59:59,542 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 18:59:59,549 - INFO - Aeronaves en el sector sector_CZ_Centro: 0
+2025-07-13 18:59:59,556 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 18:59:59,559 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 18:59:59,589 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 18:59:59,596 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 18:59:59,598 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 18:59:59,599 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 18:59:59,601 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 18:59:59,607 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 18:59:59,613 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 18:59:59,617 - INFO - ***Latencia_ClienteATM_estadoatm***73.21929931640625***ms
+2025-07-13 18:59:59,632 - INFO - 192.168.65.1 - - [13/Jul/2025 18:59:59] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:00:04,795 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:00:04,800 - INFO - Aeronaves en el sector sector_CZ_Centro: 0
+2025-07-13 19:00:04,801 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 19:00:04,803 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 19:00:04,804 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 19:00:04,805 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 19:00:04,805 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 19:00:04,807 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 19:00:04,808 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 19:00:04,810 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 19:00:04,812 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 19:00:04,813 - INFO - ***Latencia_ClienteATM_estadoatm***14.484405517578125***ms
+2025-07-13 19:00:04,815 - INFO - 192.168.65.1 - - [13/Jul/2025 19:00:04] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:00:09,944 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:00:09,946 - INFO - Aeronaves en el sector sector_CZ_Centro: 0
+2025-07-13 19:00:09,948 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 19:00:09,954 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 19:00:09,961 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 19:00:09,966 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 19:00:09,969 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 19:00:09,973 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 19:00:10,052 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 19:00:10,069 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 19:00:10,075 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 19:00:10,076 - INFO - ***Latencia_ClienteATM_estadoatm***131.25228881835938***ms
+2025-07-13 19:00:10,086 - INFO - 192.168.65.1 - - [13/Jul/2025 19:00:10] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:00:15,235 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:00:15,422 - INFO - Aeronaves en el sector sector_CZ_Centro: 0
+2025-07-13 19:00:15,669 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 19:00:15,722 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 19:00:15,724 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 19:00:15,726 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 19:00:15,773 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 19:00:15,796 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 19:00:15,799 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 19:00:15,800 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 19:00:15,802 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 19:00:15,805 - INFO - ***Latencia_ClienteATM_estadoatm***522.8691101074219***ms
+2025-07-13 19:00:15,807 - INFO - 192.168.65.1 - - [13/Jul/2025 19:00:15] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:00:20,962 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:00:21,083 - INFO - Aeronaves en el sector sector_CZ_Centro: 0
+2025-07-13 19:00:21,109 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 19:00:21,223 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 19:00:21,240 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 19:00:21,255 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 19:00:21,566 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 19:00:21,576 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 19:00:21,677 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 19:00:21,785 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 19:00:21,861 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 19:00:21,872 - INFO - ***Latencia_ClienteATM_estadoatm***895.941972732544***ms
+2025-07-13 19:00:21,878 - INFO - 192.168.65.1 - - [13/Jul/2025 19:00:21] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:00:27,009 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:00:27,063 - INFO - Aeronaves en el sector sector_CZ_Centro: 0
+2025-07-13 19:00:27,071 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 19:00:27,076 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 19:00:27,083 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 19:00:27,088 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 19:00:27,124 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 19:00:27,126 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 19:00:27,142 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 19:00:27,148 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 19:00:27,152 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 19:00:27,171 - INFO - ***Latencia_ClienteATM_estadoatm***160.10689735412598***ms
+2025-07-13 19:00:27,173 - INFO - 192.168.65.1 - - [13/Jul/2025 19:00:27] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:00:32,504 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:00:32,516 - INFO - Aeronaves en el sector sector_CZ_Centro: 0
+2025-07-13 19:00:32,529 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 19:00:32,532 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 19:00:32,566 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 19:00:32,607 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 19:00:32,729 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 19:00:32,747 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 19:00:32,749 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 19:00:32,757 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 19:00:32,767 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 19:00:32,768 - INFO - ***Latencia_ClienteATM_estadoatm***261.94238662719727***ms
+2025-07-13 19:00:32,771 - INFO - 192.168.65.1 - - [13/Jul/2025 19:00:32] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:00:37,980 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:00:37,984 - INFO - Aeronaves en el sector sector_CZ_Centro: 2
+2025-07-13 19:00:37,986 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 19:00:37,989 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 19:00:37,992 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 19:00:37,996 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 19:00:37,997 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 19:00:38,007 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 19:00:38,010 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 19:00:38,014 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 19:00:38,017 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 19:00:38,019 - INFO - ***Latencia_ClienteATM_estadoatm***38.45405578613281***ms
+2025-07-13 19:00:38,020 - INFO - 192.168.65.1 - - [13/Jul/2025 19:00:38] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:00:43,184 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:00:43,188 - INFO - Aeronaves en el sector sector_CZ_Centro: 2
+2025-07-13 19:00:43,253 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 19:00:43,256 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 19:00:43,267 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 19:00:43,273 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 19:00:43,281 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 19:00:43,295 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 19:00:43,347 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 19:00:43,350 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 19:00:43,357 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 19:00:43,365 - INFO - ***Latencia_ClienteATM_estadoatm***178.8039207458496***ms
+2025-07-13 19:00:43,392 - INFO - 192.168.65.1 - - [13/Jul/2025 19:00:43] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:00:48,548 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:00:48,715 - INFO - Aeronaves en el sector sector_CZ_Centro: 2
+2025-07-13 19:00:48,790 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 19:00:48,849 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 19:00:48,908 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 19:00:48,917 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 19:00:48,922 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 19:00:48,946 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 19:00:48,965 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 19:00:48,996 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 19:00:49,074 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 19:00:49,075 - INFO - ***Latencia_ClienteATM_estadoatm***512.3019218444824***ms
+2025-07-13 19:00:49,078 - INFO - 192.168.65.1 - - [13/Jul/2025 19:00:49] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:00:54,774 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:00:55,045 - INFO - Aeronaves en el sector sector_CZ_Centro: 2
+2025-07-13 19:00:55,057 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 19:00:55,069 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 19:00:55,088 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 19:00:55,300 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 19:00:55,343 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 19:00:55,382 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 19:00:55,386 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 19:00:55,399 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 19:00:55,408 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 19:00:55,411 - INFO - ***Latencia_ClienteATM_estadoatm***515.4721736907959***ms
+2025-07-13 19:00:55,415 - INFO - 192.168.65.1 - - [13/Jul/2025 19:00:55] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:01:00,531 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:01:00,691 - INFO - Aeronaves en el sector sector_CZ_Centro: 2
+2025-07-13 19:01:00,706 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 19:01:00,708 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 19:01:00,709 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 19:01:00,710 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 19:01:00,712 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 19:01:00,726 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 19:01:00,732 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 19:01:00,737 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 19:01:00,740 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 19:01:00,743 - INFO - ***Latencia_ClienteATM_estadoatm***208.07695388793945***ms
+2025-07-13 19:01:00,810 - INFO - 192.168.65.1 - - [13/Jul/2025 19:01:00] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:01:06,159 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:01:06,290 - INFO - Aeronaves en el sector sector_CZ_Centro: 2
+2025-07-13 19:01:06,821 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 19:01:07,056 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 19:01:07,062 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 19:01:07,070 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 19:01:07,219 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 19:01:07,281 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 19:01:07,284 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 19:01:07,288 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 19:01:07,301 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 19:01:07,307 - INFO - ***Latencia_ClienteATM_estadoatm***1145.5097198486328***ms
+2025-07-13 19:01:07,332 - INFO - 192.168.65.1 - - [13/Jul/2025 19:01:07] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:01:12,522 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:01:12,833 - INFO - Aeronaves en el sector sector_CZ_Centro: 2
+2025-07-13 19:01:12,838 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 19:01:12,854 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 19:01:12,855 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 19:01:12,863 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 19:01:12,866 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 19:01:12,867 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 19:01:12,871 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 19:01:12,874 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 19:01:12,878 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 19:01:12,887 - INFO - ***Latencia_ClienteATM_estadoatm***356.1408519744873***ms
+2025-07-13 19:01:12,892 - INFO - 192.168.65.1 - - [13/Jul/2025 19:01:12] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:01:18,011 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:01:18,040 - INFO - Aeronaves en el sector sector_CZ_Centro: 2
+2025-07-13 19:01:18,046 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 19:01:18,049 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 19:01:18,065 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 19:01:18,096 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 19:01:18,104 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 19:01:18,117 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 19:01:18,129 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 19:01:18,135 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 19:01:18,144 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 19:01:18,172 - INFO - ***Latencia_ClienteATM_estadoatm***154.16193008422852***ms
+2025-07-13 19:01:18,176 - INFO - 192.168.65.1 - - [13/Jul/2025 19:01:18] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:01:23,400 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:01:23,897 - INFO - Aeronaves en el sector sector_CZ_Centro: 2
+2025-07-13 19:01:24,116 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 19:01:24,135 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 19:01:24,312 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 19:01:24,320 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 19:01:24,337 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 19:01:24,380 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 19:01:24,391 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 19:01:24,409 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 19:01:24,416 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 19:01:24,417 - INFO - ***Latencia_ClienteATM_estadoatm***841.8023586273193***ms
+2025-07-13 19:01:24,420 - INFO - 192.168.65.1 - - [13/Jul/2025 19:01:24] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:01:29,575 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:01:29,648 - INFO - Aeronaves en el sector sector_CZ_Centro: 2
+2025-07-13 19:01:29,667 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 19:01:29,675 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 19:01:29,744 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 19:01:29,746 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 19:01:29,761 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 19:01:29,768 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 19:01:29,779 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 19:01:29,810 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 19:01:29,820 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 19:01:29,820 - INFO - ***Latencia_ClienteATM_estadoatm***244.36688423156738***ms
+2025-07-13 19:01:29,821 - INFO - 192.168.65.1 - - [13/Jul/2025 19:01:29] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:01:36,322 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:01:37,000 - INFO - Aeronaves en el sector sector_CZ_Centro: 2
+2025-07-13 19:01:37,489 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 19:01:37,545 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 19:01:37,978 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 19:01:38,046 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 19:01:38,060 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 19:01:38,096 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 19:01:38,156 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 19:01:38,162 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 19:01:38,179 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 19:01:38,180 - INFO - ***Latencia_ClienteATM_estadoatm***1854.053020477295***ms
+2025-07-13 19:01:38,241 - INFO - 192.168.65.1 - - [13/Jul/2025 19:01:38] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:01:43,406 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:01:43,432 - INFO - Aeronaves en el sector sector_CZ_Centro: 2
+2025-07-13 19:01:43,435 - INFO - Aeronaves en el sector sector_AD: 0
+2025-07-13 19:01:43,441 - INFO - Aeronaves en el sector sector_XK: 0
+2025-07-13 19:01:43,488 - INFO - Aeronaves en el sector sector_GB_Oeste: 0
+2025-07-13 19:01:43,490 - INFO - Aeronaves en el sector sector_BE_Este: 0
+2025-07-13 19:01:43,493 - INFO - Aeronaves en el sector sector_PT_Este: 0
+2025-07-13 19:01:43,494 - INFO - Aeronaves en el sector sector_TR_Oeste: 0
+2025-07-13 19:01:43,494 - INFO - Aeronaves en el sector sector_SE_Oeste: 0
+2025-07-13 19:01:43,495 - INFO - Aeronaves en el sector sector_RU_Oeste: 0
+2025-07-13 19:01:43,500 - INFO - Aeronaves en el sector sector_IT_Norte: 0
+2025-07-13 19:01:43,501 - INFO - ***Latencia_ClienteATM_estadoatm***93.63722801208496***ms
+2025-07-13 19:01:43,502 - INFO - 192.168.65.1 - - [13/Jul/2025 19:01:43] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:01:49,197 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:01:49,650 - INFO - Aeronaves en el sector sector_CZ_Centro: 324
+2025-07-13 19:01:49,780 - INFO - Aeronaves en el sector sector_AD: 314
+2025-07-13 19:01:49,889 - INFO - Aeronaves en el sector sector_XK: 275
+2025-07-13 19:01:49,920 - INFO - Aeronaves en el sector sector_GB_Oeste: 359
+2025-07-13 19:01:49,932 - INFO - Aeronaves en el sector sector_BE_Este: 413
+2025-07-13 19:01:49,934 - INFO - Aeronaves en el sector sector_PT_Este: 171
+2025-07-13 19:01:49,936 - INFO - Aeronaves en el sector sector_TR_Oeste: 190
+2025-07-13 19:01:50,163 - INFO - Aeronaves en el sector sector_SE_Oeste: 167
+2025-07-13 19:01:50,268 - INFO - Aeronaves en el sector sector_RU_Oeste: 77
+2025-07-13 19:01:50,270 - INFO - Aeronaves en el sector sector_IT_Norte: 451
+2025-07-13 19:01:50,271 - INFO - ***Latencia_ClienteATM_estadoatm***981.0833930969238***ms
+2025-07-13 19:01:50,273 - INFO - 192.168.65.1 - - [13/Jul/2025 19:01:50] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:01:55,384 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:01:55,402 - INFO - Aeronaves en el sector sector_CZ_Centro: 324
+2025-07-13 19:01:55,428 - INFO - Aeronaves en el sector sector_AD: 314
+2025-07-13 19:01:55,429 - INFO - Aeronaves en el sector sector_XK: 275
+2025-07-13 19:01:55,529 - INFO - Aeronaves en el sector sector_GB_Oeste: 359
+2025-07-13 19:01:55,582 - INFO - Aeronaves en el sector sector_BE_Este: 413
+2025-07-13 19:01:55,632 - INFO - Aeronaves en el sector sector_PT_Este: 171
+2025-07-13 19:01:55,657 - INFO - Aeronaves en el sector sector_TR_Oeste: 190
+2025-07-13 19:01:55,991 - INFO - Aeronaves en el sector sector_SE_Oeste: 167
+2025-07-13 19:01:56,074 - INFO - Aeronaves en el sector sector_RU_Oeste: 77
+2025-07-13 19:01:56,121 - INFO - Aeronaves en el sector sector_IT_Norte: 451
+2025-07-13 19:01:56,122 - INFO - ***Latencia_ClienteATM_estadoatm***737.0450496673584***ms
+2025-07-13 19:01:56,125 - INFO - 192.168.65.1 - - [13/Jul/2025 19:01:56] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:02:01,230 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:02:01,232 - INFO - Aeronaves en el sector sector_CZ_Centro: 324
+2025-07-13 19:02:01,233 - INFO - Aeronaves en el sector sector_AD: 314
+2025-07-13 19:02:01,272 - INFO - Aeronaves en el sector sector_XK: 275
+2025-07-13 19:02:01,277 - INFO - Aeronaves en el sector sector_GB_Oeste: 359
+2025-07-13 19:02:01,307 - INFO - Aeronaves en el sector sector_BE_Este: 413
+2025-07-13 19:02:01,308 - INFO - Aeronaves en el sector sector_PT_Este: 171
+2025-07-13 19:02:01,309 - INFO - Aeronaves en el sector sector_TR_Oeste: 190
+2025-07-13 19:02:01,310 - INFO - Aeronaves en el sector sector_SE_Oeste: 167
+2025-07-13 19:02:01,312 - INFO - Aeronaves en el sector sector_RU_Oeste: 77
+2025-07-13 19:02:01,325 - INFO - Aeronaves en el sector sector_IT_Norte: 451
+2025-07-13 19:02:01,326 - INFO - ***Latencia_ClienteATM_estadoatm***95.06607055664062***ms
+2025-07-13 19:02:01,338 - INFO - 192.168.65.1 - - [13/Jul/2025 19:02:01] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:02:06,588 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:02:06,602 - INFO - Aeronaves en el sector sector_CZ_Centro: 324
+2025-07-13 19:02:06,662 - INFO - Aeronaves en el sector sector_AD: 314
+2025-07-13 19:02:06,669 - INFO - Aeronaves en el sector sector_XK: 275
+2025-07-13 19:02:06,698 - INFO - Aeronaves en el sector sector_GB_Oeste: 359
+2025-07-13 19:02:06,701 - INFO - Aeronaves en el sector sector_BE_Este: 413
+2025-07-13 19:02:06,705 - INFO - Aeronaves en el sector sector_PT_Este: 171
+2025-07-13 19:02:06,711 - INFO - Aeronaves en el sector sector_TR_Oeste: 190
+2025-07-13 19:02:06,819 - INFO - Aeronaves en el sector sector_SE_Oeste: 167
+2025-07-13 19:02:06,822 - INFO - Aeronaves en el sector sector_RU_Oeste: 77
+2025-07-13 19:02:06,826 - INFO - Aeronaves en el sector sector_IT_Norte: 451
+2025-07-13 19:02:06,829 - INFO - ***Latencia_ClienteATM_estadoatm***227.57983207702637***ms
+2025-07-13 19:02:06,845 - INFO - 192.168.65.1 - - [13/Jul/2025 19:02:06] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:02:11,976 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:02:12,016 - INFO - Aeronaves en el sector sector_CZ_Centro: 328
+2025-07-13 19:02:12,018 - INFO - Aeronaves en el sector sector_AD: 330
+2025-07-13 19:02:12,029 - INFO - Aeronaves en el sector sector_XK: 302
+2025-07-13 19:02:12,076 - INFO - Aeronaves en el sector sector_GB_Oeste: 370
+2025-07-13 19:02:12,126 - INFO - Aeronaves en el sector sector_BE_Este: 424
+2025-07-13 19:02:12,131 - INFO - Aeronaves en el sector sector_PT_Este: 197
+2025-07-13 19:02:12,136 - INFO - Aeronaves en el sector sector_TR_Oeste: 208
+2025-07-13 19:02:12,140 - INFO - Aeronaves en el sector sector_SE_Oeste: 173
+2025-07-13 19:02:12,144 - INFO - Aeronaves en el sector sector_RU_Oeste: 87
+2025-07-13 19:02:12,146 - INFO - Aeronaves en el sector sector_IT_Norte: 470
+2025-07-13 19:02:12,147 - INFO - ***Latencia_ClienteATM_estadoatm***161.29088401794434***ms
+2025-07-13 19:02:12,149 - INFO - 192.168.65.1 - - [13/Jul/2025 19:02:12] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:02:17,255 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:02:17,259 - INFO - Aeronaves en el sector sector_CZ_Centro: 328
+2025-07-13 19:02:17,260 - INFO - Aeronaves en el sector sector_AD: 330
+2025-07-13 19:02:17,266 - INFO - Aeronaves en el sector sector_XK: 302
+2025-07-13 19:02:17,268 - INFO - Aeronaves en el sector sector_GB_Oeste: 370
+2025-07-13 19:02:17,269 - INFO - Aeronaves en el sector sector_BE_Este: 424
+2025-07-13 19:02:17,272 - INFO - Aeronaves en el sector sector_PT_Este: 197
+2025-07-13 19:02:17,274 - INFO - Aeronaves en el sector sector_TR_Oeste: 208
+2025-07-13 19:02:17,277 - INFO - Aeronaves en el sector sector_SE_Oeste: 173
+2025-07-13 19:02:17,278 - INFO - Aeronaves en el sector sector_RU_Oeste: 87
+2025-07-13 19:02:17,280 - INFO - Aeronaves en el sector sector_IT_Norte: 470
+2025-07-13 19:02:17,282 - INFO - ***Latencia_ClienteATM_estadoatm***25.827646255493164***ms
+2025-07-13 19:02:17,291 - INFO - 192.168.65.1 - - [13/Jul/2025 19:02:17] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:02:22,419 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:02:22,441 - INFO - Aeronaves en el sector sector_CZ_Centro: 328
+2025-07-13 19:02:22,446 - INFO - Aeronaves en el sector sector_AD: 330
+2025-07-13 19:02:22,452 - INFO - Aeronaves en el sector sector_XK: 302
+2025-07-13 19:02:22,460 - INFO - Aeronaves en el sector sector_GB_Oeste: 370
+2025-07-13 19:02:22,462 - INFO - Aeronaves en el sector sector_BE_Este: 424
+2025-07-13 19:02:22,465 - INFO - Aeronaves en el sector sector_PT_Este: 197
+2025-07-13 19:02:22,486 - INFO - Aeronaves en el sector sector_TR_Oeste: 208
+2025-07-13 19:02:22,495 - INFO - Aeronaves en el sector sector_SE_Oeste: 173
+2025-07-13 19:02:22,520 - INFO - Aeronaves en el sector sector_RU_Oeste: 87
+2025-07-13 19:02:22,543 - INFO - Aeronaves en el sector sector_IT_Norte: 470
+2025-07-13 19:02:22,544 - INFO - ***Latencia_ClienteATM_estadoatm***123.92687797546387***ms
+2025-07-13 19:02:22,547 - INFO - 192.168.65.1 - - [13/Jul/2025 19:02:22] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:02:27,681 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:02:27,683 - INFO - Aeronaves en el sector sector_CZ_Centro: 328
+2025-07-13 19:02:27,690 - INFO - Aeronaves en el sector sector_AD: 330
+2025-07-13 19:02:27,693 - INFO - Aeronaves en el sector sector_XK: 302
+2025-07-13 19:02:27,695 - INFO - Aeronaves en el sector sector_GB_Oeste: 370
+2025-07-13 19:02:27,701 - INFO - Aeronaves en el sector sector_BE_Este: 424
+2025-07-13 19:02:27,706 - INFO - Aeronaves en el sector sector_PT_Este: 197
+2025-07-13 19:02:27,711 - INFO - Aeronaves en el sector sector_TR_Oeste: 208
+2025-07-13 19:02:27,722 - INFO - Aeronaves en el sector sector_SE_Oeste: 173
+2025-07-13 19:02:27,725 - INFO - Aeronaves en el sector sector_RU_Oeste: 87
+2025-07-13 19:02:27,726 - INFO - Aeronaves en el sector sector_IT_Norte: 470
+2025-07-13 19:02:27,727 - INFO - ***Latencia_ClienteATM_estadoatm***44.69490051269531***ms
+2025-07-13 19:02:27,729 - INFO - 192.168.65.1 - - [13/Jul/2025 19:02:27] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:02:32,936 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:02:33,012 - INFO - Aeronaves en el sector sector_CZ_Centro: 328
+2025-07-13 19:02:33,041 - INFO - Aeronaves en el sector sector_AD: 330
+2025-07-13 19:02:33,042 - INFO - Aeronaves en el sector sector_XK: 302
+2025-07-13 19:02:33,060 - INFO - Aeronaves en el sector sector_GB_Oeste: 370
+2025-07-13 19:02:33,062 - INFO - Aeronaves en el sector sector_BE_Este: 424
+2025-07-13 19:02:33,067 - INFO - Aeronaves en el sector sector_PT_Este: 197
+2025-07-13 19:02:33,199 - INFO - Aeronaves en el sector sector_TR_Oeste: 208
+2025-07-13 19:02:33,218 - INFO - Aeronaves en el sector sector_SE_Oeste: 173
+2025-07-13 19:02:33,221 - INFO - Aeronaves en el sector sector_RU_Oeste: 87
+2025-07-13 19:02:33,238 - INFO - Aeronaves en el sector sector_IT_Norte: 470
+2025-07-13 19:02:33,239 - INFO - ***Latencia_ClienteATM_estadoatm***302.05702781677246***ms
+2025-07-13 19:02:33,240 - INFO - 192.168.65.1 - - [13/Jul/2025 19:02:33] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:02:38,358 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:02:38,369 - INFO - Aeronaves en el sector sector_CZ_Centro: 328
+2025-07-13 19:02:38,371 - INFO - Aeronaves en el sector sector_AD: 330
+2025-07-13 19:02:38,373 - INFO - Aeronaves en el sector sector_XK: 302
+2025-07-13 19:02:38,374 - INFO - Aeronaves en el sector sector_GB_Oeste: 370
+2025-07-13 19:02:38,386 - INFO - Aeronaves en el sector sector_BE_Este: 424
+2025-07-13 19:02:38,394 - INFO - Aeronaves en el sector sector_PT_Este: 197
+2025-07-13 19:02:38,396 - INFO - Aeronaves en el sector sector_TR_Oeste: 208
+2025-07-13 19:02:38,431 - INFO - Aeronaves en el sector sector_SE_Oeste: 173
+2025-07-13 19:02:38,433 - INFO - Aeronaves en el sector sector_RU_Oeste: 87
+2025-07-13 19:02:38,440 - INFO - Aeronaves en el sector sector_IT_Norte: 470
+2025-07-13 19:02:38,440 - INFO - ***Latencia_ClienteATM_estadoatm***77.93498039245605***ms
+2025-07-13 19:02:38,441 - INFO - 192.168.65.1 - - [13/Jul/2025 19:02:38] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:02:43,571 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:02:43,581 - INFO - Aeronaves en el sector sector_CZ_Centro: 333
+2025-07-13 19:02:43,590 - INFO - Aeronaves en el sector sector_AD: 331
+2025-07-13 19:02:43,594 - INFO - Aeronaves en el sector sector_XK: 305
+2025-07-13 19:02:43,597 - INFO - Aeronaves en el sector sector_GB_Oeste: 373
+2025-07-13 19:02:43,602 - INFO - Aeronaves en el sector sector_BE_Este: 432
+2025-07-13 19:02:43,603 - INFO - Aeronaves en el sector sector_PT_Este: 205
+2025-07-13 19:02:43,605 - INFO - Aeronaves en el sector sector_TR_Oeste: 215
+2025-07-13 19:02:43,611 - INFO - Aeronaves en el sector sector_SE_Oeste: 173
+2025-07-13 19:02:43,637 - INFO - Aeronaves en el sector sector_RU_Oeste: 91
+2025-07-13 19:02:43,645 - INFO - Aeronaves en el sector sector_IT_Norte: 472
+2025-07-13 19:02:43,647 - INFO - ***Latencia_ClienteATM_estadoatm***74.45883750915527***ms
+2025-07-13 19:02:43,650 - INFO - 192.168.65.1 - - [13/Jul/2025 19:02:43] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:02:48,758 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:02:48,770 - INFO - Aeronaves en el sector sector_CZ_Centro: 333
+2025-07-13 19:02:48,771 - INFO - Aeronaves en el sector sector_AD: 331
+2025-07-13 19:02:48,775 - INFO - Aeronaves en el sector sector_XK: 305
+2025-07-13 19:02:48,779 - INFO - Aeronaves en el sector sector_GB_Oeste: 373
+2025-07-13 19:02:48,781 - INFO - Aeronaves en el sector sector_BE_Este: 432
+2025-07-13 19:02:48,790 - INFO - Aeronaves en el sector sector_PT_Este: 205
+2025-07-13 19:02:48,796 - INFO - Aeronaves en el sector sector_TR_Oeste: 215
+2025-07-13 19:02:48,803 - INFO - Aeronaves en el sector sector_SE_Oeste: 173
+2025-07-13 19:02:48,812 - INFO - Aeronaves en el sector sector_RU_Oeste: 91
+2025-07-13 19:02:48,813 - INFO - Aeronaves en el sector sector_IT_Norte: 472
+2025-07-13 19:02:48,818 - INFO - ***Latencia_ClienteATM_estadoatm***59.10491943359375***ms
+2025-07-13 19:02:48,820 - INFO - 192.168.65.1 - - [13/Jul/2025 19:02:48] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:02:53,897 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:02:53,959 - INFO - Aeronaves en el sector sector_CZ_Centro: 333
+2025-07-13 19:02:53,960 - INFO - Aeronaves en el sector sector_AD: 331
+2025-07-13 19:02:53,962 - INFO - Aeronaves en el sector sector_XK: 305
+2025-07-13 19:02:53,965 - INFO - Aeronaves en el sector sector_GB_Oeste: 373
+2025-07-13 19:02:53,973 - INFO - Aeronaves en el sector sector_BE_Este: 432
+2025-07-13 19:02:53,975 - INFO - Aeronaves en el sector sector_PT_Este: 205
+2025-07-13 19:02:53,981 - INFO - Aeronaves en el sector sector_TR_Oeste: 215
+2025-07-13 19:02:53,986 - INFO - Aeronaves en el sector sector_SE_Oeste: 173
+2025-07-13 19:02:53,990 - INFO - Aeronaves en el sector sector_RU_Oeste: 91
+2025-07-13 19:02:53,992 - INFO - Aeronaves en el sector sector_IT_Norte: 472
+2025-07-13 19:02:53,997 - INFO - ***Latencia_ClienteATM_estadoatm***98.88315200805664***ms
+2025-07-13 19:02:53,999 - INFO - 192.168.65.1 - - [13/Jul/2025 19:02:53] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:02:59,094 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:02:59,098 - INFO - Aeronaves en el sector sector_CZ_Centro: 336
+2025-07-13 19:02:59,100 - INFO - Aeronaves en el sector sector_AD: 338
+2025-07-13 19:02:59,103 - INFO - Aeronaves en el sector sector_XK: 311
+2025-07-13 19:02:59,105 - INFO - Aeronaves en el sector sector_GB_Oeste: 375
+2025-07-13 19:02:59,108 - INFO - Aeronaves en el sector sector_BE_Este: 437
+2025-07-13 19:02:59,111 - INFO - Aeronaves en el sector sector_PT_Este: 204
+2025-07-13 19:02:59,113 - INFO - Aeronaves en el sector sector_TR_Oeste: 221
+2025-07-13 19:02:59,114 - INFO - Aeronaves en el sector sector_SE_Oeste: 171
+2025-07-13 19:02:59,119 - INFO - Aeronaves en el sector sector_RU_Oeste: 91
+2025-07-13 19:02:59,123 - INFO - Aeronaves en el sector sector_IT_Norte: 474
+2025-07-13 19:02:59,124 - INFO - ***Latencia_ClienteATM_estadoatm***28.699874877929688***ms
+2025-07-13 19:02:59,125 - INFO - 192.168.65.1 - - [13/Jul/2025 19:02:59] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:03:04,228 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:03:04,249 - INFO - Aeronaves en el sector sector_CZ_Centro: 336
+2025-07-13 19:03:04,256 - INFO - Aeronaves en el sector sector_AD: 338
+2025-07-13 19:03:04,286 - INFO - Aeronaves en el sector sector_XK: 311
+2025-07-13 19:03:04,296 - INFO - Aeronaves en el sector sector_GB_Oeste: 375
+2025-07-13 19:03:04,302 - INFO - Aeronaves en el sector sector_BE_Este: 437
+2025-07-13 19:03:04,322 - INFO - Aeronaves en el sector sector_PT_Este: 204
+2025-07-13 19:03:04,340 - INFO - Aeronaves en el sector sector_TR_Oeste: 221
+2025-07-13 19:03:04,343 - INFO - Aeronaves en el sector sector_SE_Oeste: 171
+2025-07-13 19:03:04,348 - INFO - Aeronaves en el sector sector_RU_Oeste: 91
+2025-07-13 19:03:04,355 - INFO - Aeronaves en el sector sector_IT_Norte: 474
+2025-07-13 19:03:04,363 - INFO - ***Latencia_ClienteATM_estadoatm***131.1802864074707***ms
+2025-07-13 19:03:04,384 - INFO - 192.168.65.1 - - [13/Jul/2025 19:03:04] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:03:09,529 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:03:09,567 - INFO - Aeronaves en el sector sector_CZ_Centro: 336
+2025-07-13 19:03:09,574 - INFO - Aeronaves en el sector sector_AD: 338
+2025-07-13 19:03:09,581 - INFO - Aeronaves en el sector sector_XK: 311
+2025-07-13 19:03:09,585 - INFO - Aeronaves en el sector sector_GB_Oeste: 375
+2025-07-13 19:03:09,590 - INFO - Aeronaves en el sector sector_BE_Este: 437
+2025-07-13 19:03:09,607 - INFO - Aeronaves en el sector sector_PT_Este: 204
+2025-07-13 19:03:09,612 - INFO - Aeronaves en el sector sector_TR_Oeste: 221
+2025-07-13 19:03:09,630 - INFO - Aeronaves en el sector sector_SE_Oeste: 171
+2025-07-13 19:03:09,709 - INFO - Aeronaves en el sector sector_RU_Oeste: 91
+2025-07-13 19:03:09,720 - INFO - Aeronaves en el sector sector_IT_Norte: 474
+2025-07-13 19:03:09,720 - INFO - ***Latencia_ClienteATM_estadoatm***189.95332717895508***ms
+2025-07-13 19:03:09,721 - INFO - 192.168.65.1 - - [13/Jul/2025 19:03:09] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-13 19:03:15,111 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-13 19:03:15,117 - INFO - Aeronaves en el sector sector_CZ_Centro: 336
+2025-07-13 19:03:15,124 - INFO - Aeronaves en el sector sector_AD: 338
+2025-07-13 19:03:15,129 - INFO - Aeronaves en el sector sector_XK: 311
+2025-07-13 19:03:15,143 - INFO - Aeronaves en el sector sector_GB_Oeste: 375
+2025-07-13 19:03:15,145 - INFO - Aeronaves en el sector sector_BE_Este: 437
+2025-07-13 19:03:15,152 - INFO - Aeronaves en el sector sector_PT_Este: 204
+2025-07-13 19:03:15,154 - INFO - Aeronaves en el sector sector_TR_Oeste: 221
+2025-07-13 19:03:15,160 - INFO - Aeronaves en el sector sector_SE_Oeste: 171
+2025-07-13 19:03:15,177 - INFO - Aeronaves en el sector sector_RU_Oeste: 91
+2025-07-13 19:03:15,188 - INFO - Aeronaves en el sector sector_IT_Norte: 474
+2025-07-13 19:03:15,191 - INFO - ***Latencia_ClienteATM_estadoatm***78.65095138549805***ms
+2025-07-13 19:03:15,199 - INFO - 192.168.65.1 - - [13/Jul/2025 19:03:15] "GET /estado_atm HTTP/1.1" 200 -

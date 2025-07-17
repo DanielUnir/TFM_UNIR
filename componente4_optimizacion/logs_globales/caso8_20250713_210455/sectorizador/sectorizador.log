@@ -1,0 +1,112 @@
+2025-07-13 18:55:58,337 - INFO - sectorizador: Conectado a Redis en redis:6379
+2025-07-13 18:55:58,344 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:55:58,349 - INFO - ***Latencia_Sectorizador***8.216381072998047***ms
+2025-07-13 18:55:58,351 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:56:08,420 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:56:08,502 - INFO - ***Latencia_Sectorizador***122.24078178405762***ms
+2025-07-13 18:56:08,504 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:56:18,480 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:56:18,492 - INFO - ***Latencia_Sectorizador***31.516075134277344***ms
+2025-07-13 18:56:18,493 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:56:28,584 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:56:28,585 - INFO - ***Latencia_Sectorizador***64.02039527893066***ms
+2025-07-13 18:56:28,599 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:56:38,670 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:56:38,697 - INFO - ***Latencia_Sectorizador***83.43076705932617***ms
+2025-07-13 18:56:38,700 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:56:48,717 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:56:48,721 - INFO - ***Latencia_Sectorizador***11.823177337646484***ms
+2025-07-13 18:56:48,731 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:56:59,302 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:56:59,316 - INFO - ***Latencia_Sectorizador***562.6144409179688***ms
+2025-07-13 18:56:59,584 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:57:09,662 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:57:09,665 - INFO - ***Latencia_Sectorizador***13.08894157409668***ms
+2025-07-13 18:57:09,671 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:57:19,866 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:57:19,880 - INFO - ***Latencia_Sectorizador***203.32932472229004***ms
+2025-07-13 18:57:19,884 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:57:29,903 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:57:29,904 - INFO - ***Latencia_Sectorizador***13.036966323852539***ms
+2025-07-13 18:57:29,905 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:57:39,956 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:57:39,964 - INFO - ***Latencia_Sectorizador***29.28614616394043***ms
+2025-07-13 18:57:39,965 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:57:50,087 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:57:50,349 - INFO - ***Latencia_Sectorizador***333.7082862854004***ms
+2025-07-13 18:57:50,350 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:58:00,486 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:58:00,549 - INFO - ***Latencia_Sectorizador***177.75630950927734***ms
+2025-07-13 18:58:00,554 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:58:10,626 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:58:10,627 - INFO - ***Latencia_Sectorizador***40.97414016723633***ms
+2025-07-13 18:58:10,630 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:58:20,814 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:58:20,823 - INFO - ***Latencia_Sectorizador***180.28616905212402***ms
+2025-07-13 18:58:20,824 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:58:30,984 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:58:30,985 - INFO - ***Latencia_Sectorizador***113.89017105102539***ms
+2025-07-13 18:58:30,986 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:58:41,461 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:58:41,475 - INFO - ***Latencia_Sectorizador***388.7970447540283***ms
+2025-07-13 18:58:41,477 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:58:51,716 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:58:51,717 - INFO - ***Latencia_Sectorizador***234.66849327087402***ms
+2025-07-13 18:58:51,718 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:59:01,789 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:59:01,805 - INFO - ***Latencia_Sectorizador***52.0782470703125***ms
+2025-07-13 18:59:01,806 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:59:11,825 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:59:11,826 - INFO - ***Latencia_Sectorizador***10.173320770263672***ms
+2025-07-13 18:59:11,827 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:59:21,835 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:59:21,836 - INFO - ***Latencia_Sectorizador***5.675077438354492***ms
+2025-07-13 18:59:21,838 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:59:31,871 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:59:31,873 - INFO - ***Latencia_Sectorizador***29.264211654663086***ms
+2025-07-13 18:59:31,874 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:59:42,400 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:59:42,451 - INFO - ***Latencia_Sectorizador***508.59951972961426***ms
+2025-07-13 18:59:42,452 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:59:52,467 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:59:52,500 - INFO - ***Latencia_Sectorizador***44.78287696838379***ms
+2025-07-13 18:59:52,508 - INFO - Sectores actualizados en Redis.
+2025-07-13 19:00:02,822 - ERROR - Error al sectorizar: no such key
+2025-07-13 19:00:02,832 - INFO - ***Latencia_Sectorizador***315.3533935546875***ms
+2025-07-13 19:00:02,838 - INFO - Sectores actualizados en Redis.
+2025-07-13 19:00:12,840 - ERROR - Error al sectorizar: no such key
+2025-07-13 19:00:12,841 - INFO - ***Latencia_Sectorizador***15.165090560913086***ms
+2025-07-13 19:00:12,841 - INFO - Sectores actualizados en Redis.
+2025-07-13 19:00:22,865 - ERROR - Error al sectorizar: no such key
+2025-07-13 19:00:22,867 - INFO - ***Latencia_Sectorizador***20.31874656677246***ms
+2025-07-13 19:00:22,869 - INFO - Sectores actualizados en Redis.
+2025-07-13 19:00:33,600 - ERROR - Error al sectorizar: no such key
+2025-07-13 19:00:33,602 - INFO - ***Latencia_Sectorizador***696.4211463928223***ms
+2025-07-13 19:00:33,605 - INFO - Sectores actualizados en Redis.
+2025-07-13 19:00:43,705 - ERROR - Error al sectorizar: no such key
+2025-07-13 19:00:43,706 - INFO - ***Latencia_Sectorizador***80.17754554748535***ms
+2025-07-13 19:00:43,707 - INFO - Sectores actualizados en Redis.
+2025-07-13 19:01:48,104 - INFO - 2741 aeronaves sectorizadas correctamente.
+2025-07-13 19:01:48,132 - INFO - ***Latencia_Sectorizador***54395.52545547485***ms
+2025-07-13 19:01:48,135 - INFO - Sectores actualizados en Redis.
+2025-07-13 19:02:11,087 - INFO - 2889 aeronaves sectorizadas correctamente.
+2025-07-13 19:02:11,096 - INFO - ***Latencia_Sectorizador***12955.151796340942***ms
+2025-07-13 19:02:11,100 - INFO - Sectores actualizados en Redis.
+2025-07-13 19:02:39,329 - INFO - 2930 aeronaves sectorizadas correctamente.
+2025-07-13 19:02:39,331 - INFO - ***Latencia_Sectorizador***18188.30919265747***ms
+2025-07-13 19:02:39,332 - INFO - Sectores actualizados en Redis.
+2025-07-13 19:02:58,767 - INFO - 2958 aeronaves sectorizadas correctamente.
+2025-07-13 19:02:58,772 - INFO - ***Latencia_Sectorizador***9465.163469314575***ms
+2025-07-13 19:02:58,773 - INFO - Sectores actualizados en Redis.
+2025-07-13 19:03:26,921 - INFO - 2974 aeronaves sectorizadas correctamente.
+2025-07-13 19:03:26,929 - INFO - ***Latencia_Sectorizador***18146.40522003174***ms
+2025-07-13 19:03:26,932 - INFO - Sectores actualizados en Redis.
+2025-07-13 19:03:45,243 - INFO - 3001 aeronaves sectorizadas correctamente.
+2025-07-13 19:03:45,244 - INFO - ***Latencia_Sectorizador***8307.335376739502***ms
+2025-07-13 19:03:45,245 - INFO - Sectores actualizados en Redis.
+2025-07-13 19:04:05,313 - INFO - 3009 aeronaves sectorizadas correctamente.
+2025-07-13 19:04:05,314 - INFO - ***Latencia_Sectorizador***10063.080549240112***ms
+2025-07-13 19:04:05,315 - INFO - Sectores actualizados en Redis.
+2025-07-13 19:04:17,131 - INFO - 729 aeronaves sectorizadas correctamente.
+2025-07-13 19:04:17,133 - INFO - ***Latencia_Sectorizador***1809.678077697754***ms
+2025-07-13 19:04:17,133 - INFO - Sectores actualizados en Redis.
