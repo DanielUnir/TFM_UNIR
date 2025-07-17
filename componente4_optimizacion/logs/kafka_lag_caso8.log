@@ -1,0 +1,85 @@
+
+GROUP  
+GROUP                 TOPIC         TOPIC                  PARTITIONPARTITION  CURRENT-OFFSET  CURRENT-OFFSET    LOG-END-OFFSET  LOG-END-OFFSET  LAG      LAG        CONSUMER-ID                                      CONSUMER-ID                              HOST                          CLIENT-ID       
+adsb_redis_group adsb.aeronaves  5                     0HOST             CLIENT-ID            
+adsb_mongo_group adsb.aeronaves  0   0                    0             0        0                           consumidor_redis6-d5c9809f-6e4f-479c-b159-08a4c88eb3e1 0     /172.18.0.15              consumidor_mongo1-6e5b6263-2729-4070-9e21-4423b3db073e /172.18.0.13  consumidor_redis6   consumidor_mongo1
+adsb_redis_group adsb.aeronaves  2
+adsb_mongo_group   adsb.aeronaves          0 3               0          0                            0    0                        consumidor_redis3-c55cf124-e382-4057-b122-d1877f0d94cc /172.18.0.9   0         consumidor_redis3     
+     adsb_redis_group adsb.aeronaves  3      consumidor_mongo4-e328d449-9b61-4e72-af8b-ff9a092d58c6 /172.18.0.17      0    consumidor_mongo4   
+   adsb_mongo_group        0        adsb.aeronaves     1     0               0                         0  consumidor_redis4-865b8fac-d658-443b-b133-05861d174848        /172.18.0.12         consumidor_redis4
+ 0      adsb_redis_group adsb.aeronaves  0          0           consumidor_mongo2-75c7ac3e-3eb0-4bb5-b082-1af0ede20139   /172.18.0.20               0 consumidor_mongo2
+adsb_mongo_group adsb.aeronaves               0        2                consumidor_redis1-42437121-6e04-4792-8b55-1244cb2194f0 /172.18.0.8   0         consumidor_redis1 
+adsb_redis_group adsb.aeronaves           4 0                   0           0                 consumidor_mongo3-10c080b3-ba31-49ac-8eca-8db8629d9d9e   /172.18.0.16       consumidor_mongo3  0    
+adsb_mongo_group         adsb.aeronaves     0            5             0    consumidor_redis5-6baad5d5-faf3-46ba-92ff-f33de23cc4ec /172.18.0.18               0consumidor_redis5     
+adsb_redis_group   adsb.aeronaves  1             0                  0           consumidor_mongo6-8cf75f61-65da-4d35-960b-147f5b6a1b84 /172.18.0.14        0              consumidor_mongo6   0
+adsb_mongo_group adsb.aeronaves   4                0              consumidor_redis2-056c8586-08ef-4cba-bfd1-621b3e6596e1 /172.18.0.10            consumidor_redis2 0               0               consumidor_mongo5-d5ef487d-da1c-4ae8-b319-de574fd20616 /172.18.0.19    consumidor_mongo5
+GROUP
+GROUP                       TOPIC  TOPIC                  PARTITION    PARTITION   CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-IDCURRENT-OFFSET  LOG-END-OFFSET   LAG                                       CONSUMER-ID                                 HOST                        CLIENT-ID  
+ adsb_redis_group         adsb.aeronaves   5           0             HOST                CLIENT-ID
+ 0 adsb_mongo_group      adsb.aeronaves        0     0            0                    consumidor_redis6-d5c9809f-6e4f-479c-b159-08a4c88eb3e1    /172.18.0.15    0             consumidor_redis6     0
+adsb_redis_group adsb.aeronaves     2                 consumidor_mongo1-6e5b6263-2729-4070-9e21-4423b3db073e      0/172.18.0.13                  0 consumidor_mongo1   
+adsb_mongo_group adsb.aeronaves  3                 0                 0                 0     consumidor_redis3-c55cf124-e382-4057-b122-d1877f0d94cc /172.18.0.9             consumidor_redis3   0  
+ adsb_redis_group   adsb.aeronaves  3             consumidor_mongo4-e328d449-9b61-4e72-af8b-ff9a092d58c6     /172.18.0.17    0         consumidor_mongo4    
+adsb_mongo_group adsb.aeronaves     1    0              0            0                        consumidor_redis4-865b8fac-d658-443b-b133-05861d174848 /172.18.0.12      consumidor_redis4
+adsb_redis_group adsb.aeronaves  0 0                       0  0                            0   consumidor_mongo2-75c7ac3e-3eb0-4bb5-b082-1af0ede20139           /172.18.0.20    consumidor_mongo2
+    0  adsb_mongo_group adsb.aeronaves     2              0            consumidor_redis1-42437121-6e04-4792-8b55-1244cb2194f0 /172.18.0.8         0                 0    consumidor_redis1     
+adsb_redis_group adsb.aeronaves  4                   0      consumidor_mongo3-10c080b3-ba31-49ac-8eca-8db8629d9d9e         0        /172.18.0.16    consumidor_mongo3 
+   adsb_mongo_group    adsb.aeronaves  5          0  0                    0                consumidor_redis5-6baad5d5-faf3-46ba-92ff-f33de23cc4ec /172.18.0.18           consumidor_redis5
+adsb_redis_group  adsb.aeronaves  1          0 0                   0                      consumidor_mongo6-8cf75f61-65da-4d35-960b-147f5b6a1b84   0     /172.18.0.14       consumidor_mongo6        consumidor_redis2-056c8586-08ef-4cba-bfd1-621b3e6596e1 /172.18.0.10    consumidor_redis2
+adsb_mongo_group adsb.aeronaves  4          0               0               0               consumidor_mongo5-d5ef487d-da1c-4ae8-b319-de574fd20616 /172.18.0.19    consumidor_mongo5
+GROUP            TOPIC           PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID                                            HOST            CLIENT-ID
+adsb_mongo_group adsb.aeronaves  0          0               0               0               consumidor_mongo1-6e5b6263-2729-4070-9e21-4423b3db073e /172.18.0.13    consumidor_mongo1
+adsb_mongo_group adsb.aeronaves  3          0               0               0               consumidor_mongo4-e328d449-9b61-4e72-af8b-ff9a092d58c6 /172.18.0.17    consumidor_mongo4
+adsb_mongo_group adsb.aeronaves  1          0               0               0               consumidor_mongo2-75c7ac3e-3eb0-4bb5-b082-1af0ede20139 /172.18.0.20    consumidor_mongo2
+adsb_mongo_group adsb.aeronaves  2          0               0               0               consumidor_mongo3-10c080b3-ba31-49ac-8eca-8db8629d9d9e /172.18.0.16    consumidor_mongo3
+adsb_mongo_group adsb.aeronaves  5          0               0               0               consumidor_mongo6-8cf75f61-65da-4d35-960b-147f5b6a1b84 /172.18.0.14    consumidor_mongo6
+adsb_mongo_group adsb.aeronaves  4          0               0               0               consumidor_mongo5-d5ef487d-da1c-4ae8-b319-de574fd20616 /172.18.0.19    consumidor_mongo5
+GROUP            TOPIC           PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID                                            HOST            CLIENT-ID
+adsb_redis_group adsb.aeronaves  5          0               0               0               consumidor_redis6-d5c9809f-6e4f-479c-b159-08a4c88eb3e1 /172.18.0.15    consumidor_redis6
+adsb_redis_group adsb.aeronaves  2          0               1               1               consumidor_redis3-c55cf124-e382-4057-b122-d1877f0d94cc /172.18.0.9     consumidor_redis3
+adsb_redis_group adsb.aeronaves  3          0               0               0               consumidor_redis4-865b8fac-d658-443b-b133-05861d174848 /172.18.0.12    consumidor_redis4
+adsb_redis_group adsb.aeronaves  0          0               0               0               consumidor_redis1-42437121-6e04-4792-8b55-1244cb2194f0 /172.18.0.8     consumidor_redis1
+adsb_redis_group adsb.aeronaves  4          0               0               0               consumidor_redis5-6baad5d5-faf3-46ba-92ff-f33de23cc4ec /172.18.0.18    consumidor_redis5
+adsb_redis_group adsb.aeronaves  1          0               0               0               consumidor_redis2-056c8586-08ef-4cba-bfd1-621b3e6596e1 /172.18.0.10    consumidor_redis2
+GROUP            TOPIC           PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID                                            HOST            CLIENT-ID
+adsb_redis_group adsb.aeronaves  5          23              29              6  
+GROUP                         consumidor_redis6-d5c9809f-6e4f-479c-b159-08a4c88eb3e1 TOPIC /172.18.0.15           PARTITION  CURRENT-OFFSET     consumidor_redis6LOG-END-OFFSET  LAG 
+  adsb_redis_group    adsb.aeronaves  2             32      CONSUMER-ID                                      34                              2    HOST                      consumidor_redis3-c55cf124-e382-4057-b122-d1877f0d94cc   /172.18.0.9 CLIENT-ID     consumidor_redis3
+adsb_redis_group 
+adsb_mongo_group adsb.aeronaves adsb.aeronaves  3   0             21       9                   21                     27     0                   18             consumidor_redis4-865b8fac-d658-443b-b133-05861d174848 /172.18.0.12         consumidor_mongo1-6e5b6263-2729-4070-9e21-4423b3db073e /172.18.0.13  consumidor_redis4
+adsb_redis_group adsb.aeronaves  0              consumidor_mongo1
+adsb_mongo_group 25      adsb.aeronaves        3            275                          21   2                           16  consumidor_redis1-42437121-6e04-4792-8b55-1244cb2194f0    /172.18.0.8           consumidor_redis1  
+adsb_redis_group   consumidor_mongo4-e328d449-9b61-4e72-af8b-ff9a092d58c6 /172.18.0.17     consumidor_mongo4adsb.aeronaves  4  
+     adsb_mongo_group adsb.aeronaves     29  1               7                      31     16                  2            9                 consumidor_redis5-6baad5d5-faf3-46ba-92ff-f33de23cc4ec   /172.18.0.18        consumidor_redis5
+adsb_redis_group consumidor_mongo2-75c7ac3e-3eb0-4bb5-b082-1af0ede20139 adsb.aeronaves  /172.18.0.20 1      consumidor_mongo2
+adsb_mongo_group      adsb.aeronaves  16                16 2                       0   13                    34                 21   consumidor_redis2-056c8586-08ef-4cba-bfd1-621b3e6596e1    /172.18.0.10    consumidor_redis2           consumidor_mongo3-10c080b3-ba31-49ac-8eca-8db8629d9d9e /172.18.0.16    consumidor_mongo3
+adsb_mongo_group adsb.aeronaves  5          5               29              24              consumidor_mongo6-8cf75f61-65da-4d35-960b-147f5b6a1b84 /172.18.0.14    consumidor_mongo6
+adsb_mongo_group adsb.aeronaves  4          4               31              27              consumidor_mongo5-d5ef487d-da1c-4ae8-b319-de574fd20616 /172.18.0.19    consumidor_mongo5
+GROUP            TOPIC           PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID                                            HOST            CLIENT-ID
+adsb_redis_group adsb.aeronaves  5          40              40              0               consumidor_redis6-d5c9809f-6e4f-479c-b159-08a4c88eb3e1 /172.18.0.15    consumidor_redis6
+adsb_redis_group adsb.aeronaves  2          47              47              0               consumidor_redis3-c55cf124-e382-4057-b122-d1877f0d94cc /172.18.0.9     consumidor_redis3
+adsb_redis_group adsb.aeronaves  3          32              32              0               consumidor_redis4-865b8fac-d658-443b-b133-05861d174848 /172.18.0.12    consumidor_redis4
+adsb_redis_group adsb.aeronaves  0          42              45              3               consumidor_redis1-42437121-6e04-4792-8b55-1244cb2194f0 /172.18.0.8     consumidor_redis1
+adsb_redis_group adsb.aeronaves  4          44              46              2               consumidor_redis5-6baad5d5-faf3-46ba-92ff-f33de23cc4ec /172.18.0.18    consumidor_redis5
+adsb_redis_group adsb.aeronaves  1          29              30              1               consumidor_redis2-056c8586-08ef-4cba-bfd1-621b3e6596e1 /172.18.0.10    consumidor_redis2
+GROUP            TOPIC           PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID                                            HOST            CLIENT-ID
+adsb_mongo_group adsb.aeronaves  0          22              45              23              consumidor_mongo1-6e5b6263-2729-4070-9e21-4423b3db073e /172.18.0.13    consumidor_mongo1
+adsb_mongo_group adsb.aeronaves  3          32              32              0               consumidor_mongo4-e328d449-9b61-4e72-af8b-ff9a092d58c6 /172.18.0.17    consumidor_mongo4
+adsb_mongo_group adsb.aeronaves  1          26              30              4               consumidor_mongo2-75c7ac3e-3eb0-4bb5-b082-1af0ede20139 /172.18.0.20    consumidor_mongo2
+adsb_mongo_group adsb.aeronaves  2          27              47              20              consumidor_mongo3-10c080b3-ba31-49ac-8eca-8db8629d9d9e /172.18.0.16    consumidor_mongo3
+adsb_mongo_group adsb.aeronaves  5          28              40              12              consumidor_mongo6-8cf75f61-65da-4d35-960b-147f5b6a1b84 /172.18.0.14    consumidor_mongo6
+adsb_mongo_group adsb.aeronaves  4          26              46              20              consumidor_mongo5-d5ef487d-da1c-4ae8-b319-de574fd20616 /172.18.0.19    consumidor_mongo5
+GROUP            TOPIC           PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID                                            HOST            CLIENT-ID
+adsb_redis_group adsb.aeronaves  5          54              55              1               consumidor_redis6-d5c9809f-6e4f-479c-b159-08a4c88eb3e1 /172.18.0.15    consumidor_redis6
+adsb_redis_group adsb.aeronaves  2          63              66              3               consumidor_redis3-c55cf124-e382-4057-b122-d1877f0d94cc /172.18.0.9     consumidor_redis3
+adsb_redis_group adsb.aeronaves  3          43              46              3   
+GROUP                       consumidor_redis4-865b8fac-d658-443b-b133-05861d174848  TOPIC/172.18.0.12      consumidor_redis4      
+adsb_redis_group adsb.aeronaves   PARTITION  0  CURRENT-OFFSET          57     LOG-END-OFFSET  LAG                   CONSUMER-ID         59                          2                          consumidor_redis1-42437121-6e04-4792-8b55-1244cb2194f0     /172.18.0.8     consumidor_redis1
+         adsb_redis_group adsb.aeronaves  4            HOST      64                     CLIENT-ID 65              1           
+adsb_mongo_group    adsb.aeronaves   0consumidor_redis5-6baad5d5-faf3-46ba-92ff-f33de23cc4ec /172.18.0.18      consumidor_redis5        48
+adsb_redis_group  adsb.aeronaves         1               59    44                     46        11              2           consumidor_mongo1-6e5b6263-2729-4070-9e21-4423b3db073e /172.18.0.13                 consumidor_mongo1
+adsb_mongo_group adsb.aeronaves  3   consumidor_redis2-056c8586-08ef-4cba-bfd1-621b3e6596e1     /172.18.0.10    consumidor_redis2    43              46              3               consumidor_mongo4-e328d449-9b61-4e72-af8b-ff9a092d58c6 /172.18.0.17    consumidor_mongo4
+adsb_mongo_group adsb.aeronaves  1          42              46              4               consumidor_mongo2-75c7ac3e-3eb0-4bb5-b082-1af0ede20139 /172.18.0.20    consumidor_mongo2
+adsb_mongo_group adsb.aeronaves  2          51              66              15              consumidor_mongo3-10c080b3-ba31-49ac-8eca-8db8629d9d9e /172.18.0.16    consumidor_mongo3
+adsb_mongo_group adsb.aeronaves  5          48              60              12              consumidor_mongo6-8cf75f61-65da-4d35-960b-147f5b6a1b84 /172.18.0.14    consumidor_mongo6
+adsb_mongo_group adsb.aeronaves  4          40              65              25              consumidor_mongo5-d5ef487d-da1c-4ae8-b319-de574fd20616 /172.18.0.19    consumidor_mongo5
