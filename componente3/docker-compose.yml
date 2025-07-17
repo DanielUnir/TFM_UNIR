@@ -1,0 +1,331 @@
+# Este archivo docker-compose.yml define los servicios necesarios para el Componente 3 del sistema
+#   Apache Kafka
+#   Redis
+#   Consumidor Redis
+#   Productor de mensajes ADS-B
+#   Sectorizador
+#   Cliente ATM
+#   Consumidor MongoDB
+#   Cliente histórico
+
+
+# Se establecen servicios base 'anchor' del docker compose
+#   precedido de 'x-'. Los módulos replicados usan '<<: *' para recuperar la condiguración del anchor.
+#   estos servicios deben precompilarse antes de ejecutar el docker compose, para ello
+#   se debe ejecutar el comando 'docker build'.
+#     docker build -t consumidor_redis:latest ./consumidor_redis
+#     docker build -t consumidor_mongo:latest ./consumidor_mongo
+
+
+# Anchor: Servicio consumidor_redis. Consume mensajes de Kafka y los almacena en Redis.
+x-consumidor_redis: &consumidor_redis
+    image: consumidor_redis:latest                                                            # Imagen precompilada del Dockerfile en ./consumidor_redis
+    
+    depends_on:                                                                               # Arranca tras Kafka y Redis, según estado healthcheck
+      kafka:
+        condition: service_healthy                                                          
+      redis:
+        condition: service_healthy                                                          
+    
+    restart: unless-stopped                                                                   # Reinicia automáticamente a menos que se detenga manualmente
+    
+    networks:                                                                                 # Red virtual para establecer rutas, IP y DNS entre contenedores
+      - red_adsb
+    
+    healthcheck:
+      test: ["CMD","pgrep","-f","consumidor_redis.py"]                                        # Comando para verificar estado del servicio con su proceso principal
+      interval: 5s                                                                            # Intervalo entre comprobaciones de salud
+      timeout: 10s                                                                            # Tiempo máximo para una comprobación de salud
+      retries: 10                                                                             # Número de reintentos antes de considerar el servicio como no saludable
+    
+    volumes:
+      - ./logs/consumidor_redis:/logs                                                         # Volumen persistente para logs
+
+
+# Anchor: Servicio consumidor_mongo. Consume mensajes de Kafka y los almacena en MongoDB.
+x-consumidor_mongo: &consumidor_mongo
+    image: consumidor_mongo:latest                                                          # Imagen precompilada del Dockerfile en ./consumidor_mongo
+    depends_on:                                                                             # Arranca tras Kafka y MongoDB, según estado healthcheck 
+      kafka:
+        condition: service_healthy                                                          
+      mongo:
+        condition: service_healthy
+    restart: unless-stopped                                                                 # Reinicia automáticamente a menos que se detenga manualmente
+    volumes:
+      - ./config:/app/config                                                                # Para cargar la configuración de sectores
+      - ./logs/consumidor_mongo:/logs                                                       # Volumen persistente para logs
+    networks:                                                                               # Red virtual para establecer rutas, IP y DNS entre contenedores
+      - red_adsb
+    healthcheck:
+      test: ["CMD","pgrep","-f","consumidor_mongo.py"]                                        # Comando para verificar estado del servicio con su proceso principal
+      interval: 5s                                                                          # Intervalo entre comprobaciones de salud
+      timeout: 10s                                                                          # Tiempo máximo para una comprobación de salud
+      retries: 10                                                                            # Número de reintentos antes de considerar el servicio como no saludable
+
+
+services:
+#   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Servicio Kafka: Sistema de mensajería para la transmisión de datos.
+  kafka:
+    image: bitnami/kafka:3.9.0                                                                # Imagen de la distribución Bitnami de Kafka
+    
+    container_name: kafka                                                                     # Nombre del contenedor
+    
+    ports:                                                                                    # Puerto de acceso
+      - "9092:9092"
+    
+    environment:                                                                              # Variables de entorno para configurar Kafka (archivo .env)
+      - KAFKA_CFG_NODE_ID=${KAFKA_CFG_NODE_ID}                                                # ID del nodo Kafka
+      - KAFKA_CFG_PROCESS_ROLES=${KAFKA_CFG_PROCESS_ROLES}                                    # Roles del proceso Kafka (broker, controller)
+      - KAFKA_CFG_CONTROLLER_QUORUM_VOTERS=${KAFKA_CFG_CONTROLLER_QUORUM_VOTERS}              # Votantes del quórum del controlador
+      - KAFKA_CFG_CONTROLLER_LISTENER_NAMES=${KAFKA_CFG_CONTROLLER_LISTENER_NAMES}            # Nombres de los listeners del controlador
+      - KAFKA_CFG_LISTENERS=${KAFKA_CFG_LISTENERS}                                            # Listeners de Kafka (direcciones y protocolos)
+      - KAFKA_CFG_LISTENER_SECURITY_PROTOCOL_MAP=${KAFKA_CFG_LISTENER_SECURITY_PROTOCOL_MAP}  # Mapa de protocolos de seguridad para los listeners
+      - KAFKA_CFG_ADVERTISED_LISTENERS=${KAFKA_CFG_ADVERTISED_LISTENERS}                      # Listeners anunciados para que los clientes se conecten
+      - KAFKA_CFG_LOG_DIRS=${KAFKA_CFG_LOG_DIRS}                                              # Directorios de logs de Kafka          
+      - KAFKA_MESSAGE_MAX_BYTES=${KAFKA_MESSAGE_MAX_BYTES}                                    # Tamaño máximo del mensaje. No es óptimo superior a 1Mb, pero se aumenta para los test a 5 MB
+      - KAFKA_CFG_NUM_PARTITIONS=${KAFKA_CFG_NUM_PARTITIONS}                                  # Número de particiones por defecto para los topics                
+      - KAFKA_CFG_DEFAULT_REPLICATION_FACTOR=${KAFKA_CFG_DEFAULT_REPLICATION_FACTOR}          # Factor de replicación por defecto para los topics
+      - ALLOW_PLAINTEXT_LISTENER=${ALLOW_PLAINTEXT_LISTENER}                                  # Permitir listeners sin cifrado (PLAINTEXT)
+      - KAFKA_BOOTSTRAP_SERVERS=${KAFKA_BOOTSTRAP_SERVERS}                                    # Servidor bootstrap de Kafka
+      - KAFKA_CFG_LOG_RETENTION_MS=${KAFKA_CFG_LOG_RETENTION_MS}                              # Tiempo de vida de los mensajes en Kafka
+    
+    networks:                                                                                 # Red virtual para establecer rutas, IP y DNS entre contenedores 
+      - red_adsb
+    
+    volumes:
+      - ./kafka_datos:/bitnami/kafka/data                                                    # Persistencia de datos en el host para recuperar tras reinicio
+    
+    healthcheck:
+      test: ["CMD", "bash", "-c", "echo>/dev/tcp/localhost/9092"]                           # Comando para verificar estado del servicio Kafka
+      interval: 15s                                                                         # Intervalo entre comprobaciones de salud
+      timeout: 20s                                                                          # Tiempo máximo para una comprobación de salud
+      retries: 5                                                                            # Número de reintentos antes de considerar el servicio como no saludable
+    
+    logging:                                                                                # Registro de logs
+      driver: "json-file"
+      options:
+        max-size: 10m
+        max-file: 5
+#   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Servicio Redis. Sistema de almacenamiento en memoria utilizado para la gestión de datos en tiempo real.
+  redis:
+    image: redis:7                                                                          # Imagen oficial de Redis
+    
+    container_name: redis
+    
+    ports:                                                                                  # Puerto expuesto para acceso de pruebas
+      - "6379:6379"
+    
+    networks:                                                                               # Red virtual para establecer rutas, IP y DNS entre contenedores
+      - red_adsb
+    
+    volumes:
+      - ./redis_datos:/data                                                                  # Persistencia de datos en el host para analizar logs
+    
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]                                                    # Comando para verificar estado del servicio Redis
+      interval: 15s                                                                         # Intervalo entre comprobaciones de salud
+      timeout: 20s                                                                          # Tiempo máximo para una comprobación de salud
+      retries: 5                                                                            # Número de reintentos antes de considerar el servicio como no saludable
+    
+    logging:                                                                                # Registro de logs
+      driver: "json-file"
+      options:
+        max-size: 10m
+        max-file: 5
+#   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Servicio MongoDB. Base de datos NoSQL utilizada para almacenar datos históricos.
+  mongo:
+    image: mongo:6.0.13-jammy                                                               # Imagen oficial de MongoDB
+    
+    container_name: mongodb
+    
+    ports:                                                                                  # Puerto expuesto para acceso de pruebas
+      - "27017:27017"
+    
+    volumes:
+      - ./mongo_datos:/data/db                                                               # Persistencia de datos en el host para analizar logs y historicos
+    
+    networks:                                                                               # Red virtual para establecer rutas, IP y DNS entre contenedores
+      - red_adsb
+    
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]                         # Comando para verificar estado del servicio MongoDB
+      interval: 15s                                                                         # Intervalo entre comprobaciones de salud
+      timeout: 20s                                                                          # Tiempo máximo para una comprobación de salud
+      retries: 5                                                                            # Número de reintentos antes de considerar el servicio como no saludable
+    
+    logging:                                                                                # Registro de logs
+      driver: "json-file"
+      options:
+        max-size: 10m
+        max-file: 5
+#   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Servicio consumidor_redis. Consume mensajes de Kafka y los almacena en Redis.
+  consumidor_redis:
+    <<: *consumidor_redis                                                                   # Anchor base del servicio
+    container_name: consumidor_redis
+    environment:
+      - ID_SERVICE=consumidor_redis                                                         # Identificador del servicio para trazas
+      - KAFKA_BOOTSTRAP_SERVERS=${KAFKA_BOOTSTRAP_SERVERS}                                  # Configuración del servidor Kafka
+      - KAFKA_TOPIC=${KAFKA_TOPIC}                                                          # Topic de Kafka del que se consumirán los mensajes
+      - KAFKA_GROUP_ID=${KAFKA_GROUP_REDIS}                                                 # Grupo de consumidores de Kafka
+      - REDIS_HOST=${REDIS_HOST}                                                            # Configuración del host Redis
+      - REDIS_PORT=${REDIS_PORT}                                                            # Puerto de Redis
+      - REDIS_TTL=${REDIS_TTL}                                                              # Tiempo de vida de los datos en Redis
+      - PARTICIONES_TOPIC=${PARTICIONES_TOPIC}                                              # Número de particiones del topic de Kafka
+
+#   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Servicio consumidor_mongo. Consume mensajes de Kafka y los almacena en MongoDB.
+  consumidor_mongo:
+    <<: *consumidor_mongo                                                                 # Anchor base del servicio
+    container_name: consumidor_mongo
+    environment:
+      - ID_SERVICE=consumidor_mongo                                                         # Identificador del servicio para trazas
+      - KAFKA_BOOTSTRAP_SERVERS=${KAFKA_BOOTSTRAP_SERVERS}                                  # Configuración del servidor Kafka
+      - KAFKA_TOPIC=${KAFKA_TOPIC}                                                          # Topic de Kafka del que se consumirán los mensajes
+      - KAFKA_GROUP_ID=${KAFKA_GROUP_MONGO}                                                 # Grupo de consumidores de Kafka
+      - MONGO_HOST=${MONGO_HOST}                                                            # Configuración del host MongoDB
+      - MONGO_PORT=${MONGO_PORT}                                                            # Puerto de MongoDB
+      - MONGO_DB=${MONGO_DB}                                                                # Base de datos de MongoDB donde se guardarán los datos
+      - MONGO_COLECCION_INTERVALO=${MONGO_COLECCION_INTERVALO}                              # Intervalo de tiempo en minutos para la colección de datos
+      - PARTICIONES_TOPIC=${PARTICIONES_TOPIC}                                              # Número de particiones del topic de Kafka
+
+#   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Servicio productor. Genera mensajes de aeronaves desde el archivo de datos JSON y los publica en Kafka en lotes por segundo.
+  productor:
+    build: ./productor                                                                      # Construcción desde el Dockerfile en ./productor
+    
+    container_name: productor
+    
+    depends_on:                                                                             # Arranca tras Kafka, según estado healthcheck y servicios consumidores iniciados  
+      kafka:
+        condition: service_healthy
+      consumidor_redis:
+        condition: service_healthy
+
+    restart: unless-stopped                                                                 # Reinicia automáticamente a menos que se detenga manualmente
+    
+    environment:
+      - ID_SERVICE=productor                                                                # Identificador del servicio para trazas
+      - KAFKA_BOOTSTRAP_SERVERS=${KAFKA_BOOTSTRAP_SERVERS}                                  # Configuración del servidor Kafka
+      - KAFKA_TOPIC=${KAFKA_TOPIC}                                                          # Topic de Kafka al que se publicarán los mensajes
+      - KAFKA_MAX_BATCH_SIZE=${KAFKA_MAX_BATCH_SIZE}                                        # Número máximo de aeronaves en cada mensaje enviado a Kafka                                            
+      - INTERVALO_ADSB_MENSAJES=${INTERVALO_ADSB_MENSAJES}                                  # Este valor representa la diferencia de tiempos del atributo 'time' de los mensajes ADS-B
+                                                                                            # Es decir, en cada intervalo sistema ADSB recupera todos los datos de aeronaves que encuentra
+                                                                                            # No vuelve a recibir hasta el siguiente intervalo.
+      
+    volumes:
+      - ./datos:/app/data                                                                   # Asumiendo que los archivos .json están en ./data
+      - ./logs/productor:/logs                                                              # Volumen persistente para logs
+    
+    networks:                                                                               # Red virtual para establecer rutas, IP y DNS entre contenedores
+      - red_adsb
+#   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Servicio cliente_atm. Interfaz de usuario para visualizar datos de aeronaves y sectores en tiempo real
+  cliente_atm:
+    build: ./cliente_atm                                                                    # Construcción desde el Dockerfile en ./cliente_atm
+    
+    container_name: cliente_atm
+    
+    depends_on:                                                                             # Arranca tras Redis, según estado healthcheck
+      redis:
+        condition: service_healthy                                                        
+    
+    restart: unless-stopped                                                                 # Reinicia automáticamente a menos que se detenga manualmente
+    
+    ports:                                                                                  # Puerto expuesto para acceso de pruebas
+      - "5000:5000"
+    
+    environment:                                                                            # Variables de entorno para configurar la conexión a Redis
+      - REDIS_HOST=${REDIS_HOST}                                                            # Configuración del host Redis
+      - REDIS_PORT=${REDIS_PORT}                                                            # Puerto de Redis
+    
+    volumes:
+      - ./config:/app/config                                                                # Para cargar la configuración de sectores 
+      - ./logs/cliente_atm:/logs                                                            # Volumen persistente para logs
+    
+    networks:                                                                               # Red virtual para establecer rutas, IP y DNS entre contenedores
+      - red_adsb
+#   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Servicio cliente_historico. Interfaz de usuario para descargar datos históricos de aeronaves desde MongoDB.
+  cliente_historico:
+    build: ./cliente_historico                                                              # Construcción desde el Dockerfile en ./cliente_historico
+    
+    container_name: cliente_historico
+    
+    depends_on:                                                                             # Arranca tras MongoDB, según estado healthcheck
+      mongo:
+        condition: service_healthy
+    
+    restart: unless-stopped                                                                 # Reinicia automáticamente a menos que se detenga manualmente
+    
+    ports:                                                                                  # Puerto expuesto para acceso de pruebas
+      - "5001:5001"
+    
+    environment:                                                                            # Variables de entorno para configurar la conexión a MongoDB
+      - MONGO_HOST=${MONGO_HOST}                                                            # Configuración del host MongoDB
+      - MONGO_PORT=${MONGO_PORT}                                                            # Puerto de MongoDB
+      - MONGO_DB=${MONGO_DB}                                                                # Base de datos de MongoDB donde se guardarán los datos
+      - MONGO_COLECCION_INTERVALO=${MONGO_COLECCION_INTERVALO}                              # Intervalo de tiempo en minutos para la colección de datos
+    
+    networks:                                                                               # Red virtual para establecer rutas, IP y DNS entre contenedores
+      - red_adsb
+    
+    volumes:
+      - ./config:/app/config                                                                # Para cargar la configuración de sectores
+      - ./logs/cliente_historico:/logs                                                      # Volumen persistente para logs
+#   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Servicio sectorizador. Procesa los datos de aeronaves en Redis y los agrupa por sectores geográficos.
+  sectorizador:
+    build: ./sectorizador                                                                   # Construcción desde el Dockerfile en ./sectorizador
+    
+    container_name: sectorizador
+    
+    depends_on:                                                                             # Arranca tras Redis, según estado healthcheck
+      redis:
+        condition: service_healthy
+    
+    restart: unless-stopped                                                                 # Reinicia automáticamente a menos que se detenga manualmente
+    
+    environment:                                                                            # Variables de entorno para configurar la conexión a Redis
+      - REDIS_HOST=${REDIS_HOST}                                                            # Configuración del host Redis
+      - REDIS_PORT=${REDIS_PORT}                                                            # Puerto de Redis
+      - SECTORIZADOR_INTERVALO=${SECTORIZADOR_INTERVALO}                                    # Intervalo de tiempo en minutos para la sectorización
+    
+    volumes:
+      - ./config:/app/config                                                                # Para cargar la configuración de sectores    
+      - ./logs/sectorizador:/logs                                                           # Volumen persistente para logs
+    
+    networks:                                                                               # Red virtual para establecer rutas, IP y DNS entre contenedores
+      - red_adsb
+#   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Volúmenes para persistencia de datos.
+volumes:     
+  mongo_data:                                                                               # Volumen para persistencia de datos de MongoDB
+    name: mongo_datos                                                                        
+    driver: local                                                                     
+  redis_datos:                                                                               # Volumen para persistencia de datos de Redis
+    name: redis_datos                                                                        
+    driver: local                                                                           
+  kafka_datos:                                                                               # Volumen para persistencia de datos de Kafka
+    name: kafka_datos                                                                        
+    driver: local                                                                               
+
+# Red virtual para establecer rutas, IP y DNS entre contenedores
+networks:
+  red_adsb:                                                                          
+    name: red_adsb                                                                          # Nombre de la red virtual
+    driver: bridge                                                                          # Tipo de red que permite la comunicación entre contenedores en el mismo host
+

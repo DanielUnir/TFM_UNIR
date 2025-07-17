@@ -1,0 +1,57 @@
+# Componente 2:  Sectorización del espacio aéreo y acceso en pseudo tiempo real
+
+# Arquitectura docker
+- Kafka
+- Redis
+- Productor
+- Consumidor_redis
+- Cliente_atm
+- Sectorizador
+
+# Comandos de inicialización y parada (docker)
+- docker build -t nombreservicio:latest ./'nombreservicio'      # Construir la imagen de aquellos servicios que lo requieran, según se indique en el archivo `docker-compose.yml` 
+- docker compose -f docker-compose.yml build                    # Crear imagenes de microservicios establecidos en docker compose
+- docker compose -f docker-compose.yml up --build               # Iniciar servicios
+- docker compose stop                                           # Detener la ejecución
+
+# Comandos de mantenimiento (docker)
+- docker-compose build --no-cache 'nombreservicio'      # Construir de nuevo la imagen 
+- docker-compose up --force-recreate 'nombreservicio'   # Construir de nuevo el contenedor
+- docker compose logs -f nombredelservicio              # Mostrar los logs del servicio
+- docker logs 'servicio' > logs/servicio.log            # Enviar logs a un archivo persistente
+- docker compose -f docker-compose.yml down             # Parada y limpieza de contenedores
+- docker compose down -v                                # Parada y limpieza de contenedores limpiando volumenes
+- docker-compose --env-file .env up                     # Cargar variables de entorno
+- docker image prune                                    # Eliminar imagenes <none> tras recrear imagenes
+
+# Comandos de consulta al sistema de información aeronáutica
+#   Kafka
+#       Topics
+- docker exec kafka bash -c "/opt/bitnami/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --list
+#       Descripción de un topic (adsb.aeronaves)
+- docker exec kafka bash -c "/opt/bitnami/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --describe
+#       Últimos 3 mensajes del topic (adsb.aeronaves)
+- docker exec kafka bash -c "/opt/bitnami/kafka/bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic adsb.aeronaves --from-beginining --timeout-ms 10000
+
+#   Redis
+#       Acceder al cliente REDIS
+- docker exec -it redis redis-cli
+#       Listar claves activas
+- keys *
+#       Listar aeronaves activas en un sector <nombre_del_sector>
+- smembers sector:<nombre_del_sector>
+#       Obtener posición geoespacial de una aeronave <icao24>
+- geopos aeronaves:geo <icao24>
+
+
+#   Clientes de datos
+#       Consulta para obtener información del cliente_atm (datos actuales)
+- curl http://localhost:5000/info | jq            
+#       Consulta para obtener información del cliente_historico (datos anteriores)
+- curl http://localhost:5001/info | jq               
+#       Consulta para obtener estado actual de espacio aéreo
+- curl http://localhost:5000/estado_atm | jq     
+#       Consulta para obtener listado de aeronaves en un sector <nombre_del_sector>
+- curl http://localhost:5000/sector/<nombre_del_sector> | jq       
+#       Consulta para obtener información actual de la aeronave <icao24>
+- curl http://localhost:5000/aeronave/<icao24> | jq     
