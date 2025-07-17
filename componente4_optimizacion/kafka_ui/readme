@@ -1,0 +1,13 @@
+# ./kafka_ui/readme
+# kafka_ui - Microservicio de monitorización de Kafka
+
+# Funcionalidad
+- permite conectar con Kafka y monitorizar los mensajes, topics, broker, enviar mensajes de prueba...
+- Arranque automático
+- Se conecta kafka
+
+# Configuración
+- N/A
+
+# Funciones
+- N/A

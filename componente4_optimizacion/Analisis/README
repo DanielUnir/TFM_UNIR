@@ -1,0 +1,5 @@
+# Carpeta `Analisis`
+Este directorio contiene los resultados de logs de interés generados durante la ejecución de las pruebas realizadas. 
+Los resultados de cada test se organizan en subdirectorios independientes.
+Se incluyen Notebooks de Jupyter Lab para realizar los análisis de cada tipo de log.
+

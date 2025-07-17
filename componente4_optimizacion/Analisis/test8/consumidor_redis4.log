@@ -1,0 +1,593 @@
+2025-07-13 18:57:51,172 - INFO - consumidor_redis4: Conectado a Redis en redis:6379
+2025-07-13 18:57:51,188 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.18.0.4', 9092)]>: connecting to kafka:9092 [('172.18.0.4', 9092) IPv4]
+2025-07-13 18:57:51,246 - INFO - Probing node bootstrap-0 broker version
+2025-07-13 18:57:51,368 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.18.0.4', 9092)]>: Connection complete.
+2025-07-13 18:57:51,817 - INFO - Broker version identified as 2.5.0
+2025-07-13 18:57:51,820 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-07-13 18:57:51,821 - INFO - Probing node bootstrap-0 broker version
+2025-07-13 18:57:52,099 - INFO - Broker version identified as 2.5.0
+2025-07-13 18:57:52,109 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-07-13 18:57:52,313 - INFO - <BrokerConnection node_id=1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.4', 9092)]>: connecting to kafka:9092 [('172.18.0.4', 9092) IPv4]
+2025-07-13 18:57:52,315 - INFO - Probing node 1 broker version
+2025-07-13 18:57:52,320 - INFO - <BrokerConnection node_id=1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.4', 9092)]>: Connection complete.
+2025-07-13 18:57:52,321 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connected> [IPv4 ('172.18.0.4', 9092)]>: Closing connection. 
+2025-07-13 18:57:52,507 - INFO - Broker version identified as 2.5.0
+2025-07-13 18:57:52,508 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-07-13 18:57:52,627 - INFO - consumidor_redis4:El topic adsb.aeronaves ya existe en Kafka.
+2025-07-13 18:57:52,631 - INFO - <BrokerConnection node_id=1 host=kafka:9092 <connected> [IPv4 ('172.18.0.4', 9092)]>: Closing connection. 
+2025-07-13 18:58:02,651 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.18.0.4', 9092)]>: connecting to kafka:9092 [('172.18.0.4', 9092) IPv4]
+2025-07-13 18:58:02,656 - INFO - Probing node bootstrap-0 broker version
+2025-07-13 18:58:02,660 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.18.0.4', 9092)]>: Connection complete.
+2025-07-13 18:58:02,882 - INFO - Broker version identified as 2.5.0
+2025-07-13 18:58:02,890 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-07-13 18:58:02,904 - INFO - Updating subscribed topics to: ('adsb.aeronaves',)
+2025-07-13 18:58:02,909 - INFO - consumidor_redis4:Conectado a Kafka en kafka:9092.
+2025-07-13 18:58:02,965 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:02,967 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:02,985 - INFO - Starting new heartbeat thread
+2025-07-13 18:58:02,995 - INFO - Revoking previously assigned partitions set() for group adsb_redis_group
+2025-07-13 18:58:03,020 - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.4', 9092)]>: connecting to kafka:9092 [('172.18.0.4', 9092) IPv4]
+2025-07-13 18:58:03,025 - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.4', 9092)]>: Connection complete.
+2025-07-13 18:58:03,028 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connected> [IPv4 ('172.18.0.4', 9092)]>: Closing connection. 
+2025-07-13 18:58:03,136 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:03,460 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:03,583 - INFO - <BrokerConnection node_id=1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.4', 9092)]>: connecting to kafka:9092 [('172.18.0.4', 9092) IPv4]
+2025-07-13 18:58:03,593 - INFO - <BrokerConnection node_id=1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.4', 9092)]>: Connection complete.
+2025-07-13 18:58:03,953 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:03,957 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:03,959 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:04,036 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:04,203 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:04,203 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:04,205 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:04,220 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:04,537 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:04,550 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:04,567 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:04,626 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:04,807 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:05,126 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:05,128 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:05,399 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:05,529 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:05,551 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:05,560 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:05,566 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:05,730 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:05,732 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:05,735 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:05,743 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:06,686 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:06,770 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:06,796 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:09,647 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:10,623 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:10,628 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:10,630 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:10,699 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:10,927 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:10,929 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:10,931 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:10,980 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:11,108 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:11,114 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:11,130 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:11,146 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:11,530 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:11,531 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:11,535 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:11,569 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:11,706 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:11,707 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:11,709 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:11,746 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:11,985 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:11,991 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:11,997 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:12,113 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:12,247 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:12,248 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:12,248 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:12,288 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:12,412 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:12,416 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:12,419 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:12,745 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:12,869 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:12,876 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:12,881 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:13,016 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:13,314 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:13,316 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:13,317 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:13,357 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:13,588 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:13,594 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:13,878 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:14,782 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:15,536 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:15,541 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:15,549 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:16,397 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:16,732 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:16,740 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:16,747 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:16,765 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:16,913 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:16,915 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:16,916 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:17,158 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:17,343 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:17,344 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:17,345 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:17,352 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:17,516 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:17,517 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:17,518 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:17,589 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:17,704 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:17,705 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:17,706 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:17,713 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:18,100 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:18,108 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:18,119 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:18,179 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:18,317 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:18,318 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:18,324 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:18,333 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:18,443 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:18,444 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:18,452 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:18,475 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:18,753 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:18,756 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:18,766 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:18,793 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:19,111 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:19,112 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:19,113 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:19,372 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:19,552 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:19,552 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:19,553 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:19,574 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:19,812 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:19,815 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:19,873 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:20,479 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:20,776 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:20,795 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:20,807 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:20,867 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:21,002 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:21,003 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:21,003 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:21,139 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:21,315 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:21,316 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:21,316 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:21,406 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:21,815 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:21,837 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:21,844 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:22,559 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:22,699 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:22,700 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:22,701 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:22,754 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:23,144 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:23,154 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:23,165 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:23,314 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:23,421 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:23,423 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:23,423 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:23,427 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:23,784 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:23,785 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:23,814 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:24,037 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:24,145 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:24,148 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:24,149 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:24,188 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:24,483 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:24,492 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:24,493 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:25,223 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:25,446 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:25,447 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:25,447 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:25,461 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:25,608 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:25,622 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:25,625 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:25,640 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:25,930 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:25,971 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:25,972 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:25,980 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:26,193 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:26,198 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:26,205 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:26,247 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:26,413 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:26,415 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:26,416 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:26,444 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:26,583 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:26,584 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:26,586 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:26,638 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:26,808 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:26,809 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:26,810 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:26,817 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:26,940 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:26,942 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:26,946 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:26,971 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:27,107 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:27,109 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:27,110 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:27,282 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:27,822 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:28,026 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:28,073 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:29,371 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:30,134 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:30,137 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:30,137 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:30,682 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:31,225 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:31,299 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:31,299 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:31,726 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:32,348 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:32,349 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:32,350 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:32,607 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:32,796 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:32,797 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:32,799 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:33,062 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:33,347 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:33,350 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:33,365 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:33,401 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:33,632 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:33,964 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:33,974 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:34,099 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:34,430 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:34,432 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:34,616 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:34,765 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:34,890 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:34,891 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:34,897 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:34,938 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:35,372 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:35,413 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:35,974 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:36,498 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:36,679 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:36,682 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:36,688 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:36,711 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:36,897 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:36,898 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:36,899 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:37,324 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:37,631 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:37,654 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:37,670 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:37,860 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:38,080 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:38,081 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:38,083 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:38,141 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:38,267 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:38,274 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:38,277 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:38,311 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:38,465 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:38,476 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:38,477 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:38,508 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:39,102 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:39,117 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:39,118 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:39,778 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:40,473 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:40,475 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:40,476 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:40,798 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:41,040 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:41,045 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:41,046 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:41,366 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:41,571 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:41,581 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:41,587 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:41,888 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:43,212 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:43,431 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:43,432 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:43,682 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:44,276 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:44,283 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:44,385 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:44,545 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:45,085 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:45,102 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:45,105 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:45,759 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:46,239 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:46,242 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:46,245 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:46,381 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:47,191 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:47,192 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:47,193 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:47,810 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:48,163 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:48,170 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:48,175 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:48,246 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:48,929 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:48,994 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:49,003 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:50,503 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:51,237 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:51,346 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:51,349 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:51,462 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:51,677 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:51,679 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:51,681 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:51,776 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:52,155 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:52,155 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:52,218 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:52,638 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:52,835 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:53,092 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:53,094 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:53,819 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:54,952 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:54,962 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:54,963 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:55,779 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:56,317 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:56,367 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:56,427 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:58,422 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:59,128 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:59,131 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:59,135 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:59,284 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:58:59,555 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:58:59,587 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:58:59,592 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:58:59,840 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:59:00,233 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:59:00,246 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:59:00,246 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:59:00,287 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:59:00,411 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:59:00,413 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:59:00,414 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:59:00,440 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:59:00,682 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:59:00,683 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:59:00,683 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:59:00,728 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:59:01,139 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:59:01,234 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:59:01,242 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:59:01,296 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:59:01,739 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:59:01,770 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:59:01,781 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:59:01,849 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:59:02,149 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:59:02,158 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:59:02,160 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:59:02,204 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:59:02,414 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:59:02,414 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:59:02,416 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:59:02,451 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:59:02,666 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:59:02,667 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:59:02,668 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:59:02,894 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:59:03,085 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:59:03,086 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:59:03,087 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:59:03,276 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:59:03,405 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:59:03,407 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:59:03,409 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:59:03,510 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_redis_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:59:04,516 - INFO - Group coordinator for adsb_redis_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:59:04,516 - INFO - Discovered coordinator coordinator-1 for group adsb_redis_group
+2025-07-13 18:59:04,517 - INFO - (Re-)joining group adsb_redis_group
+2025-07-13 18:59:12,373 - INFO - Successfully joined group adsb_redis_group with generation 1
+2025-07-13 18:59:12,399 - INFO - Updated partition assignment: [TopicPartition(topic='adsb.aeronaves', partition=3)]
+2025-07-13 18:59:12,414 - INFO - Setting newly assigned partitions {TopicPartition(topic='adsb.aeronaves', partition=3)} for group adsb_redis_group
+2025-07-13 19:00:50,722 - INFO - consumidor_redis4***Latencia_mensajeria***859.0166568756104***ms
+2025-07-13 19:00:52,625 - INFO - consumidor_redis4: 193 insertadas en Redis.
+2025-07-13 19:00:52,809 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***2059.227705001831***ms
+2025-07-13 19:00:53,290 - INFO - consumidor_redis4***Latencia_mensajeria***3030.3680896759033***ms
+2025-07-13 19:00:57,554 - INFO - consumidor_redis4: 186 insertadas en Redis.
+2025-07-13 19:00:58,150 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***4787.170648574829***ms
+2025-07-13 19:00:58,724 - INFO - consumidor_redis4***Latencia_mensajeria***8208.920001983643***ms
+2025-07-13 19:01:03,005 - INFO - consumidor_redis4: 186 insertadas en Redis.
+2025-07-13 19:01:03,052 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***4348.345041275024***ms
+2025-07-13 19:01:03,077 - INFO - consumidor_redis4***Latencia_mensajeria***12239.878416061401***ms
+2025-07-13 19:01:08,545 - INFO - consumidor_redis4: 188 insertadas en Redis.
+2025-07-13 19:01:08,555 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***5478.120565414429***ms
+2025-07-13 19:01:08,557 - INFO - consumidor_redis4***Latencia_mensajeria***17638.090133666992***ms
+2025-07-13 19:01:12,918 - INFO - consumidor_redis4: 190 insertadas en Redis.
+2025-07-13 19:01:12,956 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***4399.488925933838***ms
+2025-07-13 19:01:14,752 - INFO - consumidor_redis4***Latencia_mensajeria***13942.093133926392***ms
+2025-07-13 19:01:17,633 - INFO - consumidor_redis4: 185 insertadas en Redis.
+2025-07-13 19:01:17,650 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***2898.2956409454346***ms
+2025-07-13 19:01:17,651 - INFO - consumidor_redis4***Latencia_mensajeria***15384.104013442993***ms
+2025-07-13 19:01:18,904 - INFO - consumidor_redis4: 188 insertadas en Redis.
+2025-07-13 19:01:18,919 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***1267.3423290252686***ms
+2025-07-13 19:01:18,968 - INFO - consumidor_redis4***Latencia_mensajeria***8713.068962097168***ms
+2025-07-13 19:01:19,922 - INFO - consumidor_redis4: 189 insertadas en Redis.
+2025-07-13 19:01:19,929 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***961.7874622344971***ms
+2025-07-13 19:01:19,938 - INFO - consumidor_redis4***Latencia_mensajeria***8349.161386489868***ms
+2025-07-13 19:01:24,329 - INFO - consumidor_redis4: 185 insertadas en Redis.
+2025-07-13 19:01:24,336 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***4398.194789886475***ms
+2025-07-13 19:01:24,471 - INFO - consumidor_redis4***Latencia_mensajeria***12792.950868606567***ms
+2025-07-13 19:01:28,014 - INFO - consumidor_redis4: 184 insertadas en Redis.
+2025-07-13 19:01:28,020 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***3556.406021118164***ms
+2025-07-13 19:01:28,023 - INFO - consumidor_redis4***Latencia_mensajeria***13255.268335342407***ms
+2025-07-13 19:01:28,211 - INFO - consumidor_redis4: 23 insertadas en Redis.
+2025-07-13 19:01:28,217 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***193.97568702697754***ms
+2025-07-13 19:01:28,289 - INFO - consumidor_redis4***Latencia_mensajeria***7446.7833042144775***ms
+2025-07-13 19:01:29,996 - INFO - consumidor_redis4: 181 insertadas en Redis.
+2025-07-13 19:01:30,005 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***1715.3210639953613***ms
+2025-07-13 19:01:34,573 - INFO - consumidor_redis4***Latencia_mensajeria***3496.2384700775146***ms
+2025-07-13 19:01:41,206 - INFO - consumidor_redis4: 186 insertadas en Redis.
+2025-07-13 19:01:41,391 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***6818.078517913818***ms
+2025-07-13 19:01:43,247 - INFO - consumidor_redis4***Latencia_mensajeria***2660.675048828125***ms
+2025-07-13 19:01:48,079 - INFO - consumidor_redis4: 181 insertadas en Redis.
+2025-07-13 19:01:48,081 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***4833.783388137817***ms
+2025-07-13 19:01:48,315 - INFO - consumidor_redis4***Latencia_mensajeria***7044.169902801514***ms
+2025-07-13 19:01:54,109 - INFO - consumidor_redis4: 188 insertadas en Redis.
+2025-07-13 19:01:54,115 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***5800.063848495483***ms
+2025-07-13 19:01:54,328 - INFO - consumidor_redis4***Latencia_mensajeria***4434.850692749023***ms
+2025-07-13 19:01:55,532 - INFO - consumidor_redis4: 181 insertadas en Redis.
+2025-07-13 19:01:55,632 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***1303.8759231567383***ms
+2025-07-13 19:01:55,650 - INFO - consumidor_redis4***Latencia_mensajeria***5094.261169433594***ms
+2025-07-13 19:01:57,743 - INFO - consumidor_redis4: 184 insertadas en Redis.
+2025-07-13 19:01:57,749 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***2099.0023612976074***ms
+2025-07-13 19:01:57,855 - INFO - consumidor_redis4***Latencia_mensajeria***4965.404033660889***ms
+2025-07-13 19:01:58,968 - INFO - consumidor_redis4: 189 insertadas en Redis.
+2025-07-13 19:01:58,977 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***1123.657464981079***ms
+2025-07-13 19:02:11,336 - INFO - consumidor_redis4***Latencia_mensajeria***1251.8856525421143***ms
+2025-07-13 19:02:11,876 - INFO - consumidor_redis4: 180 insertadas en Redis.
+2025-07-13 19:02:11,956 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***619.8277473449707***ms
+2025-07-13 19:02:12,248 - INFO - consumidor_redis4***Latencia_mensajeria***1837.6126289367676***ms
+2025-07-13 19:02:13,441 - INFO - consumidor_redis4: 191 insertadas en Redis.
+2025-07-13 19:02:13,459 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***1210.9689712524414***ms
+2025-07-13 19:02:13,503 - INFO - consumidor_redis4***Latencia_mensajeria***3018.630266189575***ms
+2025-07-13 19:02:14,490 - INFO - consumidor_redis4: 185 insertadas en Redis.
+2025-07-13 19:02:14,496 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***993.0150508880615***ms
+2025-07-13 19:02:20,235 - INFO - consumidor_redis4***Latencia_mensajeria***399.0168571472168***ms
+2025-07-13 19:02:20,646 - INFO - consumidor_redis4: 187 insertadas en Redis.
+2025-07-13 19:02:20,659 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***444.8702335357666***ms
+2025-07-13 19:02:21,482 - INFO - consumidor_redis4***Latencia_mensajeria***1418.6840057373047***ms
+2025-07-13 19:02:22,519 - INFO - consumidor_redis4: 184 insertadas en Redis.
+2025-07-13 19:02:22,542 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***1059.1990947723389***ms
+2025-07-13 19:02:22,579 - INFO - consumidor_redis4***Latencia_mensajeria***2457.5414657592773***ms
+2025-07-13 19:02:24,038 - INFO - consumidor_redis4: 192 insertadas en Redis.
+2025-07-13 19:02:24,077 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***1498.2390403747559***ms
+2025-07-13 19:02:25,180 - INFO - consumidor_redis4***Latencia_mensajeria***5029.787063598633***ms
+2025-07-13 19:02:27,190 - INFO - consumidor_redis4: 177 insertadas en Redis.
+2025-07-13 19:02:27,199 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***2019.273042678833***ms
+2025-07-13 19:02:30,055 - INFO - consumidor_redis4***Latencia_mensajeria***251.48797035217285***ms
+2025-07-13 19:02:31,173 - INFO - consumidor_redis4: 184 insertadas en Redis.
+2025-07-13 19:02:31,251 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***1196.3417530059814***ms
+2025-07-13 19:02:31,413 - INFO - consumidor_redis4***Latencia_mensajeria***1536.860704421997***ms
+2025-07-13 19:02:32,428 - INFO - consumidor_redis4: 187 insertadas en Redis.
+2025-07-13 19:02:32,925 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***1512.0868682861328***ms
+2025-07-13 19:02:40,866 - INFO - consumidor_redis4***Latencia_mensajeria***625.0748634338379***ms
+2025-07-13 19:02:42,004 - INFO - consumidor_redis4: 182 insertadas en Redis.
+2025-07-13 19:02:42,083 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***1217.4508571624756***ms
+2025-07-13 19:02:42,168 - INFO - consumidor_redis4***Latencia_mensajeria***1741.8172359466553***ms
+2025-07-13 19:02:42,953 - INFO - consumidor_redis4: 187 insertadas en Redis.
+2025-07-13 19:02:42,955 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***787.3179912567139***ms
+2025-07-13 19:02:43,097 - INFO - consumidor_redis4***Latencia_mensajeria***2538.1274223327637***ms
+2025-07-13 19:02:45,610 - INFO - consumidor_redis4: 176 insertadas en Redis.
+2025-07-13 19:02:45,612 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***2514.617443084717***ms
+2025-07-13 19:02:51,953 - INFO - consumidor_redis4***Latencia_mensajeria***1316.3166046142578***ms
+2025-07-13 19:02:51,963 - INFO - consumidor_redis4: 4 insertadas en Redis.
+2025-07-13 19:02:51,966 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***12.391805648803711***ms
+2025-07-13 19:03:00,746 - INFO - consumidor_redis4***Latencia_mensajeria***661.1638069152832***ms
+2025-07-13 19:03:01,724 - INFO - consumidor_redis4: 181 insertadas en Redis.
+2025-07-13 19:03:01,730 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***983.8671684265137***ms
+2025-07-13 19:03:11,208 - INFO - consumidor_redis4***Latencia_mensajeria***1403.0578136444092***ms
+2025-07-13 19:03:11,890 - INFO - consumidor_redis4: 193 insertadas en Redis.
+2025-07-13 19:03:11,902 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***694.5133209228516***ms
+2025-07-13 19:03:12,480 - INFO - consumidor_redis4***Latencia_mensajeria***2656.888961791992***ms
+2025-07-13 19:03:14,101 - INFO - consumidor_redis4: 186 insertadas en Redis.
+2025-07-13 19:03:14,173 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***1692.704439163208***ms
+2025-07-13 19:03:14,229 - INFO - consumidor_redis4***Latencia_mensajeria***3048.82550239563***ms
+2025-07-13 19:03:15,639 - INFO - consumidor_redis4: 178 insertadas en Redis.
+2025-07-13 19:03:15,657 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***1428.0202388763428***ms
+2025-07-13 19:03:27,141 - INFO - consumidor_redis4***Latencia_mensajeria***4112.07127571106***ms
+2025-07-13 19:03:28,402 - INFO - consumidor_redis4: 179 insertadas en Redis.
+2025-07-13 19:03:28,403 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***1262.2714042663574***ms
+2025-07-13 19:03:28,460 - INFO - consumidor_redis4***Latencia_mensajeria***1607.863426208496***ms
+2025-07-13 19:03:30,345 - INFO - consumidor_redis4: 181 insertadas en Redis.
+2025-07-13 19:03:30,359 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***1898.6408710479736***ms
+2025-07-13 19:03:31,202 - INFO - consumidor_redis4***Latencia_mensajeria***1250.1766681671143***ms
+2025-07-13 19:03:32,417 - INFO - consumidor_redis4: 180 insertadas en Redis.
+2025-07-13 19:03:32,434 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***1233.670949935913***ms
+2025-07-13 19:03:33,243 - INFO - consumidor_redis4***Latencia_mensajeria***3065.537214279175***ms
+2025-07-13 19:03:34,311 - INFO - consumidor_redis4: 187 insertadas en Redis.
+2025-07-13 19:03:34,316 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***1073.1494426727295***ms
+2025-07-13 19:03:34,343 - INFO - consumidor_redis4***Latencia_mensajeria***3697.0133781433105***ms
+2025-07-13 19:03:35,321 - INFO - consumidor_redis4: 179 insertadas en Redis.
+2025-07-13 19:03:35,323 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***980.1428318023682***ms
+2025-07-13 19:03:41,249 - INFO - consumidor_redis4***Latencia_mensajeria***1068.9082145690918***ms
+2025-07-13 19:03:42,163 - INFO - consumidor_redis4: 182 insertadas en Redis.
+2025-07-13 19:03:42,164 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***914.731502532959***ms
+2025-07-13 19:03:51,707 - INFO - consumidor_redis4***Latencia_mensajeria***1528.726577758789***ms
+2025-07-13 19:03:52,825 - INFO - consumidor_redis4: 181 insertadas en Redis.
+2025-07-13 19:03:52,831 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***1124.1283416748047***ms
+2025-07-13 19:03:52,954 - INFO - consumidor_redis4***Latencia_mensajeria***2542.2396659851074***ms
+2025-07-13 19:03:53,424 - INFO - consumidor_redis4: 184 insertadas en Redis.
+2025-07-13 19:03:53,425 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***471.04406356811523***ms
+2025-07-13 19:04:02,047 - INFO - consumidor_redis4***Latencia_mensajeria***1961.8382453918457***ms
+2025-07-13 19:04:02,851 - INFO - consumidor_redis4: 184 insertadas en Redis.
+2025-07-13 19:04:02,859 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***811.873197555542***ms
+2025-07-13 19:04:02,928 - INFO - consumidor_redis4***Latencia_mensajeria***2698.2641220092773***ms
+2025-07-13 19:04:03,780 - INFO - consumidor_redis4: 182 insertadas en Redis.
+2025-07-13 19:04:03,781 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***852.6999950408936***ms
+2025-07-13 19:04:03,783 - INFO - consumidor_redis4***Latencia_mensajeria***2947.0601081848145***ms
+2025-07-13 19:04:04,217 - INFO - consumidor_redis4: 180 insertadas en Redis.
+2025-07-13 19:04:04,220 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***436.293363571167***ms
+2025-07-13 19:04:10,452 - ERROR - Group adsb_redis_group failed to commit partition TopicPartition(topic='adsb.aeronaves', partition=3) at offset OffsetAndMetadata(offset=46, metadata=''): UnknownTopicOrPartitionError
+2025-07-13 19:04:10,453 - WARNING - Auto offset commit failed for group adsb_redis_group: [Error 3] UnknownTopicOrPartitionError
+2025-07-13 19:04:10,626 - ERROR - Group adsb_redis_group failed to commit partition TopicPartition(topic='adsb.aeronaves', partition=3) at offset OffsetAndMetadata(offset=46, metadata=''): UnknownTopicOrPartitionError
+2025-07-13 19:04:10,627 - WARNING - Auto offset commit failed for group adsb_redis_group: [Error 3] UnknownTopicOrPartitionError
+2025-07-13 19:04:10,767 - ERROR - Group adsb_redis_group failed to commit partition TopicPartition(topic='adsb.aeronaves', partition=3) at offset OffsetAndMetadata(offset=46, metadata=''): UnknownTopicOrPartitionError
+2025-07-13 19:04:10,768 - WARNING - Auto offset commit failed for group adsb_redis_group: [Error 3] UnknownTopicOrPartitionError
+2025-07-13 19:04:10,894 - ERROR - Group adsb_redis_group failed to commit partition TopicPartition(topic='adsb.aeronaves', partition=3) at offset OffsetAndMetadata(offset=46, metadata=''): UnknownTopicOrPartitionError
+2025-07-13 19:04:10,903 - WARNING - Auto offset commit failed for group adsb_redis_group: [Error 3] UnknownTopicOrPartitionError
+2025-07-13 19:04:11,018 - ERROR - Group adsb_redis_group failed to commit partition TopicPartition(topic='adsb.aeronaves', partition=3) at offset OffsetAndMetadata(offset=46, metadata=''): UnknownTopicOrPartitionError
+2025-07-13 19:04:11,040 - WARNING - Auto offset commit failed for group adsb_redis_group: [Error 3] UnknownTopicOrPartitionError
+2025-07-13 19:04:11,181 - ERROR - Group adsb_redis_group failed to commit partition TopicPartition(topic='adsb.aeronaves', partition=3) at offset OffsetAndMetadata(offset=46, metadata=''): UnknownTopicOrPartitionError
+2025-07-13 19:04:11,185 - WARNING - Auto offset commit failed for group adsb_redis_group: [Error 3] UnknownTopicOrPartitionError
+2025-07-13 19:04:14,613 - INFO - Fetch offset 46 is out of range for topic-partition TopicPartition(topic='adsb.aeronaves', partition=3)
+2025-07-13 19:04:14,808 - INFO - consumidor_redis4***Latencia_mensajeria***4162.9016399383545***ms
+2025-07-13 19:04:15,795 - INFO - consumidor_redis4: 187 insertadas en Redis.
+2025-07-13 19:04:15,801 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***992.9096698760986***ms
+2025-07-13 19:04:15,815 - INFO - consumidor_redis4***Latencia_mensajeria***5336.133718490601***ms
+2025-07-13 19:04:16,439 - INFO - consumidor_redis4: 180 insertadas en Redis.
+2025-07-13 19:04:16,466 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***653.3925533294678***ms
+2025-07-13 19:04:19,913 - INFO - consumidor_redis4***Latencia_mensajeria***104.5842170715332***ms
+2025-07-13 19:04:20,163 - INFO - consumidor_redis4: 175 insertadas en Redis.
+2025-07-13 19:04:20,168 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***254.6989917755127***ms
+2025-07-13 19:04:20,468 - INFO - consumidor_redis4***Latencia_mensajeria***591.5884971618652***ms
+2025-07-13 19:04:21,505 - INFO - consumidor_redis4: 177 insertadas en Redis.
+2025-07-13 19:04:21,508 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***1040.2753353118896***ms
+2025-07-13 19:04:21,530 - INFO - consumidor_redis4***Latencia_mensajeria***1534.2950820922852***ms
+2025-07-13 19:04:22,564 - INFO - consumidor_redis4: 178 insertadas en Redis.
+2025-07-13 19:04:22,565 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***1035.271167755127***ms
+2025-07-13 19:04:30,427 - INFO - consumidor_redis4***Latencia_mensajeria***613.2569313049316***ms
+2025-07-13 19:04:31,480 - INFO - consumidor_redis4: 186 insertadas en Redis.
+2025-07-13 19:04:31,496 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***1069.490909576416***ms
+2025-07-13 19:04:31,755 - INFO - consumidor_redis4***Latencia_mensajeria***1007.7786445617676***ms
+2025-07-13 19:04:33,787 - INFO - consumidor_redis4: 183 insertadas en Redis.
+2025-07-13 19:04:33,795 - INFO - consumidor_redis4***Latencia_ConsumidorRedis***2039.2670631408691***ms

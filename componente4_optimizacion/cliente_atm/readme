@@ -1,0 +1,35 @@
+# ./cliente_atm/readme
+# Cliente ATM - Microservicio de presentación de los datos del espacio aéreo
+
+# Imagen base
+- Python 3.10 slim, más ligera que la oficial
+
+# Variables de entorno (.env)
+    - ID_SERVICE                                    # Identificador propio del contenedor, para identificarse al conectar con otros servicios
+
+    - REDIS_HOST                                    # Dirección del servidor de Redis al que se conecta
+    - REDIS_PORT                                    # Puerto del servidor de Redis al que accede
+    - REDIS_TTL                                     # Tiempo de vida (TTL) de las claves en Redis que establecerá en el almacenamiento de datos
+
+# Requerimientos
+    - flask==2.0.1                                  # Framework web para Python
+    - Werkzeug==2.0.3                               # Utilidades para Flask
+    - redis==5.0.1                                  # Cliente de Redis en Python
+
+# Dockerfile
+- Establece la imagen base, heramientas python auxiliares, requerimientos, carpetas de trabajo y lanza el arranque con el código fuente
+
+# Código fuente
+- `cliente_atm.py`
+
+# Archivos auxiliares
+- `redis_cliente_atm.py`
+
+# Proceso resumido
+- Conexión con Redis
+- Inicia Flask
+- Define rutas para obtener información consultada a Redis.
+- Define el punto de entrada a Flask para hacer las consultas 
+    - conteo_aeronaves_sector(sector): Obtiene el conteo de aeronaves en un sector específico.
+    - obtener_aeronaves_sector(sector): Obtiene la lista de aeronaves en un sector específico.
+    - info_aeronave(icao24): Obtiene la información de una aeronave específica.

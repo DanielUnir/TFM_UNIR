@@ -1,0 +1,3 @@
+# Archivo de requerimientos para el consumidor de Kafka que almacena mensajes en Redis
+kafka-python==2.0.2         # Cliente de Kafka en Python
+redis==5.0.1                # Cliente de Redis en Python

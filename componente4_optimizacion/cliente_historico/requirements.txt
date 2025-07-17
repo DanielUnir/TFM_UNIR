@@ -1,0 +1,4 @@
+# Archivo de requerimientos para el cliente de ATM
+flask==2.0.1                # Framework web para Python
+Werkzeug==2.0.3             # Utilidades para Flask
+pymongo==4.3.3            # Cliente de MongoDB en Python
