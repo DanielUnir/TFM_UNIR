@@ -1,0 +1,5 @@
+2025-07-13 18:07:42,103 - INFO - Conectado a MongoDB en mongodb://mongo:27017.
+2025-07-13 18:07:42,112 - INFO - Cliente Histórico iniciado correctamente.
+2025-07-13 18:07:42,115 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-07-13 18:07:42,116 - INFO -  * Running on http://172.18.0.7:5001/ (Press CTRL+C to quit)

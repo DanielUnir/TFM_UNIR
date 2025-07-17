@@ -1,0 +1,103 @@
+2025-07-13 18:00:47,669 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.18.0.4', 9092)]>: connecting to kafka:9092 [('172.18.0.4', 9092) IPv4]
+2025-07-13 18:00:47,670 - INFO - Probing node bootstrap-0 broker version
+2025-07-13 18:00:47,678 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.18.0.4', 9092)]>: Connection complete.
+2025-07-13 18:00:47,803 - INFO - Broker version identified as 2.5.0
+2025-07-13 18:00:47,804 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-07-13 18:00:52,632 - INFO - productor: Datos cargados desde /app/data/aeronaves_completo.json.
+2025-07-13 18:01:32,706 - INFO - productor: Enviadas 19 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:01:32,720 - INFO - <BrokerConnection node_id=1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.4', 9092)]>: connecting to kafka:9092 [('172.18.0.4', 9092) IPv4]
+2025-07-13 18:01:32,724 - INFO - <BrokerConnection node_id=1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.4', 9092)]>: Connection complete.
+2025-07-13 18:01:32,725 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connected> [IPv4 ('172.18.0.4', 9092)]>: Closing connection. 
+2025-07-13 18:01:42,653 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:01:42,667 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:01:42,670 - INFO - productor: Enviadas 100 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:01:52,746 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:01:52,778 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:01:52,884 - INFO - productor: Enviadas 100 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:02:02,646 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:02:02,672 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:02:02,685 - INFO - productor: Enviadas 100 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:02:12,653 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:02:12,664 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:02:12,681 - INFO - productor: Enviadas 100 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:02:22,683 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:02:22,775 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:02:22,779 - INFO - productor: Enviadas 100 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:02:32,653 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:02:32,745 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:02:32,750 - INFO - productor: Enviadas 100 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:02:42,642 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:02:42,749 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:02:42,917 - INFO - productor: Enviadas 100 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:02:52,656 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:02:52,746 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:02:52,835 - INFO - productor: Enviadas 100 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:03:02,653 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:03:02,678 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:03:02,689 - INFO - productor: Enviadas 100 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:03:12,655 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:03:12,684 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:03:12,702 - INFO - productor: Enviadas 100 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:03:22,657 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:03:22,777 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:03:22,793 - INFO - productor: Enviadas 100 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:03:32,646 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:03:32,780 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:03:32,806 - INFO - productor: Enviadas 100 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:03:42,648 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:03:42,658 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:03:42,694 - INFO - productor: Enviadas 100 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:03:52,658 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:03:52,725 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:03:52,738 - INFO - productor: Enviadas 100 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:04:02,657 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:04:02,671 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:04:02,692 - INFO - productor: Enviadas 100 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:04:12,655 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:04:12,751 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:04:12,775 - INFO - productor: Enviadas 100 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:04:22,644 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:04:22,717 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:04:22,810 - INFO - productor: Enviadas 100 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:04:32,651 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:04:32,917 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:04:33,359 - INFO - productor: Enviadas 100 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:04:42,643 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:04:42,727 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:04:42,730 - INFO - productor: Enviadas 100 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:04:52,656 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:04:52,673 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:04:52,691 - INFO - productor: Enviadas 100 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:05:02,645 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:05:02,652 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:05:02,736 - INFO - productor: Enviadas 100 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:05:12,655 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:05:12,693 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:05:12,784 - INFO - productor: Enviadas 100 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:05:22,662 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:05:22,730 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:05:22,957 - INFO - productor: Enviadas 100 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:05:32,698 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:05:33,015 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:05:33,100 - INFO - productor: Enviadas 100 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:05:42,700 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:05:42,801 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:05:42,816 - INFO - productor: Enviadas 100 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:05:52,663 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:05:52,935 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:05:52,944 - INFO - productor: Enviadas 100 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:06:02,654 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:06:02,750 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:06:02,854 - INFO - productor: Enviadas 100 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:06:12,646 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:06:12,670 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:06:12,728 - INFO - productor: Enviadas 100 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:06:22,647 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:06:22,666 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:06:22,680 - INFO - productor: Enviadas 100 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:06:32,643 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:06:32,685 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:06:32,698 - INFO - productor: Enviadas 100 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:06:42,654 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:06:42,673 - INFO - productor: Enviadas 200 aeronaves al topic 'adsb.aeronaves'.
+2025-07-13 18:06:42,760 - INFO - productor: Enviadas 100 aeronaves al topic 'adsb.aeronaves'.

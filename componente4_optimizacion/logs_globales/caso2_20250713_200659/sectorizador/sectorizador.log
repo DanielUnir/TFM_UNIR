@@ -1,0 +1,100 @@
+2025-07-13 18:00:14,856 - INFO - sectorizador: Conectado a Redis en redis:6379
+2025-07-13 18:00:14,871 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:00:14,872 - INFO - ***Latencia_Sectorizador***10.965108871459961***ms
+2025-07-13 18:00:14,873 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:00:24,886 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:00:24,887 - INFO - ***Latencia_Sectorizador***10.583162307739258***ms
+2025-07-13 18:00:24,888 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:00:34,902 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:00:34,903 - INFO - ***Latencia_Sectorizador***4.534482955932617***ms
+2025-07-13 18:00:34,903 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:00:44,940 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:00:44,942 - INFO - ***Latencia_Sectorizador***106.01663589477539***ms
+2025-07-13 18:00:44,946 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:00:54,957 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:00:54,959 - INFO - ***Latencia_Sectorizador***7.156848907470703***ms
+2025-07-13 18:00:54,960 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:01:04,981 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:01:04,982 - INFO - ***Latencia_Sectorizador***15.861988067626953***ms
+2025-07-13 18:01:04,983 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:01:15,002 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:01:15,003 - INFO - ***Latencia_Sectorizador***8.411169052124023***ms
+2025-07-13 18:01:15,004 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:01:25,042 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:01:25,057 - INFO - ***Latencia_Sectorizador***46.651601791381836***ms
+2025-07-13 18:01:25,063 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:01:35,097 - ERROR - Error al sectorizar: no such key
+2025-07-13 18:01:35,099 - INFO - ***Latencia_Sectorizador***27.158498764038086***ms
+2025-07-13 18:01:35,100 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:01:45,889 - INFO - 488 aeronaves sectorizadas correctamente.
+2025-07-13 18:01:45,890 - INFO - ***Latencia_Sectorizador***784.3422889709473***ms
+2025-07-13 18:01:45,892 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:01:57,168 - INFO - 789 aeronaves sectorizadas correctamente.
+2025-07-13 18:01:57,170 - INFO - ***Latencia_Sectorizador***1258.5010528564453***ms
+2025-07-13 18:01:57,171 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:02:08,536 - INFO - 1188 aeronaves sectorizadas correctamente.
+2025-07-13 18:02:08,539 - INFO - ***Latencia_Sectorizador***1366.9838905334473***ms
+2025-07-13 18:02:08,539 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:02:21,395 - INFO - 1475 aeronaves sectorizadas correctamente.
+2025-07-13 18:02:21,398 - INFO - ***Latencia_Sectorizador***2849.170923233032***ms
+2025-07-13 18:02:21,399 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:02:32,632 - INFO - 1692 aeronaves sectorizadas correctamente.
+2025-07-13 18:02:32,635 - INFO - ***Latencia_Sectorizador***1224.3471145629883***ms
+2025-07-13 18:02:32,635 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:02:46,532 - INFO - 1877 aeronaves sectorizadas correctamente.
+2025-07-13 18:02:46,537 - INFO - ***Latencia_Sectorizador***3895.411968231201***ms
+2025-07-13 18:02:46,538 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:02:59,306 - INFO - 1893 aeronaves sectorizadas correctamente.
+2025-07-13 18:02:59,308 - INFO - ***Latencia_Sectorizador***2751.9218921661377***ms
+2025-07-13 18:02:59,309 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:03:10,974 - INFO - 1883 aeronaves sectorizadas correctamente.
+2025-07-13 18:03:10,978 - INFO - ***Latencia_Sectorizador***1658.708095550537***ms
+2025-07-13 18:03:10,979 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:03:24,058 - INFO - 1899 aeronaves sectorizadas correctamente.
+2025-07-13 18:03:24,075 - INFO - ***Latencia_Sectorizador***3080.643892288208***ms
+2025-07-13 18:03:24,076 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:03:36,634 - INFO - 1888 aeronaves sectorizadas correctamente.
+2025-07-13 18:03:36,636 - INFO - ***Latencia_Sectorizador***2525.315284729004***ms
+2025-07-13 18:03:36,637 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:03:49,340 - INFO - 1906 aeronaves sectorizadas correctamente.
+2025-07-13 18:03:49,341 - INFO - ***Latencia_Sectorizador***2693.9139366149902***ms
+2025-07-13 18:03:49,342 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:04:02,609 - INFO - 1906 aeronaves sectorizadas correctamente.
+2025-07-13 18:04:02,611 - INFO - ***Latencia_Sectorizador***3265.3183937072754***ms
+2025-07-13 18:04:02,613 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:04:16,717 - INFO - 1879 aeronaves sectorizadas correctamente.
+2025-07-13 18:04:16,718 - INFO - ***Latencia_Sectorizador***4100.224733352661***ms
+2025-07-13 18:04:16,719 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:04:29,249 - INFO - 1868 aeronaves sectorizadas correctamente.
+2025-07-13 18:04:29,270 - INFO - ***Latencia_Sectorizador***2540.5499935150146***ms
+2025-07-13 18:04:29,271 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:04:43,475 - INFO - 1855 aeronaves sectorizadas correctamente.
+2025-07-13 18:04:43,477 - INFO - ***Latencia_Sectorizador***4204.560041427612***ms
+2025-07-13 18:04:43,478 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:04:56,630 - INFO - 1829 aeronaves sectorizadas correctamente.
+2025-07-13 18:04:56,644 - INFO - ***Latencia_Sectorizador***3154.5932292938232***ms
+2025-07-13 18:04:56,650 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:05:09,268 - INFO - 1876 aeronaves sectorizadas correctamente.
+2025-07-13 18:05:09,269 - INFO - ***Latencia_Sectorizador***2614.342212677002***ms
+2025-07-13 18:05:09,270 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:05:21,896 - INFO - 1879 aeronaves sectorizadas correctamente.
+2025-07-13 18:05:21,897 - INFO - ***Latencia_Sectorizador***2625.188112258911***ms
+2025-07-13 18:05:21,898 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:05:35,644 - INFO - 1883 aeronaves sectorizadas correctamente.
+2025-07-13 18:05:35,646 - INFO - ***Latencia_Sectorizador***3743.290901184082***ms
+2025-07-13 18:05:35,646 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:05:48,198 - INFO - 1860 aeronaves sectorizadas correctamente.
+2025-07-13 18:05:48,200 - INFO - ***Latencia_Sectorizador***2541.3522720336914***ms
+2025-07-13 18:05:48,201 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:05:59,961 - INFO - 1883 aeronaves sectorizadas correctamente.
+2025-07-13 18:05:59,962 - INFO - ***Latencia_Sectorizador***1750.195026397705***ms
+2025-07-13 18:05:59,962 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:06:12,154 - INFO - 1904 aeronaves sectorizadas correctamente.
+2025-07-13 18:06:12,155 - INFO - ***Latencia_Sectorizador***2178.896427154541***ms
+2025-07-13 18:06:12,155 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:06:24,077 - INFO - 1880 aeronaves sectorizadas correctamente.
+2025-07-13 18:06:24,079 - INFO - ***Latencia_Sectorizador***1921.5991497039795***ms
+2025-07-13 18:06:24,080 - INFO - Sectores actualizados en Redis.
+2025-07-13 18:06:34,860 - INFO - 848 aeronaves sectorizadas correctamente.
+2025-07-13 18:06:34,860 - INFO - ***Latencia_Sectorizador***767.481803894043***ms
+2025-07-13 18:06:34,861 - INFO - Sectores actualizados en Redis.

@@ -1,0 +1,454 @@
+2025-07-13 18:32:31,343 - INFO - consumidor_mongo4: conectado a MongoDB en mongodb://mongo:27017.
+2025-07-13 18:32:31,355 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.18.0.3', 9092)]>: connecting to kafka:9092 [('172.18.0.3', 9092) IPv4]
+2025-07-13 18:32:31,374 - INFO - Probing node bootstrap-0 broker version
+2025-07-13 18:32:31,410 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.18.0.3', 9092)]>: Connection complete.
+2025-07-13 18:32:31,612 - INFO - Broker version identified as 2.5.0
+2025-07-13 18:32:31,613 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-07-13 18:32:31,615 - INFO - Probing node bootstrap-0 broker version
+2025-07-13 18:32:32,070 - INFO - Broker version identified as 2.5.0
+2025-07-13 18:32:32,071 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-07-13 18:32:32,422 - INFO - <BrokerConnection node_id=1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.3', 9092)]>: connecting to kafka:9092 [('172.18.0.3', 9092) IPv4]
+2025-07-13 18:32:32,425 - INFO - Probing node 1 broker version
+2025-07-13 18:32:32,477 - INFO - <BrokerConnection node_id=1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.3', 9092)]>: Connection complete.
+2025-07-13 18:32:32,499 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connected> [IPv4 ('172.18.0.3', 9092)]>: Closing connection. 
+2025-07-13 18:32:33,814 - INFO - Broker version identified as 2.5.0
+2025-07-13 18:32:33,816 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-07-13 18:32:36,025 - INFO - consumidor_mongo4:El topic adsb.aeronaves ya existe en Kafka.
+2025-07-13 18:32:36,038 - INFO - <BrokerConnection node_id=1 host=kafka:9092 <connected> [IPv4 ('172.18.0.3', 9092)]>: Closing connection. 
+2025-07-13 18:32:46,133 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.18.0.3', 9092)]>: connecting to kafka:9092 [('172.18.0.3', 9092) IPv4]
+2025-07-13 18:32:46,154 - INFO - Probing node bootstrap-0 broker version
+2025-07-13 18:32:46,177 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.18.0.3', 9092)]>: Connection complete.
+2025-07-13 18:32:46,521 - INFO - Broker version identified as 2.5.0
+2025-07-13 18:32:46,791 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-07-13 18:32:46,842 - INFO - Updating subscribed topics to: ('adsb.aeronaves',)
+2025-07-13 18:32:46,855 - INFO - consumidor_mongo4: Conectado a Kafka en kafka:9092.
+2025-07-13 18:32:46,860 - INFO - consumidor_mongo4: esperando mensajes en el topic adsb.aeronaves...
+2025-07-13 18:32:46,907 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:46,909 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:46,910 - INFO - Starting new heartbeat thread
+2025-07-13 18:32:46,913 - INFO - Revoking previously assigned partitions set() for group adsb_mongo_group
+2025-07-13 18:32:46,919 - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.3', 9092)]>: connecting to kafka:9092 [('172.18.0.3', 9092) IPv4]
+2025-07-13 18:32:46,926 - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.3', 9092)]>: Connection complete.
+2025-07-13 18:32:46,927 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connected> [IPv4 ('172.18.0.3', 9092)]>: Closing connection. 
+2025-07-13 18:32:47,029 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:47,032 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.18.0.3', 9092)]>: connecting to kafka:9092 [('172.18.0.3', 9092) IPv4]
+2025-07-13 18:32:47,033 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.18.0.3', 9092)]>: Connection complete.
+2025-07-13 18:32:47,069 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:47,177 - INFO - <BrokerConnection node_id=1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.3', 9092)]>: connecting to kafka:9092 [('172.18.0.3', 9092) IPv4]
+2025-07-13 18:32:47,179 - INFO - <BrokerConnection node_id=1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.3', 9092)]>: Connection complete.
+2025-07-13 18:32:47,181 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connected> [IPv4 ('172.18.0.3', 9092)]>: Closing connection. 
+2025-07-13 18:32:47,292 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:47,293 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:47,294 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:47,301 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:47,651 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:47,654 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:47,657 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:47,725 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:48,026 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:48,028 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:48,043 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:48,119 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:48,407 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:48,417 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:48,418 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:48,442 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:48,647 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:48,652 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:48,653 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:48,836 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:49,102 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:49,109 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:49,116 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:49,129 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:49,296 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:49,297 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:49,304 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:49,963 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:50,175 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:50,182 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:50,184 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:50,209 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:50,457 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:50,457 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:50,458 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:50,486 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:50,595 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:50,596 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:50,597 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:50,609 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:50,754 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:50,755 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:50,756 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:50,797 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:50,921 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:50,925 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:50,926 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:50,932 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:51,109 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:51,111 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:51,114 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:51,148 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:51,277 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:51,305 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:51,305 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:51,320 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:51,463 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:51,490 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:51,497 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:51,527 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:51,675 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:51,676 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:51,685 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:51,700 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:51,817 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:51,819 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:51,903 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:51,926 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:52,097 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:52,100 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:52,108 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:52,251 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:52,374 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:52,393 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:52,441 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:52,546 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:52,664 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:52,666 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:52,667 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:52,676 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:52,791 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:52,793 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:52,794 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:52,817 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:52,947 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:53,330 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:53,354 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:53,617 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:53,819 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:53,911 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:53,914 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:54,038 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:54,159 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:54,161 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:54,162 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:54,230 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:54,357 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:54,359 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:54,360 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:54,390 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:54,519 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:54,521 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:54,522 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:54,530 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:54,639 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:54,640 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:54,640 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:54,646 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:54,791 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:54,794 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:54,795 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:54,817 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:54,989 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:54,990 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:54,998 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:55,019 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:55,159 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:55,162 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:55,163 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:55,506 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:55,803 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:55,827 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:55,834 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:55,856 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:56,061 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:56,062 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:56,063 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:56,105 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:56,232 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:56,233 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:56,235 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:56,263 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:56,376 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:56,378 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:56,379 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:56,422 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:56,631 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:56,633 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:56,635 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:56,661 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:57,020 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:57,021 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:57,023 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:57,124 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:57,310 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:57,315 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:57,316 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:57,797 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:57,913 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:57,924 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:57,930 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:57,944 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:58,129 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:58,135 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:58,139 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:58,195 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:58,538 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:58,598 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:58,599 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:58,662 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:58,820 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:58,837 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:58,841 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:58,847 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:58,979 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:58,992 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:58,994 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:59,049 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:59,482 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:59,487 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:59,489 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:59,581 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:59,735 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:59,737 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:59,740 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:59,761 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:32:59,885 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:32:59,889 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:32:59,892 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:32:59,901 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:33:00,217 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:33:00,218 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:33:00,219 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:33:00,232 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:33:00,399 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:33:00,404 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:33:00,407 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:33:00,457 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:33:00,584 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:33:00,586 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:33:00,587 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:33:00,597 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:33:00,719 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:33:00,723 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:33:00,727 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:33:00,770 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:33:00,898 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:33:00,916 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:33:00,922 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:33:00,969 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:33:01,143 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:33:01,143 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:33:01,144 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:33:01,195 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:33:01,363 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:33:01,375 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:33:01,376 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:33:01,390 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:33:01,514 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:33:01,516 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:33:01,517 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:33:01,542 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:33:01,658 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:33:01,659 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:33:01,660 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:33:01,664 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:33:01,774 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:33:01,775 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:33:01,776 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:33:01,782 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:33:01,982 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:33:01,994 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:33:01,998 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:33:02,030 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:33:02,138 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:33:02,138 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:33:02,141 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:33:02,160 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:33:02,275 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:33:02,280 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:33:02,281 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:33:02,298 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:33:02,406 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:33:02,420 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:33:02,426 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:33:02,440 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:33:02,565 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:33:02,575 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:33:02,589 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:33:02,651 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:33:02,777 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:33:02,777 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:33:02,778 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:33:02,810 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:33:03,054 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:33:03,055 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:33:03,058 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:33:03,101 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:33:03,320 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:33:03,322 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:33:03,326 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:33:03,363 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:33:03,486 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:33:03,489 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:33:03,490 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:33:03,497 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-13 18:33:03,616 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-13 18:33:03,627 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-13 18:33:03,627 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-13 18:33:12,260 - INFO - Successfully joined group adsb_mongo_group with generation 1
+2025-07-13 18:33:12,262 - INFO - Updated partition assignment: [TopicPartition(topic='adsb.aeronaves', partition=3)]
+2025-07-13 18:33:12,263 - INFO - Setting newly assigned partitions {TopicPartition(topic='adsb.aeronaves', partition=3)} for group adsb_mongo_group
+2025-07-13 18:33:57,832 - INFO - consumidor_mongo4***Latencia_mensajeria***1594.5932865142822***ms
+2025-07-13 18:34:03,495 - INFO - consumidor_mongo4:189 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:34:03,497 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***5665.184497833252***ms
+2025-07-13 18:34:08,863 - INFO - consumidor_mongo4***Latencia_mensajeria***3046.8080043792725***ms
+2025-07-13 18:34:12,078 - INFO - consumidor_mongo4:186 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:34:12,081 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***3217.881202697754***ms
+2025-07-13 18:34:16,448 - INFO - consumidor_mongo4***Latencia_mensajeria***548.0866432189941***ms
+2025-07-13 18:34:21,457 - INFO - consumidor_mongo4:186 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:34:21,458 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***5009.638071060181***ms
+2025-07-13 18:34:21,477 - INFO - consumidor_mongo4***Latencia_mensajeria***5545.242071151733***ms
+2025-07-13 18:34:22,750 - INFO - consumidor_mongo4:189 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:34:22,751 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***1274.0650177001953***ms
+2025-07-13 18:34:22,752 - INFO - consumidor_mongo4***Latencia_mensajeria***6783.2090854644775***ms
+2025-07-13 18:34:24,623 - INFO - consumidor_mongo4:191 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:34:24,626 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***1873.8479614257812***ms
+2025-07-13 18:34:26,534 - INFO - consumidor_mongo4***Latencia_mensajeria***637.1920108795166***ms
+2025-07-13 18:34:30,411 - INFO - consumidor_mongo4:189 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:34:30,422 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***3887.526750564575***ms
+2025-07-13 18:34:30,529 - INFO - consumidor_mongo4***Latencia_mensajeria***4506.9427490234375***ms
+2025-07-13 18:34:31,689 - INFO - consumidor_mongo4:184 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:34:31,690 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***1161.574125289917***ms
+2025-07-13 18:34:31,691 - INFO - consumidor_mongo4***Latencia_mensajeria***5568.422555923462***ms
+2025-07-13 18:34:32,212 - INFO - consumidor_mongo4:96 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:34:32,217 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***526.2413024902344***ms
+2025-07-13 18:34:48,259 - INFO - consumidor_mongo4***Latencia_mensajeria***2170.535087585449***ms
+2025-07-13 18:34:52,092 - INFO - consumidor_mongo4:181 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:34:52,093 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***3833.437919616699***ms
+2025-07-13 18:34:52,114 - INFO - consumidor_mongo4***Latencia_mensajeria***5531.232118606567***ms
+2025-07-13 18:34:54,783 - INFO - consumidor_mongo4:185 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:34:54,784 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***2670.207738876343***ms
+2025-07-13 18:34:56,426 - INFO - consumidor_mongo4***Latencia_mensajeria***519.9229717254639***ms
+2025-07-13 18:35:00,775 - INFO - consumidor_mongo4:188 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:35:00,775 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***4349.337577819824***ms
+2025-07-13 18:35:26,135 - INFO - consumidor_mongo4***Latencia_mensajeria***285.2928638458252***ms
+2025-07-13 18:35:29,612 - INFO - consumidor_mongo4:187 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:35:29,612 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***3477.4692058563232***ms
+2025-07-13 18:35:29,636 - INFO - consumidor_mongo4***Latencia_mensajeria***3640.8703327178955***ms
+2025-07-13 18:35:30,063 - INFO - consumidor_mongo4:91 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:35:30,064 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***427.6902675628662***ms
+2025-07-13 18:35:37,146 - INFO - consumidor_mongo4***Latencia_mensajeria***1063.5218620300293***ms
+2025-07-13 18:35:41,567 - INFO - consumidor_mongo4:189 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:35:41,567 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***4421.033143997192***ms
+2025-07-13 18:35:46,551 - INFO - consumidor_mongo4***Latencia_mensajeria***692.8529739379883***ms
+2025-07-13 18:35:49,061 - INFO - consumidor_mongo4:179 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:35:49,061 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***2510.456085205078***ms
+2025-07-13 18:35:56,244 - INFO - consumidor_mongo4***Latencia_mensajeria***425.94337463378906***ms
+2025-07-13 18:35:58,930 - INFO - consumidor_mongo4:180 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:35:58,931 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***2686.814546585083***ms
+2025-07-13 18:35:58,961 - INFO - consumidor_mongo4***Latencia_mensajeria***2958.4038257598877***ms
+2025-07-13 18:35:59,941 - INFO - consumidor_mongo4:184 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:35:59,946 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***985.3131771087646***ms
+2025-07-13 18:36:06,329 - INFO - consumidor_mongo4***Latencia_mensajeria***407.5429439544678***ms
+2025-07-13 18:36:11,278 - INFO - consumidor_mongo4:186 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:36:11,289 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***4960.017204284668***ms
+2025-07-13 18:36:15,979 - INFO - consumidor_mongo4***Latencia_mensajeria***164.82210159301758***ms
+2025-07-13 18:36:17,224 - INFO - consumidor_mongo4:184 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:36:17,229 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***1250.0982284545898***ms
+2025-07-13 18:36:17,460 - INFO - consumidor_mongo4***Latencia_mensajeria***1557.1820735931396***ms
+2025-07-13 18:36:18,889 - INFO - consumidor_mongo4:181 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:36:18,891 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***1430.1645755767822***ms
+2025-07-13 18:36:18,896 - INFO - consumidor_mongo4***Latencia_mensajeria***2924.8337745666504***ms
+2025-07-13 18:36:20,694 - INFO - consumidor_mongo4:181 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:36:20,695 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***1798.6106872558594***ms
+2025-07-13 18:36:20,696 - INFO - consumidor_mongo4***Latencia_mensajeria***4669.743299484253***ms
+2025-07-13 18:36:21,170 - INFO - consumidor_mongo4:184 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:36:21,170 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***474.8525619506836***ms
+2025-07-13 18:36:36,586 - INFO - consumidor_mongo4***Latencia_mensajeria***721.3711738586426***ms
+2025-07-13 18:36:40,098 - INFO - consumidor_mongo4:180 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:36:40,099 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***3513.1676197052***ms
+2025-07-13 18:36:40,112 - INFO - consumidor_mongo4***Latencia_mensajeria***3997.0316886901855***ms
+2025-07-13 18:36:41,647 - INFO - consumidor_mongo4:179 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:36:41,648 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***1535.8357429504395***ms
+2025-07-13 18:36:45,917 - INFO - consumidor_mongo4***Latencia_mensajeria***103.70373725891113***ms
+2025-07-13 18:36:48,467 - INFO - consumidor_mongo4:184 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:36:48,495 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***2578.092336654663***ms
+2025-07-13 18:36:48,521 - INFO - consumidor_mongo4***Latencia_mensajeria***2694.6353912353516***ms
+2025-07-13 18:36:50,414 - INFO - consumidor_mongo4:186 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:36:50,415 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***1894.038200378418***ms
+2025-07-13 18:36:56,147 - INFO - consumidor_mongo4***Latencia_mensajeria***281.24260902404785***ms
+2025-07-13 18:36:59,763 - INFO - consumidor_mongo4:175 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:36:59,778 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***3631.321907043457***ms
+2025-07-13 18:36:59,893 - INFO - consumidor_mongo4***Latencia_mensajeria***3967.8585529327393***ms
+2025-07-13 18:37:01,557 - INFO - consumidor_mongo4:188 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:37:01,558 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***1665.2429103851318***ms
+2025-07-13 18:37:06,108 - INFO - consumidor_mongo4***Latencia_mensajeria***279.30593490600586***ms
+2025-07-13 18:37:08,122 - INFO - consumidor_mongo4:180 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:37:08,133 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***2024.5082378387451***ms
+2025-07-13 18:37:08,178 - INFO - consumidor_mongo4***Latencia_mensajeria***2197.3938941955566***ms
+2025-07-13 18:37:11,239 - INFO - consumidor_mongo4:190 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:37:11,241 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***3062.2165203094482***ms
+2025-07-13 18:37:16,840 - INFO - consumidor_mongo4***Latencia_mensajeria***849.5585918426514***ms
+2025-07-13 18:37:19,352 - INFO - consumidor_mongo4:187 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:37:19,353 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***2512.934923171997***ms
+2025-07-13 18:37:26,284 - INFO - consumidor_mongo4***Latencia_mensajeria***352.4587154388428***ms
+2025-07-13 18:37:30,873 - INFO - consumidor_mongo4:180 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:37:30,878 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***4593.9741134643555***ms
+2025-07-13 18:37:36,343 - INFO - consumidor_mongo4***Latencia_mensajeria***454.7610282897949***ms
+2025-07-13 18:37:38,183 - INFO - consumidor_mongo4:184 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:37:38,183 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***1840.0657176971436***ms
+2025-07-13 18:37:38,203 - INFO - consumidor_mongo4***Latencia_mensajeria***2260.2388858795166***ms
+2025-07-13 18:37:40,820 - INFO - consumidor_mongo4:179 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:37:40,823 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***2619.13800239563***ms
+2025-07-13 18:37:47,097 - INFO - consumidor_mongo4***Latencia_mensajeria***1102.452278137207***ms
+2025-07-13 18:37:50,035 - INFO - consumidor_mongo4:183 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:37:50,039 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***2942.349910736084***ms
+2025-07-13 18:37:50,049 - INFO - consumidor_mongo4***Latencia_mensajeria***3792.879343032837***ms
+2025-07-13 18:37:51,653 - INFO - consumidor_mongo4:178 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:37:51,681 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***1619.1365718841553***ms
+2025-07-13 18:37:56,662 - INFO - consumidor_mongo4***Latencia_mensajeria***713.0739688873291***ms
+2025-07-13 18:37:58,817 - INFO - consumidor_mongo4:182 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:37:58,896 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***2234.2188358306885***ms
+2025-07-13 18:38:07,178 - INFO - consumidor_mongo4***Latencia_mensajeria***1246.9120025634766***ms
+2025-07-13 18:38:10,434 - INFO - consumidor_mongo4:186 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:38:10,449 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***3270.7629203796387***ms
+2025-07-13 18:38:10,464 - INFO - consumidor_mongo4***Latencia_mensajeria***4237.777948379517***ms
+2025-07-13 18:38:12,461 - INFO - consumidor_mongo4:179 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:38:12,466 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***2001.323938369751***ms
+2025-07-13 18:38:16,192 - INFO - consumidor_mongo4***Latencia_mensajeria***378.74436378479004***ms
+2025-07-13 18:38:20,521 - INFO - consumidor_mongo4:184 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:38:20,522 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***4338.209390640259***ms
+2025-07-13 18:38:20,546 - INFO - consumidor_mongo4***Latencia_mensajeria***4501.403093338013***ms
+2025-07-13 18:38:21,081 - INFO - consumidor_mongo4:93 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:38:21,082 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***536.4115238189697***ms
+2025-07-13 18:38:25,544 - ERROR - Group adsb_mongo_group failed to commit partition TopicPartition(topic='adsb.aeronaves', partition=3) at offset OffsetAndMetadata(offset=41, metadata=''): UnknownTopicOrPartitionError
+2025-07-13 18:38:25,568 - WARNING - Auto offset commit failed for group adsb_mongo_group: [Error 3] UnknownTopicOrPartitionError
+2025-07-13 18:38:25,701 - ERROR - Group adsb_mongo_group failed to commit partition TopicPartition(topic='adsb.aeronaves', partition=3) at offset OffsetAndMetadata(offset=41, metadata=''): UnknownTopicOrPartitionError
+2025-07-13 18:38:25,713 - WARNING - Auto offset commit failed for group adsb_mongo_group: [Error 3] UnknownTopicOrPartitionError
+2025-07-13 18:38:25,832 - ERROR - Group adsb_mongo_group failed to commit partition TopicPartition(topic='adsb.aeronaves', partition=3) at offset OffsetAndMetadata(offset=41, metadata=''): UnknownTopicOrPartitionError
+2025-07-13 18:38:25,833 - WARNING - Auto offset commit failed for group adsb_mongo_group: [Error 3] UnknownTopicOrPartitionError
+2025-07-13 18:38:25,972 - ERROR - Group adsb_mongo_group failed to commit partition TopicPartition(topic='adsb.aeronaves', partition=3) at offset OffsetAndMetadata(offset=41, metadata=''): UnknownTopicOrPartitionError
+2025-07-13 18:38:25,979 - WARNING - Auto offset commit failed for group adsb_mongo_group: [Error 3] UnknownTopicOrPartitionError
+2025-07-13 18:38:28,659 - INFO - Fetch offset 41 is out of range for topic-partition TopicPartition(topic='adsb.aeronaves', partition=3)
+2025-07-13 18:38:29,048 - INFO - consumidor_mongo4***Latencia_mensajeria***3063.222885131836***ms
+2025-07-13 18:38:30,901 - INFO - consumidor_mongo4:181 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:38:30,902 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***1854.1228771209717***ms
+2025-07-13 18:38:30,910 - INFO - consumidor_mongo4***Latencia_mensajeria***4948.307514190674***ms
+2025-07-13 18:38:31,553 - INFO - consumidor_mongo4:177 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:38:31,554 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***644.6056365966797***ms
+2025-07-13 18:38:35,924 - INFO - consumidor_mongo4***Latencia_mensajeria***111.51385307312012***ms
+2025-07-13 18:38:36,825 - INFO - consumidor_mongo4:180 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:38:36,826 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***901.362419128418***ms
+2025-07-13 18:38:36,839 - INFO - consumidor_mongo4***Latencia_mensajeria***953.1581401824951***ms
+2025-07-13 18:38:37,371 - INFO - consumidor_mongo4:174 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:38:37,374 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***534.8169803619385***ms
+2025-07-13 18:38:37,377 - INFO - consumidor_mongo4***Latencia_mensajeria***1429.203748703003***ms
+2025-07-13 18:38:39,230 - INFO - consumidor_mongo4:189 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:38:39,231 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***1854.2888164520264***ms
+2025-07-13 18:38:46,021 - INFO - consumidor_mongo4***Latencia_mensajeria***191.53070449829102***ms
+2025-07-13 18:38:47,389 - INFO - consumidor_mongo4:184 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:38:47,390 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***1369.903802871704***ms
+2025-07-13 18:38:47,409 - INFO - consumidor_mongo4***Latencia_mensajeria***1558.8607788085938***ms
+2025-07-13 18:38:48,240 - INFO - consumidor_mongo4:175 aeronaves insertadas en la colección 202507131830.
+2025-07-13 18:38:48,240 - INFO - consumidor_mongo4***Latencia_ConsumidorMongo***831.6009044647217***ms
