@@ -1,0 +1,64 @@
+2025-07-07 18:22:24,460 - INFO - consumidor_redis: Conectado a Redis en redis:6379
+2025-07-07 18:22:24,469 - INFO - Cliente ATM iniciado correctamente.
+2025-07-07 18:22:24,472 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-07-07 18:22:24,473 - INFO -  * Running on http://172.18.0.5:5000/ (Press CTRL+C to quit)
+2025-07-07 18:24:26,395 - INFO - 192.168.65.1 - - [07/Jul/2025 18:24:26] "GET /info HTTP/1.1" 200 -
+2025-07-07 18:24:27,940 - INFO - 192.168.65.1 - - [07/Jul/2025 18:24:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-07 18:24:50,018 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-07 18:24:50,028 - INFO - Aeronaves en el sector sector_CZ_Centro: 210
+2025-07-07 18:24:50,030 - INFO - Aeronaves en el sector sector_AD: 234
+2025-07-07 18:24:50,033 - INFO - Aeronaves en el sector sector_XK: 187
+2025-07-07 18:24:50,037 - INFO - Aeronaves en el sector sector_GB_Oeste: 247
+2025-07-07 18:24:50,042 - INFO - Aeronaves en el sector sector_BE_Este: 279
+2025-07-07 18:24:50,048 - INFO - Aeronaves en el sector sector_PT_Este: 123
+2025-07-07 18:24:50,051 - INFO - Aeronaves en el sector sector_TR_Oeste: 142
+2025-07-07 18:24:50,059 - INFO - Aeronaves en el sector sector_SE_Oeste: 116
+2025-07-07 18:24:50,060 - INFO - Aeronaves en el sector sector_RU_Oeste: 54
+2025-07-07 18:24:50,062 - INFO - Aeronaves en el sector sector_IT_Norte: 301
+2025-07-07 18:24:50,062 - INFO - ***Latencia_ClienteATM_estadoatm***43.85256767272949***ms
+2025-07-07 18:24:50,065 - INFO - 192.168.65.1 - - [07/Jul/2025 18:24:50] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-07 18:25:29,477 - INFO - Consulta de aeronaves en el sector NA.
+2025-07-07 18:25:29,515 - INFO - Aeronaves en el sector NA: set()
+2025-07-07 18:25:29,516 - INFO - ***Latencia_ClienteATM_sector***3.5524368286132812***ms
+2025-07-07 18:25:29,525 - INFO - 192.168.65.1 - - [07/Jul/2025 18:25:29] "GET /sector/NA HTTP/1.1" 200 -
+2025-07-07 18:25:39,055 - INFO - Consulta de aeronaves en el sector NA.
+2025-07-07 18:25:39,056 - INFO - Aeronaves en el sector NA: set()
+2025-07-07 18:25:39,057 - INFO - ***Latencia_ClienteATM_sector***1.15966796875***ms
+2025-07-07 18:25:39,058 - INFO - 192.168.65.1 - - [07/Jul/2025 18:25:39] "GET /sector/NA HTTP/1.1" 200 -
+2025-07-07 18:25:40,496 - INFO - Consulta de aeronaves en el sector sector_PT_Este.
+2025-07-07 18:25:40,499 - INFO - Aeronaves en el sector sector_PT_Este: {'4d20e2', '473feb', '4cad11', '44ce78', '4caa58', '4401dc', '4cacb4', '345206', 'a11f59', '4d2389', '710110', '3451d4', '020139', '4d22e7', '491147', '3444ce', '40666d', '4009d9', '4d2255', 'e8045b', '06a19e', '49528f', '347247', '34610f', '40766d', '39d30a', '440132', '4ca854', '345103', '49526a', '0200af', '0200f8', '020145', '406319', '495213', 'c0611f', '495303', '407ac1', '346419', '345659', '3455d8', '0200ec', '495293', '4ca2c0', '40790e', '0701a1', '39e682', '407963', '400efc', '40768d', '4bb06e', '4952ca', '3420cb', '0200ea', '407446', '407837', '3465d4', '4008e5', '4006ee', '342581', '485009', '43ee07', '4cafd3', '4cacdf', '4ca4eb', '49524a', '344416', '400834', 'c078ba', '39cead', '0101bb', '4ca5c7', '0200fb', '344304', '3451d5', '49520f', '06a19f', '4ca27f', '344213', '4ca811', '4cad3a', '407183', '40753f', '4bb284', '4ca739', '440c36', '34635a', '4401f7', '06a133', '343459', '3c65cb', '48c22e', '4ca763', '44a839', '4ca8e7', 'e48fce', '40660c', '394c0c', '4403bb', '44cdc2', '4070e5', '02008b', '34444b', '070183', '4ca61f', '4ca2d4', '020101', '4d2383', '4ca8e6', '424b2c', '3c135a', '020095', '407cb0', '45d969', '020142', '344694', '4d224e', '40796c', '3b756a', '346689', '3c4b2f', '440176', '3c70b0', '4a3704', '44d1c2', '02006e', '34224e', '490723', '4891b6', '070895', '346057', 'e09491', '4951ce', '478551', '34324e', '4b1802', '3949eb', 'ae01b9'}
+2025-07-07 18:25:40,500 - INFO - ***Latencia_ClienteATM_sector***3.2453536987304688***ms
+2025-07-07 18:25:40,504 - INFO - 192.168.65.1 - - [07/Jul/2025 18:25:40] "GET /sector/sector_PT_Este HTTP/1.1" 200 -
+2025-07-07 18:25:54,729 - INFO - Consulta de información de la aeronave 018070.
+2025-07-07 18:25:54,731 - INFO - ***Latencia_ClienteATM_aeronave***0.6952285766601562***ms
+2025-07-07 18:25:54,732 - ERROR - Error al obtener el estado del espacio aéreo: 'time'
+2025-07-07 18:25:54,734 - INFO - 192.168.65.1 - - [07/Jul/2025 18:25:54] "[35m[1mGET /aeronave/018070 HTTP/1.1[0m" 500 -
+2025-07-07 18:26:01,127 - INFO - Consulta de información de la aeronave 020139.
+2025-07-07 18:26:01,132 - INFO - ***Latencia_ClienteATM_aeronave***1.241445541381836***ms
+2025-07-07 18:26:01,133 - ERROR - Error al obtener el estado del espacio aéreo: 'time'
+2025-07-07 18:26:01,138 - INFO - 192.168.65.1 - - [07/Jul/2025 18:26:01] "[35m[1mGET /aeronave/020139 HTTP/1.1[0m" 500 -
+2025-07-07 18:26:16,184 - INFO - Consulta de aeronaves en el sector sector_PT_Este.
+2025-07-07 18:26:16,202 - INFO - Aeronaves en el sector sector_PT_Este: {'4d20e2', '473feb', '4cad11', 'aaac4a', '342090', '4caa58', '4cacb4', '345206', 'a11f59', '4d2389', '710110', '440452', '4d22e7', '491147', '39c422', '3444ce', '4850f6', '490732', '06a19e', '34610f', '40766d', '39d30a', '440132', '4ca854', '0200af', '4952a6', '0200f8', '020145', '3964f8', '495213', 'c0611f', '495303', '346419', '347288', '3455d8', '0200ec', '4ca2c0', '40790e', '4ca24e', '4cac55', '0701a1', '346185', '400efc', '407963', '40768d', '3420cb', '0200ea', '407446', '407837', '3465d4', '40756a', '4008e5', '4aca42', '4006ee', '342581', '484186', '0d0c5e', '343650', '4cacdf', '4ca4eb', '49524a', '344416', '400834', 'c078ba', '39cead', '4ca5c7', '485a82', '0200fb', '344304', '49520f', '406909', '4ca27f', '344213', '40665f', '4ca811', '4b1a1b', '4cad3a', '407183', '40753f', '4bb284', '4ca739', '440c36', '34635a', '4ca88c', '4401f7', '06a133', '3c65cb', '34520b', '4ca763', '44a839', '4ca891', '3444ca', '3964e8', '4ca8e7', 'e48fce', '40660c', '4403bb', '44cdc2', '4070e5', '407025', '02008b', '407631', '070183', '4ca61f', '4ca2d4', '407d5b', '020101', '344217', '3c135a', '424b2c', '407cb0', '45d969', '020142', '4d224e', '40796c', '3b756a', '346689', '4ca4f5', '440176', '3c70b0', '4a3704', '44d1c2', '34224e', '490723', '491144', '4891b6', '346057', 'e09491', '4951ce', '34324e', '4ca705', '4d03c1', '3949eb', 'ae01b9'}
+2025-07-07 18:26:16,202 - INFO - ***Latencia_ClienteATM_sector***3.330707550048828***ms
+2025-07-07 18:26:16,203 - INFO - 192.168.65.1 - - [07/Jul/2025 18:26:16] "GET /sector/sector_PT_Este HTTP/1.1" 200 -
+2025-07-07 18:26:22,204 - INFO - Consulta de información de la aeronave 4d20e2.
+2025-07-07 18:26:22,207 - INFO - ***Latencia_ClienteATM_aeronave***1.5597343444824219***ms
+2025-07-07 18:26:22,208 - ERROR - Error al obtener el estado del espacio aéreo: 'str' object cannot be interpreted as an integer
+2025-07-07 18:26:22,211 - INFO - 192.168.65.1 - - [07/Jul/2025 18:26:22] "[35m[1mGET /aeronave/4d20e2 HTTP/1.1[0m" 500 -
+2025-07-07 18:26:26,613 - INFO - Consulta de información de la aeronave 4d20e2.
+2025-07-07 18:26:26,614 - INFO - ***Latencia_ClienteATM_aeronave***0.7312297821044922***ms
+2025-07-07 18:26:26,615 - ERROR - Error al obtener el estado del espacio aéreo: 'str' object cannot be interpreted as an integer
+2025-07-07 18:26:26,616 - INFO - 192.168.65.1 - - [07/Jul/2025 18:26:26] "[35m[1mGET /aeronave/4d20e2 HTTP/1.1[0m" 500 -
+2025-07-07 18:26:39,322 - INFO - Consulta de información de la aeronave 4d20e2.
+2025-07-07 18:26:39,324 - INFO - ***Latencia_ClienteATM_aeronave***0.5578994750976562***ms
+2025-07-07 18:26:39,325 - ERROR - Error al obtener el estado del espacio aéreo: 'time'
+2025-07-07 18:26:39,327 - INFO - 192.168.65.1 - - [07/Jul/2025 18:26:39] "[35m[1mGET /aeronave/4d20e2 HTTP/1.1[0m" 500 -
+2025-07-07 18:29:13,219 - INFO - Consulta de información de la aeronave 4d20e2.
+2025-07-07 18:29:13,223 - INFO - ***Latencia_ClienteATM_aeronave***2.614736557006836***ms
+2025-07-07 18:29:13,223 - ERROR - Error al obtener el estado del espacio aéreo: 'str' object cannot be interpreted as an integer
+2025-07-07 18:29:13,224 - INFO - 192.168.65.1 - - [07/Jul/2025 18:29:13] "[35m[1mGET /aeronave/4d20e2 HTTP/1.1[0m" 500 -
+2025-07-07 18:29:15,637 - INFO - Consulta de información de la aeronave 001071.
+2025-07-07 18:29:15,639 - INFO - ***Latencia_ClienteATM_aeronave***1.3675689697265625***ms
+2025-07-07 18:29:15,641 - ERROR - Error al obtener el estado del espacio aéreo: 'str' object cannot be interpreted as an integer
+2025-07-07 18:29:15,644 - INFO - 192.168.65.1 - - [07/Jul/2025 18:29:15] "[35m[1mGET /aeronave/001071 HTTP/1.1[0m" 500 -

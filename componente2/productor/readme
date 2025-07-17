@@ -1,0 +1,40 @@
+# ./productor/readme
+# Productor - Microservicio De publicación de mensajes ADS-B en Kafka
+#   Se ha analizado de los datos disponibles que el archivo cargado, cada registro de aeronave tiene una marca de tiempo
+#   los registros están ordenados por esta marca de tiempo de forma que cada 10 segundos aproximadamente
+#   existe un conjunto de registros de todas las aeronaves que estaban emitiendo información en ese momento
+#   por este motivo, para simular la emisión de datos en pseudo-tiempo real el productor enviará mensajes 
+#   con todos los registros que comparten la misma marca de tiempo cada diez segundos de forma ordenada.
+#   Además para optimizar el consumo de mensajes según la capacidad de procesamiento, en cada intervalo
+#   de tiempo los registros se subagrupan en batches de tamaño fijo definido por variable de entorno.
+
+# Imagen base
+- Python 3.10 slim, más ligera que la oficial
+
+# Variables de entorno (.env)
+    - ID_SERVICE                                            # Identificador propio del contenedor, para identificarse al conectar con otros servicios
+
+    - KAFKA_BOOTSTRAP_SERVERS                               # Dirección del servidor de Kafka al que se conecta
+    - KAFKA_TOPIC                                           # Nombre del topic de Kafka al que se suscribe
+
+    - MAX_BATCH                                             # Número máximo de aeronaves en cada mensaje enviado a Kafka
+    - INTERVALO_ADSB                                        # Este valor representa la diferencia de tiempos del atributo 'time' de los mensajes ADS-B
+
+# Requerimientos
+    - kafka-python==2.0.2                                   # Cliente de Kafka para Python
+
+# Dockerfile
+- Establece la imagen base, heramientas python auxiliares, requerimientos, carpetas de trabajo y lanza el arranque con el código fuente
+
+# Código fuente
+- `productor.py`
+
+# Archivos auxiliares
+- `utilidades.py`
+
+# Proceso resumido
+- Conexión con Kafka, suscripción al topic `KAFKA_TOPIC`
+- Carga la información aeronáutica desde un archivo json
+- Agrupa las aeronaves por el instante de detección
+- Publica los mensajes con cada grupo de aeronaves, añadiendo un campo adicional con el instante de envío para posterior cálculo de latencia
+- Realiza un envío cada `INTERVALO_ADSB` segundos, que es el intervalo entre registros disponible
