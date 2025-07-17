@@ -1,0 +1,40 @@
+# ./consumidor_mongo/readme
+# Consumidor_mongo - Microservicio de recepción de mensajes ADS-B en Kafka, procesado y escritura en MongoDB
+#   Este consumidor puede no ser tan rápido en el procesamiento pues la información se utiliza a posteriori
+#   Realiza la función de sectorización y otros cálculos pues no es necesario una latencia excesivamente baja.
+
+# Funcionalidad
+- Utiliza una imagen base de Python ligera y robusta
+- Arranque automático
+- Se conecta a Kafka y se suscribe al Topic adsb.aeronaves
+- Se conecta MongoDB
+- Revisa que el mensaje de cada aeronave contiene valores esenciales (lat, lon, geoaltitude/baroaltitude)
+- Calcula los siguientes atributos y los añade al mensaje de cada aeronave: FL (nivel de vuelo), Altitude, Sector, Location (para permitir consultas $near)
+- Almacena los datos de forma masiva para todas las aeronaves recibidas en el mensaje.
+- Según el atributo time de las aeronaves del mensaje, se agrupan en colecciones separadas de 15 minutos, con nombre 'YYYYMMDDHHMM'
+- Crea indices (orientado a las consultas): Geoespacial en Location, simple en time, compuesto por icao24 y time, compuesto por sector y time, simple en FL 
+- No duplica el mensaje y si ya existe uno con la misma pareja de valores icao24 y time
+- Compara el instante de escritura con el de envío por el productor y emite un log de latencia de mensajería y de almacenamiento del mensaje completo
+
+# Configuración
+- Variables de entorno (.env)
+    - KAFKA_TOPIC                                   # Nombre del topic de Kafka al que se enviarán los datos
+    - KAFKA_BOOTSTRAP_SERVERS                       # Dirección del servidor de Kafka (gracias a la red Docker se puede usar el nombre del servicio)
+    - MONGO_HOST                                    # Configuración del host MongoDB
+    - MONGO_PORT                                    # Puerto de MongoDB
+    - MONGO_DB                                      # Base de datos de MongoDB donde se guardarán los datos
+    - ID_SERVICE                                    # Identificador del servicio para trazas
+
+- Requerimientos
+    - kafka-python==2.0.2                           # Cliente de Kafka para Python
+    - pymongo==4.3.3                                # Cliente de MongoDB en Python
+    - geopy==2.3.0                                  # Biblioteca para trabajar con datos geoespaciales
+
+
+# Funciones
+- mongo_prepoc.py
+    - insertar_aeronave(db, mensaje, altitud, fl, sector): Inserta un documento de aeronave en la colección correspondiente.
+    - sectorizar_aeronave(mensaje): Sectoriza la aeronave en función de su posición geográfica.
+    - definir_FL(altitud): Calcula el nivel de vuelo (FL) basado en la altitud. El nivel de vuelo se calcula convirtiendo de metros a pies, dividiendo la altitud por 100 y redondeando hacia abajo.
+    - definir_altitud(mensaje): Crea un campo de altitud basado en el mensaje recibido. Si el mensaje contiene 'baroaltitude', se usa ese valor; de lo contrario, se usa 'geoaltitude'.
+    - nombre_coleccion_bloque_tiempo(timestamp, bloque_tiempo=15): Devuelve la colección de MongoDB para el bloque de tiempo actual. El bloque de tiempo es de 15 minutos por defecto. Nombre de la colección en Formato 'YYYYMMDDHHMM'.

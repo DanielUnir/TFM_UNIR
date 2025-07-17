@@ -1,0 +1,1617 @@
+2025-07-08 19:03:30,352 - INFO - consumidor_mongo: conectado a MongoDB en mongodb://mongo:27017.
+2025-07-08 19:03:30,358 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.18.0.2', 9092)]>: connecting to kafka:9092 [('172.18.0.2', 9092) IPv4]
+2025-07-08 19:03:30,359 - INFO - Probing node bootstrap-0 broker version
+2025-07-08 19:03:30,362 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.18.0.2', 9092)]>: Connection complete.
+2025-07-08 19:03:30,484 - INFO - Broker version identified as 2.5.0
+2025-07-08 19:03:30,485 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-07-08 19:03:30,524 - INFO - Updating subscribed topics to: ('adsb.aeronaves',)
+2025-07-08 19:03:30,532 - INFO - consumidor_mongo: Conectado a Kafka en kafka:9092.
+2025-07-08 19:03:30,546 - INFO - consumidor_mongo: esperando mensajes en el topic adsb.aeronaves...
+2025-07-08 19:03:31,346 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:31,389 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:31,391 - INFO - Starting new heartbeat thread
+2025-07-08 19:03:31,398 - INFO - Revoking previously assigned partitions set() for group adsb_mongo_group
+2025-07-08 19:03:31,493 - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.2', 9092)]>: connecting to kafka:9092 [('172.18.0.2', 9092) IPv4]
+2025-07-08 19:03:31,496 - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.2', 9092)]>: Connection complete.
+2025-07-08 19:03:31,520 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connected> [IPv4 ('172.18.0.2', 9092)]>: Closing connection. 
+2025-07-08 19:03:31,631 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:31,642 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.18.0.2', 9092)]>: connecting to kafka:9092 [('172.18.0.2', 9092) IPv4]
+2025-07-08 19:03:31,661 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.18.0.2', 9092)]>: Connection complete.
+2025-07-08 19:03:31,681 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:31,979 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:31,984 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:32,002 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:32,180 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:32,416 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:32,444 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:32,451 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:32,517 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:32,635 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:32,638 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:32,642 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:32,656 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:32,778 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:32,784 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:32,801 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:32,833 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:32,992 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:33,013 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:33,017 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:33,122 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:33,444 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:33,461 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:33,467 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:33,484 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:33,818 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:33,835 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:33,836 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:33,946 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:34,176 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:34,177 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:34,182 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:34,400 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:35,545 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:35,549 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:35,560 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:35,930 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:36,086 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:36,098 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:36,107 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:36,137 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:36,266 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:36,500 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:36,657 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:36,708 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:37,490 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:37,532 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:37,575 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:37,923 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:38,161 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:38,163 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:38,165 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:38,486 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:38,612 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:38,819 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:38,866 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:39,349 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:39,691 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:39,707 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:39,712 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:39,723 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:39,884 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:39,894 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:39,991 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:40,018 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:40,183 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:40,187 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:40,235 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:40,333 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:40,683 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:40,691 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:40,711 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:40,732 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:41,151 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:41,214 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:41,268 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:41,338 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:41,599 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:41,610 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:41,611 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:41,681 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:41,864 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:41,865 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:41,866 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:41,940 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:42,066 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:42,069 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:42,070 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:42,111 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:42,278 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:42,292 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:42,297 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:42,349 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:42,465 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:42,469 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:42,476 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:42,494 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:42,628 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:42,628 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:42,630 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:42,647 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:42,773 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:42,829 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:42,834 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:42,892 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:43,063 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:43,074 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:43,077 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:43,086 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:43,231 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:43,232 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:43,245 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:43,270 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:43,543 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:43,545 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:43,551 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:43,569 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:43,941 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:43,944 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:43,976 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:44,108 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:44,255 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:44,263 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:44,279 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:44,303 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:44,419 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:44,487 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:44,494 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:44,515 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:44,735 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:44,794 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:44,932 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:45,012 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:45,319 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:45,334 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:45,335 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:45,393 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:45,548 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:45,549 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:45,556 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:45,566 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:45,694 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:45,700 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:45,719 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:45,750 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:46,462 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:46,469 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:46,474 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:46,602 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:46,768 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:46,827 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:46,853 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:46,978 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:47,178 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:47,275 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:47,285 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:47,304 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:47,495 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:47,526 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:47,673 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:47,759 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:48,361 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:48,366 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:48,369 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:48,423 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:48,594 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:48,867 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:48,944 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:49,117 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:49,343 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:49,366 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:49,387 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:49,416 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:49,619 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:49,702 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:49,711 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:49,785 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:49,918 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:49,935 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:49,937 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:49,964 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:50,092 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:50,102 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:50,118 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:50,364 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:50,553 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:50,568 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:50,576 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:50,656 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:50,826 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:50,828 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:50,829 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:50,881 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:51,018 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:51,080 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:51,086 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:51,186 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:51,376 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:51,377 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:51,435 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:51,641 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:52,013 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:52,021 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:52,022 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:52,026 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:52,133 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:52,183 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:52,187 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:52,405 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:52,641 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:52,646 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:52,652 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:52,666 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:52,935 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:52,936 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:52,938 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:52,948 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:53,067 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:53,068 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:53,070 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:53,081 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:53,282 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:53,285 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:53,386 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:53,616 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:53,760 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:53,786 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:53,848 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:53,938 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:54,176 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:54,178 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:54,189 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:54,212 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:54,357 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:54,366 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:54,369 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:54,389 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:54,510 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:54,512 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:54,521 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:54,610 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:54,748 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:54,770 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:54,784 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:54,828 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:54,945 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:55,159 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:55,160 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:55,258 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:55,370 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:55,432 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:55,439 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:55,491 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:55,718 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:55,720 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:55,722 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:55,730 - WARNING - Marking the coordinator dead (node coordinator-1) for group adsb_mongo_group: [Error 16] NotCoordinatorForGroupError.
+2025-07-08 19:03:55,920 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:03:55,970 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:03:55,998 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:03:59,263 - INFO - Elected group leader -- performing partition assignments using range
+2025-07-08 19:03:59,270 - INFO - <BrokerConnection node_id=1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.2', 9092)]>: connecting to kafka:9092 [('172.18.0.2', 9092) IPv4]
+2025-07-08 19:03:59,272 - INFO - <BrokerConnection node_id=1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.2', 9092)]>: Connection complete.
+2025-07-08 19:03:59,274 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connected> [IPv4 ('172.18.0.2', 9092)]>: Closing connection. 
+2025-07-08 19:03:59,397 - INFO - Successfully joined group adsb_mongo_group with generation 1
+2025-07-08 19:03:59,402 - INFO - Updated partition assignment: [TopicPartition(topic='adsb.aeronaves', partition=0), TopicPartition(topic='adsb.aeronaves', partition=1)]
+2025-07-08 19:03:59,404 - INFO - Setting newly assigned partitions {TopicPartition(topic='adsb.aeronaves', partition=0), TopicPartition(topic='adsb.aeronaves', partition=1)} for group adsb_mongo_group
+2025-07-08 19:11:43,197 - INFO - consumidor_mongo: conectado a MongoDB en mongodb://mongo:27017.
+2025-07-08 19:11:43,219 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.18.0.3', 9092)]>: connecting to kafka:9092 [('172.18.0.3', 9092) IPv4]
+2025-07-08 19:11:43,224 - INFO - Probing node bootstrap-0 broker version
+2025-07-08 19:11:43,230 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.18.0.3', 9092)]>: Connection complete.
+2025-07-08 19:11:43,356 - INFO - Broker version identified as 2.5.0
+2025-07-08 19:11:43,358 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2025-07-08 19:11:43,365 - INFO - Updating subscribed topics to: ('adsb.aeronaves',)
+2025-07-08 19:11:43,367 - INFO - consumidor_mongo: Conectado a Kafka en kafka:9092.
+2025-07-08 19:11:43,368 - INFO - consumidor_mongo: esperando mensajes en el topic adsb.aeronaves...
+2025-07-08 19:11:43,398 - INFO - Group coordinator for adsb_mongo_group is BrokerMetadata(nodeId='coordinator-1', host='kafka', port=9092, rack=None)
+2025-07-08 19:11:43,400 - INFO - Discovered coordinator coordinator-1 for group adsb_mongo_group
+2025-07-08 19:11:43,401 - INFO - Starting new heartbeat thread
+2025-07-08 19:11:43,413 - INFO - Revoking previously assigned partitions set() for group adsb_mongo_group
+2025-07-08 19:11:43,428 - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.3', 9092)]>: connecting to kafka:9092 [('172.18.0.3', 9092) IPv4]
+2025-07-08 19:11:43,436 - INFO - <BrokerConnection node_id=coordinator-1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.3', 9092)]>: Connection complete.
+2025-07-08 19:11:43,437 - INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connected> [IPv4 ('172.18.0.3', 9092)]>: Closing connection. 
+2025-07-08 19:11:43,545 - INFO - (Re-)joining group adsb_mongo_group
+2025-07-08 19:12:09,549 - INFO - Elected group leader -- performing partition assignments using range
+2025-07-08 19:12:09,619 - INFO - <BrokerConnection node_id=1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.3', 9092)]>: connecting to kafka:9092 [('172.18.0.3', 9092) IPv4]
+2025-07-08 19:12:09,638 - INFO - <BrokerConnection node_id=1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.3', 9092)]>: Connection complete.
+2025-07-08 19:12:09,746 - INFO - Successfully joined group adsb_mongo_group with generation 2
+2025-07-08 19:12:09,751 - INFO - Updated partition assignment: [TopicPartition(topic='adsb.aeronaves', partition=0), TopicPartition(topic='adsb.aeronaves', partition=1)]
+2025-07-08 19:12:09,764 - INFO - Setting newly assigned partitions {TopicPartition(topic='adsb.aeronaves', partition=0), TopicPartition(topic='adsb.aeronaves', partition=1)} for group adsb_mongo_group
+2025-07-08 19:12:32,992 - INFO - consumidor_mongo***Latencia_mensajeria***98.0069637298584***ms
+2025-07-08 19:12:33,392 - INFO - consumidor_mongo:19 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:12:33,393 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***400.8030891418457***ms
+2025-07-08 19:12:42,951 - INFO - consumidor_mongo***Latencia_mensajeria***80.43527603149414***ms
+2025-07-08 19:12:43,472 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:12:43,472 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***521.3460922241211***ms
+2025-07-08 19:12:43,506 - INFO - consumidor_mongo***Latencia_mensajeria***618.6063289642334***ms
+2025-07-08 19:12:44,076 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:12:44,077 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***571.5091228485107***ms
+2025-07-08 19:12:44,081 - INFO - consumidor_mongo***Latencia_mensajeria***1149.665117263794***ms
+2025-07-08 19:12:44,794 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:12:44,797 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***715.9156799316406***ms
+2025-07-08 19:12:44,812 - INFO - consumidor_mongo***Latencia_mensajeria***1809.8750114440918***ms
+2025-07-08 19:12:45,509 - INFO - consumidor_mongo:96 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:12:45,514 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***702.4025917053223***ms
+2025-07-08 19:12:45,516 - INFO - consumidor_mongo***Latencia_mensajeria***2412.926435470581***ms
+2025-07-08 19:12:45,850 - INFO - consumidor_mongo:95 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:12:45,851 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***334.34152603149414***ms
+2025-07-08 19:12:52,979 - INFO - consumidor_mongo***Latencia_mensajeria***111.80782318115234***ms
+2025-07-08 19:12:53,259 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:12:53,260 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***280.75647354125977***ms
+2025-07-08 19:12:53,260 - INFO - consumidor_mongo***Latencia_mensajeria***375.12850761413574***ms
+2025-07-08 19:12:53,534 - INFO - consumidor_mongo:98 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:12:53,534 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***273.8027572631836***ms
+2025-07-08 19:12:53,544 - INFO - consumidor_mongo***Latencia_mensajeria***649.8966217041016***ms
+2025-07-08 19:12:53,698 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:12:53,701 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***156.50296211242676***ms
+2025-07-08 19:12:53,706 - INFO - consumidor_mongo***Latencia_mensajeria***778.5937786102295***ms
+2025-07-08 19:12:53,883 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:12:53,884 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***177.3543357849121***ms
+2025-07-08 19:12:53,884 - INFO - consumidor_mongo***Latencia_mensajeria***975.5914211273193***ms
+2025-07-08 19:12:54,196 - INFO - consumidor_mongo:95 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:12:54,197 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***312.17432022094727***ms
+2025-07-08 19:13:02,921 - INFO - consumidor_mongo***Latencia_mensajeria***53.89833450317383***ms
+2025-07-08 19:13:03,302 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:13:03,304 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***382.37786293029785***ms
+2025-07-08 19:13:03,358 - INFO - consumidor_mongo***Latencia_mensajeria***441.33472442626953***ms
+2025-07-08 19:13:03,649 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:13:03,650 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***292.27471351623535***ms
+2025-07-08 19:13:03,651 - INFO - consumidor_mongo***Latencia_mensajeria***633.5670948028564***ms
+2025-07-08 19:13:03,916 - INFO - consumidor_mongo:98 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:13:03,916 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***265.61546325683594***ms
+2025-07-08 19:13:03,917 - INFO - consumidor_mongo***Latencia_mensajeria***1038.4676456451416***ms
+2025-07-08 19:13:04,176 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:13:04,177 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***260.04695892333984***ms
+2025-07-08 19:13:04,186 - INFO - consumidor_mongo***Latencia_mensajeria***1235.9800338745117***ms
+2025-07-08 19:13:05,145 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:13:05,147 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***961.317777633667***ms
+2025-07-08 19:13:12,903 - INFO - consumidor_mongo***Latencia_mensajeria***40.50755500793457***ms
+2025-07-08 19:13:13,251 - INFO - consumidor_mongo:95 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:13:13,252 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***348.8743305206299***ms
+2025-07-08 19:13:13,257 - INFO - consumidor_mongo***Latencia_mensajeria***378.07178497314453***ms
+2025-07-08 19:13:13,491 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:13:13,491 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***234.82322692871094***ms
+2025-07-08 19:13:13,498 - INFO - consumidor_mongo***Latencia_mensajeria***594.1154956817627***ms
+2025-07-08 19:13:13,628 - INFO - consumidor_mongo:98 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:13:13,628 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***130.1553249359131***ms
+2025-07-08 19:13:13,629 - INFO - consumidor_mongo***Latencia_mensajeria***690.3109550476074***ms
+2025-07-08 19:13:13,765 - INFO - consumidor_mongo:95 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:13:13,765 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***136.8401050567627***ms
+2025-07-08 19:13:13,766 - INFO - consumidor_mongo***Latencia_mensajeria***814.6452903747559***ms
+2025-07-08 19:13:13,913 - INFO - consumidor_mongo:95 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:13:13,914 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***147.56155014038086***ms
+2025-07-08 19:13:22,947 - INFO - consumidor_mongo***Latencia_mensajeria***79.60081100463867***ms
+2025-07-08 19:13:23,452 - INFO - consumidor_mongo:96 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:13:23,455 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***506.02245330810547***ms
+2025-07-08 19:13:23,485 - INFO - consumidor_mongo***Latencia_mensajeria***583.0917358398438***ms
+2025-07-08 19:13:23,771 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:13:23,772 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***287.04094886779785***ms
+2025-07-08 19:13:23,772 - INFO - consumidor_mongo***Latencia_mensajeria***832.9622745513916***ms
+2025-07-08 19:13:24,034 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:13:24,035 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***262.9508972167969***ms
+2025-07-08 19:13:24,035 - INFO - consumidor_mongo***Latencia_mensajeria***1044.0144538879395***ms
+2025-07-08 19:13:24,812 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:13:24,816 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***780.1990509033203***ms
+2025-07-08 19:13:24,818 - INFO - consumidor_mongo***Latencia_mensajeria***1763.4565830230713***ms
+2025-07-08 19:13:25,267 - INFO - consumidor_mongo:95 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:13:25,267 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***449.678897857666***ms
+2025-07-08 19:13:32,926 - INFO - consumidor_mongo***Latencia_mensajeria***62.29376792907715***ms
+2025-07-08 19:13:33,489 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:13:33,490 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***564.8400783538818***ms
+2025-07-08 19:13:33,524 - INFO - consumidor_mongo***Latencia_mensajeria***598.6902713775635***ms
+2025-07-08 19:13:34,075 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:13:34,075 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***551.2106418609619***ms
+2025-07-08 19:13:34,081 - INFO - consumidor_mongo***Latencia_mensajeria***1123.847484588623***ms
+2025-07-08 19:13:34,318 - INFO - consumidor_mongo:98 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:13:34,319 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***238.35372924804688***ms
+2025-07-08 19:13:34,319 - INFO - consumidor_mongo***Latencia_mensajeria***1302.9696941375732***ms
+2025-07-08 19:13:34,516 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:13:34,517 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***197.24106788635254***ms
+2025-07-08 19:13:34,518 - INFO - consumidor_mongo***Latencia_mensajeria***1646.517276763916***ms
+2025-07-08 19:13:34,706 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:13:34,708 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***190.12928009033203***ms
+2025-07-08 19:13:42,924 - INFO - consumidor_mongo***Latencia_mensajeria***59.926509857177734***ms
+2025-07-08 19:13:43,651 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:13:43,652 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***728.095293045044***ms
+2025-07-08 19:13:43,669 - INFO - consumidor_mongo***Latencia_mensajeria***782.1743488311768***ms
+2025-07-08 19:13:44,120 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:13:44,121 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***451.4298439025879***ms
+2025-07-08 19:13:44,138 - INFO - consumidor_mongo***Latencia_mensajeria***1219.8641300201416***ms
+2025-07-08 19:13:44,489 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:13:44,490 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***352.2493839263916***ms
+2025-07-08 19:13:44,490 - INFO - consumidor_mongo***Latencia_mensajeria***1463.5274410247803***ms
+2025-07-08 19:13:44,937 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:13:44,938 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***447.62468338012695***ms
+2025-07-08 19:13:44,938 - INFO - consumidor_mongo***Latencia_mensajeria***1873.4254837036133***ms
+2025-07-08 19:13:46,159 - INFO - consumidor_mongo:95 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:13:46,160 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***1221.5161323547363***ms
+2025-07-08 19:13:52,936 - INFO - consumidor_mongo***Latencia_mensajeria***65.48881530761719***ms
+2025-07-08 19:13:53,332 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:13:53,333 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***396.4824676513672***ms
+2025-07-08 19:13:53,350 - INFO - consumidor_mongo***Latencia_mensajeria***469.42901611328125***ms
+2025-07-08 19:13:53,623 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:13:53,623 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***273.15521240234375***ms
+2025-07-08 19:13:53,624 - INFO - consumidor_mongo***Latencia_mensajeria***682.1906566619873***ms
+2025-07-08 19:13:53,862 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:13:53,863 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***239.14599418640137***ms
+2025-07-08 19:13:53,863 - INFO - consumidor_mongo***Latencia_mensajeria***859.0469360351562***ms
+2025-07-08 19:13:54,129 - INFO - consumidor_mongo:96 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:13:54,130 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***266.5698528289795***ms
+2025-07-08 19:13:54,131 - INFO - consumidor_mongo***Latencia_mensajeria***1055.6492805480957***ms
+2025-07-08 19:13:54,432 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:13:54,433 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***301.85604095458984***ms
+2025-07-08 19:14:02,957 - INFO - consumidor_mongo***Latencia_mensajeria***87.16297149658203***ms
+2025-07-08 19:14:03,399 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:14:03,400 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***442.83246994018555***ms
+2025-07-08 19:14:03,408 - INFO - consumidor_mongo***Latencia_mensajeria***526.8392562866211***ms
+2025-07-08 19:14:03,929 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:14:03,930 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***522.2456455230713***ms
+2025-07-08 19:14:03,982 - INFO - consumidor_mongo***Latencia_mensajeria***1084.592580795288***ms
+2025-07-08 19:14:04,475 - INFO - consumidor_mongo:97 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:14:04,479 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***497.4362850189209***ms
+2025-07-08 19:14:04,481 - INFO - consumidor_mongo***Latencia_mensajeria***1567.2717094421387***ms
+2025-07-08 19:14:05,224 - INFO - consumidor_mongo:96 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:14:05,224 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***743.8645362854004***ms
+2025-07-08 19:14:05,225 - INFO - consumidor_mongo***Latencia_mensajeria***2276.045322418213***ms
+2025-07-08 19:14:05,797 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:14:05,798 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***572.688102722168***ms
+2025-07-08 19:14:12,918 - INFO - consumidor_mongo***Latencia_mensajeria***49.20172691345215***ms
+2025-07-08 19:14:13,184 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:14:13,185 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***267.6260471343994***ms
+2025-07-08 19:14:13,202 - INFO - consumidor_mongo***Latencia_mensajeria***306.2725067138672***ms
+2025-07-08 19:14:13,463 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:14:13,463 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***261.6119384765625***ms
+2025-07-08 19:14:13,478 - INFO - consumidor_mongo***Latencia_mensajeria***592.1010971069336***ms
+2025-07-08 19:14:13,637 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:14:13,637 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***159.29746627807617***ms
+2025-07-08 19:14:13,638 - INFO - consumidor_mongo***Latencia_mensajeria***722.4576473236084***ms
+2025-07-08 19:14:13,808 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:14:13,808 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***170.0596809387207***ms
+2025-07-08 19:14:13,809 - INFO - consumidor_mongo***Latencia_mensajeria***853.4588813781738***ms
+2025-07-08 19:14:13,948 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:14:13,948 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***139.33849334716797***ms
+2025-07-08 19:14:22,904 - INFO - consumidor_mongo***Latencia_mensajeria***40.44985771179199***ms
+2025-07-08 19:14:23,237 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:14:23,238 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***333.9204788208008***ms
+2025-07-08 19:14:23,259 - INFO - consumidor_mongo***Latencia_mensajeria***380.8932304382324***ms
+2025-07-08 19:14:23,750 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:14:23,751 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***491.0304546356201***ms
+2025-07-08 19:14:23,757 - INFO - consumidor_mongo***Latencia_mensajeria***868.5195446014404***ms
+2025-07-08 19:14:23,956 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:14:23,957 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***200.11591911315918***ms
+2025-07-08 19:14:23,957 - INFO - consumidor_mongo***Latencia_mensajeria***1056.849718093872***ms
+2025-07-08 19:14:25,084 - INFO - consumidor_mongo:97 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:14:25,086 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***1129.056453704834***ms
+2025-07-08 19:14:25,088 - INFO - consumidor_mongo***Latencia_mensajeria***2129.5995712280273***ms
+2025-07-08 19:14:25,413 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:14:25,419 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***331.5753936767578***ms
+2025-07-08 19:14:32,951 - INFO - consumidor_mongo***Latencia_mensajeria***81.62045478820801***ms
+2025-07-08 19:14:33,586 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:14:33,587 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***636.0466480255127***ms
+2025-07-08 19:14:33,606 - INFO - consumidor_mongo***Latencia_mensajeria***718.8816070556641***ms
+2025-07-08 19:14:34,239 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:14:34,240 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***634.1085433959961***ms
+2025-07-08 19:14:34,243 - INFO - consumidor_mongo***Latencia_mensajeria***1303.2810688018799***ms
+2025-07-08 19:14:34,855 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:14:34,858 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***614.7496700286865***ms
+2025-07-08 19:14:34,862 - INFO - consumidor_mongo***Latencia_mensajeria***1791.97359085083***ms
+2025-07-08 19:14:35,431 - INFO - consumidor_mongo:98 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:14:35,431 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***572.739839553833***ms
+2025-07-08 19:14:35,435 - INFO - consumidor_mongo***Latencia_mensajeria***2313.0733966827393***ms
+2025-07-08 19:14:35,819 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:14:35,822 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***386.8825435638428***ms
+2025-07-08 19:14:42,925 - INFO - consumidor_mongo***Latencia_mensajeria***57.54828453063965***ms
+2025-07-08 19:14:43,572 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:14:43,573 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***647.8643417358398***ms
+2025-07-08 19:14:43,596 - INFO - consumidor_mongo***Latencia_mensajeria***585.5348110198975***ms
+2025-07-08 19:14:43,914 - INFO - consumidor_mongo:95 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:14:43,915 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***318.0360794067383***ms
+2025-07-08 19:14:43,915 - INFO - consumidor_mongo***Latencia_mensajeria***859.1554164886475***ms
+2025-07-08 19:14:44,112 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:14:44,112 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***196.86579704284668***ms
+2025-07-08 19:14:44,113 - INFO - consumidor_mongo***Latencia_mensajeria***1227.7240753173828***ms
+2025-07-08 19:14:44,326 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:14:44,332 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***218.79005432128906***ms
+2025-07-08 19:14:44,387 - INFO - consumidor_mongo***Latencia_mensajeria***1451.575517654419***ms
+2025-07-08 19:14:44,558 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:14:44,559 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***171.77391052246094***ms
+2025-07-08 19:14:53,333 - INFO - consumidor_mongo***Latencia_mensajeria***446.4423656463623***ms
+2025-07-08 19:14:54,031 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:14:54,032 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***698.8449096679688***ms
+2025-07-08 19:14:54,092 - INFO - consumidor_mongo***Latencia_mensajeria***642.3673629760742***ms
+2025-07-08 19:14:54,846 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:14:54,848 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***756.3114166259766***ms
+2025-07-08 19:14:54,876 - INFO - consumidor_mongo***Latencia_mensajeria***1717.118740081787***ms
+2025-07-08 19:14:55,753 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:14:55,756 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***880.2645206451416***ms
+2025-07-08 19:14:55,760 - INFO - consumidor_mongo***Latencia_mensajeria***2490.9262657165527***ms
+2025-07-08 19:14:56,686 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:14:56,803 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***1042.6914691925049***ms
+2025-07-08 19:14:56,809 - INFO - consumidor_mongo***Latencia_mensajeria***3469.2680835723877***ms
+2025-07-08 19:14:57,234 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081900.
+2025-07-08 19:14:57,235 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***425.66490173339844***ms
+2025-07-08 19:15:03,092 - INFO - consumidor_mongo***Latencia_mensajeria***216.85123443603516***ms
+2025-07-08 19:15:03,652 - INFO - consumidor_mongo:95 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:15:03,654 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***562.3288154602051***ms
+2025-07-08 19:15:03,657 - INFO - consumidor_mongo***Latencia_mensajeria***745.863676071167***ms
+2025-07-08 19:15:04,018 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:15:04,019 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***362.29419708251953***ms
+2025-07-08 19:15:04,041 - INFO - consumidor_mongo***Latencia_mensajeria***1068.5617923736572***ms
+2025-07-08 19:15:04,299 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:15:04,299 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***258.5794925689697***ms
+2025-07-08 19:15:04,302 - INFO - consumidor_mongo***Latencia_mensajeria***1263.857364654541***ms
+2025-07-08 19:15:04,463 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:15:04,463 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***161.75532341003418***ms
+2025-07-08 19:15:04,464 - INFO - consumidor_mongo***Latencia_mensajeria***1521.2972164154053***ms
+2025-07-08 19:15:04,596 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:15:04,597 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***133.17513465881348***ms
+2025-07-08 19:15:13,056 - INFO - consumidor_mongo***Latencia_mensajeria***162.506103515625***ms
+2025-07-08 19:15:14,079 - INFO - consumidor_mongo:95 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:15:14,081 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***1025.5074501037598***ms
+2025-07-08 19:15:14,155 - INFO - consumidor_mongo***Latencia_mensajeria***879.0843486785889***ms
+2025-07-08 19:15:14,916 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:15:14,919 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***763.946533203125***ms
+2025-07-08 19:15:15,016 - INFO - consumidor_mongo***Latencia_mensajeria***1641.059398651123***ms
+2025-07-08 19:15:15,423 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:15:15,424 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***407.43041038513184***ms
+2025-07-08 19:15:15,424 - INFO - consumidor_mongo***Latencia_mensajeria***2495.0644969940186***ms
+2025-07-08 19:15:15,789 - INFO - consumidor_mongo:95 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:15:15,790 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***365.48924446105957***ms
+2025-07-08 19:15:15,790 - INFO - consumidor_mongo***Latencia_mensajeria***2746.570348739624***ms
+2025-07-08 19:15:16,063 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:15:16,063 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***273.0705738067627***ms
+2025-07-08 19:15:22,944 - INFO - consumidor_mongo***Latencia_mensajeria***73.02451133728027***ms
+2025-07-08 19:15:24,055 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:15:24,084 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***1139.843463897705***ms
+2025-07-08 19:15:24,303 - INFO - consumidor_mongo***Latencia_mensajeria***1359.7657680511475***ms
+2025-07-08 19:15:25,210 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:15:25,211 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***907.576322555542***ms
+2025-07-08 19:15:25,212 - INFO - consumidor_mongo***Latencia_mensajeria***2317.474126815796***ms
+2025-07-08 19:15:25,582 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:15:25,583 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***371.14739418029785***ms
+2025-07-08 19:15:25,586 - INFO - consumidor_mongo***Latencia_mensajeria***2601.6032695770264***ms
+2025-07-08 19:15:25,995 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:15:25,995 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***409.80052947998047***ms
+2025-07-08 19:15:25,996 - INFO - consumidor_mongo***Latencia_mensajeria***2987.4486923217773***ms
+2025-07-08 19:15:26,488 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:15:26,489 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***492.9497241973877***ms
+2025-07-08 19:15:33,015 - INFO - consumidor_mongo***Latencia_mensajeria***139.9548053741455***ms
+2025-07-08 19:15:33,522 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:15:33,523 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***507.6758861541748***ms
+2025-07-08 19:15:33,525 - INFO - consumidor_mongo***Latencia_mensajeria***661.9739532470703***ms
+2025-07-08 19:15:33,854 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:15:33,856 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***330.51228523254395***ms
+2025-07-08 19:15:33,885 - INFO - consumidor_mongo***Latencia_mensajeria***827.3348808288574***ms
+2025-07-08 19:15:34,436 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:15:34,440 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***555.0823211669922***ms
+2025-07-08 19:15:34,441 - INFO - consumidor_mongo***Latencia_mensajeria***1523.2698917388916***ms
+2025-07-08 19:15:34,934 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:15:34,935 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***494.28772926330566***ms
+2025-07-08 19:15:34,936 - INFO - consumidor_mongo***Latencia_mensajeria***1980.6129932403564***ms
+2025-07-08 19:15:35,167 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:15:35,168 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***231.99868202209473***ms
+2025-07-08 19:15:42,986 - INFO - consumidor_mongo***Latencia_mensajeria***96.93312644958496***ms
+2025-07-08 19:15:48,665 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:15:48,669 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***5682.231664657593***ms
+2025-07-08 19:15:49,008 - INFO - consumidor_mongo***Latencia_mensajeria***5858.359098434448***ms
+2025-07-08 19:15:50,791 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:15:50,794 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***1785.9828472137451***ms
+2025-07-08 19:15:50,795 - INFO - consumidor_mongo***Latencia_mensajeria***7420.689582824707***ms
+2025-07-08 19:15:51,892 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:15:51,902 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***1107.004165649414***ms
+2025-07-08 19:15:51,952 - INFO - consumidor_mongo***Latencia_mensajeria***9029.271364212036***ms
+2025-07-08 19:15:52,672 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:15:52,672 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***720.3125953674316***ms
+2025-07-08 19:15:52,676 - INFO - consumidor_mongo***Latencia_mensajeria***9706.170558929443***ms
+2025-07-08 19:15:53,761 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:15:53,766 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***1090.465784072876***ms
+2025-07-08 19:15:54,040 - INFO - consumidor_mongo***Latencia_mensajeria***1153.4838676452637***ms
+2025-07-08 19:15:55,164 - INFO - consumidor_mongo:87 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:15:55,170 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***1129.4810771942139***ms
+2025-07-08 19:15:55,208 - INFO - consumidor_mongo***Latencia_mensajeria***2346.2109565734863***ms
+2025-07-08 19:15:55,690 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:15:55,691 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***483.5090637207031***ms
+2025-07-08 19:15:55,692 - INFO - consumidor_mongo***Latencia_mensajeria***2716.259241104126***ms
+2025-07-08 19:15:56,088 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:15:56,090 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***397.9988098144531***ms
+2025-07-08 19:15:56,118 - INFO - consumidor_mongo***Latencia_mensajeria***2938.675880432129***ms
+2025-07-08 19:15:56,941 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:15:56,942 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***824.1410255432129***ms
+2025-07-08 19:15:56,953 - INFO - consumidor_mongo***Latencia_mensajeria***3763.6423110961914***ms
+2025-07-08 19:15:57,449 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:15:57,450 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***497.18618392944336***ms
+2025-07-08 19:16:04,202 - INFO - consumidor_mongo***Latencia_mensajeria***1098.3471870422363***ms
+2025-07-08 19:16:05,759 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:16:05,764 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***1565.371036529541***ms
+2025-07-08 19:16:05,771 - INFO - consumidor_mongo***Latencia_mensajeria***2776.1456966400146***ms
+2025-07-08 19:16:07,095 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:16:07,108 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***1336.639404296875***ms
+2025-07-08 19:16:07,165 - INFO - consumidor_mongo***Latencia_mensajeria***4056.07271194458***ms
+2025-07-08 19:16:08,009 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:16:08,034 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***846.0400104522705***ms
+2025-07-08 19:16:08,041 - INFO - consumidor_mongo***Latencia_mensajeria***4924.706697463989***ms
+2025-07-08 19:16:08,434 - INFO - consumidor_mongo:95 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:16:08,436 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***394.8197364807129***ms
+2025-07-08 19:16:08,498 - INFO - consumidor_mongo***Latencia_mensajeria***5151.551723480225***ms
+2025-07-08 19:16:08,762 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:16:08,766 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***267.11416244506836***ms
+2025-07-08 19:16:12,910 - INFO - consumidor_mongo***Latencia_mensajeria***175.65011978149414***ms
+2025-07-08 19:16:13,378 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:16:13,401 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***490.3674125671387***ms
+2025-07-08 19:16:13,501 - INFO - consumidor_mongo***Latencia_mensajeria***742.6152229309082***ms
+2025-07-08 19:16:14,503 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:16:14,504 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***1002.894401550293***ms
+2025-07-08 19:16:14,504 - INFO - consumidor_mongo***Latencia_mensajeria***1722.9557037353516***ms
+2025-07-08 19:16:15,029 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:16:15,039 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***535.0821018218994***ms
+2025-07-08 19:16:15,064 - INFO - consumidor_mongo***Latencia_mensajeria***2273.3826637268066***ms
+2025-07-08 19:16:15,409 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:16:15,410 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***345.5090522766113***ms
+2025-07-08 19:16:15,411 - INFO - consumidor_mongo***Latencia_mensajeria***2603.473901748657***ms
+2025-07-08 19:16:15,666 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:16:15,666 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***255.19227981567383***ms
+2025-07-08 19:16:22,922 - INFO - consumidor_mongo***Latencia_mensajeria***56.26797676086426***ms
+2025-07-08 19:16:23,286 - INFO - consumidor_mongo:87 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:16:23,286 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***364.060640335083***ms
+2025-07-08 19:16:23,308 - INFO - consumidor_mongo***Latencia_mensajeria***388.32879066467285***ms
+2025-07-08 19:16:24,004 - INFO - consumidor_mongo:95 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:16:24,005 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***696.6118812561035***ms
+2025-07-08 19:16:24,005 - INFO - consumidor_mongo***Latencia_mensajeria***1116.429328918457***ms
+2025-07-08 19:16:24,175 - INFO - consumidor_mongo:96 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:16:24,176 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***170.78399658203125***ms
+2025-07-08 19:16:24,177 - INFO - consumidor_mongo***Latencia_mensajeria***1277.0521640777588***ms
+2025-07-08 19:16:24,360 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:16:24,361 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***184.11970138549805***ms
+2025-07-08 19:16:24,361 - INFO - consumidor_mongo***Latencia_mensajeria***1453.9802074432373***ms
+2025-07-08 19:16:24,515 - INFO - consumidor_mongo:87 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:16:24,516 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***154.2642116546631***ms
+2025-07-08 19:16:32,902 - INFO - consumidor_mongo***Latencia_mensajeria***40.55976867675781***ms
+2025-07-08 19:16:33,174 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:16:33,174 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***272.80306816101074***ms
+2025-07-08 19:16:33,190 - INFO - consumidor_mongo***Latencia_mensajeria***321.1028575897217***ms
+2025-07-08 19:16:33,470 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:16:33,471 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***280.8876037597656***ms
+2025-07-08 19:16:33,474 - INFO - consumidor_mongo***Latencia_mensajeria***573.5912322998047***ms
+2025-07-08 19:16:33,656 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:16:33,657 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***182.98840522766113***ms
+2025-07-08 19:16:33,657 - INFO - consumidor_mongo***Latencia_mensajeria***748.1427192687988***ms
+2025-07-08 19:16:33,808 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:16:33,808 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***151.09872817993164***ms
+2025-07-08 19:16:33,810 - INFO - consumidor_mongo***Latencia_mensajeria***875.5204677581787***ms
+2025-07-08 19:16:33,971 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:16:33,972 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***162.11700439453125***ms
+2025-07-08 19:16:43,183 - INFO - consumidor_mongo***Latencia_mensajeria***191.023588180542***ms
+2025-07-08 19:16:43,485 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:16:43,493 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***309.6191883087158***ms
+2025-07-08 19:16:43,497 - INFO - consumidor_mongo***Latencia_mensajeria***486.6459369659424***ms
+2025-07-08 19:16:43,759 - INFO - consumidor_mongo:86 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:16:43,760 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***262.5706195831299***ms
+2025-07-08 19:16:43,787 - INFO - consumidor_mongo***Latencia_mensajeria***761.6477012634277***ms
+2025-07-08 19:16:43,948 - INFO - consumidor_mongo:83 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:16:43,949 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***162.02163696289062***ms
+2025-07-08 19:16:43,949 - INFO - consumidor_mongo***Latencia_mensajeria***895.5588340759277***ms
+2025-07-08 19:16:44,082 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:16:44,082 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***132.7977180480957***ms
+2025-07-08 19:16:44,083 - INFO - consumidor_mongo***Latencia_mensajeria***1020.2453136444092***ms
+2025-07-08 19:16:44,277 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:16:44,278 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***195.25647163391113***ms
+2025-07-08 19:16:52,941 - INFO - consumidor_mongo***Latencia_mensajeria***79.29277420043945***ms
+2025-07-08 19:16:53,426 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:16:53,428 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***486.6063594818115***ms
+2025-07-08 19:16:53,444 - INFO - consumidor_mongo***Latencia_mensajeria***564.9878978729248***ms
+2025-07-08 19:16:54,069 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:16:54,070 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***626.0337829589844***ms
+2025-07-08 19:16:54,094 - INFO - consumidor_mongo***Latencia_mensajeria***1158.5886478424072***ms
+2025-07-08 19:16:54,689 - INFO - consumidor_mongo:86 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:16:54,690 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***595.9470272064209***ms
+2025-07-08 19:16:54,701 - INFO - consumidor_mongo***Latencia_mensajeria***1677.875280380249***ms
+2025-07-08 19:16:55,298 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:16:55,320 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***619.6839809417725***ms
+2025-07-08 19:16:55,325 - INFO - consumidor_mongo***Latencia_mensajeria***2313.51900100708***ms
+2025-07-08 19:16:55,780 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:16:55,781 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***456.24279975891113***ms
+2025-07-08 19:17:02,946 - INFO - consumidor_mongo***Latencia_mensajeria***76.62534713745117***ms
+2025-07-08 19:17:03,190 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:17:03,190 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***244.6877956390381***ms
+2025-07-08 19:17:03,196 - INFO - consumidor_mongo***Latencia_mensajeria***329.695463180542***ms
+2025-07-08 19:17:03,414 - INFO - consumidor_mongo:86 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:17:03,415 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***224.0743637084961***ms
+2025-07-08 19:17:03,426 - INFO - consumidor_mongo***Latencia_mensajeria***499.82166290283203***ms
+2025-07-08 19:17:03,552 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:17:03,552 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***126.10030174255371***ms
+2025-07-08 19:17:03,553 - INFO - consumidor_mongo***Latencia_mensajeria***672.4820137023926***ms
+2025-07-08 19:17:03,686 - INFO - consumidor_mongo:95 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:17:03,686 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***133.61191749572754***ms
+2025-07-08 19:17:03,687 - INFO - consumidor_mongo***Latencia_mensajeria***767.3187255859375***ms
+2025-07-08 19:17:03,910 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:17:03,911 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***223.97899627685547***ms
+2025-07-08 19:17:12,920 - INFO - consumidor_mongo***Latencia_mensajeria***42.64187812805176***ms
+2025-07-08 19:17:13,194 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:17:13,194 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***274.6429443359375***ms
+2025-07-08 19:17:13,218 - INFO - consumidor_mongo***Latencia_mensajeria***313.46583366394043***ms
+2025-07-08 19:17:13,558 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:17:13,559 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***340.3189182281494***ms
+2025-07-08 19:17:13,561 - INFO - consumidor_mongo***Latencia_mensajeria***645.1458930969238***ms
+2025-07-08 19:17:13,690 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:17:13,690 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***129.38380241394043***ms
+2025-07-08 19:17:13,691 - INFO - consumidor_mongo***Latencia_mensajeria***765.8438682556152***ms
+2025-07-08 19:17:13,936 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:17:13,937 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***246.23775482177734***ms
+2025-07-08 19:17:13,937 - INFO - consumidor_mongo***Latencia_mensajeria***1042.7021980285645***ms
+2025-07-08 19:17:14,200 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:17:14,201 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***263.3709907531738***ms
+2025-07-08 19:17:22,965 - INFO - consumidor_mongo***Latencia_mensajeria***93.89376640319824***ms
+2025-07-08 19:17:23,733 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:17:23,738 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***772.9802131652832***ms
+2025-07-08 19:17:23,937 - INFO - consumidor_mongo***Latencia_mensajeria***1053.4021854400635***ms
+2025-07-08 19:17:24,439 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:17:24,440 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***503.07774543762207***ms
+2025-07-08 19:17:24,441 - INFO - consumidor_mongo***Latencia_mensajeria***1383.9375972747803***ms
+2025-07-08 19:17:24,630 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:17:24,631 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***190.25540351867676***ms
+2025-07-08 19:17:24,631 - INFO - consumidor_mongo***Latencia_mensajeria***1521.822214126587***ms
+2025-07-08 19:17:24,760 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:17:24,761 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***129.11725044250488***ms
+2025-07-08 19:17:24,761 - INFO - consumidor_mongo***Latencia_mensajeria***1567.4464702606201***ms
+2025-07-08 19:17:24,919 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:17:24,919 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***158.3728790283203***ms
+2025-07-08 19:17:32,993 - INFO - consumidor_mongo***Latencia_mensajeria***124.33362007141113***ms
+2025-07-08 19:17:33,226 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:17:33,227 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***233.78276824951172***ms
+2025-07-08 19:17:33,228 - INFO - consumidor_mongo***Latencia_mensajeria***343.2953357696533***ms
+2025-07-08 19:17:33,471 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:17:33,472 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***243.5321807861328***ms
+2025-07-08 19:17:33,488 - INFO - consumidor_mongo***Latencia_mensajeria***591.0813808441162***ms
+2025-07-08 19:17:33,735 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:17:33,735 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***246.9172477722168***ms
+2025-07-08 19:17:33,736 - INFO - consumidor_mongo***Latencia_mensajeria***821.6381072998047***ms
+2025-07-08 19:17:33,883 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:17:33,884 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***147.9811668395996***ms
+2025-07-08 19:17:33,884 - INFO - consumidor_mongo***Latencia_mensajeria***961.7369174957275***ms
+2025-07-08 19:17:34,076 - INFO - consumidor_mongo:87 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:17:34,077 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***192.75832176208496***ms
+2025-07-08 19:17:43,017 - INFO - consumidor_mongo***Latencia_mensajeria***145.6737518310547***ms
+2025-07-08 19:17:43,268 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:17:43,269 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***252.07161903381348***ms
+2025-07-08 19:17:43,291 - INFO - consumidor_mongo***Latencia_mensajeria***384.4168186187744***ms
+2025-07-08 19:17:43,510 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:17:43,511 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***219.90180015563965***ms
+2025-07-08 19:17:43,511 - INFO - consumidor_mongo***Latencia_mensajeria***544.0771579742432***ms
+2025-07-08 19:17:43,643 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:17:43,644 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***132.61842727661133***ms
+2025-07-08 19:17:43,644 - INFO - consumidor_mongo***Latencia_mensajeria***756.3478946685791***ms
+2025-07-08 19:17:43,777 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:17:43,778 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***133.56757164001465***ms
+2025-07-08 19:17:43,778 - INFO - consumidor_mongo***Latencia_mensajeria***869.2350387573242***ms
+2025-07-08 19:17:43,919 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:17:43,920 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***142.01760292053223***ms
+2025-07-08 19:17:52,945 - INFO - consumidor_mongo***Latencia_mensajeria***74.4314193725586***ms
+2025-07-08 19:17:53,211 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:17:53,221 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***275.7754325866699***ms
+2025-07-08 19:17:53,223 - INFO - consumidor_mongo***Latencia_mensajeria***341.19462966918945***ms
+2025-07-08 19:17:53,434 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:17:53,435 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***211.90118789672852***ms
+2025-07-08 19:17:53,443 - INFO - consumidor_mongo***Latencia_mensajeria***550.9066581726074***ms
+2025-07-08 19:17:53,637 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:17:53,638 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***194.9942111968994***ms
+2025-07-08 19:17:53,638 - INFO - consumidor_mongo***Latencia_mensajeria***706.4573764801025***ms
+2025-07-08 19:17:53,807 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:17:53,808 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***169.39496994018555***ms
+2025-07-08 19:17:53,814 - INFO - consumidor_mongo***Latencia_mensajeria***891.3438320159912***ms
+2025-07-08 19:17:53,960 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:17:53,960 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***146.3456153869629***ms
+2025-07-08 19:18:02,923 - INFO - consumidor_mongo***Latencia_mensajeria***55.29284477233887***ms
+2025-07-08 19:18:03,182 - INFO - consumidor_mongo:86 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:18:03,187 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***263.5805606842041***ms
+2025-07-08 19:18:03,203 - INFO - consumidor_mongo***Latencia_mensajeria***322.0064640045166***ms
+2025-07-08 19:18:03,440 - INFO - consumidor_mongo:86 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:18:03,440 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***238.04497718811035***ms
+2025-07-08 19:18:03,441 - INFO - consumidor_mongo***Latencia_mensajeria***496.079683303833***ms
+2025-07-08 19:18:03,637 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:18:03,638 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***196.71177864074707***ms
+2025-07-08 19:18:03,638 - INFO - consumidor_mongo***Latencia_mensajeria***719.3918228149414***ms
+2025-07-08 19:18:03,812 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:18:03,813 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***174.66497421264648***ms
+2025-07-08 19:18:03,814 - INFO - consumidor_mongo***Latencia_mensajeria***830.9550285339355***ms
+2025-07-08 19:18:03,997 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:18:03,998 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***184.2195987701416***ms
+2025-07-08 19:18:12,956 - INFO - consumidor_mongo***Latencia_mensajeria***77.39377021789551***ms
+2025-07-08 19:18:13,244 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:18:13,244 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***288.2428169250488***ms
+2025-07-08 19:18:13,245 - INFO - consumidor_mongo***Latencia_mensajeria***380.68342208862305***ms
+2025-07-08 19:18:13,631 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:18:13,632 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***386.94262504577637***ms
+2025-07-08 19:18:13,647 - INFO - consumidor_mongo***Latencia_mensajeria***746.07253074646***ms
+2025-07-08 19:18:13,810 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:18:13,811 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***164.26372528076172***ms
+2025-07-08 19:18:13,812 - INFO - consumidor_mongo***Latencia_mensajeria***887.1793746948242***ms
+2025-07-08 19:18:13,942 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:18:13,942 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***130.8751106262207***ms
+2025-07-08 19:18:13,943 - INFO - consumidor_mongo***Latencia_mensajeria***1033.4351062774658***ms
+2025-07-08 19:18:14,174 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:18:14,175 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***231.80174827575684***ms
+2025-07-08 19:18:22,940 - INFO - consumidor_mongo***Latencia_mensajeria***79.14471626281738***ms
+2025-07-08 19:18:23,407 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:18:23,408 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***467.43035316467285***ms
+2025-07-08 19:18:23,442 - INFO - consumidor_mongo***Latencia_mensajeria***555.701494216919***ms
+2025-07-08 19:18:23,806 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:18:23,807 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***365.3099536895752***ms
+2025-07-08 19:18:23,808 - INFO - consumidor_mongo***Latencia_mensajeria***867.5906658172607***ms
+2025-07-08 19:18:24,028 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:18:24,031 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***223.45972061157227***ms
+2025-07-08 19:18:24,033 - INFO - consumidor_mongo***Latencia_mensajeria***1041.5892601013184***ms
+2025-07-08 19:18:24,245 - INFO - consumidor_mongo:95 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:18:24,246 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***212.42547035217285***ms
+2025-07-08 19:18:24,250 - INFO - consumidor_mongo***Latencia_mensajeria***1214.2529487609863***ms
+2025-07-08 19:18:24,579 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:18:24,583 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***331.8147659301758***ms
+2025-07-08 19:18:32,929 - INFO - consumidor_mongo***Latencia_mensajeria***67.64459609985352***ms
+2025-07-08 19:18:34,256 - INFO - consumidor_mongo:95 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:18:34,257 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***1328.071117401123***ms
+2025-07-08 19:18:34,420 - INFO - consumidor_mongo***Latencia_mensajeria***1545.987844467163***ms
+2025-07-08 19:18:35,595 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:18:35,614 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***1194.9830055236816***ms
+2025-07-08 19:18:35,626 - INFO - consumidor_mongo***Latencia_mensajeria***2698.160409927368***ms
+2025-07-08 19:18:36,492 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:18:36,510 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***884.568452835083***ms
+2025-07-08 19:18:36,519 - INFO - consumidor_mongo***Latencia_mensajeria***3502.0153522491455***ms
+2025-07-08 19:18:37,168 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:18:37,168 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***648.8661766052246***ms
+2025-07-08 19:18:37,169 - INFO - consumidor_mongo***Latencia_mensajeria***4010.8420848846436***ms
+2025-07-08 19:18:38,138 - INFO - consumidor_mongo:85 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:18:38,139 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***969.3772792816162***ms
+2025-07-08 19:18:42,982 - INFO - consumidor_mongo***Latencia_mensajeria***122.56693840026855***ms
+2025-07-08 19:18:45,202 - INFO - consumidor_mongo:87 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:18:45,203 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***2221.0896015167236***ms
+2025-07-08 19:18:45,260 - INFO - consumidor_mongo***Latencia_mensajeria***2360.6691360473633***ms
+2025-07-08 19:18:46,266 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:18:46,267 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***1006.519079208374***ms
+2025-07-08 19:18:46,268 - INFO - consumidor_mongo***Latencia_mensajeria***3326.0977268218994***ms
+2025-07-08 19:18:46,894 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:18:46,895 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***627.1986961364746***ms
+2025-07-08 19:18:46,896 - INFO - consumidor_mongo***Latencia_mensajeria***3927.464485168457***ms
+2025-07-08 19:18:47,477 - INFO - consumidor_mongo:87 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:18:47,484 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***587.9809856414795***ms
+2025-07-08 19:18:47,626 - INFO - consumidor_mongo***Latencia_mensajeria***4149.461030960083***ms
+2025-07-08 19:18:48,422 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:18:48,423 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***796.9498634338379***ms
+2025-07-08 19:18:53,607 - INFO - consumidor_mongo***Latencia_mensajeria***704.0712833404541***ms
+2025-07-08 19:18:54,867 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:18:54,868 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***1260.549545288086***ms
+2025-07-08 19:18:54,869 - INFO - consumidor_mongo***Latencia_mensajeria***1998.5272884368896***ms
+2025-07-08 19:18:55,373 - INFO - consumidor_mongo:83 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:18:55,374 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***504.9469470977783***ms
+2025-07-08 19:18:55,392 - INFO - consumidor_mongo***Latencia_mensajeria***2220.601797103882***ms
+2025-07-08 19:18:55,683 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:18:55,684 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***292.370080947876***ms
+2025-07-08 19:18:55,701 - INFO - consumidor_mongo***Latencia_mensajeria***2377.2542476654053***ms
+2025-07-08 19:18:55,885 - INFO - consumidor_mongo:85 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:18:55,885 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***184.15570259094238***ms
+2025-07-08 19:18:55,886 - INFO - consumidor_mongo***Latencia_mensajeria***1877.0341873168945***ms
+2025-07-08 19:18:56,140 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:18:56,142 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***256.267786026001***ms
+2025-07-08 19:19:02,918 - INFO - consumidor_mongo***Latencia_mensajeria***48.02227020263672***ms
+2025-07-08 19:19:03,499 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:19:03,507 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***586.4279270172119***ms
+2025-07-08 19:19:03,541 - INFO - consumidor_mongo***Latencia_mensajeria***555.8071136474609***ms
+2025-07-08 19:19:03,949 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:19:03,950 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***410.275936126709***ms
+2025-07-08 19:19:03,951 - INFO - consumidor_mongo***Latencia_mensajeria***952.2473812103271***ms
+2025-07-08 19:19:04,224 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:19:04,225 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***273.8211154937744***ms
+2025-07-08 19:19:04,226 - INFO - consumidor_mongo***Latencia_mensajeria***1338.2325172424316***ms
+2025-07-08 19:19:04,519 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:19:04,520 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***294.3241596221924***ms
+2025-07-08 19:19:04,521 - INFO - consumidor_mongo***Latencia_mensajeria***1604.9635410308838***ms
+2025-07-08 19:19:04,851 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:19:04,852 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***331.01892471313477***ms
+2025-07-08 19:19:13,120 - INFO - consumidor_mongo***Latencia_mensajeria***255.20944595336914***ms
+2025-07-08 19:19:13,781 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:19:13,782 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***661.1859798431396***ms
+2025-07-08 19:19:13,782 - INFO - consumidor_mongo***Latencia_mensajeria***881.7381858825684***ms
+2025-07-08 19:19:14,428 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:19:14,429 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***647.3050117492676***ms
+2025-07-08 19:19:14,467 - INFO - consumidor_mongo***Latencia_mensajeria***1542.0093536376953***ms
+2025-07-08 19:19:14,858 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:19:14,859 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***391.70145988464355***ms
+2025-07-08 19:19:14,864 - INFO - consumidor_mongo***Latencia_mensajeria***1815.0215148925781***ms
+2025-07-08 19:19:15,093 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:19:15,098 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***234.8189353942871***ms
+2025-07-08 19:19:15,124 - INFO - consumidor_mongo***Latencia_mensajeria***2151.057004928589***ms
+2025-07-08 19:19:15,488 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:19:15,488 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***364.4888401031494***ms
+2025-07-08 19:19:23,082 - INFO - consumidor_mongo***Latencia_mensajeria***212.4326229095459***ms
+2025-07-08 19:19:23,641 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:19:23,647 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***565.030574798584***ms
+2025-07-08 19:19:23,671 - INFO - consumidor_mongo***Latencia_mensajeria***682.8913688659668***ms
+2025-07-08 19:19:24,454 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:19:24,456 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***784.9645614624023***ms
+2025-07-08 19:19:24,458 - INFO - consumidor_mongo***Latencia_mensajeria***1566.9364929199219***ms
+2025-07-08 19:19:24,971 - INFO - consumidor_mongo:87 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:19:24,973 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***515.0761604309082***ms
+2025-07-08 19:19:24,976 - INFO - consumidor_mongo***Latencia_mensajeria***1954.2484283447266***ms
+2025-07-08 19:19:25,481 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:19:25,482 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***505.6266784667969***ms
+2025-07-08 19:19:25,489 - INFO - consumidor_mongo***Latencia_mensajeria***2404.3984413146973***ms
+2025-07-08 19:19:25,938 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:19:25,945 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***449.65553283691406***ms
+2025-07-08 19:19:32,907 - INFO - consumidor_mongo***Latencia_mensajeria***35.49695014953613***ms
+2025-07-08 19:19:33,155 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:19:33,155 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***248.44050407409668***ms
+2025-07-08 19:19:33,170 - INFO - consumidor_mongo***Latencia_mensajeria***290.07887840270996***ms
+2025-07-08 19:19:33,359 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:19:33,359 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***189.20350074768066***ms
+2025-07-08 19:19:33,361 - INFO - consumidor_mongo***Latencia_mensajeria***437.75463104248047***ms
+2025-07-08 19:19:33,482 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:19:33,482 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***121.37269973754883***ms
+2025-07-08 19:19:33,483 - INFO - consumidor_mongo***Latencia_mensajeria***593.2743549346924***ms
+2025-07-08 19:19:33,600 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:19:33,600 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***117.71583557128906***ms
+2025-07-08 19:19:33,601 - INFO - consumidor_mongo***Latencia_mensajeria***694.5271492004395***ms
+2025-07-08 19:19:33,947 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:19:33,948 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***347.31364250183105***ms
+2025-07-08 19:19:42,977 - INFO - consumidor_mongo***Latencia_mensajeria***108.99710655212402***ms
+2025-07-08 19:19:44,277 - INFO - consumidor_mongo:95 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:19:44,287 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***1309.6725940704346***ms
+2025-07-08 19:19:44,444 - INFO - consumidor_mongo***Latencia_mensajeria***1469.3961143493652***ms
+2025-07-08 19:19:45,126 - INFO - consumidor_mongo:87 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:19:45,128 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***684.1626167297363***ms
+2025-07-08 19:19:45,129 - INFO - consumidor_mongo***Latencia_mensajeria***2009.6874237060547***ms
+2025-07-08 19:19:45,542 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:19:45,543 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***413.68961334228516***ms
+2025-07-08 19:19:45,555 - INFO - consumidor_mongo***Latencia_mensajeria***2403.5890102386475***ms
+2025-07-08 19:19:46,121 - INFO - consumidor_mongo:87 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:19:46,122 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***567.1238899230957***ms
+2025-07-08 19:19:46,127 - INFO - consumidor_mongo***Latencia_mensajeria***3249.6325969696045***ms
+2025-07-08 19:19:47,234 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:19:47,235 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***1107.5730323791504***ms
+2025-07-08 19:19:52,938 - INFO - consumidor_mongo***Latencia_mensajeria***47.400474548339844***ms
+2025-07-08 19:19:53,228 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:19:53,228 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***290.1778221130371***ms
+2025-07-08 19:19:53,277 - INFO - consumidor_mongo***Latencia_mensajeria***284.8374843597412***ms
+2025-07-08 19:19:53,729 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:19:53,739 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***461.3173007965088***ms
+2025-07-08 19:19:53,745 - INFO - consumidor_mongo***Latencia_mensajeria***846.1575508117676***ms
+2025-07-08 19:19:54,508 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:19:54,509 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***763.5598182678223***ms
+2025-07-08 19:19:54,586 - INFO - consumidor_mongo***Latencia_mensajeria***1648.7390995025635***ms
+2025-07-08 19:19:54,982 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:19:55,005 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***419.4042682647705***ms
+2025-07-08 19:19:55,011 - INFO - consumidor_mongo***Latencia_mensajeria***2005.1383972167969***ms
+2025-07-08 19:19:55,469 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:19:55,470 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***458.3585262298584***ms
+2025-07-08 19:20:02,975 - INFO - consumidor_mongo***Latencia_mensajeria***103.1649112701416***ms
+2025-07-08 19:20:04,096 - INFO - consumidor_mongo:83 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:20:04,110 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***1135.3707313537598***ms
+2025-07-08 19:20:04,142 - INFO - consumidor_mongo***Latencia_mensajeria***1256.4103603363037***ms
+2025-07-08 19:20:04,778 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:20:04,815 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***672.5914478302002***ms
+2025-07-08 19:20:04,895 - INFO - consumidor_mongo***Latencia_mensajeria***1473.905324935913***ms
+2025-07-08 19:20:05,407 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:20:05,408 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***512.3469829559326***ms
+2025-07-08 19:20:05,424 - INFO - consumidor_mongo***Latencia_mensajeria***2476.499319076538***ms
+2025-07-08 19:20:06,475 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:20:06,476 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***1052.3521900177002***ms
+2025-07-08 19:20:06,495 - INFO - consumidor_mongo***Latencia_mensajeria***3459.1448307037354***ms
+2025-07-08 19:20:07,532 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:20:07,534 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***1038.456678390503***ms
+2025-07-08 19:20:12,916 - INFO - consumidor_mongo***Latencia_mensajeria***48.03967475891113***ms
+2025-07-08 19:20:13,146 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:20:13,155 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***236.29164695739746***ms
+2025-07-08 19:20:13,173 - INFO - consumidor_mongo***Latencia_mensajeria***252.03299522399902***ms
+2025-07-08 19:20:13,459 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:20:13,460 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***287.16301918029785***ms
+2025-07-08 19:20:13,460 - INFO - consumidor_mongo***Latencia_mensajeria***574.3381977081299***ms
+2025-07-08 19:20:13,592 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:20:13,593 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***132.27534294128418***ms
+2025-07-08 19:20:13,593 - INFO - consumidor_mongo***Latencia_mensajeria***686.9289875030518***ms
+2025-07-08 19:20:13,744 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:20:13,744 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***151.08346939086914***ms
+2025-07-08 19:20:13,745 - INFO - consumidor_mongo***Latencia_mensajeria***807.410478591919***ms
+2025-07-08 19:20:13,891 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:20:13,892 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***147.2177505493164***ms
+2025-07-08 19:20:22,928 - INFO - consumidor_mongo***Latencia_mensajeria***66.69044494628906***ms
+2025-07-08 19:20:23,535 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:20:23,540 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***611.5949153900146***ms
+2025-07-08 19:20:23,556 - INFO - consumidor_mongo***Latencia_mensajeria***679.0392398834229***ms
+2025-07-08 19:20:23,867 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:20:23,867 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***311.4891052246094***ms
+2025-07-08 19:20:23,867 - INFO - consumidor_mongo***Latencia_mensajeria***939.871072769165***ms
+2025-07-08 19:20:24,029 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:20:24,030 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***162.34207153320312***ms
+2025-07-08 19:20:24,031 - INFO - consumidor_mongo***Latencia_mensajeria***1072.4751949310303***ms
+2025-07-08 19:20:24,220 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:20:24,220 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***189.57829475402832***ms
+2025-07-08 19:20:24,222 - INFO - consumidor_mongo***Latencia_mensajeria***1148.0672359466553***ms
+2025-07-08 19:20:24,473 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:20:24,474 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***252.10213661193848***ms
+2025-07-08 19:20:32,929 - INFO - consumidor_mongo***Latencia_mensajeria***53.20382118225098***ms
+2025-07-08 19:20:33,193 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:20:33,194 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***264.83869552612305***ms
+2025-07-08 19:20:33,194 - INFO - consumidor_mongo***Latencia_mensajeria***332.63278007507324***ms
+2025-07-08 19:20:33,446 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:20:33,447 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***252.54106521606445***ms
+2025-07-08 19:20:33,460 - INFO - consumidor_mongo***Latencia_mensajeria***576.1878490447998***ms
+2025-07-08 19:20:33,585 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:20:33,586 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***126.13081932067871***ms
+2025-07-08 19:20:33,587 - INFO - consumidor_mongo***Latencia_mensajeria***664.0558242797852***ms
+2025-07-08 19:20:33,723 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:20:33,724 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***137.2365951538086***ms
+2025-07-08 19:20:33,724 - INFO - consumidor_mongo***Latencia_mensajeria***821.4361667633057***ms
+2025-07-08 19:20:33,859 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:20:33,859 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***134.69529151916504***ms
+2025-07-08 19:20:43,082 - INFO - consumidor_mongo***Latencia_mensajeria***212.01205253601074***ms
+2025-07-08 19:20:44,028 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:20:44,044 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***962.0556831359863***ms
+2025-07-08 19:20:44,059 - INFO - consumidor_mongo***Latencia_mensajeria***1178.4141063690186***ms
+2025-07-08 19:20:45,191 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:20:45,192 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***1133.427381515503***ms
+2025-07-08 19:20:45,213 - INFO - consumidor_mongo***Latencia_mensajeria***2317.227363586426***ms
+2025-07-08 19:20:45,669 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:20:45,671 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***458.0347537994385***ms
+2025-07-08 19:20:45,684 - INFO - consumidor_mongo***Latencia_mensajeria***2622.2734451293945***ms
+2025-07-08 19:20:46,080 - INFO - consumidor_mongo:87 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:20:46,082 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***398.76532554626465***ms
+2025-07-08 19:20:46,083 - INFO - consumidor_mongo***Latencia_mensajeria***3128.983974456787***ms
+2025-07-08 19:20:46,650 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:20:46,651 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***567.6283836364746***ms
+2025-07-08 19:20:53,005 - INFO - consumidor_mongo***Latencia_mensajeria***131.18338584899902***ms
+2025-07-08 19:20:53,505 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:20:53,511 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***505.39278984069824***ms
+2025-07-08 19:20:53,517 - INFO - consumidor_mongo***Latencia_mensajeria***645.421028137207***ms
+2025-07-08 19:20:54,022 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:20:54,026 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***508.58426094055176***ms
+2025-07-08 19:20:54,042 - INFO - consumidor_mongo***Latencia_mensajeria***1147.184133529663***ms
+2025-07-08 19:20:54,478 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:20:54,479 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***437.35408782958984***ms
+2025-07-08 19:20:54,492 - INFO - consumidor_mongo***Latencia_mensajeria***1609.889268875122***ms
+2025-07-08 19:20:54,941 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:20:54,944 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***451.2763023376465***ms
+2025-07-08 19:20:54,948 - INFO - consumidor_mongo***Latencia_mensajeria***2058.9964389801025***ms
+2025-07-08 19:20:56,431 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:20:56,432 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***1484.0245246887207***ms
+2025-07-08 19:21:02,919 - INFO - consumidor_mongo***Latencia_mensajeria***48.34628105163574***ms
+2025-07-08 19:21:03,228 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:21:03,229 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***309.66711044311523***ms
+2025-07-08 19:21:03,251 - INFO - consumidor_mongo***Latencia_mensajeria***370.1975345611572***ms
+2025-07-08 19:21:03,680 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:21:03,680 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***428.88355255126953***ms
+2025-07-08 19:21:03,681 - INFO - consumidor_mongo***Latencia_mensajeria***746.436357498169***ms
+2025-07-08 19:21:03,886 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:21:03,888 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***207.30209350585938***ms
+2025-07-08 19:21:03,889 - INFO - consumidor_mongo***Latencia_mensajeria***990.7021522521973***ms
+2025-07-08 19:21:05,611 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:21:05,612 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***1723.3788967132568***ms
+2025-07-08 19:21:05,613 - INFO - consumidor_mongo***Latencia_mensajeria***2694.364309310913***ms
+2025-07-08 19:21:08,316 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:21:08,316 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***2703.2885551452637***ms
+2025-07-08 19:21:12,921 - INFO - consumidor_mongo***Latencia_mensajeria***51.22637748718262***ms
+2025-07-08 19:21:13,252 - INFO - consumidor_mongo:96 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:21:13,253 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***331.6364288330078***ms
+2025-07-08 19:21:13,292 - INFO - consumidor_mongo***Latencia_mensajeria***372.7152347564697***ms
+2025-07-08 19:21:13,696 - INFO - consumidor_mongo:83 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:21:13,699 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***406.2230587005615***ms
+2025-07-08 19:21:13,700 - INFO - consumidor_mongo***Latencia_mensajeria***760.5607509613037***ms
+2025-07-08 19:21:13,946 - INFO - consumidor_mongo:84 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:21:13,946 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***246.87957763671875***ms
+2025-07-08 19:21:13,947 - INFO - consumidor_mongo***Latencia_mensajeria***1059.9093437194824***ms
+2025-07-08 19:21:14,141 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:21:14,142 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***195.53160667419434***ms
+2025-07-08 19:21:14,143 - INFO - consumidor_mongo***Latencia_mensajeria***1190.915584564209***ms
+2025-07-08 19:21:14,367 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:21:14,368 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***224.52831268310547***ms
+2025-07-08 19:21:23,170 - INFO - consumidor_mongo***Latencia_mensajeria***299.30830001831055***ms
+2025-07-08 19:21:23,501 - INFO - consumidor_mongo:86 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:21:23,502 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***331.67481422424316***ms
+2025-07-08 19:21:23,506 - INFO - consumidor_mongo***Latencia_mensajeria***604.9082279205322***ms
+2025-07-08 19:21:23,910 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:21:23,911 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***405.1339626312256***ms
+2025-07-08 19:21:23,923 - INFO - consumidor_mongo***Latencia_mensajeria***891.6177749633789***ms
+2025-07-08 19:21:24,188 - INFO - consumidor_mongo:84 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:21:24,188 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***264.9528980255127***ms
+2025-07-08 19:21:24,189 - INFO - consumidor_mongo***Latencia_mensajeria***1225.3563404083252***ms
+2025-07-08 19:21:24,428 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:21:24,428 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***239.0575408935547***ms
+2025-07-08 19:21:24,429 - INFO - consumidor_mongo***Latencia_mensajeria***1326.908826828003***ms
+2025-07-08 19:21:24,586 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:21:24,587 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***157.98711776733398***ms
+2025-07-08 19:21:32,913 - INFO - consumidor_mongo***Latencia_mensajeria***45.494794845581055***ms
+2025-07-08 19:21:33,167 - INFO - consumidor_mongo:86 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:21:33,170 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***256.1521530151367***ms
+2025-07-08 19:21:33,184 - INFO - consumidor_mongo***Latencia_mensajeria***277.04453468322754***ms
+2025-07-08 19:21:33,459 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:21:33,459 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***275.33555030822754***ms
+2025-07-08 19:21:33,465 - INFO - consumidor_mongo***Latencia_mensajeria***543.9431667327881***ms
+2025-07-08 19:21:33,657 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:21:33,657 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***192.74115562438965***ms
+2025-07-08 19:21:33,658 - INFO - consumidor_mongo***Latencia_mensajeria***779.5021533966064***ms
+2025-07-08 19:21:33,846 - INFO - consumidor_mongo:86 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:21:33,847 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***188.9345645904541***ms
+2025-07-08 19:21:33,848 - INFO - consumidor_mongo***Latencia_mensajeria***904.7465324401855***ms
+2025-07-08 19:21:34,038 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:21:34,039 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***191.10512733459473***ms
+2025-07-08 19:21:42,954 - INFO - consumidor_mongo***Latencia_mensajeria***77.54731178283691***ms
+2025-07-08 19:21:43,467 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:21:43,468 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***513.7104988098145***ms
+2025-07-08 19:21:43,495 - INFO - consumidor_mongo***Latencia_mensajeria***565.8025741577148***ms
+2025-07-08 19:21:43,837 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:21:43,840 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***344.64120864868164***ms
+2025-07-08 19:21:43,841 - INFO - consumidor_mongo***Latencia_mensajeria***899.6560573577881***ms
+2025-07-08 19:21:44,147 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:21:44,154 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***312.7412796020508***ms
+2025-07-08 19:21:44,154 - INFO - consumidor_mongo***Latencia_mensajeria***1254.8317909240723***ms
+2025-07-08 19:21:45,224 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:21:45,225 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***1071.0277557373047***ms
+2025-07-08 19:21:45,227 - INFO - consumidor_mongo***Latencia_mensajeria***2311.5859031677246***ms
+2025-07-08 19:21:45,510 - INFO - consumidor_mongo:87 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:21:45,510 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***283.65588188171387***ms
+2025-07-08 19:21:52,939 - INFO - consumidor_mongo***Latencia_mensajeria***66.81418418884277***ms
+2025-07-08 19:21:53,257 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:21:53,258 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***319.8437690734863***ms
+2025-07-08 19:21:53,280 - INFO - consumidor_mongo***Latencia_mensajeria***399.4932174682617***ms
+2025-07-08 19:21:53,674 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:21:53,675 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***395.31850814819336***ms
+2025-07-08 19:21:53,676 - INFO - consumidor_mongo***Latencia_mensajeria***715.522289276123***ms
+2025-07-08 19:21:53,924 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:21:53,924 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***248.44837188720703***ms
+2025-07-08 19:21:53,925 - INFO - consumidor_mongo***Latencia_mensajeria***944.15283203125***ms
+2025-07-08 19:21:54,113 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:21:54,114 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***188.8296604156494***ms
+2025-07-08 19:21:54,114 - INFO - consumidor_mongo***Latencia_mensajeria***1177.0639419555664***ms
+2025-07-08 19:21:54,341 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:21:54,342 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***227.53405570983887***ms
+2025-07-08 19:22:02,947 - INFO - consumidor_mongo***Latencia_mensajeria***56.715965270996094***ms
+2025-07-08 19:22:03,605 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:22:03,626 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***679.539680480957***ms
+2025-07-08 19:22:03,641 - INFO - consumidor_mongo***Latencia_mensajeria***773.0157375335693***ms
+2025-07-08 19:22:04,529 - INFO - consumidor_mongo:85 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:22:04,530 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***888.3609771728516***ms
+2025-07-08 19:22:04,562 - INFO - consumidor_mongo***Latencia_mensajeria***1659.5127582550049***ms
+2025-07-08 19:22:04,818 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:22:04,822 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***259.9515914916992***ms
+2025-07-08 19:22:04,822 - INFO - consumidor_mongo***Latencia_mensajeria***1874.7835159301758***ms
+2025-07-08 19:22:05,185 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:22:05,186 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***363.25788497924805***ms
+2025-07-08 19:22:05,186 - INFO - consumidor_mongo***Latencia_mensajeria***2250.065326690674***ms
+2025-07-08 19:22:05,488 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:22:05,489 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***302.46877670288086***ms
+2025-07-08 19:22:12,919 - INFO - consumidor_mongo***Latencia_mensajeria***50.1248836517334***ms
+2025-07-08 19:22:13,487 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:22:13,487 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***568.2978630065918***ms
+2025-07-08 19:22:13,524 - INFO - consumidor_mongo***Latencia_mensajeria***643.2690620422363***ms
+2025-07-08 19:22:13,907 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:22:13,907 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***383.09454917907715***ms
+2025-07-08 19:22:13,908 - INFO - consumidor_mongo***Latencia_mensajeria***936.6180896759033***ms
+2025-07-08 19:22:14,089 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:22:14,089 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***180.85527420043945***ms
+2025-07-08 19:22:14,090 - INFO - consumidor_mongo***Latencia_mensajeria***1145.1551914215088***ms
+2025-07-08 19:22:14,229 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:22:14,230 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***139.75930213928223***ms
+2025-07-08 19:22:14,230 - INFO - consumidor_mongo***Latencia_mensajeria***1217.3800468444824***ms
+2025-07-08 19:22:14,519 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:22:14,520 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***289.7334098815918***ms
+2025-07-08 19:22:22,918 - INFO - consumidor_mongo***Latencia_mensajeria***46.89621925354004***ms
+2025-07-08 19:22:23,292 - INFO - consumidor_mongo:86 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:22:23,292 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***374.891996383667***ms
+2025-07-08 19:22:23,308 - INFO - consumidor_mongo***Latencia_mensajeria***400.1190662384033***ms
+2025-07-08 19:22:23,558 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:22:23,558 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***249.78947639465332***ms
+2025-07-08 19:22:23,558 - INFO - consumidor_mongo***Latencia_mensajeria***671.4890003204346***ms
+2025-07-08 19:22:23,765 - INFO - consumidor_mongo:95 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:22:23,766 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***207.35812187194824***ms
+2025-07-08 19:22:23,766 - INFO - consumidor_mongo***Latencia_mensajeria***844.205379486084***ms
+2025-07-08 19:22:23,938 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:22:23,939 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***172.23882675170898***ms
+2025-07-08 19:22:23,939 - INFO - consumidor_mongo***Latencia_mensajeria***969.4845676422119***ms
+2025-07-08 19:22:24,089 - INFO - consumidor_mongo:86 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:22:24,089 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***150.21276473999023***ms
+2025-07-08 19:22:32,975 - INFO - consumidor_mongo***Latencia_mensajeria***103.97934913635254***ms
+2025-07-08 19:22:33,378 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:22:33,378 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***403.6390781402588***ms
+2025-07-08 19:22:33,379 - INFO - consumidor_mongo***Latencia_mensajeria***485.54110527038574***ms
+2025-07-08 19:22:33,928 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:22:33,928 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***548.9025115966797***ms
+2025-07-08 19:22:33,957 - INFO - consumidor_mongo***Latencia_mensajeria***994.7788715362549***ms
+2025-07-08 19:22:34,166 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:22:34,167 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***209.98001098632812***ms
+2025-07-08 19:22:34,167 - INFO - consumidor_mongo***Latencia_mensajeria***1145.343542098999***ms
+2025-07-08 19:22:34,464 - INFO - consumidor_mongo:82 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:22:34,465 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***297.6982593536377***ms
+2025-07-08 19:22:34,466 - INFO - consumidor_mongo***Latencia_mensajeria***1540.0454998016357***ms
+2025-07-08 19:22:34,755 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:22:34,755 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***289.6294593811035***ms
+2025-07-08 19:22:43,037 - INFO - consumidor_mongo***Latencia_mensajeria***166.64981842041016***ms
+2025-07-08 19:22:43,619 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:22:43,620 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***582.4778079986572***ms
+2025-07-08 19:22:43,654 - INFO - consumidor_mongo***Latencia_mensajeria***772.4649906158447***ms
+2025-07-08 19:22:44,441 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:22:44,445 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***790.6789779663086***ms
+2025-07-08 19:22:44,448 - INFO - consumidor_mongo***Latencia_mensajeria***1518.6662673950195***ms
+2025-07-08 19:22:44,836 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:22:44,837 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***388.72551918029785***ms
+2025-07-08 19:22:44,837 - INFO - consumidor_mongo***Latencia_mensajeria***1802.3402690887451***ms
+2025-07-08 19:22:45,134 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:22:45,135 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***297.5895404815674***ms
+2025-07-08 19:22:45,136 - INFO - consumidor_mongo***Latencia_mensajeria***2030.5163860321045***ms
+2025-07-08 19:22:45,472 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:22:45,472 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***336.7786407470703***ms
+2025-07-08 19:22:52,938 - INFO - consumidor_mongo***Latencia_mensajeria***74.01180267333984***ms
+2025-07-08 19:22:53,565 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:22:53,566 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***627.3269653320312***ms
+2025-07-08 19:22:53,670 - INFO - consumidor_mongo***Latencia_mensajeria***759.5033645629883***ms
+2025-07-08 19:22:54,232 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:22:54,233 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***562.8271102905273***ms
+2025-07-08 19:22:54,234 - INFO - consumidor_mongo***Latencia_mensajeria***1269.1631317138672***ms
+2025-07-08 19:22:54,632 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:22:54,632 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***398.1342315673828***ms
+2025-07-08 19:22:54,633 - INFO - consumidor_mongo***Latencia_mensajeria***1754.8048496246338***ms
+2025-07-08 19:22:54,859 - INFO - consumidor_mongo:87 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:22:54,860 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***226.2423038482666***ms
+2025-07-08 19:22:54,860 - INFO - consumidor_mongo***Latencia_mensajeria***1967.8936004638672***ms
+2025-07-08 19:22:55,070 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:22:55,071 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***210.56389808654785***ms
+2025-07-08 19:23:02,963 - INFO - consumidor_mongo***Latencia_mensajeria***97.25570678710938***ms
+2025-07-08 19:23:03,422 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:23:03,423 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***459.8259925842285***ms
+2025-07-08 19:23:03,513 - INFO - consumidor_mongo***Latencia_mensajeria***551.6307353973389***ms
+2025-07-08 19:23:03,980 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:23:03,980 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***467.1611785888672***ms
+2025-07-08 19:23:03,982 - INFO - consumidor_mongo***Latencia_mensajeria***963.9999866485596***ms
+2025-07-08 19:23:04,585 - INFO - consumidor_mongo:87 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:23:04,588 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***605.6632995605469***ms
+2025-07-08 19:23:04,589 - INFO - consumidor_mongo***Latencia_mensajeria***1550.201654434204***ms
+2025-07-08 19:23:04,957 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:23:04,958 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***369.4801330566406***ms
+2025-07-08 19:23:04,960 - INFO - consumidor_mongo***Latencia_mensajeria***2066.117763519287***ms
+2025-07-08 19:23:05,154 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:23:05,154 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***194.24152374267578***ms
+2025-07-08 19:23:12,943 - INFO - consumidor_mongo***Latencia_mensajeria***72.33858108520508***ms
+2025-07-08 19:23:13,472 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:23:13,473 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***529.8306941986084***ms
+2025-07-08 19:23:13,481 - INFO - consumidor_mongo***Latencia_mensajeria***567.1682357788086***ms
+2025-07-08 19:23:13,749 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:23:13,750 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***268.68200302124023***ms
+2025-07-08 19:23:13,750 - INFO - consumidor_mongo***Latencia_mensajeria***815.2837753295898***ms
+2025-07-08 19:23:13,948 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:23:13,948 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***198.20928573608398***ms
+2025-07-08 19:23:13,949 - INFO - consumidor_mongo***Latencia_mensajeria***1049.086093902588***ms
+2025-07-08 19:23:14,605 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:23:14,606 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***657.2034358978271***ms
+2025-07-08 19:23:14,615 - INFO - consumidor_mongo***Latencia_mensajeria***1673.457145690918***ms
+2025-07-08 19:23:15,054 - INFO - consumidor_mongo:86 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:23:15,057 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***442.07167625427246***ms
+2025-07-08 19:23:23,044 - INFO - consumidor_mongo***Latencia_mensajeria***159.32202339172363***ms
+2025-07-08 19:23:23,664 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:23:23,676 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***631.6800117492676***ms
+2025-07-08 19:23:23,677 - INFO - consumidor_mongo***Latencia_mensajeria***806.1182498931885***ms
+2025-07-08 19:23:24,296 - INFO - consumidor_mongo:87 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:23:24,302 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***624.7894763946533***ms
+2025-07-08 19:23:24,330 - INFO - consumidor_mongo***Latencia_mensajeria***1406.022548675537***ms
+2025-07-08 19:23:24,737 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:23:24,738 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***408.19334983825684***ms
+2025-07-08 19:23:24,739 - INFO - consumidor_mongo***Latencia_mensajeria***1794.4302558898926***ms
+2025-07-08 19:23:25,093 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:23:25,093 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***354.80308532714844***ms
+2025-07-08 19:23:25,094 - INFO - consumidor_mongo***Latencia_mensajeria***2098.140239715576***ms
+2025-07-08 19:23:25,529 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:23:25,530 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***435.6701374053955***ms
+2025-07-08 19:23:32,921 - INFO - consumidor_mongo***Latencia_mensajeria***58.81977081298828***ms
+2025-07-08 19:23:33,815 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:23:33,817 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***896.2953090667725***ms
+2025-07-08 19:23:33,873 - INFO - consumidor_mongo***Latencia_mensajeria***984.0211868286133***ms
+2025-07-08 19:23:34,666 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:23:34,669 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***795.7391738891602***ms
+2025-07-08 19:23:34,671 - INFO - consumidor_mongo***Latencia_mensajeria***1601.710557937622***ms
+2025-07-08 19:23:34,974 - INFO - consumidor_mongo:95 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:23:34,974 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***303.33662033081055***ms
+2025-07-08 19:23:34,975 - INFO - consumidor_mongo***Latencia_mensajeria***2079.625129699707***ms
+2025-07-08 19:23:35,300 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:23:35,301 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***326.4589309692383***ms
+2025-07-08 19:23:35,303 - INFO - consumidor_mongo***Latencia_mensajeria***2381.52813911438***ms
+2025-07-08 19:23:35,979 - INFO - consumidor_mongo:95 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:23:36,013 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***710.0458145141602***ms
+2025-07-08 19:23:43,160 - INFO - consumidor_mongo***Latencia_mensajeria***293.1182384490967***ms
+2025-07-08 19:23:43,880 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:23:43,882 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***721.9245433807373***ms
+2025-07-08 19:23:43,884 - INFO - consumidor_mongo***Latencia_mensajeria***1006.2000751495361***ms
+2025-07-08 19:23:44,907 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:23:44,908 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***1023.9434242248535***ms
+2025-07-08 19:23:44,945 - INFO - consumidor_mongo***Latencia_mensajeria***2034.7497463226318***ms
+2025-07-08 19:23:45,414 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:23:45,415 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***469.5782661437988***ms
+2025-07-08 19:23:45,430 - INFO - consumidor_mongo***Latencia_mensajeria***2486.875295639038***ms
+2025-07-08 19:23:45,772 - INFO - consumidor_mongo:85 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:23:45,772 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***343.0666923522949***ms
+2025-07-08 19:23:45,773 - INFO - consumidor_mongo***Latencia_mensajeria***2810.6729984283447***ms
+2025-07-08 19:23:45,943 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:23:45,945 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***171.42343521118164***ms
+2025-07-08 19:23:53,847 - INFO - consumidor_mongo***Latencia_mensajeria***941.0510063171387***ms
+2025-07-08 19:23:54,651 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:23:54,653 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***805.8731555938721***ms
+2025-07-08 19:23:54,656 - INFO - consumidor_mongo***Latencia_mensajeria***1642.0936584472656***ms
+2025-07-08 19:23:55,229 - INFO - consumidor_mongo:87 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:23:55,229 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***573.2295513153076***ms
+2025-07-08 19:23:55,247 - INFO - consumidor_mongo***Latencia_mensajeria***1915.0712490081787***ms
+2025-07-08 19:23:55,959 - INFO - consumidor_mongo:87 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:23:55,960 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***713.0298614501953***ms
+2025-07-08 19:23:55,960 - INFO - consumidor_mongo***Latencia_mensajeria***2182.685613632202***ms
+2025-07-08 19:23:56,774 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:23:56,776 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***815.5391216278076***ms
+2025-07-08 19:23:56,776 - INFO - consumidor_mongo***Latencia_mensajeria***3285.4859828948975***ms
+2025-07-08 19:23:57,587 - INFO - consumidor_mongo:87 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:23:57,589 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***812.4408721923828***ms
+2025-07-08 19:24:02,940 - INFO - consumidor_mongo***Latencia_mensajeria***70.30391693115234***ms
+2025-07-08 19:24:03,648 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:24:03,653 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***713.4597301483154***ms
+2025-07-08 19:24:03,696 - INFO - consumidor_mongo***Latencia_mensajeria***815.8645629882812***ms
+2025-07-08 19:24:04,243 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:24:04,243 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***546.7021465301514***ms
+2025-07-08 19:24:04,244 - INFO - consumidor_mongo***Latencia_mensajeria***1345.3192710876465***ms
+2025-07-08 19:24:04,679 - INFO - consumidor_mongo:87 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:24:04,682 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***438.1556510925293***ms
+2025-07-08 19:24:04,683 - INFO - consumidor_mongo***Latencia_mensajeria***1777.0116329193115***ms
+2025-07-08 19:24:04,905 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:24:04,906 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***223.2372760772705***ms
+2025-07-08 19:24:04,908 - INFO - consumidor_mongo***Latencia_mensajeria***1977.9610633850098***ms
+2025-07-08 19:24:05,154 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:24:05,155 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***246.9654083251953***ms
+2025-07-08 19:24:13,037 - INFO - consumidor_mongo***Latencia_mensajeria***176.20110511779785***ms
+2025-07-08 19:24:13,623 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:24:13,630 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***586.6348743438721***ms
+2025-07-08 19:24:13,640 - INFO - consumidor_mongo***Latencia_mensajeria***767.0121192932129***ms
+2025-07-08 19:24:14,197 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:24:14,198 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***558.6941242218018***ms
+2025-07-08 19:24:14,231 - INFO - consumidor_mongo***Latencia_mensajeria***1160.5937480926514***ms
+2025-07-08 19:24:14,792 - INFO - consumidor_mongo:85 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:24:14,793 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***562.1674060821533***ms
+2025-07-08 19:24:14,805 - INFO - consumidor_mongo***Latencia_mensajeria***1884.0792179107666***ms
+2025-07-08 19:24:15,203 - INFO - consumidor_mongo:87 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:24:15,204 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***398.86021614074707***ms
+2025-07-08 19:24:15,212 - INFO - consumidor_mongo***Latencia_mensajeria***2280.428171157837***ms
+2025-07-08 19:24:15,733 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:24:15,743 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***530.8194160461426***ms
+2025-07-08 19:24:22,993 - INFO - consumidor_mongo***Latencia_mensajeria***127.8231143951416***ms
+2025-07-08 19:24:24,127 - INFO - consumidor_mongo:87 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:24:24,130 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***1137.450933456421***ms
+2025-07-08 19:24:24,178 - INFO - consumidor_mongo***Latencia_mensajeria***1209.3191146850586***ms
+2025-07-08 19:24:25,089 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:24:25,090 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***911.9877815246582***ms
+2025-07-08 19:24:25,092 - INFO - consumidor_mongo***Latencia_mensajeria***2089.221954345703***ms
+2025-07-08 19:24:25,771 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:24:25,772 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***680.2470684051514***ms
+2025-07-08 19:24:25,773 - INFO - consumidor_mongo***Latencia_mensajeria***2718.1766033172607***ms
+2025-07-08 19:24:26,259 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:24:26,263 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***489.86315727233887***ms
+2025-07-08 19:24:26,270 - INFO - consumidor_mongo***Latencia_mensajeria***3383.26096534729***ms
+2025-07-08 19:24:26,647 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:24:26,647 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***377.23684310913086***ms
+2025-07-08 19:24:32,915 - INFO - consumidor_mongo***Latencia_mensajeria***47.64866828918457***ms
+2025-07-08 19:24:33,472 - INFO - consumidor_mongo:85 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:24:33,475 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***559.0219497680664***ms
+2025-07-08 19:24:33,493 - INFO - consumidor_mongo***Latencia_mensajeria***579.7128677368164***ms
+2025-07-08 19:24:33,737 - INFO - consumidor_mongo:87 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:24:33,737 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***244.2941665649414***ms
+2025-07-08 19:24:33,738 - INFO - consumidor_mongo***Latencia_mensajeria***807.5447082519531***ms
+2025-07-08 19:24:34,134 - INFO - consumidor_mongo:87 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:24:34,135 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***396.4569568634033***ms
+2025-07-08 19:24:34,138 - INFO - consumidor_mongo***Latencia_mensajeria***1143.5482501983643***ms
+2025-07-08 19:24:34,813 - INFO - consumidor_mongo:85 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:24:34,814 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***676.128625869751***ms
+2025-07-08 19:24:34,815 - INFO - consumidor_mongo***Latencia_mensajeria***1928.419828414917***ms
+2025-07-08 19:24:35,231 - INFO - consumidor_mongo:86 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:24:35,232 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***417.13547706604004***ms
+2025-07-08 19:24:42,996 - INFO - consumidor_mongo***Latencia_mensajeria***125.56672096252441***ms
+2025-07-08 19:24:43,468 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:24:43,469 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***472.8114604949951***ms
+2025-07-08 19:24:43,499 - INFO - consumidor_mongo***Latencia_mensajeria***597.3827838897705***ms
+2025-07-08 19:24:43,936 - INFO - consumidor_mongo:95 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:24:43,941 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***441.61319732666016***ms
+2025-07-08 19:24:43,943 - INFO - consumidor_mongo***Latencia_mensajeria***847.9533195495605***ms
+2025-07-08 19:24:44,647 - INFO - consumidor_mongo:95 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:24:44,664 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***706.0835361480713***ms
+2025-07-08 19:24:44,672 - INFO - consumidor_mongo***Latencia_mensajeria***1784.6355438232422***ms
+2025-07-08 19:24:45,011 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:24:45,012 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***340.3315544128418***ms
+2025-07-08 19:24:45,012 - INFO - consumidor_mongo***Latencia_mensajeria***2020.5800533294678***ms
+2025-07-08 19:24:45,263 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:24:45,264 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***251.58381462097168***ms
+2025-07-08 19:24:53,062 - INFO - consumidor_mongo***Latencia_mensajeria***197.70050048828125***ms
+2025-07-08 19:24:53,648 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:24:53,659 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***597.5131988525391***ms
+2025-07-08 19:24:53,697 - INFO - consumidor_mongo***Latencia_mensajeria***708.9173793792725***ms
+2025-07-08 19:24:54,355 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:24:54,356 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***658.7741374969482***ms
+2025-07-08 19:24:54,378 - INFO - consumidor_mongo***Latencia_mensajeria***1316.6558742523193***ms
+2025-07-08 19:24:54,754 - INFO - consumidor_mongo:87 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:24:54,756 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***377.5339126586914***ms
+2025-07-08 19:24:54,757 - INFO - consumidor_mongo***Latencia_mensajeria***1878.1254291534424***ms
+2025-07-08 19:24:55,028 - INFO - consumidor_mongo:87 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:24:55,029 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***271.82817459106445***ms
+2025-07-08 19:24:55,029 - INFO - consumidor_mongo***Latencia_mensajeria***2075.6847858428955***ms
+2025-07-08 19:24:55,307 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:24:55,309 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***279.43921089172363***ms
+2025-07-08 19:25:02,917 - INFO - consumidor_mongo***Latencia_mensajeria***45.71866989135742***ms
+2025-07-08 19:25:03,345 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:25:03,346 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***429.1491508483887***ms
+2025-07-08 19:25:03,364 - INFO - consumidor_mongo***Latencia_mensajeria***476.13978385925293***ms
+2025-07-08 19:25:03,960 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:25:03,961 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***596.8537330627441***ms
+2025-07-08 19:25:03,961 - INFO - consumidor_mongo***Latencia_mensajeria***1017.4777507781982***ms
+2025-07-08 19:25:04,749 - INFO - consumidor_mongo:84 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:25:04,751 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***789.736270904541***ms
+2025-07-08 19:25:04,752 - INFO - consumidor_mongo***Latencia_mensajeria***1756.3633918762207***ms
+2025-07-08 19:25:04,965 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:25:04,965 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***213.12379837036133***ms
+2025-07-08 19:25:04,966 - INFO - consumidor_mongo***Latencia_mensajeria***2049.7047901153564***ms
+2025-07-08 19:25:05,111 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:25:05,112 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***145.890474319458***ms
+2025-07-08 19:25:12,910 - INFO - consumidor_mongo***Latencia_mensajeria***43.69044303894043***ms
+2025-07-08 19:25:13,191 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:25:13,192 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***281.76212310791016***ms
+2025-07-08 19:25:13,208 - INFO - consumidor_mongo***Latencia_mensajeria***330.8100700378418***ms
+2025-07-08 19:25:13,415 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:25:13,417 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***208.98795127868652***ms
+2025-07-08 19:25:13,420 - INFO - consumidor_mongo***Latencia_mensajeria***464.5228385925293***ms
+2025-07-08 19:25:13,543 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:25:13,543 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***123.71325492858887***ms
+2025-07-08 19:25:13,544 - INFO - consumidor_mongo***Latencia_mensajeria***651.5185832977295***ms
+2025-07-08 19:25:13,789 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:25:13,790 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***245.4392910003662***ms
+2025-07-08 19:25:13,790 - INFO - consumidor_mongo***Latencia_mensajeria***876.8091201782227***ms
+2025-07-08 19:25:14,004 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:25:14,005 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***214.6162986755371***ms
+2025-07-08 19:25:22,924 - INFO - consumidor_mongo***Latencia_mensajeria***54.31628227233887***ms
+2025-07-08 19:25:23,455 - INFO - consumidor_mongo:85 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:25:23,455 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***530.8163166046143***ms
+2025-07-08 19:25:23,469 - INFO - consumidor_mongo***Latencia_mensajeria***545.5772876739502***ms
+2025-07-08 19:25:23,844 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:25:23,849 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***379.21595573425293***ms
+2025-07-08 19:25:23,859 - INFO - consumidor_mongo***Latencia_mensajeria***882.8849792480469***ms
+2025-07-08 19:25:24,500 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:25:24,505 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***645.777702331543***ms
+2025-07-08 19:25:24,507 - INFO - consumidor_mongo***Latencia_mensajeria***1482.0687770843506***ms
+2025-07-08 19:25:24,919 - INFO - consumidor_mongo:95 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:25:24,920 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***412.9822254180908***ms
+2025-07-08 19:25:24,920 - INFO - consumidor_mongo***Latencia_mensajeria***2041.36061668396***ms
+2025-07-08 19:25:25,260 - INFO - consumidor_mongo:86 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:25:25,260 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***340.18468856811523***ms
+2025-07-08 19:25:33,028 - INFO - consumidor_mongo***Latencia_mensajeria***158.02502632141113***ms
+2025-07-08 19:25:33,493 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:25:33,494 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***466.56250953674316***ms
+2025-07-08 19:25:33,548 - INFO - consumidor_mongo***Latencia_mensajeria***377.31170654296875***ms
+2025-07-08 19:25:34,070 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:25:34,072 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***523.522138595581***ms
+2025-07-08 19:25:34,073 - INFO - consumidor_mongo***Latencia_mensajeria***1153.6149978637695***ms
+2025-07-08 19:25:34,601 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:25:34,602 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***529.3400287628174***ms
+2025-07-08 19:25:34,602 - INFO - consumidor_mongo***Latencia_mensajeria***1606.346607208252***ms
+2025-07-08 19:25:34,864 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:25:34,865 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***262.22825050354004***ms
+2025-07-08 19:25:34,865 - INFO - consumidor_mongo***Latencia_mensajeria***1758.1188678741455***ms
+2025-07-08 19:25:35,038 - INFO - consumidor_mongo:83 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:25:35,039 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***174.06511306762695***ms
+2025-07-08 19:25:42,928 - INFO - consumidor_mongo***Latencia_mensajeria***62.258243560791016***ms
+2025-07-08 19:25:43,622 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:25:43,623 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***694.8254108428955***ms
+2025-07-08 19:25:43,645 - INFO - consumidor_mongo***Latencia_mensajeria***757.1213245391846***ms
+2025-07-08 19:25:44,231 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:25:44,232 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***586.9934558868408***ms
+2025-07-08 19:25:44,232 - INFO - consumidor_mongo***Latencia_mensajeria***1306.6871166229248***ms
+2025-07-08 19:25:44,893 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:25:44,894 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***662.0464324951172***ms
+2025-07-08 19:25:44,911 - INFO - consumidor_mongo***Latencia_mensajeria***1876.8775463104248***ms
+2025-07-08 19:25:45,244 - INFO - consumidor_mongo:86 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:25:45,244 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***333.60862731933594***ms
+2025-07-08 19:25:45,244 - INFO - consumidor_mongo***Latencia_mensajeria***2132.61079788208***ms
+2025-07-08 19:25:45,655 - INFO - consumidor_mongo:87 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:25:45,656 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***411.5738868713379***ms
+2025-07-08 19:25:52,914 - INFO - consumidor_mongo***Latencia_mensajeria***48.14743995666504***ms
+2025-07-08 19:25:53,162 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:25:53,163 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***248.53897094726562***ms
+2025-07-08 19:25:53,194 - INFO - consumidor_mongo***Latencia_mensajeria***311.49935722351074***ms
+2025-07-08 19:25:53,461 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:25:53,462 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***268.2492733001709***ms
+2025-07-08 19:25:53,462 - INFO - consumidor_mongo***Latencia_mensajeria***547.5821495056152***ms
+2025-07-08 19:25:53,661 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:25:53,662 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***199.85556602478027***ms
+2025-07-08 19:25:53,663 - INFO - consumidor_mongo***Latencia_mensajeria***701.7776966094971***ms
+2025-07-08 19:25:53,873 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:25:53,873 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***210.56652069091797***ms
+2025-07-08 19:25:53,874 - INFO - consumidor_mongo***Latencia_mensajeria***976.2890338897705***ms
+2025-07-08 19:25:54,019 - INFO - consumidor_mongo:95 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:25:54,020 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***145.74694633483887***ms
+2025-07-08 19:26:02,923 - INFO - consumidor_mongo***Latencia_mensajeria***51.99098587036133***ms
+2025-07-08 19:26:03,369 - INFO - consumidor_mongo:85 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:26:03,370 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***447.34811782836914***ms
+2025-07-08 19:26:03,396 - INFO - consumidor_mongo***Latencia_mensajeria***505.9351921081543***ms
+2025-07-08 19:26:03,680 - INFO - consumidor_mongo:94 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:26:03,681 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***285.27355194091797***ms
+2025-07-08 19:26:03,681 - INFO - consumidor_mongo***Latencia_mensajeria***741.0647869110107***ms
+2025-07-08 19:26:03,822 - INFO - consumidor_mongo:86 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:26:03,822 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***141.07108116149902***ms
+2025-07-08 19:26:03,844 - INFO - consumidor_mongo***Latencia_mensajeria***921.4150905609131***ms
+2025-07-08 19:26:03,999 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:26:03,999 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***155.2591323852539***ms
+2025-07-08 19:26:04,000 - INFO - consumidor_mongo***Latencia_mensajeria***1016.1757469177246***ms
+2025-07-08 19:26:04,212 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:26:04,212 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***212.493896484375***ms
+2025-07-08 19:26:12,940 - INFO - consumidor_mongo***Latencia_mensajeria***75.44875144958496***ms
+2025-07-08 19:26:13,462 - INFO - consumidor_mongo:86 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:26:13,463 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***523.0915546417236***ms
+2025-07-08 19:26:13,478 - INFO - consumidor_mongo***Latencia_mensajeria***598.5367298126221***ms
+2025-07-08 19:26:13,896 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:26:13,897 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***419.02709007263184***ms
+2025-07-08 19:26:13,897 - INFO - consumidor_mongo***Latencia_mensajeria***950.7291316986084***ms
+2025-07-08 19:26:14,158 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:26:14,159 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***261.63649559020996***ms
+2025-07-08 19:26:14,160 - INFO - consumidor_mongo***Latencia_mensajeria***1138.763666152954***ms
+2025-07-08 19:26:14,669 - INFO - consumidor_mongo:95 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:26:14,670 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***510.68902015686035***ms
+2025-07-08 19:26:14,671 - INFO - consumidor_mongo***Latencia_mensajeria***1552.1304607391357***ms
+2025-07-08 19:26:14,863 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:26:14,863 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***192.6724910736084***ms
+2025-07-08 19:26:23,067 - INFO - consumidor_mongo***Latencia_mensajeria***199.44310188293457***ms
+2025-07-08 19:26:23,481 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:26:23,489 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***422.5280284881592***ms
+2025-07-08 19:26:23,532 - INFO - consumidor_mongo***Latencia_mensajeria***622.368335723877***ms
+2025-07-08 19:26:23,971 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:26:23,973 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***441.16687774658203***ms
+2025-07-08 19:26:23,975 - INFO - consumidor_mongo***Latencia_mensajeria***1096.538782119751***ms
+2025-07-08 19:26:24,567 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:26:24,569 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***593.3687686920166***ms
+2025-07-08 19:26:24,570 - INFO - consumidor_mongo***Latencia_mensajeria***1623.7452030181885***ms
+2025-07-08 19:26:25,043 - INFO - consumidor_mongo:85 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:26:25,044 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***473.8779067993164***ms
+2025-07-08 19:26:25,045 - INFO - consumidor_mongo***Latencia_mensajeria***2002.3536682128906***ms
+2025-07-08 19:26:25,399 - INFO - consumidor_mongo:85 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:26:25,399 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***354.6597957611084***ms
+2025-07-08 19:26:32,943 - INFO - consumidor_mongo***Latencia_mensajeria***71.74444198608398***ms
+2025-07-08 19:26:33,639 - INFO - consumidor_mongo:83 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:26:33,640 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***696.8374252319336***ms
+2025-07-08 19:26:33,668 - INFO - consumidor_mongo***Latencia_mensajeria***788.1600856781006***ms
+2025-07-08 19:26:34,300 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:26:34,301 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***633.7418556213379***ms
+2025-07-08 19:26:34,302 - INFO - consumidor_mongo***Latencia_mensajeria***1377.763032913208***ms
+2025-07-08 19:26:34,894 - INFO - consumidor_mongo:87 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:26:34,894 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***592.8127765655518***ms
+2025-07-08 19:26:34,895 - INFO - consumidor_mongo***Latencia_mensajeria***2000.9570121765137***ms
+2025-07-08 19:26:35,334 - INFO - consumidor_mongo:85 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:26:35,335 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***439.26191329956055***ms
+2025-07-08 19:26:35,335 - INFO - consumidor_mongo***Latencia_mensajeria***2370.9895610809326***ms
+2025-07-08 19:26:35,543 - INFO - consumidor_mongo:95 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:26:35,543 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***207.9939842224121***ms
+2025-07-08 19:26:42,931 - INFO - consumidor_mongo***Latencia_mensajeria***68.27020645141602***ms
+2025-07-08 19:26:43,245 - INFO - consumidor_mongo:91 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:26:43,246 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***314.39876556396484***ms
+2025-07-08 19:26:43,260 - INFO - consumidor_mongo***Latencia_mensajeria***243.55816841125488***ms
+2025-07-08 19:26:43,468 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:26:43,469 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***208.55212211608887***ms
+2025-07-08 19:26:43,469 - INFO - consumidor_mongo***Latencia_mensajeria***581.9053649902344***ms
+2025-07-08 19:26:43,594 - INFO - consumidor_mongo:87 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:26:43,595 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***125.4281997680664***ms
+2025-07-08 19:26:43,595 - INFO - consumidor_mongo***Latencia_mensajeria***682.45530128479***ms
+2025-07-08 19:26:43,769 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:26:43,769 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***173.89154434204102***ms
+2025-07-08 19:26:43,770 - INFO - consumidor_mongo***Latencia_mensajeria***793.7514781951904***ms
+2025-07-08 19:26:43,966 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:26:43,967 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***197.10040092468262***ms
+2025-07-08 19:26:52,915 - INFO - consumidor_mongo***Latencia_mensajeria***44.05832290649414***ms
+2025-07-08 19:26:53,462 - INFO - consumidor_mongo:86 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:26:53,463 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***547.7468967437744***ms
+2025-07-08 19:26:53,481 - INFO - consumidor_mongo***Latencia_mensajeria***599.9598503112793***ms
+2025-07-08 19:26:54,138 - INFO - consumidor_mongo:89 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:26:54,142 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***660.3381633758545***ms
+2025-07-08 19:26:54,145 - INFO - consumidor_mongo***Latencia_mensajeria***1232.717752456665***ms
+2025-07-08 19:26:54,575 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:26:54,576 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***430.56488037109375***ms
+2025-07-08 19:26:54,576 - INFO - consumidor_mongo***Latencia_mensajeria***1529.6783447265625***ms
+2025-07-08 19:26:54,766 - INFO - consumidor_mongo:90 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:26:54,767 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***190.3080940246582***ms
+2025-07-08 19:26:54,767 - INFO - consumidor_mongo***Latencia_mensajeria***1669.6288585662842***ms
+2025-07-08 19:26:54,975 - INFO - consumidor_mongo:93 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:26:54,976 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***209.00654792785645***ms
+2025-07-08 19:27:03,095 - INFO - consumidor_mongo***Latencia_mensajeria***214.14637565612793***ms
+2025-07-08 19:27:04,129 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:27:04,132 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***1036.7686748504639***ms
+2025-07-08 19:27:04,156 - INFO - consumidor_mongo***Latencia_mensajeria***1252.5653839111328***ms
+2025-07-08 19:27:05,781 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:27:05,782 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***1625.983715057373***ms
+2025-07-08 19:27:05,798 - INFO - consumidor_mongo***Latencia_mensajeria***2591.1412239074707***ms
+2025-07-08 19:27:06,274 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:27:06,275 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***476.89318656921387***ms
+2025-07-08 19:27:06,275 - INFO - consumidor_mongo***Latencia_mensajeria***3197.9241371154785***ms
+2025-07-08 19:27:07,144 - INFO - consumidor_mongo:92 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:27:07,146 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***870.8593845367432***ms
+2025-07-08 19:27:07,147 - INFO - consumidor_mongo***Latencia_mensajeria***4035.82501411438***ms
+2025-07-08 19:27:08,807 - INFO - consumidor_mongo:88 aeronaves insertadas en la colección 202507081915.
+2025-07-08 19:27:08,808 - INFO - consumidor_mongo***Latencia_ConsumidorMongo***1660.9795093536377***ms

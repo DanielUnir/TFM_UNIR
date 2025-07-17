@@ -1,0 +1,24 @@
+2025-07-08 19:03:24,580 - INFO - Conectado a MongoDB en mongodb://mongo:27017.
+2025-07-08 19:03:24,596 - INFO - Cliente Histórico iniciado correctamente.
+2025-07-08 19:03:24,599 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-07-08 19:03:24,602 - INFO -  * Running on http://172.18.0.7:5001/ (Press CTRL+C to quit)
+2025-07-08 19:11:36,529 - INFO - Conectado a MongoDB en mongodb://mongo:27017.
+2025-07-08 19:11:36,546 - INFO - Cliente Histórico iniciado correctamente.
+2025-07-08 19:11:36,550 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-07-08 19:11:36,558 - INFO -  * Running on http://172.18.0.7:5001/ (Press CTRL+C to quit)
+2025-07-08 19:16:02,514 - INFO - 192.168.65.1 - - [08/Jul/2025 19:16:02] "GET /info HTTP/1.1" 200 -
+2025-07-08 19:16:07,759 - INFO - 192.168.65.1 - - [08/Jul/2025 19:16:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-08 19:16:58,467 - INFO - 192.168.65.1 - - [08/Jul/2025 19:16:58] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-08 19:18:33,343 - INFO - Descargando histórico para ICAO24: 4d22ec, desde 2025-07-08_19-12 hasta 2025-07-08_19-16
+2025-07-08 19:18:33,478 - INFO - Fechas convertidas a timestamps: inicio=1752001920, fin=1752002160
+2025-07-08 19:18:33,490 - INFO - Colecciones a consultar: ['202507081900', '202507081915']
+2025-07-08 19:18:33,561 - INFO - Datos encontrados en 202507081900: {'time': '2025-07-08 19-12:32', 'icao24': '4d22ec', 'lat': 51.0904758259, 'lon': 7.5473022461, 'velocity': 194.263754479, 'heading': 135.6437457142, 'vertrate': 13.32992, 'callsign': 'CXI27NM ', 'onground': False, 'alert': False, 'spi': False, 'squawk': '2556', 'baroaltitude': 5753.1, 'geoaltitude': 5951.22, 'lastposupdate': 1656331198.94, 'lastcontact': 1656331200.0, 'time_original': 1656331200, 'altitude': 5753.1, 'FL': 189, 'sector': 'sector_BE_Este', 'location': {'type': 'Point', 'coordinates': [7.5473022461, 51.0904758259]}}
+2025-07-08 19:18:33,562 - INFO - Datos encontrados en 202507081900: {'time': '2025-07-08 19-14:12', 'icao24': '4d22ec', 'lat': 50.9363708496, 'lon': 7.6668981604, 'velocity': 193.3577313309, 'heading': 158.6232056118, 'vertrate': 11.3792, 'callsign': 'CXI27NM ', 'onground': False, 'alert': False, 'spi': False, 'squawk': '2556', 'baroaltitude': 6903.72, 'geoaltitude': 7147.56, 'lastposupdate': 1656331299.497, 'lastcontact': 1656331300.0, 'time_original': 1656331300, 'altitude': 6903.72, 'FL': 227, 'sector': 'sector_BE_Este', 'location': {'type': 'Point', 'coordinates': [7.6668981604, 50.9363708496]}}
+2025-07-08 19:18:33,589 - INFO - Datos encontrados en 202507081900: {'time': '2025-07-08 19-14:32', 'icao24': '4d22ec', 'lat': 50.9032892777, 'lon': 7.6875305176, 'velocity': 194.2133414823, 'heading': 158.3958698406, 'vertrate': 10.72896, 'callsign': 'CXI27NM ', 'onground': False, 'alert': False, 'spi': False, 'squawk': '2556', 'baroaltitude': 7124.7, 'geoaltitude': 7368.54, 'lastposupdate': 1656331319.988, 'lastcontact': 1656331319.999, 'time_original': 1656331320, 'altitude': 7124.7, 'FL': 234, 'sector': 'sector_BE_Este', 'location': {'type': 'Point', 'coordinates': [7.6875305176, 50.9032892777]}}
+2025-07-08 19:18:33,609 - INFO - Datos encontrados en 202507081915: {'time': '2025-07-08 19-15:42', 'icao24': '4d22ec', 'lat': 50.7885380115, 'lon': 7.7582550049, 'velocity': 198.8983148644, 'heading': 158.6113771722, 'vertrate': 8.128, 'callsign': 'CXI27NM ', 'onground': False, 'alert': False, 'spi': False, 'squawk': '2556', 'baroaltitude': 7620.0, 'geoaltitude': 7894.32, 'lastposupdate': 1656331389.899, 'lastcontact': 1656331389.993, 'time_original': 1656331390, 'altitude': 7620.0, 'FL': 250, 'sector': 'sector_BE_Este', 'location': {'type': 'Point', 'coordinates': [7.7582550049, 50.7885380115]}}
+2025-07-08 19:18:33,610 - INFO - Datos encontrados: 4 registros.
+2025-07-08 19:18:33,628 - INFO - Generando archivo JSON: historico_4d22ec_2025-07-08_19-12_a_2025-07-08_19-16.json
+2025-07-08 19:18:33,644 - INFO - ***Latencia_ClienteHistorico_aeronave***297.41430282592773***ms
+2025-07-08 19:18:33,661 - INFO - 192.168.65.1 - - [08/Jul/2025 19:18:33] "GET /descargar/icao24/4d22ec/2025-07-08_19-12/2025-07-08_19-16 HTTP/1.1" 200 -

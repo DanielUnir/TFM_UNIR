@@ -1,0 +1,4 @@
+# Archivo de requerimientos para el cliente de ATM
+flask==2.0.1                # Framework web para Python
+Werkzeug==2.0.3             # Utilidades para Flask
+redis==5.0.1                # Cliente de Redis en Python

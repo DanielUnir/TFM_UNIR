@@ -1,0 +1,33 @@
+# ./cliente_historico/readme
+# Cliente Histórico - Microservicio de descarga de los datos del espacio aéreo
+
+# Imagen base
+- Python 3.10 slim, más ligera que la oficial
+
+# Variables de entorno (.env)
+    - ID_SERVICE                                    # Identificador propio del contenedor, para identificarse al conectar con otros servicios
+
+    - MONGO_HOST                                # Configuración del host MongoDB
+    - MONGO_PORT                                # Puerto de MongoDB
+    - MONGO_DB=adsb_database                    # Base de datos de MongoDB donde se guardarán los datos
+
+# Requerimientos
+    - flask==2.0.1                                  # Framework web para Python
+    - Werkzeug==2.0.3                               # Utilidades para Flask
+    - pymongo==4.3.3                            # Cliente de MongoDB en Python
+
+# Dockerfile
+- Establece la imagen base, heramientas python auxiliares, requerimientos, carpetas de trabajo y lanza el arranque con el código fuente
+
+# Código fuente
+- `cliente_historico.py`
+
+# Archivos auxiliares
+
+# Proceso resumido
+- Se conecta a MongoDB
+- Inicia Flask
+- Define rutas para descargar archivos JSON de una aeronave específica o de un sector específico en un rango de tiempo
+- Define el punto de entrada a Flask para hacer las consultas 
+    - descargar_historico(icao24, fecha_inicio, fecha_fin): Ruta para descargar el histórico de una aeronave en un rango de fechas. Use 'YYYY-MM-DD_HH:MM'
+    - descargar_historico_sector(sector_id, fecha_inicio, fecha_fin): Ruta para descargar el tráfico histórico de un sector en un rango de fechas. Use 'YYYY-MM-DD_HH:MM'

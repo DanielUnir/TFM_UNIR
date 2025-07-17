@@ -1,0 +1,2 @@
+# Archivo de requerimientos para el productor de Kafka
+kafka-python==2.0.2           # Cliente de Kafka para Python
