@@ -1,0 +1,20 @@
+# Carpeta `logs_globales`
+Este directorio contiene los registros generados durante la ejecución de las pruebas realizadas. 
+Los logs se organizan en subdirectorios independientes, uno por cada caso de prueba ejecutado.
+Esta información es utilizada en el análisis del TFM para comparar rendimiento, latencias y eficiencia de cada configuración, permitiendo justificar decisiones de diseño y evaluar la validez de la arquitectura propuesta.
+
+## Estructura
+- Cada subdirectorio sigue la convención de nombre: casoXX_YYYYMMDD_HHMMSS
+- `casoXX` corresponde al identificador del caso de prueba ejecutado (por ejemplo, `caso01`, `caso02`, etc.).
+- `YYYYMMDD_HHMMSS` indica la fecha y hora en la que se ejecutó el caso, lo que permite un seguimiento cronológico y trazabilidad.
+
+## Contenido de cada subdirectorio
+- `kafka_lag_casoXX.log`: mide el retraso (lag) de los consumidores en Kafka.
+- `redis_stats_casoXX.log`: muestra estadísticas internas de Redis extraídas mediante `redis-cli INFO`.
+- `mongostat_casoXX.log`: contiene métricas de uso y rendimiento de MongoDB obtenidas con `mongostat`.
+- `estado_atm.log`: incluye respuestas periódicas del microservicio de monitorización del espacio aéreo.
+- `recursos.log`: refleja el uso de CPU y memoria de los contenedores durante la ejecución.
+- Adicionalmente cada microservicio emite internamente logs que se guardan en carpetas propias que también se trasladan aquí,
+    en ellos se puede encontrar información clave como los cálculos internos de latencia de los consumidores, los clientes...
+
+
