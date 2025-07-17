@@ -1,0 +1,18 @@
+2025-07-08 19:52:38,210 - INFO - Conectado a MongoDB en mongodb://mongo:27017.
+2025-07-08 19:52:38,224 - INFO - Cliente Histórico iniciado correctamente.
+2025-07-08 19:52:38,228 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-07-08 19:52:38,237 - INFO -  * Running on http://172.18.0.8:5001/ (Press CTRL+C to quit)
+2025-07-08 19:59:18,830 - INFO - 192.168.65.1 - - [08/Jul/2025 19:59:18] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-08 19:59:26,224 - INFO - Descargando histórico para ICAO24: a399ac, desde 2017-06-05_00:02 hasta 2017-06-05_00:07
+2025-07-08 19:59:26,354 - ERROR - Error al parsear las fechas: time data '2017-06-05_00:02' does not match format '%Y-%m-%d_%H-%M'
+2025-07-08 19:59:26,370 - INFO - 192.168.65.1 - - [08/Jul/2025 19:59:26] "[31m[1mGET /descargar/icao24/a399ac/2017-06-05_00:02/2017-06-05_00:07 HTTP/1.1[0m" 400 -
+2025-07-08 20:00:03,268 - INFO - Descargando histórico para ICAO24: 3c64ae, desde 2025-07-08_19-57 hasta 2025-07-08_19-59
+2025-07-08 20:00:03,352 - INFO - Fechas convertidas a timestamps: inicio=1752004620, fin=1752004740
+2025-07-08 20:00:03,354 - INFO - Colecciones a consultar: ['202507081945']
+2025-07-08 20:00:03,548 - INFO - Datos encontrados en 202507081945: {'time': '2025-07-08 19-57:00', 'icao24': '3c64ae', 'lat': 49.0452575684, 'lon': 2.917574369, 'velocity': 104.2038037733, 'heading': 265.753157393, 'vertrate': -1.30048, 'callsign': 'DLH92N  ', 'onground': False, 'alert': False, 'spi': False, 'squawk': '1000', 'baroaltitude': 1478.28, 'geoaltitude': 1592.58, 'lastposupdate': 1656331289.646, 'lastcontact': 1656331289.766, 'time_original': 1656331290, 'altitude': 1478.28, 'FL': 49, 'sector': 'sector_BE_Este', 'location': {'type': 'Point', 'coordinates': [2.917574369, 49.0452575684]}}
+2025-07-08 20:00:03,549 - INFO - Datos encontrados en 202507081945: {'time': '2025-07-08 19-57:10', 'icao24': '3c64ae', 'lat': 49.0446166992, 'lon': 2.9034189078, 'velocity': 100.0259598529, 'heading': 266.1663234629, 'vertrate': -0.65024, 'callsign': 'DLH92N  ', 'onground': False, 'alert': False, 'spi': False, 'squawk': '1000', 'baroaltitude': 1447.8, 'geoaltitude': 1562.1, 'lastposupdate': 1656331299.796, 'lastcontact': 1656331299.935, 'time_original': 1656331300, 'altitude': 1447.8, 'FL': 48, 'sector': 'sector_BE_Este', 'location': {'type': 'Point', 'coordinates': [2.9034189078, 49.0446166992]}}
+2025-07-08 20:00:03,549 - INFO - Datos encontrados: 2 registros.
+2025-07-08 20:00:03,556 - INFO - Generando archivo JSON: historico_3c64ae_2025-07-08_19-57_a_2025-07-08_19-59.json
+2025-07-08 20:00:03,562 - INFO - ***Latencia_ClienteHistorico_aeronave***294.3723201751709***ms
+2025-07-08 20:00:03,563 - INFO - 192.168.65.1 - - [08/Jul/2025 20:00:03] "GET /descargar/icao24/3c64ae/2025-07-08_19-57/2025-07-08_19-59 HTTP/1.1" 200 -

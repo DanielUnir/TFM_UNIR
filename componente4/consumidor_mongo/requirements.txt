@@ -1,0 +1,5 @@
+# Archivo de requerimientos para el consumidor de Kafka que almacena mensajes en Redis
+kafka-python==2.0.2         # Cliente de Kafka en Python
+pymongo==4.3.3              # Cliente de MongoDB en Python
+geopy==2.3.0                # Biblioteca para trabajar con datos geoespaciales
+numpy==1.26.4               # Librería numpy para cálculos

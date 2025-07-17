@@ -1,0 +1,123 @@
+2025-07-08 19:52:28,934 - INFO - cliente_atm: Conectado a Redis en redis:6379
+2025-07-08 19:52:29,073 - INFO - Cliente ATM iniciado correctamente.
+2025-07-08 19:52:29,107 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-07-08 19:52:29,186 - INFO -  * Running on http://172.18.0.6:5000/ (Press CTRL+C to quit)
+2025-07-08 19:53:25,792 - INFO - 192.168.65.1 - - [08/Jul/2025 19:53:25] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-08 19:57:39,882 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-08 19:57:40,093 - INFO - Aeronaves en el sector sector_CZ_Centro: 330
+2025-07-08 19:57:40,117 - INFO - Aeronaves en el sector sector_AD: 330
+2025-07-08 19:57:40,119 - INFO - Aeronaves en el sector sector_XK: 302
+2025-07-08 19:57:40,132 - INFO - Aeronaves en el sector sector_GB_Oeste: 370
+2025-07-08 19:57:40,183 - INFO - Aeronaves en el sector sector_BE_Este: 426
+2025-07-08 19:57:40,189 - INFO - Aeronaves en el sector sector_PT_Este: 198
+2025-07-08 19:57:40,229 - INFO - Aeronaves en el sector sector_TR_Oeste: 207
+2025-07-08 19:57:40,249 - INFO - Aeronaves en el sector sector_SE_Oeste: 173
+2025-07-08 19:57:40,258 - INFO - Aeronaves en el sector sector_RU_Oeste: 87
+2025-07-08 19:57:40,259 - INFO - Aeronaves en el sector sector_IT_Norte: 469
+2025-07-08 19:57:40,273 - INFO - ***Latencia_ClienteATM_estadoatm***322.82423973083496***ms
+2025-07-08 19:57:40,283 - INFO - 192.168.65.1 - - [08/Jul/2025 19:57:40] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-08 19:58:18,679 - INFO - Consulta de aeronaves en el sector sector_BE_Este.
+2025-07-08 19:58:18,726 - INFO - Aeronaves en el sector sector_BE_Este: {'346193', '4d2217', '440c33', '406cdd', '449052', '4d20d5', '4075f4', '4ca61b', '405f11', '4ca92d', '4aca54', '3dd3c5', '407ae1', '44b438', '45ac35', '347259', '3c4ad9', '407c65', '440670', '44cd73', '3df2d6', '485870', '4d2236', '4841a9', '3c49e7', '3944ef', '4d225d', '407022', '39b96a', '3d2114', '3cd05c', '3c6496', '3c4ab0', '490d02', '406b6c', '3c64ac', 'a0f31d', '4ca4f8', '3965a0', '478df2', '3df2d7', '3c6489', '3c6516', '39e681', '398560', '392ae8', '4d02c5', '405635', '3c4aa2', '4ac9f9', '3c5ee5', '4bb283', '3c49ee', '471f95', '739483', '4c3c63', '4009db', 'a63665', '4408ec', '4aca4a', '491311', '400e59', '4b1801', '40087b', '4068cb', '4d2251', '398e49', '3c64f0', '4a0441', '44cdc3', '3c496e', '4bccaf', '399a28', '0101b8', '3e2316', '3e350e', '3cfdec', '45209d', '3d1723', '78178d', '3991e5', 'a0f44c', '39c429', '39c958', '3944f7', '4ca643', '4d2288', '406aa8', '4067ee', '3c65d8', '3b7763', '345646', 'a40da9', '4cad42', '781344', '406b5b', '39856c', '400cd8', '4b1901', '4ca808', '44cdc5', '407463', '4ca259', '392af2', '40643c', '39ae32', '486482', '4ca912', '44ce6a', '44d1cf', '484f7c', '392aec', '4d2215', '3949e6', '3e1202', '4690f1', '398571', '3964f5', '3950ce', '4b161f', '4bb321', '34610e', '49130d', '89644e', '440053', '4bcde4', '485a33', '3944ea', '4079dd', '780a3b', '3c66a3', '484acc', '49410b', '3455da', '392af8', '406531', '484b32', '4ca2c3', '3c5ee1', '44f683', '44cdc9', '407777', '4ca8e5', '4c4c20', '40622b', '393324', '4066b9', '3d1377', '3985a5', '3c658d', '4bb865', '3c65c1', '4b17fb', '4851b0', 'ae50d4', '484cc3', '394c17', '4d00d6', '48415e', '405d11', '407667', '400be5', '460483', '440c37', '44a831', '3950c6', '3c66b9', '300738', '3c64fa', '3d6c57', '4d21db', '4841aa', '4cc553', '3df5c0', '4d010c', '4951d7', 'aa4903', '47bfb3', '344481', '020124', '44a82f', '407ad7', '45a2c2', '345204', '4ca9ec', '39e683', '06a149', '7380c6', '4cac1e', 'ae0401', '4841d5', '3991e4', '4cafcf', '4bc847', '4ba8c8', '4952c2', '440bfe', '3c6465', '3c64ae', '4853d1', '407cb3', '4ca567', '4bd159', '3c0c99', '4cac23', '43e8bb', '3c49d5', '47c0fd', 'abed10', '3c56f5', '46208f', '3c0c9e', '400ff4', '481042', '34714e', '44ccc2', '4a0664', '394c03', '3c60d6', '02013e', '4b1883', '4b0294', '4d22ec', '471f7a', '479fa6', '4d00c6', '3d5f99', '75044b', '489009', '44f682', '4407c4', 'a0aefd', '4ac9ed', '4ca2ca', '345359', '471a76', '401ac3', '4d22b8', '4ca7b5', 'a15f65', '40750d', '3c49ed', '34644d', '3c66b4', '44082b', '4070f0', '394a0b', '4066d1', '4855d1', '49d369', '44a8a2', '46ad61', '4ca894', '44d1a1', '3c4a8b', '40768c', '4692ca', '392aee', '3e0a3b', 'c04fe4', '3949f4', '471f39', '4841c5', '49514e', '440047', '3c6917', '038613', '4b1ba0', '3c6704', '39ccce', '345597', '461a82', '06a10d', '4bb748', '4aca0d', '486435', '4b17f9', '405638', '485342', 'aa4195', '4cafc2', '501c1d', '3c6515', '3c6441', '4b19ab', '4405a6', '4863db', '501d0a', '47a50d', '3c65c2', '3e1dcb', '485086', '485085', '3e2fff', '3444cf', '484c53', '485873', '39990e', '44d068', '4078ef', '3946e0', '7810a3', '3c49d4', '48436c', '4010ec', '4d2274', '39bd97', '3c5efa', '4d22be', 'a290d0', '484b2a', '44ccd8', '3c64a1', '44d2b0', '407795', '4b0280', '4d2241', '406014', '407742', '48414c', '3e2afc', '43eae9', '3986e9', '40097e', '4841ad', '4ba8d2', '4d21b1', '398565', '3986ec', '40087a', 'a8cffd', '4d222f', '440589', '3e350d', '485e31', '3c66a4', '4b1807', '3cbdeb', '44d1b9', '3c7865', '3e35d4', '400960', '479807', '406666', '461e18', 'a63c5e', '4d0101', '40643d', '3df2d3', '06a079', '4ca80c', '4cc552', '398572', '484160', '44aac1', '44aee9', '485daa', '49d027', '740822', '4d02c7', '3c15c2', '4ca2bf', 'a05627', '502cdf', '398640', '3985c3', '4cacb5', '406091', '503d1b', '406a99', '3946eb', '345613', '4b7f43', '3c6dd4', '3c49c8', '478741', 'a09db2', 'a28dc8', '48414e', '40631a', '4ca9aa', '3991e8', '3965a8', '3964eb', '44052d', '49d3d5', '400b82', '4d22c0', '478779', '4d00c3', 'a5a63b', '406e2e', '3f727c', '3c49cc', '39cf10', '01012b', '3991e6', '4ca816', '3c64f7', '505dac', '43c5da', '485206', '398566', '394c13', '3944f5', '3c49e8', '484559', '4d2211', '398675', '461981', '407b54', '461fa7', '4acaa5', '4586e8', '390988', '3c56e9', '3950c8', '4ca2aa', '4b0f89', '4408fd', '4914c6', '48c225', '4841a5', '3e350c', '06a2b3', '4bb163'}
+2025-07-08 19:58:18,733 - INFO - ***Latencia_ClienteATM_sector***47.19948768615723***ms
+2025-07-08 19:58:18,736 - INFO - 192.168.65.1 - - [08/Jul/2025 19:58:18] "GET /sector/sector_BE_Este HTTP/1.1" 200 -
+2025-07-08 19:58:38,981 - INFO - 192.168.65.1 - - [08/Jul/2025 19:58:38] "[33mGET /icao24/346193 HTTP/1.1[0m" 404 -
+2025-07-08 19:58:51,482 - INFO - Consulta de información de la aeronave 346193.
+2025-07-08 19:58:51,522 - INFO - ***Latencia_ClienteATM_aeronave***35.84003448486328***ms
+2025-07-08 19:58:51,558 - ERROR - Error al obtener la aeronave 'str' object cannot be interpreted as an integer
+2025-07-08 19:58:51,586 - INFO - 192.168.65.1 - - [08/Jul/2025 19:58:51] "[35m[1mGET /aeronave/346193 HTTP/1.1[0m" 500 -
+2025-07-08 19:58:55,972 - INFO - Consulta de aeronaves en el sector sector_BE_Este.
+2025-07-08 19:58:55,975 - INFO - Aeronaves en el sector sector_BE_Este: {'3c64ae', '392aec', '4d2274', '440c33', '3e1202', '3c0c99', '4baa6a', '484b2a', '4b161f', '3c49d5', '47c0fd', '49130d', '3c56f5', '407ae1', '347259', '440670', '407742', '485870', '40097e', '3c49e7', '3944ef', '4ba8c8', '4d21b1', '3d2114', 'ab148e', '407777', '3cd05c', '471f7a', '4c4c20', '3e350d', '40622b', '3d5f99', '401ac3', '4ca2ca', '4bb865', '478df2', '34644d', '3c6516', '4070f0', 'a63c5e', '4d02c5', '3c4aa2', '49d369', '484160', '4bb283', '4851b0', '44aee9', '485daa', '471f95', '4009db', '406091', '440047', '3c6917', '491311', '3c49c8', '48414e', '486435', '3965a8', '44052d', '448463', '4d22c0', '3e2316', 'a5a63b', '45209d', '3f727c', '3c6515', '4b19ab', '01012b', '47bfb3', '485206', '398566', '4067ee', '3944f5', '3c65d8', '3c65c2', '3e1dcb', '4586e8', '4acaa5', '390988', '3c658e', 'ae0401', '06a2b3', '4952c2', '486482'}
+2025-07-08 19:58:55,980 - INFO - ***Latencia_ClienteATM_sector***7.098674774169922***ms
+2025-07-08 19:58:55,981 - INFO - 192.168.65.1 - - [08/Jul/2025 19:58:55] "GET /sector/sector_BE_Este HTTP/1.1" 200 -
+2025-07-08 19:59:00,740 - INFO - Consulta de información de la aeronave 346193.
+2025-07-08 19:59:00,755 - INFO - ***Latencia_ClienteATM_aeronave***4.321098327636719***ms
+2025-07-08 19:59:00,757 - ERROR - Error al obtener la aeronave 'str' object cannot be interpreted as an integer
+2025-07-08 19:59:00,787 - INFO - 192.168.65.1 - - [08/Jul/2025 19:59:00] "[35m[1mGET /aeronave/346193 HTTP/1.1[0m" 500 -
+2025-07-08 19:59:01,165 - INFO - Consulta de información de la aeronave 3c64ae.
+2025-07-08 19:59:01,192 - INFO - ***Latencia_ClienteATM_aeronave***18.52130889892578***ms
+2025-07-08 19:59:01,199 - ERROR - Error al obtener la aeronave 'str' object cannot be interpreted as an integer
+2025-07-08 19:59:01,203 - INFO - 192.168.65.1 - - [08/Jul/2025 19:59:01] "[35m[1mGET /aeronave/3c64ae HTTP/1.1[0m" 500 -
+2025-07-08 19:59:17,742 - INFO - 192.168.65.1 - - [08/Jul/2025 19:59:17] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-08 20:00:10,047 - INFO - Consulta de aeronaves en el sector sector_BE_Este.
+2025-07-08 20:00:10,083 - INFO - Aeronaves en el sector sector_BE_Este: {'346193', '4d2217', '440c33', '406cdd', '4d20d5', '4075f4', '4ca61b', '405f11', '4ca92d', '4aca54', '3dd3c5', '407ae1', '347259', '407c65', '440670', '44cd73', '3df2d6', '485870', '4d2236', '4841a9', '3c49e7', '3944ef', '4d225d', '39b96a', '3d2114', '3cd05c', '4405b6', '3c6496', '3c4ab0', '490d02', '406b6c', '3c64ac', 'a0f31d', '4ca708', '4ca4f8', '3965a0', '478df2', '3df2d7', '3c6489', '3c6516', '398560', '392ae8', '4d02c5', '405635', '3c5ee5', '4bb283', '471f95', '4c3c63', '4009db', '495307', 'a63665', '4408ec', '4aca4a', '491311', '400e59', '4b1801', '4068cb', '4d2251', '398e49', '3c64f0', '4a0441', '44cdc3', '4bccaf', '399a28', '0101b8', '3e2316', '3e350e', '3cfdec', '45209d', '3d1723', '78178d', '39c429', '4bb854', '39c958', '3944f7', '4d239c', '4ca643', '4067ee', '3c65d8', '3b7763', 'a40da9', '4cad42', '406b5b', '39856c', '400cd8', '4ca808', '44cdc5', '407463', '4ca259', '392af2', '40643c', '39ae32', '486482', '3c56f6', '4ca912', '44ce6a', '44d1cf', '484f7c', '392aec', '4d2215', '3949e6', '3e1202', '4b028d', '4690f1', '398571', '3964f5', '3950ce', '4b161f', '4bb321', '34610e', '49130d', '89644e', '440053', '485a33', '3944ea', '4079dd', '780a3b', '3c66a3', '49410b', '484acc', '392af8', '484b32', '44f683', '44cdc9', '407777', '4c4c20', '40622b', '4066b9', '3d1377', '3985a5', '3c658d', '4bb865', '3c65c1', '4b17fb', '4851b0', '484cc3', '394c17', '405e24', '48415e', '405d11', '407667', '400be5', '460483', '440c37', '44a831', '3950c6', '300738', '3c64fa', '3d6c57', '4d21db', '448463', '39cf0d', '4841aa', '3e167a', '4cc553', '4d010c', '4951d7', 'aa4903', '47bfb3', '344481', '020124', '44a82f', '45a2c2', '345204', '4ca9ec', '4d227b', '39e683', '06a149', '7380c6', '4cac1e', '3991e4', '4bc847', '4ba8c8', '440bfe', '3c6465', '3c64ae', '4853d1', '407cb3', '4ca567', '4bd159', '3c0c99', '406752', '4cac23', '43e8bb', '3c49d5', '47c0fd', '3c56f5', 'abed10', '46208f', '3c0c9e', '400ff4', '481042', '34714e', '44ccc2', '394c03', '3c60d6', '02013e', '4b1883', '4b0294', '4d22ec', '471f7a', '479fa6', '4d00c6', '3d5f99', '489009', '4407c4', 'a0aefd', '4ac9ed', '4ca2ca', '345359', '471a76', '401ac3', '4d22b8', '4ca7b5', 'a15f65', '34644d', '40750d', '3c66b4', '44082b', '4070f0', '394a0b', '4066d1', '4855d1', '40773b', '49d369', '44a8a2', '46ad61', '4ca894', '44d1a1', '40768c', '4692ca', '392aee', '3e0a3b', 'c04fe4', '3949f4', '471f39', '038613', '440047', '3c6704', '4b1ba0', '345597', '461a82', '3c0bd2', '06a10d', '4bb748', '4aca0d', '486435', '4b17f9', '405638', '485342', 'aa4195', '4cafc2', '501c1d', '3c6515', '3c6441', '4b19ab', '4405a6', '4692cd', '4863db', '501d0a', '47a50d', '3c65c2', '3e1dcb', '485086', '485085', '3e2fff', '3444cf', '484c53', '485873', '39990e', '44d068', '4078ef', '3946e0', '7810a3', '3c49d4', '48436c', '4010ec', '4d2274', '39bd97', '3c5efa', '4baa6a', '4d22be', 'a290d0', '44ccd8', '3d2280', '44d2b0', '3c5461', '4b0280', '406014', '407742', '48414c', '3e2afc', '3986e9', '40097e', '4841ad', '4ba8d2', '4d21b1', 'ab148e', '398565', '3986ec', '40087a', 'a8cffd', '4d222f', '440589', '3e350d', '3c66a4', '3cbdeb', '44d1b9', '3c7865', '3e35d4', '400960', '479807', '406666', '461e18', 'a63c5e', '40643d', '484205', '3df2d3', '3c65c6', '4cc552', '398572', '4ca80c', '484160', '44aac1', '44aee9', '485daa', '49d027', '740822', '4d02c7', '4ca2bf', 'a05627', '502cdf', '4079d3', '3985c3', '398640', '4cacb5', '406091', '503d1b', '406a99', '345613', '4b7f43', '3c6dd4', '3c49c8', '478741', 'a09db2', '398569', 'a28dc8', '40631a', '4ca9aa', '3991e8', '3965a8', '3964eb', '44052d', '49d3d5', '400b82', '478779', '4d22c0', 'a5a63b', '406e2e', '3f727c', '3c49cc', '39cf10', '01012b', '3991e6', '3c64f7', '505dac', '39ae6c', '398566', '3944f5', '3c49e8', '484559', '398675', '407b54', '4acaa5', '4586e8', '390988', '3c56e9', '3950c8', '3c658e', '4ca2aa', '4b0f89', '4408fd', '4914c6', '4841a5', '3e350c', '06a2b3', '4bb163'}
+2025-07-08 20:00:10,099 - INFO - ***Latencia_ClienteATM_sector***49.37458038330078***ms
+2025-07-08 20:00:10,105 - INFO - 192.168.65.1 - - [08/Jul/2025 20:00:10] "GET /sector/sector_BE_Este HTTP/1.1" 200 -
+2025-07-08 20:00:13,221 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-08 20:00:13,239 - INFO - Aeronaves en el sector sector_CZ_Centro: 298
+2025-07-08 20:00:13,254 - INFO - Aeronaves en el sector sector_AD: 316
+2025-07-08 20:00:13,302 - INFO - Aeronaves en el sector sector_XK: 270
+2025-07-08 20:00:13,307 - INFO - Aeronaves en el sector sector_GB_Oeste: 325
+2025-07-08 20:00:13,308 - INFO - Aeronaves en el sector sector_BE_Este: 387
+2025-07-08 20:00:13,313 - INFO - Aeronaves en el sector sector_PT_Este: 185
+2025-07-08 20:00:13,328 - INFO - Aeronaves en el sector sector_TR_Oeste: 191
+2025-07-08 20:00:13,329 - INFO - Aeronaves en el sector sector_SE_Oeste: 159
+2025-07-08 20:00:13,428 - INFO - Aeronaves en el sector sector_RU_Oeste: 77
+2025-07-08 20:00:13,466 - INFO - Aeronaves en el sector sector_IT_Norte: 408
+2025-07-08 20:00:13,471 - INFO - ***Latencia_ClienteATM_estadoatm***244.61722373962402***ms
+2025-07-08 20:00:13,488 - INFO - 192.168.65.1 - - [08/Jul/2025 20:00:13] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-08 20:00:17,619 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-08 20:00:17,625 - INFO - Aeronaves en el sector sector_CZ_Centro: 340
+2025-07-08 20:00:17,632 - INFO - Aeronaves en el sector sector_AD: 354
+2025-07-08 20:00:17,635 - INFO - Aeronaves en el sector sector_XK: 313
+2025-07-08 20:00:17,636 - INFO - Aeronaves en el sector sector_GB_Oeste: 374
+2025-07-08 20:00:17,638 - INFO - Aeronaves en el sector sector_BE_Este: 439
+2025-07-08 20:00:17,650 - INFO - Aeronaves en el sector sector_PT_Este: 215
+2025-07-08 20:00:17,655 - INFO - Aeronaves en el sector sector_TR_Oeste: 232
+2025-07-08 20:00:17,670 - INFO - Aeronaves en el sector sector_SE_Oeste: 178
+2025-07-08 20:00:17,676 - INFO - Aeronaves en el sector sector_RU_Oeste: 92
+2025-07-08 20:00:17,687 - INFO - Aeronaves en el sector sector_IT_Norte: 477
+2025-07-08 20:00:17,687 - INFO - ***Latencia_ClienteATM_estadoatm***65.35673141479492***ms
+2025-07-08 20:00:17,700 - INFO - 192.168.65.1 - - [08/Jul/2025 20:00:17] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-08 20:00:19,586 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-08 20:00:19,589 - INFO - Aeronaves en el sector sector_CZ_Centro: 340
+2025-07-08 20:00:19,593 - INFO - Aeronaves en el sector sector_AD: 354
+2025-07-08 20:00:19,597 - INFO - Aeronaves en el sector sector_XK: 313
+2025-07-08 20:00:19,607 - INFO - Aeronaves en el sector sector_GB_Oeste: 374
+2025-07-08 20:00:19,609 - INFO - Aeronaves en el sector sector_BE_Este: 439
+2025-07-08 20:00:19,620 - INFO - Aeronaves en el sector sector_PT_Este: 215
+2025-07-08 20:00:19,623 - INFO - Aeronaves en el sector sector_TR_Oeste: 232
+2025-07-08 20:00:19,625 - INFO - Aeronaves en el sector sector_SE_Oeste: 178
+2025-07-08 20:00:19,631 - INFO - Aeronaves en el sector sector_RU_Oeste: 92
+2025-07-08 20:00:19,640 - INFO - Aeronaves en el sector sector_IT_Norte: 477
+2025-07-08 20:00:19,643 - INFO - ***Latencia_ClienteATM_estadoatm***54.88920211791992***ms
+2025-07-08 20:00:19,645 - INFO - 192.168.65.1 - - [08/Jul/2025 20:00:19] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-08 20:00:20,668 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-08 20:00:20,690 - INFO - Aeronaves en el sector sector_CZ_Centro: 340
+2025-07-08 20:00:20,703 - INFO - Aeronaves en el sector sector_AD: 354
+2025-07-08 20:00:20,716 - INFO - Aeronaves en el sector sector_XK: 313
+2025-07-08 20:00:20,735 - INFO - Aeronaves en el sector sector_GB_Oeste: 374
+2025-07-08 20:00:20,751 - INFO - Aeronaves en el sector sector_BE_Este: 439
+2025-07-08 20:00:20,752 - INFO - Aeronaves en el sector sector_PT_Este: 215
+2025-07-08 20:00:20,799 - INFO - Aeronaves en el sector sector_TR_Oeste: 232
+2025-07-08 20:00:20,807 - INFO - Aeronaves en el sector sector_SE_Oeste: 178
+2025-07-08 20:00:20,819 - INFO - Aeronaves en el sector sector_RU_Oeste: 92
+2025-07-08 20:00:20,824 - INFO - Aeronaves en el sector sector_IT_Norte: 477
+2025-07-08 20:00:20,834 - INFO - ***Latencia_ClienteATM_estadoatm***146.2702751159668***ms
+2025-07-08 20:00:20,855 - INFO - 192.168.65.1 - - [08/Jul/2025 20:00:20] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-08 20:00:26,316 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-08 20:00:26,344 - INFO - Aeronaves en el sector sector_CZ_Centro: 340
+2025-07-08 20:00:26,383 - INFO - Aeronaves en el sector sector_AD: 354
+2025-07-08 20:00:26,391 - INFO - Aeronaves en el sector sector_XK: 313
+2025-07-08 20:00:26,394 - INFO - Aeronaves en el sector sector_GB_Oeste: 374
+2025-07-08 20:00:26,403 - INFO - Aeronaves en el sector sector_BE_Este: 439
+2025-07-08 20:00:26,407 - INFO - Aeronaves en el sector sector_PT_Este: 215
+2025-07-08 20:00:26,414 - INFO - Aeronaves en el sector sector_TR_Oeste: 232
+2025-07-08 20:00:26,429 - INFO - Aeronaves en el sector sector_SE_Oeste: 178
+2025-07-08 20:00:26,433 - INFO - Aeronaves en el sector sector_RU_Oeste: 92
+2025-07-08 20:00:26,438 - INFO - Aeronaves en el sector sector_IT_Norte: 477
+2025-07-08 20:00:26,439 - INFO - ***Latencia_ClienteATM_estadoatm***120.67699432373047***ms
+2025-07-08 20:00:26,442 - INFO - 192.168.65.1 - - [08/Jul/2025 20:00:26] "GET /estado_atm HTTP/1.1" 200 -
+2025-07-08 20:00:31,656 - INFO - Consulta del estado del espacio aéreo iniciada.
+2025-07-08 20:00:31,698 - INFO - Aeronaves en el sector sector_CZ_Centro: 340
+2025-07-08 20:00:31,722 - INFO - Aeronaves en el sector sector_AD: 355
+2025-07-08 20:00:31,739 - INFO - Aeronaves en el sector sector_XK: 315
+2025-07-08 20:00:31,741 - INFO - Aeronaves en el sector sector_GB_Oeste: 377
+2025-07-08 20:00:31,742 - INFO - Aeronaves en el sector sector_BE_Este: 442
+2025-07-08 20:00:31,776 - INFO - Aeronaves en el sector sector_PT_Este: 219
+2025-07-08 20:00:31,806 - INFO - Aeronaves en el sector sector_TR_Oeste: 235
+2025-07-08 20:00:31,812 - INFO - Aeronaves en el sector sector_SE_Oeste: 181
+2025-07-08 20:00:31,858 - INFO - Aeronaves en el sector sector_RU_Oeste: 91
+2025-07-08 20:00:31,862 - INFO - Aeronaves en el sector sector_IT_Norte: 481
+2025-07-08 20:00:31,864 - INFO - ***Latencia_ClienteATM_estadoatm***196.77352905273438***ms
+2025-07-08 20:00:31,866 - INFO - 192.168.65.1 - - [08/Jul/2025 20:00:31] "GET /estado_atm HTTP/1.1" 200 -

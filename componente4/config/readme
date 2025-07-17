@@ -1,0 +1,9 @@
+# config/
+Este módulo contiene la información de sectorización del espacio aéreo del sistema de microservicios para el tratamiento de datos ADS-B.
+
+#   Archivos
+- `config.py`: define los sectores con su información básica que será utilizada por los servicios que lo requieran.
+- `__init__.py`: permite importar el módulo `config` como paquete.
+
+#   Uso
+Los microservicios que realizan sectorización o consultan información de sectores cargan esta información para asegurar consistencia en el sistema.
