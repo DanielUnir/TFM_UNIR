@@ -1,0 +1,2 @@
+# Dependencias generales
+# No necesarias en la arquitectura actual
