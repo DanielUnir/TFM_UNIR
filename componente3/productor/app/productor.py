@@ -1,6 +1,6 @@
 # Código fuente del microservicio productor
 #   Este script envía datos de aeronaves al topic especificado en Kafka agrupados en batches.
-#   Modifica el atributo 'time' de cada aeronave por instante UTC actual para simular tiempo real.
+#   Modifica el atributo 'time' de cada aeronave por instante UTC actual para simular detección real.
 #   Hace uso de la función agrupar_por_segundo del módulo utilidades para agrupar los datos.
 #   Kafka, Redis, los consumidores y clientes deben estar corriendo antes de ejecutar este script. Se ajusta a traves de docker-compose.yml
 
@@ -40,13 +40,13 @@ logging.basicConfig(
 # Función principal para enviar datos agrupados por intervalo
 def enviar_datos_por_intervalo():                                     
     """Envia datos de aeronaves agrupados por intervalos al topic de Kafka especificado.
-    Se adapta el campo 'time' para asignarlo al instante actual, simulando tiempo-real."""
+    Se adapta el campo 'time' para asignarlo al instante actual, simulando detección real."""
 
 
 #   Se ha analizado de los datos disponibles que el archivo cargado, cada registro de aeronave tiene una marca de tiempo
 #   los registros están ordenados por esta marca de tiempo de forma que cada 10 segundos aproximadamente
 #   existe un conjunto de registros de todas las aeronaves que estaban emitiendo información en ese momento
-#   por este motivo, para simular la emisión de datos en pseudo-tiempo real el productor enviará mensajes 
+#   por este motivo, para simular la emisión de datos a intervalos regualres, el productor enviará mensajes 
 #   con todos los registros que comparten la misma marca de tiempo cada diez segundos de forma ordenada.
 
 # Crea un productor de Kafka
