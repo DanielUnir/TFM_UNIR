@@ -86,7 +86,7 @@ services:
         max-file: 5
 #   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Servicio Redis. Sistema de almacenamiento en memoria utilizado para la gestión de datos en tiempo real.
+# Servicio Redis. Sistema de almacenamiento en memoria utilizado para la gestión de datos a alta velocidad.
   redis:
     image: redis:7                                                                          # Imagen oficial de Redis
     
