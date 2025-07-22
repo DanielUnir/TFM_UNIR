@@ -1,4 +1,4 @@
-# Código del cliente ATM para visualizar el estado del espacio aéreo en pseudo-tiempo real
+# Código del cliente ATM para visualizar el estado del espacio aéreo en cada instante
 # Este script define las rutas y funciones para obtener el estado del espacio aéreo,
 #    información de aeronaves y aeronaves en sectores específicos
 
