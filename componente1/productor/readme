@@ -3,7 +3,7 @@
 #   Se ha analizado de los datos disponibles que el archivo cargado, cada registro de aeronave tiene una marca de tiempo
 #   los registros están ordenados por esta marca de tiempo de forma que cada 10 segundos aproximadamente
 #   existe un conjunto de registros de todas las aeronaves que estaban emitiendo información en ese momento
-#   por este motivo, para simular la emisión de datos en pseudo-tiempo real el productor enviará mensajes 
+#   por este motivo, para simular la emisión de datos a intervalos regulares, el productor enviará mensajes 
 #   con todos los registros que comparten la misma marca de tiempo cada diez segundos de forma ordenada.
 #   Además para optimizar el consumo de mensajes según la capacidad de procesamiento, en cada intervalo
 #   de tiempo los registros se subagrupan en batches de tamaño fijo definido por variable de entorno.
