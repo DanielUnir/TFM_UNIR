@@ -49,7 +49,7 @@ def agrupar_por_segundo(datos, t_inicial, intervalo):
         time_aeronave=int(t_inicial+k*intervalo)                                                            # Establece el nuevo valor de 'time' en base al instante del primer envío
         for aeronave in grupo:                                                                              # Iterar sobre cada aeronave del grupo
             aeronave['time_original']=aeronave['time']                                                      # Guardar el valor original del valor 'time'
-            aeronave['time']=time_aeronave                                                                  # Reasignar el valor 'time', para pseudo-tiempo real a las aeronaves agrupadas
+            aeronave['time']=time_aeronave                                                                  # Reasignar el valor 'time' a las aeronaves agrupadas
     
     return dict(sorted(datos_agrupados.items()))                                                            # Retorna un diccionario ordenado por el tiempo
 #   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
