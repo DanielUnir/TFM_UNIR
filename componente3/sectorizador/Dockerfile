@@ -25,6 +25,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 ENV PYTHONDONTWRITEBYTECODE=1
 
 # Define el comando de entrada que ejecuta el consumidor de mensajes
-# Utiliza -u para forzar la salida sin buffer, lo que es útil para ver los logs en tiempo real
+# Utiliza -u para forzar la salida sin buffer, lo que es útil para ver los logs de forma continua
 # Ejecuta automáticamente el script consumer.py al iniciar el contenedor
 ENTRYPOINT ["python", "-u", "sectorizador.py"]
