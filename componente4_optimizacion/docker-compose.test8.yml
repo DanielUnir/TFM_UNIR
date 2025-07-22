@@ -144,7 +144,7 @@ services:
       - red_adsb
 #   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Servicio Redis. Sistema de almacenamiento en memoria utilizado para la gestión de datos en tiempo real.
+# Servicio Redis. Sistema de almacenamiento en memoria utilizado para la gestión de datos a alta velocidad.
   redis:
     image: redis:7                                                                          # Imagen oficial de Redis
     
@@ -413,7 +413,7 @@ services:
       - red_adsb
 #   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Servicio cliente_atm. Interfaz de usuario para visualizar datos de aeronaves y sectores en tiempo real
+# Servicio cliente_atm. Interfaz de usuario para visualizar datos de aeronaves y sectores en cada instante
   cliente_atm:
     build: ./cliente_atm                                                                    # Construcción desde el Dockerfile en ./cliente_atm
     
