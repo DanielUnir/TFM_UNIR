@@ -255,7 +255,7 @@ services:
       - red_adsb
 #   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Servicio cliente_atm. Interfaz de usuario para visualizar datos de aeronaves y sectores en cada instante.
+# Servicio cliente_atm. Interfaz de usuario para visualizar datos de aeronaves y sectores en cada instante
   cliente_atm:
     build: ./cliente_atm                                                                    # Construcción desde el Dockerfile en ./cliente_atm
     
